@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="3048.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="boss" />
+        <string name="name" value="[Verus Hilla] I Was His Favorite" />
+        <string name="desc" value="Deal the most damage with a Demon Slayer or Demon Avenger character at 4th job or above and land the last hit to defeat Verus Hilla" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="mob_kill" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Deal the Most Damage and Last Hit to Verus Hilla with a Demon Slayer or Demon Avenger Character at 4th Job or Above" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="8880410" />
+                        </imgdir>
+                        <imgdir name="character">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="character_jobcode" value="3112" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="character_jobcode" value="3122" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <int name="is_max_damage_user" value="1" />
+                        <int name="is_last_attack" value="1" />
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

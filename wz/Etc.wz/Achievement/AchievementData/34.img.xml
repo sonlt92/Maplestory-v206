@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="34.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="growth" />
+        <string name="subCategory" value="level" />
+        <string name="name" value="Same-age Maple Friend" />
+        <string name="desc" value="Level up the same way as for the Anniversary" />
+        <string name="keyword" value="Level Up Just Like the Anniversary" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <string name="block" value="hide" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Level up the same way as for the Anniversary" />
+            <imgdir name="subMission">
+                <imgdir name="user_lvup">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="date">
+                            <imgdir name="date_mmddhhmmss">
+                                <int name="start" value="429000000" />
+                                <int name="end" value="429235959" />
+                                <int name="start_t" value="429000000" />
+                                <int name="end_t" value="429235959" />
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="character">
+                            <imgdir name="character_level">
+                                <int name="min" value="15" />
+                                <int name="max" value="15" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

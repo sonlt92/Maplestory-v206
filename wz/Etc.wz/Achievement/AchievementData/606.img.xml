@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="606.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="Devilmates" />
+        <string name="desc" value="Eliminate Chaos Horntail in a raid party with a max of two Demon Jobs. (Combo of Demon Slayer/Raid Demon Avenger or Demon Avenger/Raid Demon Slayer.)" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info_score_max" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="mob_kill" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Demon Slayer - Demon Avenger" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                        <string name="option" value="achievement_complete" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <imgdir name="mob_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="8810122" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="character">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="character_jobcode" value="3100" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="character_jobcode" value="3110" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="character_jobcode" value="3111" />
+                                </imgdir>
+                                <imgdir name="3">
+                                    <int name="character_jobcode" value="3112" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="union_attacker">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="union_attacker_job" value="3101" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="union_attacker_job" value="3120" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="union_attacker_job" value="3121" />
+                                </imgdir>
+                                <imgdir name="3">
+                                    <int name="union_attacker_job" value="3122" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="union_info">
+                            <imgdir name="union_attacker_count">
+                                <string name="info" value="Legion Raider count" />
+                                <int name="min" value="1" />
+                                <int name="max" value="1" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Demon Avenger - Demon Slayer" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                        <string name="option" value="achievement_complete" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <imgdir name="mob_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="8810122" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="character">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="character_jobcode" value="3101" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="character_jobcode" value="3120" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="character_jobcode" value="3121" />
+                                </imgdir>
+                                <imgdir name="3">
+                                    <int name="character_jobcode" value="3122" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="union_attacker">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="union_attacker_job" value="3100" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="union_attacker_job" value="3110" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="union_attacker_job" value="3111" />
+                                </imgdir>
+                                <imgdir name="3">
+                                    <int name="union_attacker_job" value="3112" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="union_info">
+                            <imgdir name="union_attacker_count">
+                                <string name="info" value="Legion Raider count" />
+                                <int name="min" value="1" />
+                                <int name="max" value="1" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

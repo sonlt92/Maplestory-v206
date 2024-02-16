@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9962026.img">
+    <imgdir name="info">
+        <int name="grade" value="0" />
+        <int name="range" value="1000" />
+        <imgdir name="skill">
+            <int name="id" value="801" />
+            <int name="effectAfter" value="400" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="382" height="317">
+            <vector name="origin" x="160" y="325" />
+            <vector name="head" x="21" y="-253" />
+            <vector name="lt" x="-118" y="-300" />
+            <vector name="rb" x="162" y="-27" />
+            <string name="_hash" value="71cc2c9741bb940016373b1be6967277d2ff36c94e4d6d0aa875ba746b3c9bd1" />
+        </canvas>
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="36" y="96" />
+                    <int name="delay" value="60" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="736d4e2c56940651d31f8449671f0ba8d03161b38b3a45c893341f5c5bce8418" />
+                    <string name="_outlink" value="Character/Familiar/9962025.img/attack/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="51" y="108" />
+                    <int name="delay" value="60" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6300277eae2c69da5db25f6d08c5167e3da10bc8b6b7c8475bd95b9191779e17" />
+                    <string name="_outlink" value="Character/Familiar/9962025.img/attack/info/hit/1" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="400" />
+        </imgdir>
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="move" />
+    </imgdir>
+</imgdir>

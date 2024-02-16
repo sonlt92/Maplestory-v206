@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="DirectionGL.img">
+    <imgdir name="effect">
+        <imgdir name="Direction">
+            <imgdir name="MblockbusterLogo">
+                <imgdir name="0">
+                    <canvas name="0" width="1000" height="600">
+                        <vector name="origin" x="500" y="300" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="4200" />
+                        <string name="_hash" value="21c23ae64ccb598f54ebbcc3e2071dfdedd9068d441a74ac12bc4274a4b3d72f" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="500" y="300" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="4200" />
+                        <string name="_inlink" value="effect/Direction/MblockbusterLogo/0/0" />
+                    </canvas>
+                    <int name="fixed" value="1" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Mblockbuster">
+        <imgdir name="Logo">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <string name="visual" value="Effect/DirectionGL.img/effect/Direction/MblockbusterLogo" />
+                <int name="start" value="0" />
+                <int name="x" value="0" />
+                <int name="y" value="0" />
+                <int name="z" value="7" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

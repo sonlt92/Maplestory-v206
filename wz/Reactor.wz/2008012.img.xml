@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="2008012.img">
+    <imgdir name="info">
+        <string name="info" value="들고 나르는 리액터" />
+        <vector name="lt" x="-70" y="-50" />
+        <vector name="rb" x="70" y="20" />
+        <int name="frontTile" value="1" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="24" y="17" />
+            <int name="z" value="0" />
+            <string name="_hash" value="9e0f8877545c35f8473dd75af76bbafac84951aeac97a3d1c413e26ac92a8fd8" />
+            <string name="_outlink" value="Reactor/9802002.img/0/0" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="11" />
+                <int name="state" value="1" />
+                <string name="act" value="reactor0" />
+                <int name="actCount" value="1" />
+                <vector name="lt" x="-70" y="-50" />
+                <vector name="rb" x="70" y="20" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="13" y="59" />
+            <int name="z" value="0" />
+            <string name="_hash" value="1a4134aa7b0ed4fb5cecb4eeb03008a4f88491ea4b4f2abb520509cd0c8169df" />
+            <string name="_outlink" value="Reactor/1008002.img/4/0" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+                <vector name="lt" x="-54" y="-39" />
+                <vector name="rb" x="54" y="5" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+        <int name="follow" value="1" />
+        <imgdir name="notice">
+            <canvas name="0" width="505" height="64">
+                <vector name="origin" x="252" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="8f7b2a968ed19717709d3d011a8d1bbd88465845a75dfe4a9eb5c76a2963e6f0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="2">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="50" y="153" />
+            <string name="_hash" value="6d410dcd12fc606b46a9aade342f54be96881dd927b17c6db0959fcce406436d" />
+            <string name="_outlink" value="Reactor/1058001.img/0/0" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="11" />
+                <int name="state" value="1" />
+                <string name="act" value="reactor0" />
+                <int name="actCount" value="1" />
+                <vector name="lt" x="-70" y="-50" />
+                <vector name="rb" x="70" y="20" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="type" value="101" />
+                <int name="state" value="3" />
+            </imgdir>
+            <int name="timeOut" value="1200" />
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="3">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="0" y="0" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="carryStone" />
+</imgdir>

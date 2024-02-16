@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="728.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="boss" />
+        <string name="name" value="[Crimson Queen] Who is That in the Mirror?" />
+        <string name="desc" value="Defeat all 4 faces of Chaos Crimson Queen" />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Eliminate &lt;Simmering Crimson Queen&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="8920000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Eliminate &lt;Wrathful Crimson Queen&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="8920002" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Eliminate &lt;Joyous Crimson Queen&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="8920001" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Eliminate &lt;Sorrowful Crimson Queen&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="8920003" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

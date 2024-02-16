@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="247.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="job" />
+        <string name="subCategory" value="story" />
+        <string name="name" value="Resistance's Journal" />
+        <string name="desc" value="Complete Resistance Story Quest" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <int name="sync" value="1" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Complete &lt;Delivering the Test Subject's Medicine&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23125" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Complete &lt;Protecting Surl&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23127" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Complete &lt;No thanks!&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23142" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Complete &lt;I Repent!&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23145" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Complete &lt;Their Purpose&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23146" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Complete &lt;Time To Make a Decision&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="23148" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

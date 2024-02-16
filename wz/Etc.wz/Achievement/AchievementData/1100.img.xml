@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1100.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Omega Sector" />
+        <string name="desc" value="Explore these locations in Omega Sector!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Omega Sector" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221000000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Omega Sector" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Off-Limits" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Off-Limits" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Boswell Field I" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Boswell Field I" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Boswell Field II" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Boswell Field II" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Boswell Field III" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Boswell Field III" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Boswell Field IV" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Boswell Field IV" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Nolyfe's Room Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030500" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Nolyfe's Room" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Corridor 101 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030510" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 101" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Corridor 102 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030520" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 102" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Corridor 103 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030530" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 103" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Corridor 104 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030540" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 104" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Corridor 201 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030600" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 201" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Corridor 202 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030610" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 202" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Corridor 203 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030620" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 203" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Corridor 204 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030630" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor 204" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Air Vent D-1 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030700" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Air Vent D-1" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Air Vent D-2 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030710" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Air Vent D-2" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Air Vent D-3 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030720" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Air Vent D-3" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Air Vent D-4 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030730" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Air Vent D-4" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Control Room 1 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030800" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Control Room 1" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Control Room 2 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030810" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Control Room 2" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Control Room 3 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030820" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Control Room 3" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Pilothouse Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030900" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Pilothouse" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Corridor H01 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030640" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor H01" />
+        </imgdir>
+        <imgdir name="24">
+            <string name="name" value="Corridor H02 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030650" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor H02" />
+        </imgdir>
+        <imgdir name="25">
+            <string name="name" value="Corridor H03 Inside the Mothership" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="221030660" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corridor H03" />
+        </imgdir>
+    </imgdir>
+</imgdir>

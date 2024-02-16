@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9410545.img">
+    <imgdir name="info">
+        <int name="level" value="1" />
+        <int name="bodyAttack" value="1" />
+        <int name="maxHP" value="10" />
+        <int name="maxMP" value="10" />
+        <int name="PADamage" value="100" />
+        <int name="PDDamage" value="100" />
+        <int name="PDRate" value="10" />
+        <int name="MADamage" value="100" />
+        <int name="MDDamage" value="100" />
+        <int name="MDRate" value="10" />
+        <int name="acc" value="10" />
+        <int name="pushed" value="999999999" />
+        <float name="fs" value="10.0" />
+        <int name="exp" value="10" />
+        <int name="summonType" value="1" />
+        <string name="mobType" value="7N" />
+        <int name="changeableMob" value="1" />
+        <string name="changeableMob_Type" value="ArisanMob" />
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="74" height="60">
+            <vector name="origin" x="37" y="60" />
+            <int name="delay" value="180" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <string name="_hash" value="3e2140c0069ec65c1882967b19c5690b3a15198f6df2ab385d3a3b9e57193e7c" />
+        </canvas>
+        <canvas name="1" width="74" height="59">
+            <vector name="origin" x="37" y="59" />
+            <int name="delay" value="180" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <string name="_hash" value="f9af2a431469102ca241d4eeee52f4cfebaa15c34004ed9bb99143223e0a16a6" />
+        </canvas>
+        <canvas name="2" width="74" height="56">
+            <vector name="origin" x="37" y="57" />
+            <int name="delay" value="180" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <string name="_hash" value="727a16db5381a45d66e698b482c7b8bfe33fa9de49ada0d218020436e5ca7e39" />
+        </canvas>
+        <canvas name="3" width="74" height="59">
+            <vector name="origin" x="37" y="59" />
+            <int name="delay" value="180" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <string name="_hash" value="16df8085eac828329e83fe74b8253798956e22f73b86e3ae4944e4fcfcbb85b0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="hit1">
+        <canvas name="0" width="77" height="64">
+            <vector name="origin" x="37" y="62" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="180" />
+            <string name="_hash" value="0a3c477d008ac931acd215be1893008d9a08e4786dcdb3bc89507586661803ff" />
+        </canvas>
+    </imgdir>
+    <imgdir name="die1">
+        <canvas name="0" width="74" height="60">
+            <vector name="origin" x="37" y="60" />
+            <int name="z" value="0" />
+            <string name="_hash" value="aaadaf1a47475c2cfa60fc216b81157a8726f75103212e9dc6c364905cb624ba" />
+        </canvas>
+        <canvas name="1" width="1" height="1">
+            <vector name="origin" x="32" y="64" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="hit1/0" />
+        </canvas>
+        <canvas name="2" width="75" height="61">
+            <vector name="origin" x="31" y="61" />
+            <int name="z" value="0" />
+            <string name="_hash" value="472a3205cfefc3767a7ff6ef2ef16691ce86e0d1107d2f5f166a5caa1e29c5a6" />
+        </canvas>
+        <canvas name="3" width="74" height="60">
+            <vector name="origin" x="30" y="60" />
+            <int name="z" value="0" />
+            <string name="_hash" value="316eeff3b752345ccc86a02ae91dc1fad4e2b62096b8ae2ec01d0c0b3cd0ea57" />
+        </canvas>
+        <canvas name="4" width="97" height="55">
+            <vector name="origin" x="42" y="53" />
+            <int name="z" value="0" />
+            <string name="_hash" value="14913b63509ddd61fc6dcb44fc7ede86f6c9dd513aadca77108775ab124998d2" />
+        </canvas>
+        <canvas name="5" width="90" height="56">
+            <vector name="origin" x="40" y="55" />
+            <int name="z" value="0" />
+            <string name="_hash" value="d0b4ad44ae2a1e1227d0d9add5772e0a7c2550c9e9b7d1b921e7fdea9f6c2327" />
+        </canvas>
+        <canvas name="6" width="99" height="53">
+            <vector name="origin" x="46" y="53" />
+            <int name="z" value="0" />
+            <string name="_hash" value="0b4efc0485436720a07d5dbb38fdf464d06ca4a4ef598e4d3d3716fb15d5c54d" />
+        </canvas>
+        <canvas name="7" width="103" height="53">
+            <vector name="origin" x="45" y="53" />
+            <int name="z" value="0" />
+            <string name="_hash" value="f82e0e3ef3cc9b5793d2ca03443438b7bc197f909dd0bc006446ea75f269864c" />
+        </canvas>
+        <canvas name="8" width="90" height="53">
+            <vector name="origin" x="46" y="53" />
+            <int name="z" value="0" />
+            <string name="_hash" value="6e827268ea6974f3a9848e864c9ffeab5771962484198da46d6da0f66b7dbf62" />
+        </canvas>
+        <canvas name="9" width="87" height="53">
+            <vector name="origin" x="44" y="53" />
+            <int name="z" value="0" />
+            <string name="_hash" value="0376ea4a1a95d9f2ecf095e69c30a9c44a1fb805045c01aac12943cea86c66dd" />
+        </canvas>
+    </imgdir>
+    <imgdir name="move">
+        <canvas name="0" width="74" height="60">
+            <vector name="origin" x="37" y="60" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="30" />
+            <string name="_hash" value="5810b402979d2d2cc5d68d4a4fb525449bbdaa6a698591cda7c15458e2a26a83" />
+        </canvas>
+        <canvas name="1" width="74" height="59">
+            <vector name="origin" x="37" y="59" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="30" />
+            <string name="_hash" value="34c782adc991632b6ffb67dadc036dd6409a40c9d7e4b31a9b69e6d3ad982b65" />
+        </canvas>
+        <canvas name="2" width="74" height="59">
+            <vector name="origin" x="37" y="60" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="30" />
+            <string name="_hash" value="fc352c0c099546b5fb2d29544b6f14330b4538e18b542d4932952f86e3a65b12" />
+        </canvas>
+        <canvas name="3" width="74" height="61">
+            <vector name="origin" x="37" y="63" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="30" />
+            <string name="_hash" value="f39fb00db8633d8f0a41a7caca96cb9e62f3ce2861c732ececaf9c91a34aa853" />
+        </canvas>
+        <canvas name="4" width="73" height="61">
+            <vector name="origin" x="37" y="61" />
+            <int name="z" value="0" />
+            <vector name="lt" x="-37" y="-54" />
+            <vector name="rb" x="37" y="0" />
+            <vector name="head" x="-2" y="-61" />
+            <int name="delay" value="30" />
+            <string name="_hash" value="15523a41ced153a8e48b0c2ee12e803b736bb4025a12ce3d8a6499d317b6a813" />
+        </canvas>
+    </imgdir>
+</imgdir>

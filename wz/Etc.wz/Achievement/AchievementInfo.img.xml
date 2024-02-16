@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="AchievementInfo.img">
+    <imgdir name="Sync">
+        <imgdir name="0">
+            <string name="SyncDate" value="20190228000000" />
+            <imgdir name="SyncTargetAchievement">
+                <int name="0" value="1140" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Category">
+        <imgdir name="myAchievement">
+            <string name="name" value="My Achievements" />
+            <imgdir name="subCategory">
+                <imgdir name="grade">
+                    <string name="name" value="Rank" />
+                </imgdir>
+                <imgdir name="insignia">
+                    <string name="name" value="Insignia" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="total">
+            <string name="name" value="All" />
+        </imgdir>
+        <imgdir name="general">
+            <string name="name" value="General" />
+        </imgdir>
+        <imgdir name="growth">
+            <string name="name" value="Level Up" />
+            <imgdir name="subCategory">
+                <imgdir name="level">
+                    <string name="name" value="Level" />
+                </imgdir>
+                <imgdir name="stat">
+                    <string name="name" value="Stats" />
+                </imgdir>
+                <imgdir name="personality">
+                    <string name="name" value="Traits" />
+                </imgdir>
+                <imgdir name="makingSkill">
+                    <string name="name" value="Profession" />
+                </imgdir>
+                <imgdir name="union">
+                    <string name="name" value="Legion" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="job">
+            <string name="name" value="Job" />
+            <imgdir name="subCategory">
+                <imgdir name="story">
+                    <string name="name" value="Story" />
+                </imgdir>
+                <imgdir name="jobChange">
+                    <string name="name" value="Job Advancement" />
+                </imgdir>
+                <imgdir name="skill">
+                    <string name="name" value="Skills" />
+                </imgdir>
+                <imgdir name="vMatrix">
+                    <string name="name" value="V Matrix" />
+                </imgdir>
+                <imgdir name="linkSkill">
+                    <string name="name" value="Link Skill" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="item">
+            <string name="name" value="Item" />
+            <imgdir name="subCategory">
+                <imgdir name="collection">
+                    <string name="name" value="Collect" />
+                </imgdir>
+                <imgdir name="enchantment">
+                    <string name="name" value="Boost" />
+                </imgdir>
+                <imgdir name="equip">
+                    <string name="name" value="Equipped" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="adventure">
+            <string name="name" value="Adventure" />
+            <imgdir name="subCategory">
+                <imgdir name="exploration">
+                    <string name="name" value="Exploration" />
+                </imgdir>
+                <imgdir name="quest">
+                    <string name="name" value="Quest" />
+                </imgdir>
+                <imgdir name="cooperation">
+                    <string name="name" value="Cooperation" />
+                </imgdir>
+                <imgdir name="special">
+                    <string name="name" value="Special" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="battle">
+            <string name="name" value="Battle" />
+            <imgdir name="subCategory">
+                <imgdir name="field">
+                    <string name="name" value="Field" />
+                </imgdir>
+                <imgdir name="boss">
+                    <string name="name" value="Boss" />
+                </imgdir>
+                <imgdir name="loot">
+                    <string name="name" value="Drop Item" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="social">
+            <string name="name" value="Social" />
+            <imgdir name="subCategory">
+                <imgdir name="party">
+                    <string name="name" value="Party" />
+                </imgdir>
+                <imgdir name="guild">
+                    <string name="name" value="Guild" />
+                </imgdir>
+                <imgdir name="trade">
+                    <string name="name" value="Trade" />
+                </imgdir>
+                <imgdir name="etc">
+                    <string name="name" value="Other" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="event">
+            <string name="name" value="Event" />
+            <imgdir name="subCategory" />
+        </imgdir>
+        <imgdir name="memory">
+            <string name="name" value="Memory" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="Grade">
+        <imgdir name="bronze">
+            <string name="name" value="Bronze" />
+            <int name="scoreMin" value="10" />
+            <int name="scoreMax" value="4999" />
+        </imgdir>
+        <imgdir name="silver">
+            <string name="name" value="Silver" />
+            <int name="scoreMin" value="5000" />
+            <int name="scoreMax" value="19999" />
+        </imgdir>
+        <imgdir name="gold">
+            <string name="name" value="Gold" />
+            <int name="scoreMin" value="20000" />
+            <int name="scoreMax" value="29999" />
+        </imgdir>
+        <imgdir name="platinum">
+            <string name="name" value="Platinum" />
+            <int name="scoreMin" value="30000" />
+            <int name="scoreMax" value="35999" />
+        </imgdir>
+        <imgdir name="diamond">
+            <string name="name" value="Diamond" />
+            <int name="scoreMin" value="36000" />
+            <int name="scoreMax" value="38730" />
+        </imgdir>
+        <imgdir name="master">
+            <string name="name" value="Master" />
+            <int name="rankMax" value="100" />
+            <string name="grade" value="platinum" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="Insignia">
+        <imgdir name="1">
+            <string name="name" value="Bronze" />
+            <string name="grade" value="bronze" />
+            <int name="skill" value="80002324" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Bronze Rank" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Silver" />
+            <string name="grade" value="silver" />
+            <int name="skill" value="80002325" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Silver Rank" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Gold" />
+            <string name="grade" value="gold" />
+            <int name="skill" value="80002326" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Gold Rank" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Platinum" />
+            <string name="grade" value="platinum" />
+            <int name="skill" value="80002327" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Platinum Rank" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Diamond" />
+            <string name="grade" value="diamond" />
+            <int name="skill" value="80002328" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Diamond Rank" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Master" />
+            <string name="grade" value="master" />
+            <int name="skill" value="80002329" />
+            <int name="unlockByGrade" value="1" />
+            <string name="desc" value="Higher than Master Rank" />
+        </imgdir>
+    </imgdir>
+</imgdir>

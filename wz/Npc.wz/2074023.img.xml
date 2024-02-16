@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="2074023.img">
+    <imgdir name="info">
+        <int name="hide" value="1" />
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="26" y="72" />
+            <int name="delay" value="200" />
+            <string name="_hash" value="bc6639afe6a809d8b0caa0e85522cc7c7081f7359c181d59620c13e0ac46f563" />
+            <string name="_outlink" value="Npc/2074108.img/stand/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="condition1">
+        <imgdir name="30911">
+            <string name="value" value="1" />
+            <imgdir name="script">
+                <imgdir name="0">
+                    <string name="script" value="npc_2074023" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="stand">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="46" y="94" />
+                <int name="delay" value="200" />
+                <string name="_hash" value="32f192a13c2e78d315c966f337f4e629f509624bc0c095b980ebb84aad243397" />
+                <string name="_outlink" value="Npc/2074108.img/die2/0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="condition2">
+        <imgdir name="30911">
+            <string name="value" value="2" />
+            <int name="hide" value="1" />
+        </imgdir>
+        <imgdir name="stand">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="26" y="72" />
+                <int name="delay" value="200" />
+                <string name="_outlink" value="Npc/2074108.img/stand/0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+</imgdir>

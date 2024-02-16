@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8240166.img">
+    <imgdir name="info">
+        <int name="skeleton" value="1" />
+        <int name="level" value="5" />
+        <int name="maxHP" value="5000000" />
+        <int name="acc" value="203" />
+        <int name="eva" value="51" />
+        <float name="fs" value="10.0" />
+        <int name="summonType" value="1" />
+        <int name="category" value="8" />
+        <string name="mobType" value="1N" />
+        <int name="blockUserMove" value="1" />
+        <int name="bodyAttack" value="1" />
+        <int name="skelAniMixRate" value="0" />
+        <int name="nonLevelCheckEVA" value="1" />
+        <int name="nonLevelCheckACC" value="1" />
+        <int name="noFlip" value="1" />
+        <imgdir name="speak">
+            <int name="chatBalloon" value="0" />
+            <imgdir name="0">
+                <int name="hp" value="4000000" />
+                <string name="0" value="...!" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="hp" value="3000000" />
+                <string name="0" value="You shall not pass." />
+            </imgdir>
+            <imgdir name="2">
+                <int name="hp" value="2000000" />
+                <string name="0" value="...!!" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="hp" value="1000000" />
+                <string name="0" value="...!!!" />
+                <string name="1" value="You shall not pass." />
+                <string name="2" value="Kapus...!" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="damagedBySelectedSkill">
+            <int name="0" value="80001910" />
+            <int name="1" value="80001911" />
+            <int name="2" value="80001912" />
+            <int name="3" value="80001913" />
+            <int name="4" value="80001914" />
+            <int name="5" value="80001915" />
+            <int name="6" value="80001916" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="regen">
+        <string name="aniName" value="00_summon" />
+    </imgdir>
+    <imgdir name="die1">
+        <string name="aniName" value="02_die" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="01_stand" />
+    </imgdir>
+    <string name="8240166.atlas" value="&#xA;summon_mon.png&#xA;size: 836,330&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;after&#xA;  rotate: true&#xA;  xy: 287, 49&#xA;  size: 139, 201&#xA;  orig: 139, 201&#xA;  offset: 0, 0&#xA;  index: -1&#xA;attack_light&#xA;  rotate: false&#xA;  xy: 2, 45&#xA;  size: 283, 283&#xA;  orig: 283, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_01&#xA;  rotate: false&#xA;  xy: 381, 19&#xA;  size: 36, 28&#xA;  orig: 36, 28&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_02&#xA;  rotate: true&#xA;  xy: 669, 5&#xA;  size: 31, 47&#xA;  orig: 31, 47&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_08&#xA;  rotate: true&#xA;  xy: 669, 5&#xA;  size: 31, 47&#xA;  orig: 31, 47&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_03&#xA;  rotate: false&#xA;  xy: 769, 58&#xA;  size: 44, 48&#xA;  orig: 44, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_09&#xA;  rotate: false&#xA;  xy: 769, 58&#xA;  size: 44, 48&#xA;  orig: 44, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_04&#xA;  rotate: false&#xA;  xy: 2, 18&#xA;  size: 99, 25&#xA;  orig: 99, 25&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_05&#xA;  rotate: false&#xA;  xy: 634, 108&#xA;  size: 94, 53&#xA;  orig: 94, 53&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_06&#xA;  rotate: false&#xA;  xy: 734, 38&#xA;  size: 33, 68&#xA;  orig: 33, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_07&#xA;  rotate: false&#xA;  xy: 669, 38&#xA;  size: 63, 68&#xA;  orig: 63, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;bit_08_core&#xA;  rotate: false&#xA;  xy: 769, 16&#xA;  size: 51, 40&#xA;  orig: 51, 40&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eye effect&#xA;  rotate: true&#xA;  xy: 490, 2&#xA;  size: 84, 60&#xA;  orig: 84, 60&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eye effect2&#xA;  rotate: false&#xA;  xy: 2, 5&#xA;  size: 39, 11&#xA;  orig: 39, 11&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eye_A&#xA;  rotate: false&#xA;  xy: 337, 14&#xA;  size: 42, 33&#xA;  orig: 42, 33&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eye_B copy&#xA;  rotate: true&#xA;  xy: 457, 8&#xA;  size: 39, 20&#xA;  orig: 39, 20&#xA;  offset: 0, 0&#xA;  index: -1&#xA;main_stobe&#xA;  rotate: false&#xA;  xy: 490, 88&#xA;  size: 142, 81&#xA;  orig: 142, 81&#xA;  offset: 0, 0&#xA;  index: -1&#xA;ring&#xA;  rotate: false&#xA;  xy: 496, 171&#xA;  size: 179, 157&#xA;  orig: 179, 157&#xA;  offset: 0, 0&#xA;  index: -1&#xA;smoke&#xA;  rotate: false&#xA;  xy: 287, 190&#xA;  size: 207, 138&#xA;  orig: 207, 138&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_01&#xA;  rotate: false&#xA;  xy: 419, 19&#xA;  size: 36, 28&#xA;  orig: 36, 28&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_02&#xA;  rotate: true&#xA;  xy: 718, 5&#xA;  size: 31, 47&#xA;  orig: 31, 47&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_03&#xA;  rotate: true&#xA;  xy: 287, 3&#xA;  size: 44, 48&#xA;  orig: 44, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_04&#xA;  rotate: false&#xA;  xy: 103, 18&#xA;  size: 99, 25&#xA;  orig: 99, 25&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_05&#xA;  rotate: false&#xA;  xy: 204, 20&#xA;  size: 75, 23&#xA;  orig: 75, 23&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_06&#xA;  rotate: false&#xA;  xy: 730, 108&#xA;  size: 94, 53&#xA;  orig: 94, 53&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_07&#xA;  rotate: false&#xA;  xy: 815, 60&#xA;  size: 19, 46&#xA;  orig: 19, 46&#xA;  offset: 0, 0&#xA;  index: -1&#xA;stone_back&#xA;  rotate: true&#xA;  xy: 552, 16&#xA;  size: 70, 115&#xA;  orig: 70, 115&#xA;  offset: 0, 0&#xA;  index: -1&#xA;summon_t&#xA;  rotate: false&#xA;  xy: 677, 163&#xA;  size: 137, 165&#xA;  orig: 137, 165&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+    <sound name="8240166" />
+    <canvas name="summon_mon.png" width="836" height="330">
+        <vector name="origin" x="698" y="246" />
+        <int name="z" value="0" />
+        <string name="_hash" value="dc364b310795e1680069110af1820b76f3fb1eb12d99a91e68a71a622e899f46" />
+    </canvas>
+</imgdir>

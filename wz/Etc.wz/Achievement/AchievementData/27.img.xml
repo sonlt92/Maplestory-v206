@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="27.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="general" />
+        <string name="subCategory" value="general" />
+        <string name="name" value="[Masterpiece] Master Label" />
+        <string name="desc" value="Obtain the Master Label after a Masterpiece Fusion" />
+        <string name="keyword" value="Master Label" />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="master_piece_success" />
+        </imgdir>
+        <string name="block" value="hide" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Obtain the Master Label after a Masterpiece Fusion" />
+            <imgdir name="subMission">
+                <imgdir name="master_piece_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="item_reward">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <imgdir name="item_label_grade">
+                                        <int name="min" value="3" />
+                                        <int name="max" value="3" />
+                                    </imgdir>
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

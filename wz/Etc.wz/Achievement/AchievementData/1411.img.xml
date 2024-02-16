@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1411.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="event" />
+        <string name="subCategory" value="seaSideOutLaw" />
+        <string name="name" value="You are raving" />
+        <string name="desc" value="Eliminate a total of 300+ outlaws on the remote island" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="period">
+            <string name="start" value="20171214000000" />
+            <string name="end" value="20180103000000" />
+            <string name="start_t" value="20171214000000" />
+            <string name="end_t" value="20180103000000" />
+        </imgdir>
+        <imgdir name="uiType">
+            <string name="uiForm" value="reward" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="script" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Eliminate a total of 300+ outlaws on the remote island" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="300" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="reward">
+        <imgdir name="0">
+            <int name="id" value="2437585" />
+            <string name="desc" value="2x EXP Coupon" />
+        </imgdir>
+    </imgdir>
+</imgdir>

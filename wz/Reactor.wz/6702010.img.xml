@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="6702010.img">
+    <imgdir name="info">
+        <string name="info" value="메이플아일랜드 범용리엑터" />
+    </imgdir>
+    <imgdir name="0">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="18" y="35" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="4ed011fe9f87c8114d5e2c29db67c2e7607d623cf4cc8a062eb11ff0862b09d9" />
+                <string name="_outlink" value="Reactor/6701002.img/0/hit/0" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="24" y="42" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="06b0a98110bedaa535c9c2f92771d602f3304c3f39e7b5fc9a9c1047a49d37d8" />
+                <string name="_outlink" value="Reactor/6701002.img/0/hit/1" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="22" y="42" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="ce813f5db4e7ae6ba91c3e71f8122545df9344567f500cf401e87258cfbc93ab" />
+                <string name="_outlink" value="Reactor/6701002.img/0/hit/2" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="18" y="35" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_outlink" value="Reactor/6701002.img/0/hit/0" />
+            </canvas>
+        </imgdir>
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="18" y="36" />
+            <int name="z" value="0" />
+            <string name="_outlink" value="Reactor/6701002.img/0/hit/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="1">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="2">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="3" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="3">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="4" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../../0/hit/0" />
+            <uol name="1" value="../../0/hit/1" />
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="20" y="34" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="44cf6a7f991e9abd3984d5eeee020c54661bf7405c6fb2ce1833cd44c23a514f" />
+                <string name="_outlink" value="Reactor/6701002.img/3/hit/2" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="20" y="29" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="6b52e48dc8c71bd1500c8ede428e0501260d8873f88668d2d60679a7d3d5324d" />
+                <string name="_outlink" value="Reactor/6701002.img/3/hit/3" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="20" y="20" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="4cc2e72f5359814ee53ea9db0a9ef54286ba5ee3839f214a8f4e1ba161eeacd6" />
+                <string name="_outlink" value="Reactor/6701002.img/3/hit/4" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="4">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="0" y="0" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="amoriaItem10" />
+</imgdir>

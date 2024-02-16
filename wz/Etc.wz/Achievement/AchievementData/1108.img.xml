@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1108.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Temple of Time" />
+        <string name="desc" value="Explore these locations in the Temple of Time!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Three Doors on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270000000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Three Doors" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Temple of Time on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270000100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Temple of Time" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Past of the Verdure on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Past of the Verdure" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Memory Lane 1 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Lane 1" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Resting Spot of Memory on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010110" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Resting Spot of Memory" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Memory Keeper's Room on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010111" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Keeper's Room" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Memory Lane 2 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Lane 2" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Memory Lane 3 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Lane 3" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Memory Lane 4 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Lane 4" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Memory Lane 5 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270010500" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Memory Lane 5" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Frozen Past on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Frozen Past" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Road of Regrets 1 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road of Regrets 1" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Road of Regrets 2 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road of Regrets 2" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Resting Spot of Regret on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020210" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Resting Spot of Regret" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Sorcerer's Room on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020211" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Sorcerer's Room" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Road of Regrets 3 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road of Regrets 3" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Road of Regrets 4 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road of Regrets 4" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Road of Regrets 5 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270020500" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road of Regrets 5" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Burning Past on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Burning Past" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Road to Oblivion 1 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road to Oblivion 1" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Road to Oblivion 2 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road to Oblivion 2" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Road to Oblivion 3 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road to Oblivion 3" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Road to Oblivion 4 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road to Oblivion 4" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Resting Spot of Oblivion on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030410" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Resting Spot of Oblivion" />
+        </imgdir>
+        <imgdir name="24">
+            <string name="name" value="Record Keeper's Room on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030411" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Record Keeper's Room" />
+        </imgdir>
+        <imgdir name="25">
+            <string name="name" value="Road to Oblivion 5 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030500" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Road to Oblivion 5" />
+        </imgdir>
+        <imgdir name="26">
+            <string name="name" value="Broken Corridor in Deep Place of Temple" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270040000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Broken Corridor" />
+        </imgdir>
+        <imgdir name="27">
+            <string name="name" value="Forgotten Twilight in Deep Place of Temple" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270050000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forgotten Twilight" />
+        </imgdir>
+        <imgdir name="28">
+            <string name="name" value="Detour to Oblivion 1 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030600" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Detour to Oblivion 1" />
+        </imgdir>
+        <imgdir name="29">
+            <string name="name" value="Detour to Oblivion 2 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030610" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Detour to Oblivion 2" />
+        </imgdir>
+        <imgdir name="30">
+            <string name="name" value="Detour to Oblivion 3 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030620" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Detour to Oblivion 3" />
+        </imgdir>
+        <imgdir name="31">
+            <string name="name" value="Detour to Oblivion 4 on Time Lane" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="270030630" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Detour to Oblivion 4" />
+        </imgdir>
+    </imgdir>
+</imgdir>

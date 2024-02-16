@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="EventCharacterBurning.img">
+    <int name="levelUpEffectDelay" value="1000" />
+    <imgdir name="LimitedJobCode">
+        <int name="0" value="10000" />
+        <int name="1" value="10100" />
+        <int name="2" value="10110" />
+        <int name="3" value="10111" />
+        <int name="4" value="10112" />
+        <int name="5" value="13000" />
+        <int name="6" value="13100" />
+        <int name="7" value="301" />
+        <int name="8" value="330" />
+        <int name="9" value="331" />
+        <int name="10" value="332" />
+    </imgdir>
+    <imgdir name="Event">
+        <imgdir name="0">
+            <string name="info" value="For Burning Characters. Will take place from eventBegin to eventEnd. However, the next event may need to erase DB in order to run in patches. Level increases by increments of LevelUp until maxLevel." />
+            <string name="start" value="201907240000" />
+            <string name="end" value="201908280000" />
+            <int name="maxLevel" value="149" />
+            <int name="minLevel" value="10" />
+            <int name="addPoint" value="2" />
+            <int name="maxCount" value="2" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="EventEx">
+        <imgdir name="0">
+            <string name="info" value="For Tera Burning Characters. Will take place from eventBegin to eventEnd. However, the next event may need to run in patches in order to erase DB. Level increases by increments of LevelUp until maxLevel." />
+            <string name="start" value="201906120000" />
+            <string name="end" value="201907232359" />
+            <int name="maxLevel" value="200" />
+            <int name="minLevel" value="10" />
+            <int name="addPoint" value="2" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="AllowWorldID">
+        <int name="0" value="49" />
+        <int name="1" value="0" />
+        <int name="2" value="1" />
+        <int name="3" value="2" />
+        <int name="4" value="3" />
+        <int name="5" value="4" />
+        <int name="6" value="5" />
+        <int name="7" value="6" />
+        <int name="8" value="7" />
+        <int name="9" value="8" />
+        <int name="10" value="9" />
+        <int name="11" value="10" />
+        <int name="12" value="11" />
+        <int name="13" value="12" />
+        <int name="14" value="13" />
+        <int name="15" value="14" />
+        <int name="16" value="15" />
+        <int name="17" value="16" />
+        <int name="18" value="30" />
+        <int name="19" value="45" />
+        <int name="20" value="46" />
+    </imgdir>
+</imgdir>

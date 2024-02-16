@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659176.img">
+    <imgdir name="info">
+        <string name="info" value="Labyrinth of Suffering_Soul Altar" />
+        <int name="dcMark" value="1" />
+    </imgdir>
+    <imgdir name="0">
+        <int name="repeat" value="1" />
+        <canvas name="0" width="134" height="105">
+            <vector name="origin" x="55" y="105" />
+            <int name="z" value="0" />
+            <string name="_hash" value="95e2eca7f1e7aa7dc225151097146af7374b8c19d564a94cdef00442486e2a3c" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="9" />
+                <int name="state" value="1" />
+                <vector name="lt" x="-55" y="-116" />
+                <vector name="rb" x="62" y="-33" />
+                <imgdir name="clickArea">
+                    <vector name="lt" x="-55" y="-104" />
+                    <vector name="rb" x="64" y="15" />
+                    <string name="Message" value="You're too far away to check." />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <int name="repeat" value="1" />
+        <canvas name="0" width="134" height="105">
+            <vector name="origin" x="55" y="105" />
+            <int name="z" value="0" />
+            <string name="_hash" value="0e9c9706c76cfaaa05d858907ebb2ad12caa94f65d70d1d0faafc129ae56e5f3" />
+        </canvas>
+        <imgdir name="changeStateEffect">
+            <imgdir name="0">
+                <canvas name="0" width="134" height="105">
+                    <vector name="origin" x="55" y="105" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="65f09ae5637cfc7a9dd5289ff0f08fd2dd525cfd074ef1b18ffb7bbe68feedb9" />
+                </canvas>
+                <canvas name="1" width="134" height="105">
+                    <vector name="origin" x="55" y="105" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="148327d58e27283fcf4e6407d91b94deee632bb8d9df05f4f8fcfa53094a8efd" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <string name="action" value="GL_AdvPQ_Switch4" />
+</imgdir>

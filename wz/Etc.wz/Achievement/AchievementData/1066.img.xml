@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1066.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="An Adventure Just for Kicks and Giggles" />
+        <string name="desc" value="The 3 achievements titled &lt;Fall 7 Times, Stand Up 8&gt;, &lt;Champions keep playing until they get it right!&gt;, and &lt;Show me the meso!&gt; are all complete." />
+        <string name="difficulty" value="legendary" />
+        <int name="score" value="100" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="&lt;Fall 7 Times, Stand Up 8&gt; Achievement Complete" />
+            <string name="keyword" value="Fall 7 Times, Stand Up 8" />
+            <imgdir name="subMission">
+                <imgdir name="achievement_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="achievement_change_info">
+                            <int name="achievement_id" value="1067" />
+                            <int name="achievement_state" value="2" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="&lt;Champions keep playing until they get it right!&gt; Achievement Complete" />
+            <string name="keyword" value="Champions keep playing until they get it right!" />
+            <imgdir name="subMission">
+                <imgdir name="achievement_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="achievement_change_info">
+                            <int name="achievement_id" value="1068" />
+                            <int name="achievement_state" value="2" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="&lt;Show me the meso!&gt; Achievement Complete" />
+            <string name="keyword" value="Show me the meso" />
+            <imgdir name="subMission">
+                <imgdir name="achievement_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="achievement_change_info">
+                            <int name="achievement_id" value="1069" />
+                            <int name="achievement_state" value="2" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

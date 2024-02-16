@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1309.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="special" />
+        <string name="name" value="[Mu Lung Dojo] Goooo-ing up! Next stop, Cygnus Family!" />
+        <string name="desc" value="Defeat any Bosses from Mu Lung Dojo 51st Floor to 56th Floor" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <imgdir name="prior">
+            <string name="block" value="hide" />
+            <string name="condition" value="and" />
+            <imgdir name="values">
+                <imgdir name="0">
+                    <int name="achievement_id" value="1308" />
+                    <int name="achievement_state" value="2" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Defeat &lt;Hawkeye&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305666" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Defeat &lt;Eckhart&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305667" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Defeat &lt;Irena&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305668" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Defeat &lt;Oz&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305669" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Defeat &lt;Mihile&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305670" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Defeat &lt;Cygnus&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305671" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

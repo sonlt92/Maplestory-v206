@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1067.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="Fall 7 Times, Stand Up 8" />
+        <string name="desc" value="Jump into the piles of white flowers on Level 7 in the Forest of Tenacity!" />
+        <string name="keyword" value="Piles of White Flowers in the Forest of Tenacity" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="script" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Jump into the piles of white flowers on Level 7 in the Forest of Tenacity!" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

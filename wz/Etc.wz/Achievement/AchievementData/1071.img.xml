@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1071.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Henesys" />
+        <string name="desc" value="Explore these locations in and around Henesys!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Henesys" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Maya's House" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000001" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Maya's House" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Chief Stan's House in Henesys" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000002" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Chief Stan's House" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Rina's House" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000003" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Rina's House" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Henesys Market" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Market" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Henesys Weapon Store" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000101" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Weapon Store" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Henesys General Store" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000102" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys General Store" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Henesys Plastic Surgery" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000103" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Plastic Surgery" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Henesys Hair Salon" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000104" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Hair Salon" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Henesys Skin-Care" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000105" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Skin-Care" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Henesys Park" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Park" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Bowman Instructional School" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000201" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Bowman Instructional School" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Pet-Walking Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000202" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Pet-Walking Road" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Henesys Game Park" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000203" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Henesys Game Park" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Closet House" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100000004" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Closet House" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Dreamy Forest Trail" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100010100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Dreamy Forest Trail" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="The Hill North of Henesys" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100010000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="The Hill North of Henesys" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Suspicious Hill in Henesys" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100010001" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Suspicious Hill" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Spore Hill in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Spore Hill" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Humming Forest Trail in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Humming Forest Trail" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Mushmom Forest Trail in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020101" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Mushmom Forest Trail" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Windflower Forest in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Windflower Forest" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Blue Mushroom Forest in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020301" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Blue Mushroom Forest" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Blue Mushmom Forest in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020301" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Blue Mushmom Forest" />
+        </imgdir>
+        <imgdir name="24">
+            <string name="name" value="Blue Mushroom Forest 2 in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Blue Mushroom Forest 2" />
+        </imgdir>
+        <imgdir name="25">
+            <string name="name" value="Gentle Breeze Forest in the Singing Mushroom Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100020401" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Gentle Breeze Forest" />
+        </imgdir>
+        <imgdir name="26">
+            <string name="name" value="Golem's Temple Entrance" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100040000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Golem's Temple Entrance" />
+        </imgdir>
+        <imgdir name="27">
+            <string name="name" value="Golem's Temple 1" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100040100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Golem's Temple 1" />
+        </imgdir>
+        <imgdir name="28">
+            <string name="name" value="Golem's Temple 2" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100040200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Golem's Temple 2" />
+        </imgdir>
+        <imgdir name="29">
+            <string name="name" value="Golem's Temple 3" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100040300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Golem's Temple 3" />
+        </imgdir>
+        <imgdir name="30">
+            <string name="name" value="Golem's Temple 4" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="100040400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Golem's Temple 4" />
+        </imgdir>
+    </imgdir>
+</imgdir>

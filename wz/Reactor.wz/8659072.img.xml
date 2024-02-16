@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659072.img">
+    <imgdir name="info">
+        <string name="info" value="펜의 황금" />
+        <vector name="lt" x="-66" y="-50" />
+        <vector name="rb" x="71" y="12" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="91" height="110">
+            <vector name="origin" x="42" y="110" />
+            <int name="z" value="0" />
+            <string name="_hash" value="bdaef65d19f34bdeacc0c8a994029559f7d1edfd0f8a852bab4055f11121a4fc" />
+        </canvas>
+        <canvas name="1" width="89" height="109">
+            <vector name="origin" x="41" y="109" />
+            <int name="z" value="0" />
+            <string name="_hash" value="061055f44e254bb11a90da32758c74d6f66865c04f4a9ce8edfd557751f6cf01" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="41" y="109" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/1" />
+        </canvas>
+        <canvas name="3" width="93" height="108">
+            <vector name="origin" x="43" y="108" />
+            <int name="z" value="0" />
+            <string name="_hash" value="adca0c4098db1c244d887d62a6c5d28cceb90c1002ac064d59ae9bd538f92ce0" />
+        </canvas>
+        <canvas name="4" width="93" height="109">
+            <vector name="origin" x="43" y="109" />
+            <int name="z" value="0" />
+            <string name="_hash" value="e8c9e8719fedaac6dbc1f852281602980448b8fd6d94f82dab2bb3e9cf12691c" />
+        </canvas>
+        <int name="repeat" value="1" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="11" />
+                <int name="state" value="1" />
+                <string name="act" value="reactor0" />
+                <int name="actCount" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../0" />
+            <uol name="1" value="../1" />
+            <uol name="2" value="../2" />
+            <uol name="3" value="../3" />
+            <uol name="4" value="../4" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="81" height="60">
+            <vector name="origin" x="40" y="60" />
+            <int name="z" value="0" />
+            <string name="_hash" value="050a792394a31c59ef90581464bbfc086d63c1ca5b98de8fa830abb9ef3bfc37" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+                <vector name="lt" x="-70" y="-50" />
+                <vector name="rb" x="70" y="20" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+        <int name="follow" value="1" />
+    </imgdir>
+    <imgdir name="2">
+        <canvas name="0" width="60" height="80">
+            <vector name="origin" x="26" y="80" />
+            <int name="z" value="0" />
+            <string name="_hash" value="14ccd92f0019f00d0d9cb9992bca399e99eb604737076c456af1255003597762" />
+        </canvas>
+        <int name="repeat" value="1" />
+        <imgdir name="event">
+            <int name="timeOut" value="60000" />
+            <imgdir name="0">
+                <int name="type" value="11" />
+                <int name="state" value="1" />
+                <string name="act" value="reactor0" />
+                <int name="actCount" value="1" />
+                <vector name="lt" x="-70" y="-50" />
+                <vector name="rb" x="70" y="20" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="type" value="101" />
+                <int name="state" value="3" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../0" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="3">
+        <canvas name="0" width="1" height="1" />
+    </imgdir>
+    <string name="action" value="gatherCarry" />
+</imgdir>

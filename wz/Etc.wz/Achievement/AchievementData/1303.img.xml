@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1303.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="special" />
+        <string name="name" value="[Mu Lung Dojo] Goooo-ing up! Next stop, Von Leon!" />
+        <string name="desc" value="Defeat Von Leon on Mu Lung Dojo 10th Floor" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <string name="keyword" value="Defeat Von Leon" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="[Mu Lung Dojo] Defeat Von Leon on 10th Floor" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_id" value="9305619" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

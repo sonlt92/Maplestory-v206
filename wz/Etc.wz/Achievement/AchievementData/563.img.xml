@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="563.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Rune] What a Boon to Select a Rune" />
+        <string name="desc" value="Use all kinds of runes" />
+        <string name="difficulty" value="normal" />
+        <int name="score" value="10" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Use a Rune of Swiftness" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="0" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Use a Rune of Recovery" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="1" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Use a Rune of Destruction" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Use a Rune of Thunder" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="3" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Use a Rune of Might" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="4" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Use a Rune of Darkness" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="5" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Use a Rune of Riches" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="6" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Use a Rune of Skill" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="7" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Use a Rune of Greed" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="rune_stone_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="8" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

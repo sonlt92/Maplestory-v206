@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1117.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Vanishing Journey" />
+        <string name="desc" value="Explore these locations in Vanishing Journey!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Nameless Town within Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Nameless Town" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Vanishing Journey Entrance within Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001003" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Vanishing Journey Entrance" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Lakeshore of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001005" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Lakeshore" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001007" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Lake of Oblivion" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Weathered Land of Happiness of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001010" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Happiness" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Weathered Land of Happiness and Rage of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001011" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Happiness and Rage" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Weathered Land of Rage of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001012" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Rage" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Weathered Land of Rage and Sorrow of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001013" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Rage and Sorrow" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Weathered Land of Sorrow of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001014" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Sorrow" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Weathered Land of Sorrow and Joy of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001015" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Sorrow and Joy" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Weathered Land of Joy within Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001016" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Weathered Land of Joy" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Mirage Cliff in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Mirage Cliff" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Lakeshore in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001105" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Lakeshore" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Fire Zone Cliff in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001107" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Fire Zone Cliff" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Rock Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001110" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Rock Zone" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Fire Rock Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001111" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Fire Rock Zone" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Fire Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001112" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Fire Zone" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Fire Spirit Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001113" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Fire Spirit Zone" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Spirit Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001114" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Spirit Zone" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Cave Entrance of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Cave Entrance" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Forked Road 1 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001210" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forked Road 1" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Western Cave Path 1 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001211" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Western Cave Path 1" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Western Cave Path 2 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001212" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Western Cave Path 2" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Eastern Cave Path 1 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001213" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Eastern Cave Path 1" />
+        </imgdir>
+        <imgdir name="24">
+            <string name="name" value="Eastern Cave Path 2 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001214" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Eastern Cave Path 2" />
+        </imgdir>
+        <imgdir name="25">
+            <string name="name" value="Forked Road 2 of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001215" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forked Road 2" />
+        </imgdir>
+        <imgdir name="26">
+            <string name="name" value="Below the Cave near Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001216" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Below the Cave" />
+        </imgdir>
+        <imgdir name="27">
+            <string name="name" value="Above the Cave near Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001217" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Above the Cave" />
+        </imgdir>
+        <imgdir name="28">
+            <string name="name" value="Cave Depths of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001218" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Cave Depths" />
+        </imgdir>
+        <imgdir name="29">
+            <string name="name" value="Split Road of Destiny of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001219" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Split Road of Destiny" />
+        </imgdir>
+        <imgdir name="30">
+            <string name="name" value="Arma's Hideout in Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001230" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Arma's Hideout" />
+        </imgdir>
+        <imgdir name="31">
+            <string name="name" value="Cave's End of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001240" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="End of Cave" />
+        </imgdir>
+        <imgdir name="32">
+            <string name="name" value="Damp Falls of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001250" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Damp Falls" />
+        </imgdir>
+        <imgdir name="33">
+            <string name="name" value="Hidden Lakeshore of Lake of Oblivion" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001260" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Hidden Lakeshore" />
+        </imgdir>
+        <imgdir name="34">
+            <string name="name" value="Hidden Fire Zone in Extinction Zone" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001261" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Hidden Fire Zone" />
+        </imgdir>
+        <imgdir name="35">
+            <string name="name" value="Hidden Cave of Cave of Repose" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="450001262" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Hidden Cave" />
+        </imgdir>
+    </imgdir>
+</imgdir>

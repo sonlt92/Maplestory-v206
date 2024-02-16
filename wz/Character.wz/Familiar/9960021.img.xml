@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960021.img">
+    <imgdir name="info">
+        <int name="grade" value="0" />
+        <int name="range" value="500" />
+        <imgdir name="skill">
+            <int name="id" value="805" />
+            <int name="effectAfter" value="360" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="28" y="64" />
+            <vector name="lt" x="-28" y="-64" />
+            <vector name="rb" x="34" y="0" />
+            <vector name="head" x="2" y="-61" />
+            <string name="_hash" value="533a3da0839114dffc2f77ad19354e5529837385b81a87f30182d6df8819eca2" />
+            <string name="_outlink" value="Character/Familiar/9960220.img/jump/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="37" y="62" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="911defc006f8bfccf1bda677bc4290274552d1e65190080a9075e70a7d580b0b" />
+                    <string name="_outlink" value="Character/Familiar/9960009.img/attack/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="49" y="73" />
+                    <int name="delay" value="200" />
+                    <int name="a0" value="255" />
+                    <int name="a1" value="0" />
+                    <string name="_hash" value="303d2deef32e02749a93e50c62197f0866a9b07b12ab4794dd59ab9400f92496" />
+                    <string name="_outlink" value="Character/Familiar/9960027.img/attack/info/hit/1" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="600" />
+        </imgdir>
+        <string name="link" value="move" />
+    </imgdir>
+</imgdir>

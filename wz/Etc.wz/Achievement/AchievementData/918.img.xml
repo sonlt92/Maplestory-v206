@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="918.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="item" />
+        <string name="subCategory" value="collection" />
+        <string name="name" value="[Soul] Murgoth! I've Come to Trade" />
+        <string name="desc" value="Perform Soul Shard Fusion 100 times" />
+        <string name="difficulty" value="normal" />
+        <int name="score" value="10" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="script" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Perform Soul Shard Fusion 100 times" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="100" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

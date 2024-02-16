@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="4.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="general" />
+        <string name="subCategory" value="general" />
+        <string name="name" value="[Daily Gift] A Nice, Trusty Login" />
+        <string name="desc" value="Obtain a Daily Gift 1,000 times" />
+        <int name="parentId" value="7" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="dailygift_get_reward" />
+        </imgdir>
+        <string name="block" value="hide" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Obtain a Daily Gift 1,000 times" />
+            <imgdir name="subMission">
+                <imgdir name="dailygift_get_reward">
+                    <imgdir name="score">
+                        <int name="targetScore" value="100" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

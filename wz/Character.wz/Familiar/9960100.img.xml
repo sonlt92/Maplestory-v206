@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960100.img">
+    <imgdir name="info">
+        <int name="grade" value="0" />
+        <int name="range" value="800" />
+        <imgdir name="skill">
+            <int name="id" value="801" />
+            <int name="effectAfter" value="800" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="58" height="48">
+            <vector name="origin" x="29" y="72" />
+            <vector name="lt" x="-29" y="-72" />
+            <vector name="rb" x="29" y="-24" />
+            <vector name="head" x="-16" y="-62" />
+            <int name="delay" value="100" />
+            <string name="_hash" value="88d48fe2c0976dc5a3df9e02ac5d3cb2e94eafaf4c10becee5e7bc6901662dc5" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <uol name="0" value="../attack/0" />
+        <uol name="1" value="../attack/1" />
+        <uol name="2" value="../attack/2" />
+        <uol name="3" value="../attack/3" />
+        <uol name="4" value="0" />
+        <uol name="5" value="1" />
+        <uol name="6" value="2" />
+        <uol name="7" value="3" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="33" y="56" />
+                    <string name="_hash" value="58c1d2cda3978da6115f0cd6a82756cd73f1036ce3169be755175b9a42e0f73b" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="42" y="67" />
+                    <string name="_hash" value="1b3e5f49021dd6a2db86a97bc51dd5208ee6f609ce5c84432b101cd2f6ece755" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/1" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="800" />
+        </imgdir>
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="29" y="72" />
+            <vector name="lt" x="-29" y="-72" />
+            <vector name="rb" x="29" y="-24" />
+            <vector name="head" x="-16" y="-62" />
+            <int name="delay" value="100" />
+            <string name="_inlink" value="jump/0" />
+        </canvas>
+        <canvas name="1" width="73" height="45">
+            <vector name="origin" x="45" y="70" />
+            <vector name="lt" x="-30" y="-70" />
+            <vector name="rb" x="28" y="-25" />
+            <vector name="head" x="-16" y="-61" />
+            <int name="delay" value="100" />
+            <string name="_hash" value="d1ee450e6d362c76fe14d6fdb07b1ad74e8923f8b570998f818276fc3a39f052" />
+        </canvas>
+        <canvas name="2" width="72" height="42">
+            <vector name="origin" x="46" y="68" />
+            <vector name="lt" x="-31" y="-68" />
+            <vector name="rb" x="26" y="-26" />
+            <vector name="head" x="-17" y="-60" />
+            <int name="delay" value="100" />
+            <string name="_hash" value="4da60c3e4493256dd5aefefd5619470f6f8a9f14b1e3020748e4c78397e30029" />
+        </canvas>
+        <canvas name="3" width="76" height="45">
+            <vector name="origin" x="48" y="70" />
+            <vector name="lt" x="-30" y="-70" />
+            <vector name="rb" x="28" y="-25" />
+            <vector name="head" x="-16" y="-61" />
+            <int name="delay" value="100" />
+            <string name="_hash" value="dbb3ebdc7cd38bea5f8df1836d86957aebb8b63618ca79f1a2e9513b62e4ec21" />
+        </canvas>
+        <uol name="4" value="0" />
+        <uol name="5" value="1" />
+        <uol name="6" value="2" />
+        <uol name="7" value="3" />
+    </imgdir>
+</imgdir>

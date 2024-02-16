@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9402374.img">
+    <imgdir name="info">
+        <int name="boss" value="1" />
+        <int name="level" value="140" />
+        <string name="mobType" value="7N" />
+        <int name="category" value="8" />
+        <string name="elemAttr" value="P2H2F2I2S2L2D2" />
+        <int name="skeleton" value="1" />
+        <int name="ignoreFieldOut" value="1" />
+        <int name="ignoreMoveImpact" value="1" />
+        <int name="useReaction" value="1" />
+        <int name="firstAttack" value="1" />
+        <int name="maxHP" value="2100000000" />
+        <int name="maxMP" value="2000000" />
+        <int name="PADamage" value="25000" />
+        <int name="MADamage" value="25000" />
+        <int name="PDRate" value="90" />
+        <int name="MDRate" value="90" />
+        <int name="acc" value="9999" />
+        <int name="eva" value="750" />
+        <int name="pushed" value="1000000000" />
+        <float name="fs" value="10.0" />
+        <int name="noFlip" value="1" />
+        <int name="bodyAttack" value="1" />
+        <int name="isRemoteRange" value="1" />
+        <int name="hpTagColor" value="1" />
+        <int name="hpTagBgcolor" value="5" />
+        <int name="publicReward" value="1" />
+        <int name="explosiveReward" value="1" />
+        <int name="useCreateScript" value="1" />
+        <int name="invincible" value="1" />
+        <imgdir name="attack">
+            <imgdir name="0">
+                <int name="action" value="1" />
+                <int name="fixDamR" value="100" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="fixAttack" value="1" />
+                <int name="afterDelay" value="30000" />
+            </imgdir>
+        </imgdir>
+        <string name="finalmaxHP" value="12600000000" />
+        <int name="wp" value="30" />
+        <int name="charismaEXP" value="68" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="Stand3" />
+    </imgdir>
+    <imgdir name="attack1">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="0" y="0" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="100" />
+                <vector name="impactX" x="1" y="2" />
+                <vector name="impactY" x="1" y="2" />
+            </imgdir>
+            <imgdir name="bbox_body" />
+            <imgdir name="bbox_hang_r_hand" />
+            <imgdir name="bbox_hang_l_hand" />
+        </imgdir>
+        <string name="aniName" value="scean0" />
+    </imgdir>
+    <imgdir name="HitParts">
+        <imgdir name="bbox_body">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_hang_r_hand">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_hang_l_hand">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <canvas name="boss_hang_body.png" width="1024" height="1023">
+        <vector name="origin" x="512" y="511" />
+        <int name="z" value="0" />
+        <string name="_hash" value="5e7e1aa761be4f578927d359cd45188c39623343283f9cdb2db4e5a599f14d8a" />
+    </canvas>
+    <canvas name="boss_hang_body2.png" width="1019" height="989">
+        <vector name="origin" x="509" y="494" />
+        <int name="z" value="0" />
+        <string name="_hash" value="f668b7660de9ceb2bfdf4248363f143a8e54c1a5d8a6e4211176d9133280a90b" />
+    </canvas>
+    <canvas name="boss_hang_body3.png" width="791" height="215">
+        <vector name="origin" x="395" y="107" />
+        <int name="z" value="0" />
+        <string name="_hash" value="4e60187c1e05f6419029cae525c4d7b9b2f5aa87640c28fff45bb1dddf8a1b20" />
+    </canvas>
+    <string name="9402374.atlas" value="&#xA;boss_hang_body.png&#xA;size: 1024,1023&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_hang/eff_hang_0000_9&#xA;  rotate: true&#xA;  xy: 772, 526&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0001_8&#xA;  rotate: true&#xA;  xy: 548, 435&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0002_7&#xA;  rotate: false&#xA;  xy: 761, 313&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0003_6&#xA;  rotate: true&#xA;  xy: 548, 172&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_cloud_0002_smoke_bl-&#xA;  rotate: false&#xA;  xy: 772, 80&#xA;  size: 106, 104&#xA;  orig: 106, 104&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_cloud_0004_0smoke_g&#xA;  rotate: false&#xA;  xy: 761, 186&#xA;  size: 117, 125&#xA;  orig: 117, 125&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_arm0&#xA;  rotate: false&#xA;  xy: 880, 34&#xA;  size: 134, 277&#xA;  orig: 134, 277&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_body_m&#xA;  rotate: false&#xA;  xy: 2, 171&#xA;  size: 544, 850&#xA;  orig: 544, 850&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_body_t1&#xA;  rotate: true&#xA;  xy: 2, 18&#xA;  size: 151, 282&#xA;  orig: 151, 282&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_body_t2&#xA;  rotate: true&#xA;  xy: 772, 904&#xA;  size: 117, 247&#xA;  orig: 117, 247&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_body_t3&#xA;  rotate: true&#xA;  xy: 772, 789&#xA;  size: 113, 238&#xA;  orig: 113, 238&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_side_t0&#xA;  rotate: true&#xA;  xy: 772, 2&#xA;  size: 76, 98&#xA;  orig: 76, 98&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_tentacle0&#xA;  rotate: false&#xA;  xy: 548, 698&#xA;  size: 218, 323&#xA;  orig: 218, 323&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_tentacle2&#xA;  rotate: true&#xA;  xy: 286, 28&#xA;  size: 141, 484&#xA;  orig: 141, 484&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_hang_body2.png&#xA;size: 1019,989&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_hang/eff_hang_0004_5&#xA;  rotate: true&#xA;  xy: 540, 355&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0005_4&#xA;  rotate: false&#xA;  xy: 524, 142&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0006_3&#xA;  rotate: true&#xA;  xy: 787, 176&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_cloud_0000_smoke_s-&#xA;  rotate: true&#xA;  xy: 222, 11&#xA;  size: 51, 66&#xA;  orig: 51, 66&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_cloud_0001_smoke_m--&#xA;  rotate: true&#xA;  xy: 2, 26&#xA;  size: 91, 117&#xA;  orig: 91, 117&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_cloud_0003_0smoke_g_s&#xA;  rotate: true&#xA;  xy: 540, 628&#xA;  size: 101, 95&#xA;  orig: 101, 95&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_stone_0000_2&#xA;  rotate: false&#xA;  xy: 222, 64&#xA;  size: 53, 53&#xA;  orig: 53, 53&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_stone_0001_1&#xA;  rotate: false&#xA;  xy: 121, 2&#xA;  size: 44, 38&#xA;  orig: 44, 38&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_stone_0002_0&#xA;  rotate: false&#xA;  xy: 277, 72&#xA;  size: 42, 45&#xA;  orig: 42, 45&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_arm1&#xA;  rotate: true&#xA;  xy: 649, 618&#xA;  size: 369, 325&#xA;  orig: 369, 325&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_body_t0&#xA;  rotate: false&#xA;  xy: 328, 49&#xA;  size: 194, 317&#xA;  orig: 194, 317&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_hand0&#xA;  rotate: true&#xA;  xy: 753, 439&#xA;  size: 177, 264&#xA;  orig: 177, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_side_t1&#xA;  rotate: true&#xA;  xy: 121, 42&#xA;  size: 75, 99&#xA;  orig: 75, 99&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_tentacle1&#xA;  rotate: false&#xA;  xy: 328, 368&#xA;  size: 210, 361&#xA;  orig: 210, 361&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_tentacle3&#xA;  rotate: true&#xA;  xy: 2, 119&#xA;  size: 610, 324&#xA;  orig: 610, 324&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hang_head_tentacle4&#xA;  rotate: false&#xA;  xy: 2, 731&#xA;  size: 645, 256&#xA;  orig: 645, 256&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_hang_body3.png&#xA;size: 791,215&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_hang/eff_hang_0007_2&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0008_1&#xA;  rotate: false&#xA;  xy: 265, 2&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_hang/eff_hang_0009_0&#xA;  rotate: false&#xA;  xy: 528, 2&#xA;  size: 261, 211&#xA;  orig: 261, 211&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+    <sound name="9402374" />
+</imgdir>

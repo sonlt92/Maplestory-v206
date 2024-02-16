@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1069.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="Show me the meso" />
+        <string name="desc" value="Tag the tresure chests in the B1 Subway Supply Depot, B2 Subway Supply Depot, and B3 Subway Supply Depot" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Tag the Treasure Chest in B1 Subway Supply Depot" />
+            <string name="keyword" value="Treasure Chest in B1 Subway Supply Depot" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Tag the Treasure Chest in B2 Subway Supply Depot" />
+            <string name="keyword" value="Treasure Chest in B2 Subway Supply Depot" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Tag the Treasure Chest in B3 Subway Supply Depot" />
+            <string name="keyword" value="Treasure Chest in B3 Subway Supply Depot" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

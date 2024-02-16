@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="610.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Surprise Mission] Mission Possible" />
+        <string name="desc" value="Clear a Surprise Mission 100 times" />
+        <int name="parentId" value="613" />
+        <string name="difficulty" value="normal" />
+        <int name="score" value="10" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="suddenmission_complete" />
+        </imgdir>
+        <string name="keyword" value="Clear Surprise Missions" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Clear a Surprise Mission 10 times" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="100" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

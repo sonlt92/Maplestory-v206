@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9090004.img">
+    <imgdir name="info">
+        <imgdir name="adDisplay">
+            <int name="width" value="200" />
+            <int name="height" value="220" />
+            <imgdir name="adImage">
+                <canvas name="0" width="257" height="200">
+                    <string name="_hash" value="67d27c7a8d029b28d5a12a562f9fa27685257740b4c0497d75461d7f30995c70" />
+                </canvas>
+            </imgdir>
+            <imgdir name="adBackgrnd">
+                <canvas name="0" width="1" height="1">
+                    <string name="_hash" value="2677d69eb140e5ce8acfdc1e83f8a8d3f9c4fb515f0219301fb09ada41341b93" />
+                    <string name="_outlink" value="Npc/1540000.img/info/adDisplay/adBackgrnd/0" />
+                </canvas>
+                <canvas name="ladderRope0" width="57" height="131">
+                    <string name="_hash" value="7ad0c461baba66cde2b700f615f63f516f8a970acb6e621b0814ed06327aed41" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <string name="_hash" value="c944a6e754079c4af8dc41aea40ae0ba1d3db5b48433ac58d1a53c2c3d50e912" />
+                    <string name="_outlink" value="Npc/1540000.img/info/adDisplay/adBackgrnd/1" />
+                </canvas>
+                <canvas name="ladderRope1" width="1" height="1">
+                    <string name="_inlink" value="info/adDisplay/adBackgrnd/ladderRope0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="button">
+                <imgdir name="0">
+                    <imgdir name="normal">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-100" y="-220" />
+                            <string name="_hash" value="4f8050dfbb0538a6df594b5f45972a46b65fff06c48acbfb1a67344fa39ee697" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="pressed">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-100" y="-220" />
+                            <string name="_hash" value="95e08c292a9932dd3e5ffbe5923bfc9163a130b90dbacbe2b9c6b351ae45b186" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="disabled">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-100" y="-220" />
+                            <string name="_hash" value="e0150857ff322fb18233606b64f4f44b3730c5c91b79911eac3d9d443538d60c" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="keyFocused">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-100" y="-220" />
+                            <string name="_hash" value="f953dd1e2ef1787d0d503df37b6378645a39062b54b4fa3381ca3088ab2de642" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="mouseOver">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="-100" y="-220" />
+                            <string name="_inlink" value="info/adDisplay/button/0/keyFocused/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="action" value="1" />
+                    <vector name="origin" x="-100" y="-220" />
+                </imgdir>
+                <imgdir name="1">
+                    <imgdir name="normal">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-25" y="-220" />
+                            <string name="_hash" value="9bdea0c9f97bd0dc100436f0d1ba7fa5307393c7a04ccf345a5180d143c2d0c8" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="pressed">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-25" y="-220" />
+                            <string name="_hash" value="3d105d6f6d26b131714517b06984f8d6c5061ad62a3cb0a497623bc59080ce6a" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="disabled">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-25" y="-220" />
+                            <string name="_hash" value="c3ac6f7b5cb90b5aa49b5bcb4e92da25649f256de11a3542f392faec557d2e35" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="keyFocused">
+                        <canvas name="0" width="68" height="25">
+                            <vector name="origin" x="-25" y="-220" />
+                            <string name="_hash" value="cece4e0ceadd1fd1e219ce565e8f3b27b07c12d0f10c3a9917d65ddb2fb23832" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="mouseOver">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="-25" y="-220" />
+                            <string name="_inlink" value="info/adDisplay/button/1/keyFocused/0" />
+                        </canvas>
+                    </imgdir>
+                    <vector name="origin" x="-25" y="-220" />
+                    <int name="action" value="2" />
+                </imgdir>
+            </imgdir>
+            <vector name="rel_aware" x="-243" y="-32" />
+            <vector name="rel_view" x="-29" y="-282" />
+            <vector name="rel_rolling" x="68" y="-482" />
+            <vector name="rel_ladderRope" x="43" y="-304" />
+            <int name="rollingWidth" value="300" />
+            <int name="rollingHeight" value="33" />
+            <int name="type" value="1" />
+        </imgdir>
+        <int name="hide" value="1" />
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="403" y="628" />
+            <int name="delay" value="3000" />
+            <string name="_hash" value="8577edd22163b12a14a0ac92397fa66b5d675176653e9427283c6e92da37528f" />
+            <string name="_outlink" value="Npc/9390011.img/stand/0" />
+        </canvas>
+    </imgdir>
+</imgdir>

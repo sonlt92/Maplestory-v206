@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1079.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Ellinel" />
+        <string name="desc" value="Explore these locations in and around Ellinel!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Ellinel Lake Shore in Midsummer Night's Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="101070000" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="101070001" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="field_id" value="101070010" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Ellinel Lake Shore" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Radiant Lake Path 1 in Midsummer Night's Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101070100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Radiant Lake Path 1" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Radiant Lake Path 2 in Midsummer Night's Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101070200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Radiant Lake Path 2" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Radiant Lake Path 3 in Midsummer Night's Forest" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101070300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Radiant Lake Path 3" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Above the Lake 1 at Ellinel Lake Shore" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101071000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Above the Lake 1" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Above the Lake 2 at Ellinel Lake Shore" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101071100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Above the Lake 2" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Above the Lake 3 at Ellinel Lake Shore" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101071200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Above the Lake 3" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Ellinel Academy Gate at Ellinel Lake Shore" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101071300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Ellinel Academy Gate" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Ellinel Academy Lobby at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="101072000" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="101072001" />
+                                </imgdir>
+                                <imgdir name="2">
+                                    <int name="field_id" value="101072002" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Ellinel Academy Lobby" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Second Floor: West Dorm at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Second Floor: West Dorm" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Second Floor: Library at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Second Floor: Library" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Second Floor: Corridor at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072300" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Second Floor: Corridor" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Second Floor: East Dorm at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072400" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Second Floor: East Dorm" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Third Floor: West Dorm at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072500" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Third Floor: West Dorm" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Third Floor: Library at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072600" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Third Floor: Library" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Third Floor: Corridor at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072700" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Third Floor: Corridor" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Third Floor: East Dorm at Ellinel Fairy Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101072800" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Third Floor: East Dorm" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Onion Farm in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101073000" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Onion Farm" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Desolate Orchard 1 in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="fieldset">
+                            <string name="fieldset_name" value="fairyAcademy1_" />
+                            <int name="fieldset_index" value="0" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Desolate Orchard 1" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Turnip Plantation in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101073100" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Turnip Plantation" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Desolate Orchard 2 in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="fieldset">
+                            <string name="fieldset_name" value="fairyAcademy2_" />
+                            <int name="fieldset_index" value="0" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Desolate Orchard 2" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Vacant Lot in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101073200" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Vacant Lot" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Kidnapping Site in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <int name="field_id" value="101073201" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Kidnapping Site" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Outdoor Theater Stage in Mandraky Field" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="fieldset">
+                            <string name="fieldset_name" value="fairyAcademyBoss_" />
+                            <int name="fieldset_index" value="0" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Outdoor Theater Stage" />
+        </imgdir>
+    </imgdir>
+</imgdir>

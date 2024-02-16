@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1170.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="memory" />
+        <string name="subCategory" value="quest" />
+        <string name="name" value="If you need help, call for Squishy" />
+        <string name="desc" value="Complete All Daily Quests in Haven" />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="&lt;Haven - Collection&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39101" />
+                                    <int name="1" value="39102" />
+                                    <int name="2" value="39103" />
+                                    <int name="3" value="39104" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="&lt;Haven - Patrol&gt;  Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39105" />
+                                    <int name="1" value="39106" />
+                                    <int name="2" value="39107" />
+                                    <int name="3" value="39108" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="&lt;Scrapyard - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39111" />
+                                    <int name="1" value="39112" />
+                                    <int name="2" value="39113" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="&lt;Scrapyard - Delivery&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39114" />
+                                    <int name="1" value="39115" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="&lt;Scrapyard - Repair&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39116" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="&lt;Scrapyard - Liberation&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39117" />
+                                    <int name="1" value="39118" />
+                                    <int name="2" value="39119" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="&lt;Skyline - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39121" />
+                                    <int name="1" value="39122" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="&lt;Skyline - Collection&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39123" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="&lt;Skyline - Liberation&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39124" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="&lt;Skyline - Repair&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39125" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="&lt;Skyline - Delivery&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39126" />
+                                    <int name="1" value="39127" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="&lt;Black Heaven Deck - Defense&gt;  Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39131" />
+                                    <int name="1" value="39132" />
+                                    <int name="2" value="39133" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="&lt;Black Heaven Deck - Collection&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39134" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="&lt;Black Heaven Deck - Delivery&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39135" />
+                                    <int name="1" value="39136" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="&lt;Black Heaven Inside - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39141" />
+                                    <int name="1" value="39142" />
+                                    <int name="2" value="39143" />
+                                    <int name="3" value="39144" />
+                                    <int name="4" value="39145" />
+                                    <int name="5" value="39146" />
+                                    <int name="6" value="39147" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="&lt;Black Heaven Inside - Collect 4&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39148" />
+                                    <int name="1" value="39149" />
+                                    <int name="2" value="39150" />
+                                    <int name="3" value="39151" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="&lt;Black Heaven Inside - Repair&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39152" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="&lt;Black Heaven Inside - Delivery&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <imgdir name="quest_id">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <int name="0" value="39153" />
+                                    <int name="1" value="39154" />
+                                    <int name="2" value="39155" />
+                                </imgdir>
+                            </imgdir>
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="&lt;Scrapyard Special Request - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39161" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="&lt;Skyline Special Request - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39162" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="&lt;Black Heaven Deck Special Request - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39163" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="&lt;Black Heaven Inside Special Request - Defense&gt; Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="39164" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

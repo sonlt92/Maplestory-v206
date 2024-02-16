@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9961033.img">
+    <imgdir name="info">
+        <int name="range" value="600" />
+        <int name="grade" value="1" />
+        <imgdir name="skill">
+            <int name="id" value="851" />
+            <int name="effectAfter" value="960" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <string name="link" value="attack1" />
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="attack1" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="190" height="140">
+            <vector name="origin" x="73" y="140" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <vector name="lt" x="-63" y="-138" />
+            <vector name="rb" x="91" y="-8" />
+            <vector name="head" x="-5" y="-132" />
+            <string name="_hash" value="b6c79ecb0bcd5f770cc91a05dc34e302179f1a556ef90450fdf88324b47dec1c" />
+        </canvas>
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+</imgdir>

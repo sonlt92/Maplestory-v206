@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659110.img">
+    <imgdir name="info">
+        <string name="info" value="탈리아 에어플랜츠" />
+        <int name="backTile" value="1" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="72" height="91">
+            <vector name="origin" x="36" y="45" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="651d3211f8a63b46b03aedd3d373748740bff1b7edbf44401da8ea98dde01603" />
+        </canvas>
+        <canvas name="1" width="72" height="92">
+            <vector name="origin" x="36" y="44" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="9b3d6892022a0bad4cccfb969ddd45abce28b36826541d87f71d420094e40e04" />
+        </canvas>
+        <canvas name="2" width="72" height="92">
+            <vector name="origin" x="36" y="43" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="523771084621b536e71bddf7e82ce1fafabd1c270c8b7486f75153b188ddf515" />
+        </canvas>
+        <canvas name="3" width="71" height="91">
+            <vector name="origin" x="36" y="39" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="cab7be33c5f4bdba7a561bf71d2379ac4bbb9c84f339df8337c88e19eeea3f02" />
+        </canvas>
+        <canvas name="4" width="72" height="104">
+            <vector name="origin" x="36" y="44" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="f553b8f775777d68fc7801eadccf3d730592ebd1dcb8794379676f38696c3570" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="79" height="122">
+                <vector name="origin" x="40" y="68" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ea165f6201ba83bf3a73f7c6fafb4c4daa66cc8e13a5e4aefa3dbcb5d23b7a93" />
+            </canvas>
+        </imgdir>
+        <int name="repeat" value="1" />
+    </imgdir>
+    <imgdir name="1">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+        <uol name="0" value="../0/0" />
+        <uol name="1" value="../0/1" />
+        <uol name="2" value="../0/2" />
+        <uol name="3" value="../0/3" />
+        <uol name="4" value="../0/4" />
+        <int name="repeat" value="1" />
+    </imgdir>
+    <imgdir name="2">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="3" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="39" y="71" />
+                <int name="z" value="0" />
+                <int name="a0" value="255" />
+                <int name="a1" value="0" />
+                <int name="delay" value="360" />
+                <string name="_inlink" value="0/hit/0" />
+            </canvas>
+        </imgdir>
+        <uol name="0" value="../0/0" />
+        <uol name="1" value="../0/1" />
+        <uol name="2" value="../0/2" />
+        <uol name="3" value="../0/3" />
+        <uol name="4" value="../0/4" />
+        <int name="repeat" value="1" />
+    </imgdir>
+    <imgdir name="3">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="0" y="0" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="101" />
+                <int name="state" value="0" />
+            </imgdir>
+            <int name="timeOut" value="110000" />
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="36" y="45" />
+                <int name="z" value="0" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="0/0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <string name="action" value="PL_ELUNA_ItemDrop01" />
+</imgdir>

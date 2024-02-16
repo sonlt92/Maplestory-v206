@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1064.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Shop] The satisfied merchants have blessed you" />
+        <string name="desc" value="Spend more than 10 billion mesos in NPC shops" />
+        <int name="parentId" value="1386" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="npcshop_buy" />
+        </imgdir>
+        <imgdir name="prior">
+            <string name="block" value="hide" />
+            <string name="condition" value="and" />
+            <imgdir name="values">
+                <imgdir name="0">
+                    <int name="achievement_id" value="1063" />
+                    <int name="achievement_state" value="2" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <string name="keyword" value="Mesos Spent in NPC Shops" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Spend more than 10 billion mesos in NPC shops" />
+            <imgdir name="subMission">
+                <imgdir name="npcshop_buy">
+                    <imgdir name="score">
+                        <int name="targetScore" value="10000000000" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="sum" />
+                        <string name="setValue" value="meso" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

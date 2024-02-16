@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="249.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="job" />
+        <string name="subCategory" value="story" />
+        <string name="name" value="Aran's Journal" />
+        <string name="desc" value="Complete Aran Story Quest" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <int name="sync" value="1" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Complete &lt;The Puppeteer's Warning&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="21720" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Complete &lt;The Black Wing Conspiracy&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="21732" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Complete &lt;The Stolen Seal Stone of Orbis&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="21740" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Complete &lt;The Stolen Seal Stone of Mu Lung&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="21748" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Complete &lt;Neinheart's Thanks&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="21758" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

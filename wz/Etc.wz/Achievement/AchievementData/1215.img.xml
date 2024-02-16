@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1215.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="quest" />
+        <string name="name" value="[FriendStory] Behind FriendStory" />
+        <string name="desc" value="Complete all FriendStory Hidden Stories 10 times" />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <int name="sync" value="1" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Complete &lt;Hidden Story: I &lt;3 Orchid&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33044" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Complete &lt;Hidden Story: Moist Lips&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33046" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Complete &lt;Hidden Story: Cheesy and Corny&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33047" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Complete &lt;Hidden Story: NO DATING&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33048" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Complete &lt;Hidden Story: Comfort Food&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33049" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Complete &lt;Hidden Story: Not A Squid&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="33050" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

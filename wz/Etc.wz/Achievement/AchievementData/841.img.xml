@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="841.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="loot" />
+        <string name="name" value="[Arcane Symbol] It Glimmers So" />
+        <string name="desc" value="Obtain 10 Arcane Symbols from Arcane River monsters" />
+        <int name="parentId" value="844" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="pickup_mob_reward_item" />
+        </imgdir>
+        <string name="keyword" value="Obtain an Arcane Symbol" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Obtain 10 Arcane Symbols from Arcane River monsters" />
+            <imgdir name="subMission">
+                <imgdir name="pickup_mob_reward_item">
+                    <imgdir name="score">
+                        <int name="targetScore" value="10" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="item">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="item_id" value="171" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

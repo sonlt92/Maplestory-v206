@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1171.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="memory" />
+        <string name="subCategory" value="quest" />
+        <string name="name" value="Tree Cleansing Daily Part-Time Job" />
+        <string name="desc" value="All Daily Quests in Dark World Tree Completed" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="&lt;[Daily] Cleansing of Lower Dark World Tree&gt;  Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="15418" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="&lt;[Daily] Cleansing of Mid-height Dark World Tree&gt;  Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="15419" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="&lt;[Daily] Cleansing of Upper Dark World Tree&gt;  Complete" />
+            <imgdir name="subMission">
+                <imgdir name="quest_state_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <int name="quest_id" value="15420" />
+                            <imgdir name="quest_state">
+                                <int name="min" value="2" />
+                                <int name="max" value="2" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

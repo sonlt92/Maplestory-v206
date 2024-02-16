@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="01802044.img">
+    <imgdir name="info">
+        <canvas name="icon" width="40" height="40">
+            <vector name="origin" x="2" y="36" />
+            <string name="_hash" value="aac666e6f0323e7e2eb18c09d9378024393b5c34aaf9e257e7e8298f2e3c9001" />
+        </canvas>
+        <canvas name="iconRaw" width="40" height="40">
+            <vector name="origin" x="2" y="36" />
+            <string name="_hash" value="3f60819776620a005db0bff55c8a4d96a3a00b9234936369ad0f38382d4719a0" />
+        </canvas>
+        <int name="tuc" value="7" />
+        <int name="reqLevel" value="0" />
+        <int name="cash" value="1" />
+    </imgdir>
+    <imgdir name="5000029">
+        <imgdir name="stand0">
+            <canvas name="0" width="43" height="39">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="637bc2ae0e89075a17ecb54776d8302c2931a84ae042a7170118a8b0dcd833cf" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="23" y="57" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="stand1">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="23" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="1" width="43" height="38">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="856f66df8a728aed600fc1dd3e896fc1704d0d98b1a7fc36fdc8b89c00016fe7" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="23" y="57" />
+                <string name="_inlink" value="5000029/stand1/1" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand1/1" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="23" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="5" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand1/1" />
+            </canvas>
+            <canvas name="6" width="1" height="1">
+                <vector name="origin" x="23" y="57" />
+                <string name="_inlink" value="5000029/stand1/1" />
+            </canvas>
+            <canvas name="7" width="43" height="38">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="2011f58be38806850c6584ae06e05c6e3f47ca855c0d8854dc13f0eb3bd4d41f" />
+            </canvas>
+        </imgdir>
+        <imgdir name="hungry">
+            <canvas name="0" width="43" height="39">
+                <vector name="origin" x="23" y="54" />
+                <string name="_hash" value="1876c006482d76478b1e7f089899bc0097eb7c2c838603e541639bd3abb45f15" />
+            </canvas>
+            <canvas name="1" width="43" height="39">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="3979627672d8fc92cd44eecea62fc57c14c4334eab55bb1ca740e0956313e47c" />
+            </canvas>
+            <canvas name="2" width="43" height="39">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="8d96c73060e5dabdacefd631b8373f0e8018b094094c50478acdadc58b8d63d4" />
+            </canvas>
+            <canvas name="3" width="43" height="39">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="751766fd7cab4b133897d8ab8de4e04944055a9f0b2a70fe6be38b63bc8dbbde" />
+            </canvas>
+        </imgdir>
+        <imgdir name="move">
+            <uol name="0" value="../stand1/0" />
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="23" y="57" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="jump">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+        </imgdir>
+        <imgdir name="sit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="22" y="63" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <uol name="1" value="0" />
+            <uol name="2" value="0" />
+            <uol name="3" value="0" />
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="4" />
+        </imgdir>
+        <imgdir name="chat">
+            <uol name="0" value="../stand0/0" />
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+            <uol name="3" value="../stand0/3" />
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+        </imgdir>
+        <imgdir name="angry">
+            <canvas name="0" width="43" height="52">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="ecb0292d2e8ad2f73bb34f7de6a78ea96d8f3f18f3358ba9339d1cafc958cc9d" />
+            </canvas>
+            <canvas name="1" width="43" height="54">
+                <vector name="origin" x="22" y="56" />
+                <string name="_hash" value="b71d1f8bb366d34047c4ce054a74bd5fbda45299d9110e301d299d75895de7e2" />
+            </canvas>
+            <canvas name="2" width="43" height="56">
+                <vector name="origin" x="21" y="57" />
+                <string name="_hash" value="527fbf1dfbc34743e175cbb2b194ac8758350b6bbf81e0a4fa1896215cb25e89" />
+            </canvas>
+            <canvas name="3" width="43" height="54">
+                <vector name="origin" x="22" y="56" />
+                <string name="_hash" value="d2a961509e79ab5f4bb66e2cb4c6c6a07d19e8cbfee19122b25f5fb3dffd156e" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <canvas name="8" width="1" height="1">
+                <vector name="origin" x="23" y="55" />
+                <string name="_inlink" value="5000029/angry/3" />
+            </canvas>
+            <canvas name="9" width="1" height="1">
+                <vector name="origin" x="22" y="56" />
+                <string name="_inlink" value="5000029/angry/3" />
+            </canvas>
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="8" />
+            <uol name="13" value="9" />
+            <uol name="14" value="10" />
+            <uol name="15" value="11" />
+        </imgdir>
+        <imgdir name="hang">
+            <canvas name="0" width="40" height="32">
+                <vector name="origin" x="20" y="64" />
+                <string name="_hash" value="d7831cbd0ac9c7013c5ec0f0816616b12cf0cbe69af92a787bebc35e43612048" />
+            </canvas>
+        </imgdir>
+        <imgdir name="ignore">
+            <canvas name="0" width="43" height="39">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="eeb78191c2a995f741df5310585aa2e2652e9a017b94e1ee1e4901500d9fd86f" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/ignore/0" />
+            </canvas>
+            <canvas name="2" width="43" height="39">
+                <vector name="origin" x="23" y="57" />
+                <string name="_hash" value="e52ae630f2d76a62e095a20ab0f0b34e59645fcebe95961f741990ceb670655f" />
+            </canvas>
+            <canvas name="3" width="43" height="39">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="456cf5f76991da1e0e6d9fda88107583040d99c608217f8b8cc7f5acb8ceefcc" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+        </imgdir>
+        <imgdir name="bewildered">
+            <canvas name="0" width="43" height="51">
+                <vector name="origin" x="22" y="56" />
+                <string name="_hash" value="03f2875ff41a6d1c3b38d0b455985f064b4a948d987c29e96a783eb96a660cee" />
+            </canvas>
+            <canvas name="1" width="43" height="53">
+                <vector name="origin" x="22" y="57" />
+                <string name="_hash" value="d3b7231b026688f98beca92ccf1a00e6a73266a6de7a22ea4cc95b04817264a9" />
+            </canvas>
+            <canvas name="2" width="43" height="55">
+                <vector name="origin" x="22" y="58" />
+                <string name="_hash" value="fdd26339672f68eecaa589ef3bca1fbd36857d7b1bcb0ba381319a3d148ab63d" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="22" y="57" />
+                <string name="_inlink" value="5000029/bewildered/1" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+        </imgdir>
+        <imgdir name="cry">
+            <canvas name="0" width="43" height="52">
+                <vector name="origin" x="21" y="61" />
+                <string name="_hash" value="53fa8eb73d6709b46445f338b7709ba7c261e297efa0e359f16c991b9f9d658e" />
+            </canvas>
+            <canvas name="1" width="43" height="54">
+                <vector name="origin" x="21" y="62" />
+                <string name="_hash" value="03f80be04f1a801b536cc7ed91715826797bad39e83b07f86f1342cb88d3b36f" />
+            </canvas>
+            <canvas name="2" width="43" height="56">
+                <vector name="origin" x="21" y="63" />
+                <string name="_hash" value="bcdeca9da56424b7fa6b10c884940f84fe8f0375192d4a5df55310d3b4080821" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="21" y="62" />
+                <string name="_inlink" value="5000029/cry/1" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+        </imgdir>
+        <imgdir name="fly">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="23" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="23" y="56" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="eat">
+            <canvas name="0" width="43" height="40">
+                <vector name="origin" x="23" y="55" />
+                <string name="_hash" value="48b5d3b69c49396ff82beb8f5b06a31e8743f907356146c9345cbd1fc2ff81e0" />
+            </canvas>
+            <canvas name="1" width="43" height="39">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="968f1b8a22afc0764ba9aed380e3111776b3ced433da714d3df445d53bc366f8" />
+            </canvas>
+            <canvas name="2" width="43" height="39">
+                <vector name="origin" x="23" y="57" />
+                <string name="_hash" value="7c39e8ec819897e856c8eba157a493afb539cf67b6be86ad2ddc24f9f64da40f" />
+            </canvas>
+            <canvas name="3" width="43" height="39">
+                <vector name="origin" x="23" y="56" />
+                <string name="_hash" value="dbed31066af1362666db8dda5b937473bc601af401aae50fa7e6294c4e7406fb" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+        </imgdir>
+        <imgdir name="turn">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="32" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="1" width="36" height="39">
+                <vector name="origin" x="39" y="55" />
+                <string name="_hash" value="3b5813ca7cbdaf513d8dcaebe257d854dad8e2c3e129b558ada7528185497c89" />
+            </canvas>
+            <canvas name="2" width="37" height="39">
+                <vector name="origin" x="46" y="55" />
+                <string name="_hash" value="da5fd419306d77f5e7d07f5ec0590f900c64794ffbcb8e6c5bbba5d3ae0d782a" />
+            </canvas>
+            <canvas name="3" width="40" height="29">
+                <vector name="origin" x="53" y="55" />
+                <string name="_hash" value="6454b5e7750c2e28110852e2869dd7324c528c8e4080ae2170f5207afc43f6c0" />
+            </canvas>
+            <canvas name="4" width="37" height="39">
+                <vector name="origin" x="46" y="55" />
+                <string name="_hash" value="5c36b55105f88027f0b7a7185dc4e3ef3ec1eb9d3de645604dd19dac5c41bcf9" />
+            </canvas>
+            <canvas name="5" width="36" height="39">
+                <vector name="origin" x="34" y="55" />
+                <string name="_hash" value="07d37d8a0fd6244b0bc88dd8103ee2b105c9d9cad8103502dd1c7a7f245cfa1d" />
+            </canvas>
+            <canvas name="6" width="36" height="39">
+                <vector name="origin" x="21" y="55" />
+                <string name="_hash" value="0be3bf7306e3642f042a6335c03662f664f264d54e570667042c9bc1e54530a0" />
+            </canvas>
+            <canvas name="7" width="36" height="39">
+                <vector name="origin" x="8" y="55" />
+                <string name="_hash" value="e2baa2b3a040e6dadc1cf65d6d440c34dba55d1c32ff744454cebb027395586b" />
+            </canvas>
+            <canvas name="8" width="36" height="39">
+                <vector name="origin" x="-5" y="55" />
+                <string name="_hash" value="0a4ab6a284079d2c25b8898bd5c4c7a695bee20c1d53cf424c9a7ee0680805f4" />
+            </canvas>
+            <canvas name="9" width="42" height="31">
+                <vector name="origin" x="-8" y="56" />
+                <string name="_hash" value="8472fe3e3f04ecbd2a030a96f0f3fab70549b448ec233f1d8968b6e7e1af85b2" />
+            </canvas>
+            <canvas name="10" width="1" height="1">
+                <vector name="origin" x="2" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <canvas name="11" width="1" height="1">
+                <vector name="origin" x="17" y="55" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="love">
+            <canvas name="0" width="43" height="50">
+                <vector name="origin" x="23" y="54" />
+                <string name="_hash" value="33f3e7227172f64e40c9ded47f5b3edf286b20f7dc74e1fb8dd6b7483fff0d98" />
+            </canvas>
+            <canvas name="1" width="43" height="52">
+                <vector name="origin" x="22" y="55" />
+                <string name="_hash" value="97b8e4136133c11dbd24f109619a4c65396759887c60db2f1b8f6dfc31cbd06e" />
+            </canvas>
+            <canvas name="2" width="43" height="54">
+                <vector name="origin" x="21" y="56" />
+                <string name="_hash" value="408b99d4aa46b9f690350ce9c61b8dc3de64dc50384dc43f1533bd783b93aee0" />
+            </canvas>
+            <canvas name="3" width="43" height="52">
+                <vector name="origin" x="22" y="55" />
+                <string name="_hash" value="bd431e899e48989e6c336fa05efb1c6be0f7f8e087bdbc29cb75847c0979b3e9" />
+            </canvas>
+            <uol name="4" value="0" />
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="0" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="0" />
+        </imgdir>
+        <imgdir name="sleep">
+            <canvas name="0" width="43" height="39">
+                <vector name="origin" x="20" y="60" />
+                <string name="_hash" value="d3925914f20d27b18cab2c99d64c7f1fa2e1dbf79f5356dd2a6e6a18048fcd22" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="20" y="60" />
+                <string name="_inlink" value="5000029/sleep/0" />
+            </canvas>
+            <canvas name="2" width="43" height="39">
+                <vector name="origin" x="20" y="61" />
+                <string name="_hash" value="d1b1a2bce919ff1fa51628a63607fe9b50782552ecd7feb48b327fb07630a41f" />
+            </canvas>
+            <canvas name="3" width="43" height="39">
+                <vector name="origin" x="20" y="62" />
+                <string name="_hash" value="fec04b2f95946cc01153c3a20e8e640ef981c0628af10120ccfd5ea13f6c06c3" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="20" y="61" />
+                <string name="_inlink" value="5000029/stand0/0" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="dung">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="23" y="55" />
+                <string name="_inlink" value="5000029/stand1/1" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="5000030">
+        <imgdir name="stand0">
+            <canvas name="0" width="63" height="41">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="ed3c41c6011533e2da6f7c1aa41be8a84fa03ca1103a71ef400049d1bf0b4a60" />
+            </canvas>
+            <canvas name="1" width="62" height="41">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="99242081e73ee328fb8a9f96fabe80b967b8721b017747b740ad28ce53dd8e92" />
+            </canvas>
+            <canvas name="2" width="64" height="41">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="c5f10da79465b5dab033eb4dc5bd5f5ce7b62f226648dce13cc339d686d9941d" />
+            </canvas>
+            <canvas name="3" width="66" height="42">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="cc2ad0553366838196feb0bad6e8cfb61d0b7ff4621acb94982b94bb429a51a1" />
+            </canvas>
+            <canvas name="4" width="64" height="42">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="1b011add476b610bec4d5d599f2381ec0ef68c87a9684deae7108b56f21b68d7" />
+            </canvas>
+        </imgdir>
+        <imgdir name="stand1">
+            <uol name="0" value="../stand0/0" />
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+            <uol name="3" value="../stand0/3" />
+            <uol name="4" value="../stand0/4" />
+            <uol name="5" value="../stand0/0" />
+            <uol name="6" value="../stand0/1" />
+            <uol name="7" value="../stand0/2" />
+            <uol name="8" value="../stand0/3" />
+            <uol name="9" value="../stand0/4" />
+        </imgdir>
+        <imgdir name="hungry">
+            <canvas name="0" width="53" height="36">
+                <vector name="origin" x="29" y="73" />
+                <string name="_hash" value="198af5737c135db252d352020599008780983e939feb6d37bf982eed5cf861a4" />
+            </canvas>
+            <canvas name="1" width="53" height="36">
+                <vector name="origin" x="29" y="74" />
+                <string name="_hash" value="6cc59fb3fd96b17ac5c6c63c32bb8149c3ac51962f526455ac2a9aab30059ee4" />
+            </canvas>
+            <canvas name="2" width="53" height="36">
+                <vector name="origin" x="30" y="75" />
+                <string name="_hash" value="b793d6afa81fc49540d85b657d7895f035f8e0e275483070510ccab342681dcd" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="31" y="75" />
+                <string name="_inlink" value="5000030/hungry/2" />
+            </canvas>
+            <canvas name="4" width="53" height="36">
+                <vector name="origin" x="29" y="63" />
+                <string name="_hash" value="9144a3fb235416866ccb24cb08932a5932a612c3dd249da30d6bb82011c05d6c" />
+            </canvas>
+        </imgdir>
+        <imgdir name="move">
+            <canvas name="0" width="64" height="44">
+                <vector name="origin" x="29" y="84" />
+                <string name="_hash" value="d98d0a0f0d435bca25f916191cb1222ff4032104ae5ab989d81c118a87f308f7" />
+            </canvas>
+            <canvas name="1" width="66" height="44">
+                <vector name="origin" x="29" y="85" />
+                <string name="_hash" value="ea3b3b4881905659e51daaacec135704bed4c6e70ecfc03dfb4d90b516b28178" />
+            </canvas>
+            <canvas name="2" width="68" height="43">
+                <vector name="origin" x="30" y="85" />
+                <string name="_hash" value="65d6dc257299e6069ca3ba8d334b583b87df93b2eed57f7039087fced961a7b0" />
+            </canvas>
+            <canvas name="3" width="69" height="41">
+                <vector name="origin" x="31" y="83" />
+                <string name="_hash" value="074841dba21dbe94148c150455226517d85524bddbbeaf2d7c2c1757e09c4ab2" />
+            </canvas>
+            <canvas name="4" width="68" height="41">
+                <vector name="origin" x="30" y="82" />
+                <string name="_hash" value="643fda06ac191d24d885cf54bc24cd48a7c943df6892165739259113a1b36559" />
+            </canvas>
+        </imgdir>
+        <imgdir name="jump">
+            <canvas name="0" width="70" height="42">
+                <vector name="origin" x="32" y="86" />
+                <string name="_hash" value="f81723055d147a97a54dca4695f56262cb78cef11354210feedad6c587832b41" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sit">
+            <canvas name="0" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="6b72e817d0b107aace6de17dfd0e87b8214d2d4cbf19d9595482fc085559c580" />
+            </canvas>
+            <canvas name="1" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="7638ae09bdd30d254024c2f31528987194d0ab5d54798a21690a39beb0ed3fa8" />
+            </canvas>
+            <canvas name="2" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="c0c36ab0467b634e251d656b287d8c162ba447647e234a6c1a5eabdd79695615" />
+            </canvas>
+            <canvas name="3" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="12fa3240ad887c0d6b9a1171c2e1fb6dca84653eba68ca15e142f921e1870fce" />
+            </canvas>
+            <canvas name="4" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="54c8ee74975f783da34c81ac768aef75d1af2bf5853f74d37d01cbe5936d125d" />
+            </canvas>
+            <canvas name="5" width="64" height="39">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="109c889c5104e4034e3cef12ba8371fe4bc909e8e160260064194ab652fd72f2" />
+            </canvas>
+        </imgdir>
+        <imgdir name="chat">
+            <canvas name="0" width="62" height="38">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="e46d08159ec7179f82e1c18f97016567d606fa6b57707415a2b07f15e48fe2ec" />
+            </canvas>
+            <canvas name="1" width="61" height="38">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="8562a24dd41d2a3536b43b184fa41572b3bfd93d7bdbf533399e0c6bf332bb9c" />
+            </canvas>
+            <canvas name="2" width="62" height="38">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="411d3d719fb7b28004700dffde2d33506785e0b1580d03d6c800aa0918334250" />
+            </canvas>
+            <canvas name="3" width="65" height="39">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="930a4bf2bb8ff27b80df7e0adc70abfcb209d54438b21f3755a68d29c4640356" />
+            </canvas>
+            <canvas name="4" width="63" height="39">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="65ba223209d2be904b2e946867ae7718c6e3b5481473b4a27b6ab891d1ddc18e" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="angry">
+            <canvas name="0" width="64" height="43">
+                <vector name="origin" x="28" y="79" />
+                <string name="_hash" value="b9d9f3523659b9d79d22c81d34e93411faf27c2fe4ec1e9a91dbda27c3742d21" />
+            </canvas>
+            <canvas name="1" width="66" height="53">
+                <vector name="origin" x="28" y="88" />
+                <string name="_hash" value="bb0e34515c017c4d987b73d8a207c264abba55bd0b0bb0959820d97ceb8789dc" />
+            </canvas>
+            <canvas name="2" width="68" height="57">
+                <vector name="origin" x="25" y="92" />
+                <string name="_hash" value="e262d9f3fa62cbb496614b075cc975ee7e16b5814e560e1f351447c85be3e95c" />
+            </canvas>
+            <canvas name="3" width="70" height="58">
+                <vector name="origin" x="27" y="94" />
+                <string name="_hash" value="4616dd34ae93a634e2310fcd2163cb8000735cb2f1d69a3220b1f8a15935efec" />
+            </canvas>
+            <canvas name="4" width="69" height="58">
+                <vector name="origin" x="27" y="95" />
+                <string name="_hash" value="66f1fd65b41ae8e24a49a182fbed92f3474035e6bb1a894e205e4ebd8bf5a19f" />
+            </canvas>
+            <canvas name="5" width="65" height="48">
+                <vector name="origin" x="29" y="83" />
+                <string name="_hash" value="f5981ae15e3b78f1cfb1a4e0f2330a5472c14483b0289d54a65ee6fb0e742870" />
+            </canvas>
+            <uol name="6" value="0" />
+            <uol name="7" value="1" />
+            <uol name="8" value="2" />
+            <uol name="9" value="3" />
+            <uol name="10" value="4" />
+            <uol name="11" value="5" />
+            <uol name="12" value="0" />
+            <uol name="13" value="1" />
+            <uol name="14" value="2" />
+            <uol name="15" value="3" />
+            <uol name="16" value="4" />
+            <uol name="17" value="5" />
+        </imgdir>
+        <imgdir name="hang">
+            <canvas name="0" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+        </imgdir>
+        <imgdir name="nothing">
+            <canvas name="0" width="62" height="38">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="16804ef5d72b4a8ff60f697c2bc3d16c239a969daeda1df5dcfed965fc57b8ad" />
+            </canvas>
+            <canvas name="1" width="61" height="38">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="bdc1d9ec311e5f22720a344d785fce0e5853841daceac22001f9c56729455b8e" />
+            </canvas>
+            <canvas name="2" width="62" height="38">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="54c104bb64de3e9c89b975b16a1e0f0b2c916d6b636e683d3d9cc516f1122150" />
+            </canvas>
+            <canvas name="3" width="65" height="39">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="6ce8060927aa4d4537d49eb6da01f7234dbdb795338273e82e1fd78c9229202c" />
+            </canvas>
+            <canvas name="4" width="63" height="39">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="bede5334052da0fa57fa28515042ab24cb818355fbc2040f4daac9492141c4f1" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="bewildered">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="f41811c401599d8ad4e766a40756e8b9a25021e3530e6359e5cd3b96ba5639a9" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="ae548ad52226d737fb8334afd44bbe94f3a6cd08cfe0d88dbca981ab8914ea03" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="27fe6fe3e39650027fc71c7e901c254f82ff08275eae262e744d1885e4052b29" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="7d9e17279c8defc801b6bee0f75ca406d329f6c13e182fabbd5ddf6e3dc436e6" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="aff00057ba038a90e6739d6875fad430b751406c682411eef6c16708eceb293a" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="cry">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="9f893d43d34e7cbc2185b67f550656ea86240c0decf307f6dd519571bf634ac7" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="c6936f6b5477df579d9580aaebac9613daa672f5c799664e480c3bfcce724482" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="f8f5401ac3ccf6625e45cafdfd6659bb6c8b68751a1970454011cf6ffb276560" />
+            </canvas>
+            <canvas name="3" width="63" height="40">
+                <vector name="origin" x="31" y="80" />
+                <string name="_hash" value="9b931e3bf937deabe994ee0e11e50fc7caf2d4236cfb0bbc78147e9f85ca27fc" />
+            </canvas>
+            <canvas name="4" width="62" height="40">
+                <vector name="origin" x="30" y="79" />
+                <string name="_hash" value="483648a6a8a8f101c720860746085ad6f857d4a2e0c4016a730340b028ad3c85" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="eat">
+            <canvas name="0" width="62" height="38">
+                <vector name="origin" x="29" y="77" />
+                <string name="_hash" value="e4a0b5c4b326991eb981ea91732b2a78de3a196fad785ed84e0a85732c5d60a2" />
+            </canvas>
+            <canvas name="1" width="61" height="38">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="ee18abb350279ab3e1d5293d43f62807c7282f413752cf534da51ceeb2c41312" />
+            </canvas>
+            <canvas name="2" width="63" height="38">
+                <vector name="origin" x="30" y="79" />
+                <string name="_hash" value="6ab7acd67af38114541f776406541eec8fbccb32919ac788773ef1f6ed81bdcd" />
+            </canvas>
+            <canvas name="3" width="65" height="38">
+                <vector name="origin" x="31" y="80" />
+                <string name="_hash" value="cf2713c8688d925b523f191c9f26447ae833b080dcc296f28f1d902a129c03e6" />
+            </canvas>
+            <canvas name="4" width="63" height="38">
+                <vector name="origin" x="30" y="79" />
+                <string name="_hash" value="293c9dfd95a8fe1bfd10d7767fbccefea9ede7f5b1bcb0c1a77b317b92877091" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="love">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="7a17245497da78c2593e714fbd4158507da05eecdff3050fbcf8652baf351a96" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="0d14aa0c695dab90a13f87e725c558d13d182386edb73e413046e2798646183b" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="21ef4ecea7bb9f6e43d6c8ee2ed5b47964bd0a35dc397c84878ad2a0d9f6a2c4" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="fe6e7c8a0ad4c7686d955e2a5757143f4affd8f3f398ec9b20c4fc4008ebee4b" />
+            </canvas>
+            <canvas name="4" width="63" height="44">
+                <vector name="origin" x="29" y="83" />
+                <string name="_hash" value="cafe8f681cd47d24fe824dbb5114ed0e2d6a4d5057418b96ae3c954d08b08dd4" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="sleep">
+            <canvas name="0" width="60" height="35">
+                <vector name="origin" x="22" y="32" />
+                <string name="_hash" value="e0aedfed131fe65aaee69bd802d3392b53eebfefad0d9fa7690f95ac1719d859" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="22" y="32" />
+                <string name="_inlink" value="5000030/sleep/0" />
+            </canvas>
+            <canvas name="2" width="60" height="35">
+                <vector name="origin" x="22" y="32" />
+                <string name="_hash" value="eed790ca8c5f2752e6fd7ca3f1e267a040363fe5e41366334af8100c69b55387" />
+            </canvas>
+            <canvas name="3" width="60" height="35">
+                <vector name="origin" x="22" y="32" />
+                <string name="_hash" value="4022a27031d9f197b2c102910d45cf68e4e485e3121d18729f7873280968947f" />
+            </canvas>
+            <canvas name="4" width="60" height="35">
+                <vector name="origin" x="22" y="32" />
+                <string name="_hash" value="047aeda9d428411d96207790433e45b71b049d636d407b6c48f35303329cae7e" />
+            </canvas>
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="4" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="4" />
+            <canvas name="13" width="60" height="35">
+                <vector name="origin" x="22" y="32" />
+                <string name="_hash" value="96aecb0636f36a35785470e1d366e170cd450572c80fac035c3e8920bc0ffcc0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="change">
+            <canvas name="0" width="62" height="38">
+                <vector name="origin" x="27" y="79" />
+                <string name="_hash" value="cc93341077756e113548956f983ada42a3be6bd1d21f1576cc3c4cfdb70e25cf" />
+            </canvas>
+            <canvas name="1" width="62" height="40">
+                <vector name="origin" x="27" y="80" />
+                <string name="_hash" value="8d7bd4e17145d0b952c632f44d3628b6921e632ab6674d1c63b325685faf88ad" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="29" y="83" />
+                <string name="_hash" value="fb51b87a68ac3faec90a4eedb91032aaa2506a60adf7a7a8bbdc8158579f7b1a" />
+            </canvas>
+            <canvas name="3" width="66" height="45">
+                <vector name="origin" x="30" y="86" />
+                <string name="_hash" value="25322c23f38db00aa7f179ae2906744fa72730ecff8442d25cfc98d84052c333" />
+            </canvas>
+            <canvas name="4" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="5" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="6" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="7" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="8" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="9" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="10" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="11" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="12" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="13" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="14" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="15" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="16" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="17" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="18" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="19" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="20" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="21" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="22" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="23" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="24" width="63" height="41">
+                <vector name="origin" x="28" y="81" />
+                <string name="_hash" value="84ad32708b17b13a51ad397a7bccdcb36e1a2b3a3a9e9cfadbd15d4035136130" />
+            </canvas>
+        </imgdir>
+        <imgdir name="dung">
+            <canvas name="0" width="65" height="39">
+                <vector name="origin" x="32" y="81" />
+                <string name="_hash" value="06bd511ec4daebc44c1a6115f40d1c3ca125389c637c0986425a3fc1818e9b4b" />
+            </canvas>
+        </imgdir>
+        <imgdir name="fly">
+            <uol name="0" value="../stand0/1" />
+            <uol name="1" value="../stand0/2" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="5000031">
+        <imgdir name="stand0">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="036add07d5727ef9e3d045b13e4d1b8761668260164c8dc017647e64efbf6b13" />
+            </canvas>
+            <canvas name="1" width="61" height="43">
+                <vector name="origin" x="28" y="82" />
+                <string name="_hash" value="407554a6c9189115e0372b7ab87ef48b4b82addb0bfbbb3c3efb4eb909b21c8c" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="bd71891d67af367cfef257bc7abb5a79fbb1367b3c2931acfcb46312f0ae6e19" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="0b75732abfbf34f89aecd839556cd27d0167c60d883f4167f9982e3ef53491d4" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="811f1ad3843cc99ab26997966ad7bd04c381fa1e4efd214092aad437b7a7d143" />
+            </canvas>
+        </imgdir>
+        <imgdir name="stand1">
+            <uol name="0" value="../stand0/0" />
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+            <uol name="3" value="../stand0/3" />
+            <uol name="4" value="../stand0/4" />
+            <uol name="5" value="../stand0/0" />
+            <uol name="6" value="../stand0/1" />
+            <uol name="7" value="../stand0/2" />
+            <uol name="8" value="../stand0/3" />
+            <uol name="9" value="../stand0/4" />
+        </imgdir>
+        <imgdir name="hungry">
+            <canvas name="0" width="53" height="36">
+                <vector name="origin" x="29" y="73" />
+                <string name="_hash" value="db0a426c42b67b1570d519929a11eb7326cad1fa95bc76a9054e5f5b04dab5c3" />
+            </canvas>
+            <canvas name="1" width="53" height="36">
+                <vector name="origin" x="29" y="74" />
+                <string name="_hash" value="5216699ba85013baa97376725a825c1ff488062b04db645f5f025f1538e2ba47" />
+            </canvas>
+            <canvas name="2" width="53" height="36">
+                <vector name="origin" x="30" y="75" />
+                <string name="_hash" value="c54c63672c28082ff21e78a2f3309d6c61735179c502fed1edbd4998ae8f0f76" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="31" y="75" />
+                <string name="_inlink" value="5000031/hungry/2" />
+            </canvas>
+            <canvas name="4" width="53" height="36">
+                <vector name="origin" x="30" y="74" />
+                <string name="_hash" value="046ec46ea0dd1a7fdd1c5887d4697c2178ea1bb0288ef8044d706fd30a6204db" />
+            </canvas>
+        </imgdir>
+        <imgdir name="move">
+            <canvas name="0" width="65" height="46">
+                <vector name="origin" x="29" y="85" />
+                <string name="_hash" value="6ef0ad6ad4c5742aa2b724bd6692212585c695ab479ba27bf9414476cf98f09f" />
+            </canvas>
+            <canvas name="1" width="66" height="46">
+                <vector name="origin" x="29" y="86" />
+                <string name="_hash" value="ba8cb51ef26a01e36d6fccc6d94e97d4dfd1ed3b3d8b1578facf6634de5f16f9" />
+            </canvas>
+            <canvas name="2" width="68" height="45">
+                <vector name="origin" x="30" y="86" />
+                <string name="_hash" value="83831a84c0952662b67c7362395bc934c9ad136d32a399569c9a05f305052a15" />
+            </canvas>
+            <canvas name="3" width="69" height="43">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="473fbd18c9c97ca2a0d0cb904b84cf923039787df74be7d6c5b207951cd65685" />
+            </canvas>
+            <canvas name="4" width="68" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="3ded70d52c33a2550bcd88588779ac0d5f78715321e7f51337942fc5fe04fa32" />
+            </canvas>
+        </imgdir>
+        <imgdir name="jump">
+            <canvas name="0" width="70" height="44">
+                <vector name="origin" x="32" y="84" />
+                <string name="_hash" value="051c50a549cf6cec7ee47c0f559268a2f4a2616ef014f5dbb7e864ae4216a0d8" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sit">
+            <canvas name="0" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="b0353832d1625fb74eb24eee82ffd85cd025faafa71f13a47d25b944ffbde7df" />
+            </canvas>
+            <canvas name="1" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="94d591201a2b54de77313a669bc90db56cb27652a42f767bb53e54808598c460" />
+            </canvas>
+            <canvas name="2" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="99538e3a8295df9d2f975f7de45e1ea08b6341d3b99bab766609d8d967f946b6" />
+            </canvas>
+            <canvas name="3" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="950f6185b92e6df5befc2df48951185eeb637aa87e62078765131759a9f063d8" />
+            </canvas>
+            <canvas name="4" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="ddcf67d798dca349982ee706bf7de3d4a690c039b1d4aba6e8628b9e85941818" />
+            </canvas>
+            <canvas name="5" width="64" height="41">
+                <vector name="origin" x="29" y="56" />
+                <string name="_hash" value="cb0bbe3ff0bfe0005583e497a810ef7d7c9e94fa2b3f5ea80c90c340d86205eb" />
+            </canvas>
+        </imgdir>
+        <imgdir name="chat">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="742a2b967f11d3daa5e9a7d08231cd4d99789ab15cc69fdfe480c2b7436a1d47" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="70a73cccf179391f9ea7e3972c23782857c88db5c8916864292ee92d0bec91fc" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="c84907ec4bcfb0bcb0ada1f13f19423edff023fb950fc42bf2fbc00fa2b2c171" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="f39b1ecc7de92fb0cc8ef6dbb2bbd92ed2e1ace37177e8e7aa499a40a360317f" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="5b0653e0d50aa645bddacb2b3414a64ab01de2ad55b4736321e1c9aec0696687" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="angry">
+            <canvas name="0" width="64" height="47">
+                <vector name="origin" x="27" y="79" />
+                <string name="_hash" value="6c8fd1997a5624db0ea2d09ad4eff87e535e9e82a471b5b01e8d841eb1a3d556" />
+            </canvas>
+            <canvas name="1" width="66" height="54">
+                <vector name="origin" x="27" y="88" />
+                <string name="_hash" value="3f3e766acd06d6b65dee20c5633da94fea0a4eb3ea8c4990ad026f6a699ba311" />
+            </canvas>
+            <canvas name="2" width="68" height="57">
+                <vector name="origin" x="29" y="92" />
+                <string name="_hash" value="ade82a1f6d9d3f0e8f0a7c4d31c6b707e5c04dfdd538293c1abe55b85c31ff27" />
+            </canvas>
+            <canvas name="3" width="70" height="58">
+                <vector name="origin" x="31" y="94" />
+                <string name="_hash" value="91ae341477deaa8d1507a7559733b7ac2349627f5e8ce4af9ddec137eac74da3" />
+            </canvas>
+            <canvas name="4" width="69" height="58">
+                <vector name="origin" x="31" y="95" />
+                <string name="_hash" value="ec1b7574afce3015027167b677fa24c0df9fdd0d50e76566913902206bd01e3d" />
+            </canvas>
+            <canvas name="5" width="66" height="48">
+                <vector name="origin" x="28" y="83" />
+                <string name="_hash" value="27bf18eba898b9846dc106eed082051c24ba405c8f7b1c26a556f9e857e5725f" />
+            </canvas>
+            <uol name="6" value="0" />
+            <uol name="7" value="1" />
+            <uol name="8" value="2" />
+            <uol name="9" value="3" />
+            <uol name="10" value="4" />
+            <uol name="11" value="5" />
+            <uol name="12" value="0" />
+            <uol name="13" value="1" />
+            <uol name="14" value="2" />
+            <uol name="15" value="3" />
+            <uol name="16" value="4" />
+            <uol name="17" value="5" />
+        </imgdir>
+        <imgdir name="hang">
+            <canvas name="0" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+        </imgdir>
+        <imgdir name="nothing">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="bf0819125aeed5d22502154b4c1fadcce4a582b9c89d8df8f7789e9a0a409d42" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="c199f745a5faa3c2b1edc852f31bde361348ed2136be481f385c3a25a8962363" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="419da35721843af4ad9babb9dff71ec4650a134c5c64c1d11eae7402a58aee8a" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="32cda9a61e3dd407c57ebf286d41bfca667ffeca0ff442cf15b7a1711fb777d4" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="93395e0690ac72c4d0f3481914471907d1536edae336ffff36a1156407b45e7d" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="bewildered">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="83a2f9abd79a5cfd80f72a07e58457ce9981c039380bf541f03e78754705e138" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="bab91df654b6cc0303b7adb828add69cbb08424f2941f8312a443947b69a94ec" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="ccb6e94118c2a8499bdd4361a7f2e98e4a47aac45f5db24df36887eedc1e1385" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="bb06def8017fd92ac2f0a8aba677ebfa6f0fb8fa4955c46baf3018cfa3f99cc4" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="95e54a09abfc7ee27a59f2e9ef1624586999d5e584009f30c91add187bf4134b" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="cry">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="a0baeb520746a997e183c8f04d5521741d88a847c7b315943e533cd4392b2a3c" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="f863e57a7f3a32c2d8a6fe4ba9836fda69945f62685f79c9ee14510bfb950d81" />
+            </canvas>
+            <canvas name="2" width="65" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="5f431b1d1452a7dd0945553e5ba8f18cb791849439f67bee8c402d34ffc7bcf0" />
+            </canvas>
+            <canvas name="3" width="63" height="40">
+                <vector name="origin" x="31" y="80" />
+                <string name="_hash" value="5cbb81ec73c2d89e201743b76d103f6af675babef0023877495df8dbb6fe1ee1" />
+            </canvas>
+            <canvas name="4" width="62" height="40">
+                <vector name="origin" x="30" y="79" />
+                <string name="_hash" value="b708af4fec586a691132e5bf192dbdcbe51bfda6ce85a05788549f843f3d91c6" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="eat">
+            <canvas name="0" width="63" height="40">
+                <vector name="origin" x="30" y="78" />
+                <string name="_hash" value="0d578181ebc078195dd05e2a52d63ef1dac526bc7be7cbfa4522501432f94884" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="33c4201c5a9b1dabc20743e673688dbda554b558a119e45916a11d8ba45d4c89" />
+            </canvas>
+            <canvas name="2" width="63" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="a3de574a56f85768ccfbc1d70ad5664c097cc681db9e4b0458af0686fc948787" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="3945785d8aaf1c126f28c7f0dd660fbc79511f02f7210b9d5b07e94d10aa8f3f" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="a3f27986352015b1aceb616541d80fcfc1a7ea381f75990810b9ea9ec0bbe7bd" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="love">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="6bb44e47ba953cc0e6b32ce3afd44fc7ba8cbdce6a0d91bcb5ae6b6858b3cc71" />
+            </canvas>
+            <canvas name="1" width="63" height="43">
+                <vector name="origin" x="30" y="82" />
+                <string name="_hash" value="be21352542e6ab7c2bca7b8193eaf3509252cee2d76de3c60a5bb32172829fce" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="19e4b1170cb6f914ce274152c769b7582aff40c096a48ec58741bd069bc45c11" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="acb52cc366afd69047c649f75422e12480735c637aed5df9fe9406c9344329cb" />
+            </canvas>
+            <canvas name="4" width="63" height="44">
+                <vector name="origin" x="29" y="83" />
+                <string name="_hash" value="f5590ea8bfc665ddc71e064e423228c9b664bb34a3e50a96d3fb644f8f3cc67b" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="sleep">
+            <canvas name="0" width="60" height="36">
+                <vector name="origin" x="22" y="33" />
+                <string name="_hash" value="34c1ed5aea860e93d0bf7f4f0fda92f28b31db6b4275c87c7b6b880aed9e5b16" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/0" />
+            </canvas>
+            <canvas name="2" width="60" height="36">
+                <vector name="origin" x="22" y="33" />
+                <string name="_hash" value="caa890dae4b0878fab5bf70a5ace362a1006b7bcb6719a52d75120309e41ca53" />
+            </canvas>
+            <canvas name="3" width="60" height="36">
+                <vector name="origin" x="22" y="33" />
+                <string name="_hash" value="a603ecfe8dd9defe238175054d7cbd954f26c59f4db931c1a53eb4603c7ea452" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/3" />
+            </canvas>
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="4" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="4" />
+            <canvas name="13" width="60" height="36">
+                <vector name="origin" x="22" y="33" />
+                <string name="_hash" value="573884dea25efea572194ebc4e7bbf4ee5f535eac2c3ed39f89b269c81bfa93b" />
+            </canvas>
+        </imgdir>
+        <imgdir name="change">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="28" y="75" />
+                <string name="_hash" value="d26b7ee11fab795099bc7ab1a20c43e209845e51a192237ff579bc02de10b611" />
+            </canvas>
+            <canvas name="1" width="62" height="40">
+                <vector name="origin" x="30" y="76" />
+                <string name="_hash" value="b97dd87d72cadeaf9b90fc7a814d3b8b0297a74e21f851fbeaf7efba71d3d52b" />
+            </canvas>
+            <canvas name="2" width="64" height="44">
+                <vector name="origin" x="32" y="80" />
+                <string name="_hash" value="fc34a79de2e27514ee230bb6073c14bda188c807d66821eb22c4adc23889a205" />
+            </canvas>
+            <canvas name="3" width="66" height="45">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="e383268f0d723898923d4035d87f6425bd6ccb06fe4e757578b5661e04810f9b" />
+            </canvas>
+            <canvas name="4" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="5" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="6" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="7" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="8" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="9" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="10" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="11" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="12" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="13" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="14" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="15" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="16" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="17" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="18" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="19" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="20" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="21" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="22" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="23" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="24" width="63" height="39">
+                <vector name="origin" x="29" y="75" />
+                <string name="_hash" value="d820852e0c22b294961156042de979ef567c050384f23294e2742008a8b21b46" />
+            </canvas>
+        </imgdir>
+        <imgdir name="dung">
+            <canvas name="0" width="65" height="41">
+                <vector name="origin" x="32" y="81" />
+                <string name="_hash" value="e91843f646fc3e9ff616153678ce1ec0484b307e9c062d5f081950bc6afb2264" />
+            </canvas>
+        </imgdir>
+        <imgdir name="fly">
+            <uol name="0" value="../stand0/1" />
+            <uol name="1" value="../stand0/2" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="5000032">
+        <imgdir name="stand0">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="184e86722e3de0fe89b53cdf7e4eb7f2a161e045722b26ce97ec9278dcf8f037" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="a898357845761aea9fbfbb4d40518ac1152d6fb4d598003ab6c63aeac6267ae7" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="84" />
+                <string name="_hash" value="81613516360f32b491867824d10b9bcf0607db9924c9807ea9a050ce8b3c53e4" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="85" />
+                <string name="_hash" value="2daa8676662b613bf6b3903160f55cbb43690f3e3329365c11a336396d3da6bb" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="84" />
+                <string name="_hash" value="d2308fb98e87a3cbf0f1015fab0a329a10c49b4ad25b0d0b4211cc1aa2bd4541" />
+            </canvas>
+        </imgdir>
+        <imgdir name="stand1">
+            <uol name="0" value="../stand0/0" />
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+            <uol name="3" value="../stand0/3" />
+            <uol name="4" value="../stand0/4" />
+            <uol name="5" value="../stand0/0" />
+            <uol name="6" value="../stand0/1" />
+            <uol name="7" value="../stand0/2" />
+            <uol name="8" value="../stand0/3" />
+            <uol name="9" value="../stand0/4" />
+        </imgdir>
+        <imgdir name="hungry">
+            <canvas name="0" width="53" height="36">
+                <vector name="origin" x="29" y="73" />
+                <string name="_hash" value="f1a44790d6edb90e715c2b07bc035272835e562338080b86f5fcd20ab4f8f654" />
+            </canvas>
+            <canvas name="1" width="53" height="36">
+                <vector name="origin" x="29" y="74" />
+                <string name="_hash" value="e40a24908382cb66f19a479dd509c49ddee59d2fb124309cac6b8dd38703b1f7" />
+            </canvas>
+            <canvas name="2" width="53" height="36">
+                <vector name="origin" x="30" y="75" />
+                <string name="_hash" value="144b86793b10ed904809f32ec1fe8fb318a7f1149ae5604dda21c18099389db7" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="31" y="75" />
+                <string name="_inlink" value="5000032/hungry/2" />
+            </canvas>
+            <canvas name="4" width="53" height="36">
+                <vector name="origin" x="30" y="74" />
+                <string name="_hash" value="915483e2dba39bc33ccaa38f3fd3dd788a5dda5311c7052296cd109747b5421d" />
+            </canvas>
+        </imgdir>
+        <imgdir name="move">
+            <canvas name="0" width="65" height="46">
+                <vector name="origin" x="29" y="84" />
+                <string name="_hash" value="1a75a367b1e0d7c2ffe2eeddd3f4f1915587e745d4d0832ad7fb3222e01f031e" />
+            </canvas>
+            <canvas name="1" width="66" height="46">
+                <vector name="origin" x="29" y="85" />
+                <string name="_hash" value="ee2c085ee809d95b1baf36c8857909c49a732545ace663396a61b6959248b5bb" />
+            </canvas>
+            <canvas name="2" width="68" height="45">
+                <vector name="origin" x="30" y="84" />
+                <string name="_hash" value="b54a05e8acd8caceffd91eafdc6a92aab8c72d737dea561688a46c185bf3c113" />
+            </canvas>
+            <canvas name="3" width="69" height="43">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="314258d2539800a6c043d9505660eb8e4155c113eba08e041c223f0b0f8d9d16" />
+            </canvas>
+            <canvas name="4" width="68" height="43">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="f579857024084090956af04ec50bb0285618a062b82f27dc5f65133439bd24b1" />
+            </canvas>
+        </imgdir>
+        <imgdir name="jump">
+            <canvas name="0" width="70" height="44">
+                <vector name="origin" x="32" y="85" />
+                <string name="_hash" value="329ca41f81f3268591b879e17b3fb88aea809282528c71a7fd065d8a5f4bb49a" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sit">
+            <canvas name="0" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="984a7c5eefffe64be6fe7587cd31390ea90cb70d6860ec6705a4ff7ec058279d" />
+            </canvas>
+            <canvas name="1" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="98c15bcb894de852f18994176fb397c6b13f94692f4614347a7127116993f375" />
+            </canvas>
+            <canvas name="2" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="8c50ddde66723f7a7970d083f5802d8abdb670ec7c1ef9033be44209db518828" />
+            </canvas>
+            <canvas name="3" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="4211b323f7d1589c1380d10ce8fa1f9549cb32c4a889eba753e4df061cfd084f" />
+            </canvas>
+            <canvas name="4" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="16785170405a9957516d0213162a4bfac11c3d8b617507368422613340a3f4cb" />
+            </canvas>
+            <canvas name="5" width="64" height="41">
+                <vector name="origin" x="28" y="56" />
+                <string name="_hash" value="41b901c48dbb33ffd87b0a4f42143b0862d5c9f68766aa7f94b451c99d9b9475" />
+            </canvas>
+        </imgdir>
+        <imgdir name="chat">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="9e578decf9b7c3c00d6360ce4a46bc5f69c3e118fe515d5ee8847389feeedeae" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="1fc420448141e5e1092c08b14427e5c8ca335aa1bde066becf20104ccc799c93" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="de88d19319e6200e75d6046af04f11cfd0b605be7910102af748a9ac2865d1c7" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="c99ccf46b9b9fe9ee4aeea55e69a715fd40d92c7935632da821ddeea8d7df77d" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="d88880b784053d51ae0de00958175825c34e90867286d11e43bc682d682178a0" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="angry">
+            <canvas name="0" width="64" height="47">
+                <vector name="origin" x="29" y="80" />
+                <string name="_hash" value="5fea83d8709d7ee3deb485b65fde87a156b675b89db42e7a4355ca36b2b4df3b" />
+            </canvas>
+            <canvas name="1" width="66" height="54">
+                <vector name="origin" x="32" y="88" />
+                <string name="_hash" value="76273304976db5ca716c3bd6ff79d1dbe3ef3c4edc45de9bda9109e161a2bc2c" />
+            </canvas>
+            <canvas name="2" width="68" height="57">
+                <vector name="origin" x="35" y="92" />
+                <string name="_hash" value="4b1942a17622f34509b2d0c5248bd3ad1f400a70633d21ce37bcf5d64ac8d722" />
+            </canvas>
+            <canvas name="3" width="70" height="58">
+                <vector name="origin" x="37" y="94" />
+                <string name="_hash" value="d8cfba7667f24502147c984e3680e47d719d2cc894c4fd53800677f812a2e976" />
+            </canvas>
+            <canvas name="4" width="69" height="58">
+                <vector name="origin" x="37" y="95" />
+                <string name="_hash" value="d5d33c80e10bb9aef856ca5c977445b9f7671a32e7e0c6b28dda78d2ee4e551a" />
+            </canvas>
+            <canvas name="5" width="66" height="48">
+                <vector name="origin" x="34" y="86" />
+                <string name="_hash" value="6484d667f099254b481930fe5e3376d54f96db1ab0f80b34d907d1cf97f15476" />
+            </canvas>
+            <uol name="6" value="0" />
+            <uol name="7" value="1" />
+            <uol name="8" value="2" />
+            <uol name="9" value="3" />
+            <uol name="10" value="4" />
+            <uol name="11" value="5" />
+            <uol name="12" value="0" />
+            <uol name="13" value="1" />
+            <uol name="14" value="2" />
+            <uol name="15" value="3" />
+            <uol name="16" value="4" />
+            <uol name="17" value="5" />
+        </imgdir>
+        <imgdir name="hang">
+            <canvas name="0" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+        </imgdir>
+        <imgdir name="nothing">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="f85bd59d229a0c85878a51a35ec0206e274a7c46f1c4e05c10e90d2321004b8a" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="5cd854a13ebfd99ce8f756dbd7965765ec64a68dfd241ff922e4b5f4a829b4ea" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="c0e4e399611f82a5804bf9c5dec69b87651ec2eaea0e12f7a959f23458aa66f1" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="c7a6f7f2e9f1e72277d5db9995b39035b7769ecd2cd4d1a1442a2dcc691fc59d" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="410155fba2c92e0ea56bfe34b0c36c57c110ddc75a84ec1b4681086afb4c1fde" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="bewildered">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="ea2281141a54770e8b9dfb0555c98cd2e40342c3f3ab704f1c7358ade571c563" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="b52d2ff8f50503fb6296ae16098127eb8d52315f48e409eec7b921dce1b8a88c" />
+            </canvas>
+            <canvas name="2" width="64" height="42">
+                <vector name="origin" x="30" y="82" />
+                <string name="_hash" value="c8f23b85f26dd389fae4f14bc8e2c6cf5fad2d2d6ad7d0b21d8cd6712237e9c0" />
+            </canvas>
+            <canvas name="3" width="66" height="43">
+                <vector name="origin" x="31" y="83" />
+                <string name="_hash" value="00e500dc869975d370b5627fb35482111905a03462cda17f4a699219bf0f51d2" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="3a37f6dc7c9020eeb13b6f22fec43af2a93fab9f3c2af9f21f57a2a3a6fab305" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="cry">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="23098fbb3facb012f9bc32c5a977b59574ad57e932ef9f47cac295f00e6a5969" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="1d9d4631fb591c7bce98d74d0830bf6a7d9db7ba0cbfa209c558593d3b7ce24c" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="2cd95f9d3ba7091f6d7596b2c444321e6753800cf49ea08a07a6d8c65c17bfcb" />
+            </canvas>
+            <canvas name="3" width="63" height="40">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="b7a229030d4ecc182488e3d177dce0a8c9bcd4b3315e172d6e14ebc6176a2459" />
+            </canvas>
+            <canvas name="4" width="62" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="0a47ef30ade144e30b20aa51ead50992761b5853dbec4ca96bc7b1ca7ab77551" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="eat">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="40800bb2d475240207b40712b4f0a53cd23706c463e770f6ebe50e9e611448f2" />
+            </canvas>
+            <canvas name="1" width="61" height="39">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="214ccc27a143e53ca77faf3efd55208897c51df5ee2f903e978266d9b1ae35e1" />
+            </canvas>
+            <canvas name="2" width="63" height="40">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="41808fceb221f2382df4aaae04e19d59e21894cfee436c2b66c12db1f5e491ad" />
+            </canvas>
+            <canvas name="3" width="65" height="50">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="5fd2960c2699d58ccaa82ff67af882c23d6bb4e1a62a2f9a42f63ed2fcd7a169" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="d41640a3beb030e91d89c587f59f1e6786eafb668a018325b908b4fd9f96782e" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="love">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="5b45aca471c81b53d23b2cd5076e2825e2d226d005062137c91e6c7175599c71" />
+            </canvas>
+            <canvas name="1" width="63" height="43">
+                <vector name="origin" x="30" y="82" />
+                <string name="_hash" value="8e7193fa02a987a0ca45e9ed7155bc879be6353736ebde63c1ae6eab6c338718" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="b0247fe00d3d8f71543ffaa7ef617e70d79b8ee551440ba24e6894dfd60b38d5" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="30" y="85" />
+                <string name="_hash" value="2d6afd07f5ad5b25daadede04e53119d368438b52a06e4f4c21f000fa52508b5" />
+            </canvas>
+            <canvas name="4" width="63" height="44">
+                <vector name="origin" x="29" y="83" />
+                <string name="_hash" value="c2b885f3e75fce7206af2bc4b1d5fd72a0ff6ca2705ae4e2a18e34a08d50c6ab" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="sleep">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/0" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/0" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/2" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/3" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/3" />
+            </canvas>
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="4" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="4" />
+            <canvas name="13" width="1" height="1">
+                <vector name="origin" x="22" y="33" />
+                <string name="_inlink" value="5000031/sleep/13" />
+            </canvas>
+        </imgdir>
+        <imgdir name="change">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="26" y="72" />
+                <string name="_hash" value="679e3631e6654b5c5cf5fb3e3e765aeb5abbe2be5f8e2d1b18d0eaad5070d255" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="28" y="72" />
+                <string name="_hash" value="0eeb86fb3fac9bedb96a7906e3b2e68a815a9716c4b786ec6180e8ff696f3366" />
+            </canvas>
+            <canvas name="2" width="64" height="44">
+                <vector name="origin" x="29" y="76" />
+                <string name="_hash" value="810f198d4ee419dd0654611efa327ce91f9bee0d6b1361b7eb3ca3397f3b7a9a" />
+            </canvas>
+            <canvas name="3" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="4" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="5" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="6" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="7" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="8" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="9" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="10" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="11" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="12" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="13" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="14" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="15" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="16" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="17" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="18" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="19" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="20" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="21" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="22" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="23" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="24" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="25" width="63" height="41">
+                <vector name="origin" x="26" y="74" />
+                <string name="_hash" value="665c609983d25bbc5a808dd8474832cc86c7d9e1fa8ba7e0cc2d92146278c192" />
+            </canvas>
+        </imgdir>
+        <imgdir name="dung">
+            <canvas name="0" width="65" height="41">
+                <vector name="origin" x="32" y="80" />
+                <string name="_hash" value="9d6e669b04c03d1cecb2a267cff2f29e94678da75108360957ce57e5318eb062" />
+            </canvas>
+        </imgdir>
+        <imgdir name="fly">
+            <uol name="0" value="../stand0/1" />
+            <uol name="1" value="../stand0/2" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="5000033">
+        <imgdir name="stand0">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="f5d8693459d0453a48808a4105db830433730922a016ce4c8bc35f8ede4937ed" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="842097236a7e22f8b2adafa351e08da72d8c8cfc9a1d508b6ba672eb270ce9c3" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="30" y="84" />
+                <string name="_hash" value="e6e7d529ca98394e26e2f302605eabfd72a27735d78713b8278e8eda17e6d8ea" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="85" />
+                <string name="_hash" value="62ce5910b47fdbdad1a30897d62a2cccf63fd5e346a8398a7eb9e421559c5276" />
+            </canvas>
+            <canvas name="4" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="6a725cc0634dd7590b041da75ff86d6d684fd6a57eea0a2ed811cba1c03464df" />
+            </canvas>
+        </imgdir>
+        <imgdir name="stand1">
+            <uol name="0" value="../stand0/0" />
+            <uol name="1" value="../stand0/1" />
+            <uol name="2" value="../stand0/2" />
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="85" />
+                <string name="_hash" value="3b791d44b3a0095035883a0ba082f7a452616d96f4ff1941334f64692fc18634" />
+            </canvas>
+            <uol name="4" value="../stand0/4" />
+            <uol name="5" value="../stand0/0" />
+            <canvas name="6" width="1" height="1">
+                <vector name="origin" x="29" y="81" />
+                <string name="_inlink" value="5000033/stand0/1" />
+            </canvas>
+            <canvas name="7" width="64" height="42">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="d94605d128b7bd0c2e04eeea00faa3c3336c004551c960db33370383cb0ae06f" />
+            </canvas>
+            <canvas name="8" width="66" height="43">
+                <vector name="origin" x="30" y="84" />
+                <string name="_hash" value="2a815980c9135fa82f1a4507b97239a8c4804f2ba03c5bb9112161004f4ff9e4" />
+            </canvas>
+            <canvas name="9" width="64" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="22e3169a7e46767cd0f7d56e8822c9be8737cae452ef08a4acfbc18df4e7c620" />
+            </canvas>
+        </imgdir>
+        <imgdir name="hungry">
+            <canvas name="0" width="53" height="37">
+                <vector name="origin" x="29" y="73" />
+                <string name="_hash" value="86498fe7662145cf8abf5962d02d835c589ffe7b9f7f30e06dea5067203d3fad" />
+            </canvas>
+            <canvas name="1" width="53" height="37">
+                <vector name="origin" x="29" y="74" />
+                <string name="_hash" value="2576fb7cb94b251660b289d12c6c91253f77d3c715c34effb9cd98c8baa8d091" />
+            </canvas>
+            <canvas name="2" width="53" height="37">
+                <vector name="origin" x="30" y="76" />
+                <string name="_hash" value="06e0ca3d29c5645b564db25f21990cf0ea1cb972e0042036f96c710e97f1b9e5" />
+            </canvas>
+            <canvas name="3" width="53" height="37">
+                <vector name="origin" x="31" y="76" />
+                <string name="_hash" value="2c8a34fbf871dfdfb92bd27d8fe659031e8db8755c8e9d6925332e19cc5f804e" />
+            </canvas>
+            <canvas name="4" width="53" height="37">
+                <vector name="origin" x="29" y="75" />
+                <string name="_hash" value="a707673562cd5133b870311a171b18821041c339a454b0d3a5bdb7cc7153bad9" />
+            </canvas>
+        </imgdir>
+        <imgdir name="move">
+            <canvas name="0" width="65" height="46">
+                <vector name="origin" x="29" y="84" />
+                <string name="_hash" value="9b56cdf18b1e6b40c10a16cdbfbd020b8fc95f30b87685ee043edbb4ce3820fb" />
+            </canvas>
+            <canvas name="1" width="66" height="46">
+                <vector name="origin" x="30" y="85" />
+                <string name="_hash" value="d5053c45e8b5ed19a1ff4da6b97fe1cf180c57f5317a8419c82512ce326479d4" />
+            </canvas>
+            <canvas name="2" width="68" height="45">
+                <vector name="origin" x="31" y="85" />
+                <string name="_hash" value="c835f34832d874f7b6e54ceec776d6bee5ab1a47e272394715362b1d64ff88e0" />
+            </canvas>
+            <canvas name="3" width="69" height="43">
+                <vector name="origin" x="32" y="83" />
+                <string name="_hash" value="21069c4a97a53391d14d872106d272557faf118ba9316e79f8d55ede7f860538" />
+            </canvas>
+            <canvas name="4" width="68" height="43">
+                <vector name="origin" x="31" y="81" />
+                <string name="_hash" value="a3f96cae878e0ab2cfd85839a679fb61125da0f0c2da806d35bc4f6f53fed8a8" />
+            </canvas>
+        </imgdir>
+        <imgdir name="jump">
+            <canvas name="0" width="70" height="44">
+                <vector name="origin" x="32" y="85" />
+                <string name="_hash" value="21599f84eaadcc6b944b264f6cbc6d3b614b856f61471b902fbd4ec7df5e7c1e" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sit">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="22" y="85" />
+                <string name="_hash" value="9d0883e623856c8990e7c7e9ebc118a09e74677e6b76411948deaeb3bd9ef6b2" />
+            </canvas>
+            <canvas name="1" width="64" height="44">
+                <vector name="origin" x="22" y="84" />
+                <string name="_hash" value="f6cf7d45fdeb9dbe7bb1648d00172a54869aacadbe4137a55f909d1a01d4848c" />
+            </canvas>
+            <canvas name="2" width="65" height="45">
+                <vector name="origin" x="22" y="84" />
+                <string name="_hash" value="a10dec8989746338ec95abda313c9fcf4e8fdb7314f2dbfc8ec1ce2aefa43d5a" />
+            </canvas>
+            <canvas name="3" width="64" height="44">
+                <vector name="origin" x="22" y="82" />
+                <string name="_hash" value="3d13d5aec509beab0b83af9ebbfa118b1417739b1122073eb131cc9663a99719" />
+            </canvas>
+            <canvas name="4" width="63" height="43">
+                <vector name="origin" x="22" y="83" />
+                <string name="_hash" value="5bca38506932aa204a694bb83b746ca5d67b86b0c20c0ac56df6a01909e16b15" />
+            </canvas>
+            <canvas name="5" width="64" height="44">
+                <vector name="origin" x="22" y="84" />
+                <string name="_hash" value="3b5fd20e7c52a82569c90f70cd81e693d8c6b4a4679fbfc58eef1dba521d559c" />
+            </canvas>
+            <canvas name="6" width="1" height="1">
+                <vector name="origin" x="22" y="86" />
+                <string name="_inlink" value="5000033/sit/2" />
+            </canvas>
+            <canvas name="7" width="64" height="44">
+                <vector name="origin" x="22" y="86" />
+                <string name="_hash" value="7a841464325f6ddf7da008e9c949de6cfd4b8a5966c346a778128f859b3792c3" />
+            </canvas>
+        </imgdir>
+        <imgdir name="chat">
+            <canvas name="0" width="62" height="42">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="988c2a7ddf7184b1e2c6539ee215f1c2b00cdb00e22a57f358960429fab465be" />
+            </canvas>
+            <canvas name="1" width="61" height="40">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="9368a1686340bc419a781d8a2790236ea6f701149d320418a1961985c6624c13" />
+            </canvas>
+            <canvas name="2" width="62" height="42">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="e5b7a23be76134824b12286f14f681657553345bbf0e9308fe8052d93e7a09f2" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="2de59261f70c0609ed1589b1d6931aef77f4fbdd3ee91cad0ae202ac0c4b8701" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="d737c42f7ec30df583c21fb225b8cf44a20b55dd0fa8d4cb27996dbb27627b9f" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="angry">
+            <canvas name="0" width="61" height="42">
+                <vector name="origin" x="27" y="76" />
+                <string name="_hash" value="927f6e1fe3cdca643b8e81acf4766a493e73f25839a33bfc41bad18aee0fa2b8" />
+            </canvas>
+            <canvas name="1" width="64" height="53">
+                <vector name="origin" x="29" y="88" />
+                <string name="_hash" value="b1c51e443fc1015d531982efce8ad3a23145b3be61963d6964c424a3fe5c32c9" />
+            </canvas>
+            <canvas name="2" width="67" height="57">
+                <vector name="origin" x="31" y="92" />
+                <string name="_hash" value="43c21b7b0255c5c09cbeabf0fe3c12203d84eab7c10d42cb53d2fe599e1fd71d" />
+            </canvas>
+            <canvas name="3" width="70" height="58">
+                <vector name="origin" x="33" y="95" />
+                <string name="_hash" value="f7fc6fd77e75d53314579096a9408efd99fc60dddd56ae99d75e6a2a2ebf51af" />
+            </canvas>
+            <uol name="4" value="2" />
+            <uol name="5" value="3" />
+            <canvas name="6" width="98" height="58">
+                <vector name="origin" x="64" y="95" />
+                <string name="_hash" value="5b820cfeed4187805b12617de87de24597629792da53528e4b192d74eb0177b9" />
+            </canvas>
+            <canvas name="7" width="65" height="57">
+                <vector name="origin" x="33" y="94" />
+                <string name="_hash" value="0723d12f5b440802f193fda907bec95db7851824b58db351af523dd39a1f93a1" />
+            </canvas>
+            <canvas name="8" width="63" height="55">
+                <vector name="origin" x="32" y="93" />
+                <string name="_hash" value="118ce0d3fbf73542d964ed2664f2bcc5f9368c96b2bb4e6a7ed2a00431460a26" />
+            </canvas>
+        </imgdir>
+        <imgdir name="hang">
+            <canvas name="0" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sigh">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="361d62efc83d0bb68067f5124ab9c922c45fc40bd98eac4d3456eda018f5f082" />
+            </canvas>
+            <canvas name="1" width="61" height="42">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="a8e87eaaacd2890d9da7b0333babd52d6fcab6afb518a0e4156044a1f8d9caab" />
+            </canvas>
+            <canvas name="2" width="62" height="40">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="5aa644f06386c74ddec0c9b9e55e734a14c932c4aa366bbc19ad77ece39a2ad0" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="c8ca5a191f88b02d6fc082fcc6a97b3644ff1247025dc130444841d4e6ea16dc" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="81" />
+                <string name="_hash" value="14802a812551cc73322b3b4db0468ad98dbaf1688b4c9ba56ff0cc3934143255" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+        </imgdir>
+        <imgdir name="bewildered">
+            <canvas name="0" width="63" height="45">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="8fd06f0513b57559eeef58aab85be517975440e470aa372a0681921648eb746e" />
+            </canvas>
+            <canvas name="1" width="62" height="45">
+                <vector name="origin" x="30" y="82" />
+                <string name="_hash" value="c7fb5522951c8c89d63ba293a0e50e39ffd9c58c06344d271ca93e706e0921da" />
+            </canvas>
+            <canvas name="2" width="64" height="45">
+                <vector name="origin" x="31" y="84" />
+                <string name="_hash" value="e62503467fd5b39058f2176b999e9830fcf84518a7bba78bd59d86c35f886497" />
+            </canvas>
+            <canvas name="3" width="66" height="46">
+                <vector name="origin" x="32" y="85" />
+                <string name="_hash" value="1c7e754cb41cd4abb5f67bdfd8345e24a7d1d7d492c393afb174b591b4d75f2a" />
+            </canvas>
+            <canvas name="4" width="64" height="46">
+                <vector name="origin" x="31" y="83" />
+                <string name="_hash" value="001fdecb8113752cc0b0d3037de9ca5fcd843cf604c29c616b0a9764de52fde1" />
+            </canvas>
+        </imgdir>
+        <imgdir name="cry">
+            <canvas name="0" width="62" height="42">
+                <vector name="origin" x="29" y="74" />
+                <string name="_hash" value="0c3a3288b3eebe6b7aa2761fa865b83579a52701a48263168f1893d6d8df4640" />
+            </canvas>
+            <canvas name="1" width="61" height="42">
+                <vector name="origin" x="29" y="75" />
+                <string name="_hash" value="c80ab0b3f6229a4314bacdc9c0ab0e1f4e2060d52f24782dd698daaf49547675" />
+            </canvas>
+            <canvas name="2" width="62" height="42">
+                <vector name="origin" x="30" y="77" />
+                <string name="_hash" value="af74015c07d62fa1779a43c34c41a15298428762c947e1d18a1d769fe17bc590" />
+            </canvas>
+            <canvas name="3" width="63" height="42">
+                <vector name="origin" x="31" y="77" />
+                <string name="_hash" value="e6b4a0c57c2025549354ab68d994c09ef071795c4d2e5143d16bf9185b7c0805" />
+            </canvas>
+            <canvas name="4" width="62" height="42">
+                <vector name="origin" x="30" y="75" />
+                <string name="_hash" value="44242f89a1f510038cea74207113245f91b399fabafde726fbc817db6098ca6e" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="eat">
+            <canvas name="0" width="62" height="42">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="cf020308835f7b2c5de9b6373a83d7e0ed84fd35692709901f3c4fa285680dc8" />
+            </canvas>
+            <canvas name="1" width="61" height="38">
+                <vector name="origin" x="29" y="79" />
+                <string name="_hash" value="266744edea459efef2da09ec75648771f3900bfc5ac74f4852923c2f5b7ce43a" />
+            </canvas>
+            <canvas name="2" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="279741a43772881886d7d191bc754f2b3a2a9a64f30d41cde3cef56372827754" />
+            </canvas>
+            <canvas name="3" width="65" height="41">
+                <vector name="origin" x="31" y="82" />
+                <string name="_hash" value="1393debd31e58136637563e30462a3e9b0017d982ac0e6d920885852aae57c16" />
+            </canvas>
+            <canvas name="4" width="63" height="41">
+                <vector name="origin" x="30" y="80" />
+                <string name="_hash" value="199cddec7c1dc3c691d508468a7def7b3fd2528b79240cb82a8fb6a00a903802" />
+            </canvas>
+            <uol name="5" value="0" />
+            <uol name="6" value="1" />
+            <uol name="7" value="2" />
+            <uol name="8" value="3" />
+            <uol name="9" value="4" />
+            <uol name="10" value="0" />
+            <uol name="11" value="1" />
+            <uol name="12" value="2" />
+            <uol name="13" value="3" />
+            <uol name="14" value="4" />
+        </imgdir>
+        <imgdir name="love">
+            <canvas name="0" width="63" height="43">
+                <vector name="origin" x="29" y="81" />
+                <string name="_hash" value="e4cff5cacd08904c14db026d1fe2af7ecbd2b20a06e35632139796f482551162" />
+            </canvas>
+            <canvas name="1" width="62" height="43">
+                <vector name="origin" x="29" y="82" />
+                <string name="_hash" value="13b2aad8bd79bb046f637a998907b358c20f7bffecc7a4d128b47f7fc42cb1e2" />
+            </canvas>
+            <canvas name="2" width="64" height="43">
+                <vector name="origin" x="29" y="85" />
+                <string name="_hash" value="96de98fb0de4163629016738b8f3d44f93028a851e3dfc7a4d0da4c1a687831a" />
+            </canvas>
+            <canvas name="3" width="66" height="44">
+                <vector name="origin" x="31" y="85" />
+                <string name="_hash" value="1a2785d1f772b9ab1a90c295a83fcacf583fbf2e2260d488d44e1bf88752c1e8" />
+            </canvas>
+            <uol name="4" value="1" />
+            <uol name="5" value="2" />
+            <uol name="6" value="3" />
+            <uol name="7" value="1" />
+            <uol name="8" value="2" />
+            <uol name="9" value="3" />
+            <canvas name="10" width="64" height="44">
+                <vector name="origin" x="30" y="83" />
+                <string name="_hash" value="f484cd35c5e09160e90f56bb0b8825f7abd2f60ac7737ab1e626fd4c996d65c0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="sleep">
+            <canvas name="0" width="64" height="57">
+                <vector name="origin" x="19" y="54" />
+                <string name="_hash" value="4e3ea727b5463a370bc1cf3ecff71e544558d5fcf5f84c414da53b8801326af2" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="19" y="54" />
+                <string name="_inlink" value="5000033/sleep/0" />
+            </canvas>
+            <canvas name="2" width="64" height="58">
+                <vector name="origin" x="19" y="55" />
+                <string name="_hash" value="58bf8f5bde87c71696e35cea5064c4657d940a94bcde85e020902e15b4103e7f" />
+            </canvas>
+            <canvas name="3" width="64" height="59">
+                <vector name="origin" x="19" y="56" />
+                <string name="_hash" value="fbe19575c405795a193598e8fdcbb8c8b92a29eca8d1458438a7f01d99c2fa02" />
+            </canvas>
+            <canvas name="4" width="64" height="59">
+                <vector name="origin" x="19" y="56" />
+                <string name="_hash" value="bd7fb0ab662d62a249bfe056a9c7ac747a63e62a0c7ee4a2a724f31175f6b09b" />
+            </canvas>
+            <uol name="5" value="1" />
+            <uol name="6" value="2" />
+            <uol name="7" value="3" />
+            <uol name="8" value="4" />
+            <uol name="9" value="1" />
+            <uol name="10" value="2" />
+            <uol name="11" value="3" />
+            <uol name="12" value="4" />
+            <uol name="13" value="6" />
+        </imgdir>
+        <imgdir name="change">
+            <canvas name="0" width="62" height="40">
+                <vector name="origin" x="27" y="74" />
+                <string name="_hash" value="3e6b98f95475cf1da0306e0b269ec7fc0f7831d370b19af9888788c8f099b697" />
+            </canvas>
+            <canvas name="1" width="63" height="43">
+                <vector name="origin" x="29" y="78" />
+                <string name="_hash" value="c6d4b34cf8245f416d200045646d2f0b953e064633fff2431a56e611b6f706be" />
+            </canvas>
+            <canvas name="2" width="66" height="47">
+                <vector name="origin" x="33" y="82" />
+                <string name="_hash" value="aa9cca0fc5afaee5277da575707d3da5d28595896a10a383ef9c12faa751e587" />
+            </canvas>
+            <canvas name="3" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="4" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="5" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="6" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="7" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="8" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="9" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="10" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="11" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="12" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="13" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="14" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="15" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="16" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="17" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="18" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="19" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="20" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="21" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="22" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="23" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="24" width="4" height="4">
+                <vector name="origin" x="51" y="63" />
+            </canvas>
+            <canvas name="25" width="62" height="43">
+                <vector name="origin" x="31" y="78" />
+                <string name="_hash" value="cb52ad671c44899110b9fd6a766ffaefbe9a223ddb9ad5bf4eb43c7b500fb1a1" />
+            </canvas>
+        </imgdir>
+        <imgdir name="dung">
+            <canvas name="0" width="64" height="41">
+                <vector name="origin" x="32" y="81" />
+                <string name="_hash" value="ccc68807d2f4211e783d440bdd8b4c9d0469180e2b01f4bf1a9fa516cb83041e" />
+            </canvas>
+        </imgdir>
+        <imgdir name="fly">
+            <uol name="0" value="../stand0/1" />
+            <uol name="1" value="../stand0/2" />
+        </imgdir>
+    </imgdir>
+    <uol name="5000312" value="5000032" />
+    <uol name="5000329" value="5000031" />
+</imgdir>

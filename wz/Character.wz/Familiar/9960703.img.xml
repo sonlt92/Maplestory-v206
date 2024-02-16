@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960703.img">
+    <imgdir name="info">
+        <int name="grade" value="0" />
+        <int name="range" value="600" />
+        <imgdir name="skill">
+            <int name="id" value="809" />
+            <int name="effectAfter" value="600" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="116" height="132">
+            <vector name="origin" x="52" y="117" />
+            <vector name="lt" x="-34" y="-103" />
+            <vector name="rb" x="45" y="0" />
+            <vector name="head" x="-3" y="-102" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="127fed9233e24e93eb980b66a4360e09c1f0c15e238ddc8f0c558959fce0db12" />
+        </canvas>
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <string name="link" value="attack1" />
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="178" height="190">
+                    <vector name="origin" x="86" y="144" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="02a1abe45d8b6c1ca474287da5fb0225fb964cb319721925afef93d16ddf11a6" />
+                </canvas>
+                <canvas name="1" width="157" height="322">
+                    <vector name="origin" x="81" y="287" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="25e273dd6760ce22f917ca2254c0cfabe7b6c87829199c7222f8e9fdbb596b8e" />
+                </canvas>
+                <canvas name="2" width="170" height="326">
+                    <vector name="origin" x="88" y="293" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c547ff09d677e0ca3892d0d37e1719106d16d7f23bf0c15215b24243d589ba90" />
+                </canvas>
+                <canvas name="3" width="181" height="275">
+                    <vector name="origin" x="94" y="238" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="806372d868ad408b90bffea0efcb2a1c20f88ba4e870a161b5f36171011e8fec" />
+                </canvas>
+                <canvas name="4" width="181" height="318">
+                    <vector name="origin" x="94" y="279" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="59f385b71b2ab3846cb9c0973569c4610edaae5fbc92241de43ffe8c20635ba8" />
+                </canvas>
+                <canvas name="5" width="182" height="313">
+                    <vector name="origin" x="94" y="285" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="38395d23bb53346ea261e54ab666ed060004960493ff4b99ccf94bf7666e8a28" />
+                </canvas>
+                <canvas name="7" width="64" height="161">
+                    <vector name="origin" x="-2" y="285" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="581077471834b86702d7086e62a1a0587c3195b0a6e5fddcce9f2877de01da37" />
+                </canvas>
+                <canvas name="6" width="177" height="296">
+                    <vector name="origin" x="91" y="272" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="4a55c03665ee8f81bf8555ced84917bfc13b051ac19143b7f8698516d97abf24" />
+                </canvas>
+                <int name="attach" value="1" />
+            </imgdir>
+            <int name="attackAfter" value="810" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="skill1" />
+    </imgdir>
+</imgdir>

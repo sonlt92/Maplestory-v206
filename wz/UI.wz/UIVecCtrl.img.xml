@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="UIVecCtrl.img">
+    <imgdir name="combo:mapType">
+        <vector name="lt" x="120" y="22" />
+        <vector name="rb" x="240" y="50" />
+        <string name="backColor" value="ff444444" />
+        <string name="backFocusedColor" value="ff444444" />
+        <int name="fType" value="143" />
+        <int name="fTypeSelect" value="40" />
+        <int name="fTypeSelectFouced" value="36" />
+        <int name="textLeft" value="3" />
+        <int name="textTop" value="6" />
+        <string name="sButtonUOL" value="UI/Basic.img/ComboBox10" />
+        <int name="id" value="2001" />
+    </imgdir>
+    <imgdir name="button:apply">
+        <imgdir name="normal">
+            <canvas name="0" width="12" height="12">
+                <vector name="origin" x="-14" y="-26" />
+                <string name="_hash" value="281861ae8b050fcb9c115f32957260b2fce4474c17d1a3fe7bd272b4c2fb3ee6" />
+            </canvas>
+        </imgdir>
+        <imgdir name="checked">
+            <canvas name="0" width="12" height="12">
+                <vector name="origin" x="-14" y="-26" />
+                <int name="z" value="0" />
+                <string name="_hash" value="b90c10bac3575115d9d6b9aeddf4278e73598f66d304a91d8a41b432d5f67b97" />
+            </canvas>
+        </imgdir>
+        <int name="toggle" value="1" />
+        <string name="ToolTip" value="체크하면 수정사항이 적용됨" />
+        <int name="id" value="2000" />
+    </imgdir>
+    <imgdir name="button:transparancy">
+        <imgdir name="normal">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="-266" y="-26" />
+                <string name="_inlink" value="button:apply/normal/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="checked">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="-266" y="-26" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="button:apply/checked/0" />
+            </canvas>
+        </imgdir>
+        <int name="toggle" value="1" />
+        <string name="ToolTip" value="체크하면 UI가 반투명이 됨" />
+        <int name="id" value="2002" />
+    </imgdir>
+    <imgdir name="button:change">
+        <imgdir name="normal">
+            <canvas name="0" width="88" height="26">
+                <vector name="origin" x="-550" y="-22" />
+                <int name="z" value="1" />
+                <string name="_hash" value="031f52fef6f8e70ac4bce15a02139fc75e0c4f63eb6bd35004232a0012aaa540" />
+            </canvas>
+        </imgdir>
+        <imgdir name="mouseOver">
+            <canvas name="0" width="88" height="26">
+                <vector name="origin" x="-550" y="-22" />
+                <int name="z" value="1" />
+                <string name="_hash" value="6d632b23410b3e95d99c2f61637ae2dec0eb2127f9e8f716590829d83c0e2c98" />
+            </canvas>
+        </imgdir>
+        <imgdir name="disabled">
+            <canvas name="0" width="88" height="26">
+                <vector name="origin" x="-550" y="-22" />
+                <int name="z" value="1" />
+                <string name="_hash" value="a1aaa9aeb15c644206960929bdebabd21e70bb7cf25407ded9b9589ef501ca79" />
+            </canvas>
+        </imgdir>
+        <imgdir name="pressed">
+            <canvas name="0" width="88" height="26">
+                <vector name="origin" x="-550" y="-22" />
+                <int name="z" value="1" />
+                <string name="_hash" value="b3859552821a92f9179b48ddaed1af3db784035759aab76fe38b051d22754611" />
+            </canvas>
+        </imgdir>
+        <string name="ToolTip" value="수정된 내용을 게임에 적용해봅니다." />
+        <int name="id" value="2003" />
+    </imgdir>
+    <imgdir name="SkyWhale">
+        <imgdir name="src">
+            <canvas name="edit:src_name" width="88" height="11">
+                <vector name="origin" x="-140" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_hash" value="ab1bdb9424d1a020a241d8b4c18fb14288005b77741e283d9e9fb430905957f9" />
+            </canvas>
+            <canvas name="edit:src_speedshoe" width="1" height="1">
+                <vector name="origin" x="-140" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_speed" width="1" height="1">
+                <vector name="origin" x="-140" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_applyterm" width="1" height="1">
+                <vector name="origin" x="-140" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_vrate_per_tick" width="1" height="1">
+                <vector name="origin" x="-140" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_width" width="1" height="1">
+                <vector name="origin" x="-140" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_start" width="1" height="1">
+                <vector name="origin" x="-140" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_end" width="1" height="1">
+                <vector name="origin" x="-140" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="9007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="ctrl">
+            <canvas name="edit:ctrl_name" width="1" height="1">
+                <vector name="origin" x="-240" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_speedshoe" width="1" height="1">
+                <vector name="origin" x="-240" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_speed" width="1" height="1">
+                <vector name="origin" x="-240" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_applyterm" width="1" height="1">
+                <vector name="origin" x="-240" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_vrate_per_tick" width="1" height="1">
+                <vector name="origin" x="-240" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_width" width="1" height="1">
+                <vector name="origin" x="-240" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_start" width="1" height="1">
+                <vector name="origin" x="-240" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_end" width="1" height="1">
+                <vector name="origin" x="-240" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="10007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="button:editskywhale">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-336" y="-80" />
+                    <string name="_inlink" value="button:apply/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="checked">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-336" y="-80" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="button:apply/checked/0" />
+                </canvas>
+            </imgdir>
+            <int name="toggle" value="1" />
+            <int name="id" value="2006" />
+            <string name="ToolTip" value="체크하면 SkyWhale영역을 확인해서 수정할 수 있는 상태가 됩니다." />
+        </imgdir>
+        <imgdir name="button:reset">
+            <imgdir name="normal">
+                <canvas name="0" width="97" height="26">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_hash" value="d45b6fe781d5e6538f6154e4fd387c0fc0038454f74d05fae8b37efe74ab239f" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="97" height="26">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_hash" value="fea8a76a8e3da83718b7edd2d7157e95798f380535f7fb1e19b784e594ffe644" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="97" height="26">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_hash" value="af08e8c9936cb4cd712d055ebe936b008dc8e1075dbfb6dd813a24968f1ac004" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="97" height="26">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_hash" value="bfeae81656930179e5f39fb11f322cddd570103963f64718fac3ab31bd926661" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="2007" />
+            <string name="ToolTip" value="현재 선택된 SkyWhale 세팅을 초기화합니다." />
+        </imgdir>
+        <imgdir name="button:add">
+            <imgdir name="normal">
+                <canvas name="0" width="32" height="31">
+                    <vector name="origin" x="-605" y="-100" />
+                    <string name="_hash" value="5c4a77d5ba2cf2bcc63b20eeae05b25ed30dc3d21243f8b3a42af69e3a8c215c" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="32" height="31">
+                    <vector name="origin" x="-605" y="-100" />
+                    <string name="_hash" value="08d1e9e70372ac398707532311ab30fce0d3c8e7eeec7dcc44b4f4860144fd69" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="32" height="31">
+                    <vector name="origin" x="-605" y="-100" />
+                    <string name="_hash" value="784546eb90b717de472ab2b259b695c3a14417e98ce6e4e5cfef57ab71e51723" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="32" height="31">
+                    <vector name="origin" x="-605" y="-100" />
+                    <string name="_hash" value="d1294154ae022f2f66d8b34d36682cb515dd541e49ae7cb14b602205f3652252" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="2008" />
+            <string name="ToolTip" value="SkyWhale을 추가합니다." />
+        </imgdir>
+        <imgdir name="button:redraw">
+            <imgdir name="normal">
+                <canvas name="0" width="34" height="37">
+                    <vector name="origin" x="-605" y="-140" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e58ba5beadead5a9006771d48e379f69e82879ed03de2896deff10907d276e0c" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="34" height="37">
+                    <vector name="origin" x="-605" y="-140" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6eed29cfd9c63aa5adc7ca90d6d13fe5e9338689cef03a102f77278b08c751a7" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="34" height="37">
+                    <vector name="origin" x="-605" y="-140" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="1e7ef3c2ad2c7887a355fb50908c741ed1fea4f0ecd7e8d9787a8a15a00a99dc" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="34" height="37">
+                    <vector name="origin" x="-605" y="-140" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f6111b9c55fee472d5abd8f87e91cbe955152d0b0e7950c3a934ad847fe8251a" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="2009" />
+            <string name="ToolTip" value="현재 선택된 SkyWhale을 다시 그립니다." />
+        </imgdir>
+        <int name="x" value="14" />
+        <int name="y" value="80" />
+    </imgdir>
+    <imgdir name="RapidStream">
+        <imgdir name="src">
+            <canvas name="edit:src_name" width="1" height="1">
+                <vector name="origin" x="-140" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_inputX" width="1" height="1">
+                <vector name="origin" x="-140" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_inputY" width="1" height="1">
+                <vector name="origin" x="-140" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_speedshoe" width="1" height="1">
+                <vector name="origin" x="-140" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_forceX" width="1" height="1">
+                <vector name="origin" x="-140" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_forceY" width="1" height="1">
+                <vector name="origin" x="-140" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_keyboardForceX" width="1" height="1">
+                <vector name="origin" x="-140" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_keyboardForceY" width="1" height="1">
+                <vector name="origin" x="-140" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_vrate" width="1" height="1">
+                <vector name="origin" x="-140" y="-240" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7008" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_samedir_vrate" width="1" height="1">
+                <vector name="origin" x="-140" y="-260" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7009" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_speedX" width="1" height="1">
+                <vector name="origin" x="-140" y="-280" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7010" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_speedY" width="1" height="1">
+                <vector name="origin" x="-140" y="-300" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7011" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_jump" width="1" height="1">
+                <vector name="origin" x="-140" y="-320" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7012" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_outjump" width="1" height="1">
+                <vector name="origin" x="-140" y="-340" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="7013" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="ctrl">
+            <canvas name="edit:ctrl_name" width="1" height="1">
+                <vector name="origin" x="-240" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_inputX" width="1" height="1">
+                <vector name="origin" x="-240" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_inputY" width="1" height="1">
+                <vector name="origin" x="-240" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_speedshoe" width="1" height="1">
+                <vector name="origin" x="-240" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_forceX" width="1" height="1">
+                <vector name="origin" x="-240" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_forceY" width="1" height="1">
+                <vector name="origin" x="-240" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_keyboardForceX" width="1" height="1">
+                <vector name="origin" x="-240" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_keyboardForceY" width="1" height="1">
+                <vector name="origin" x="-240" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_vrate" width="1" height="1">
+                <vector name="origin" x="-240" y="-240" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8008" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrll_samedir_vrate" width="1" height="1">
+                <vector name="origin" x="-240" y="-260" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8009" />
+                <string name="backColor" value="8fdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_speedX" width="1" height="1">
+                <vector name="origin" x="-240" y="-280" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8010" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_speedY" width="1" height="1">
+                <vector name="origin" x="-240" y="-300" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8011" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_jump" width="1" height="1">
+                <vector name="origin" x="-240" y="-320" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8012" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_outjump" width="1" height="1">
+                <vector name="origin" x="-240" y="-340" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="8013" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="button:editrapidstream">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-336" y="-80" />
+                    <string name="_inlink" value="button:apply/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="checked">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-336" y="-80" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="button:apply/checked/0" />
+                </canvas>
+            </imgdir>
+            <int name="toggle" value="1" />
+            <int name="id" value="2004" />
+            <string name="ToolTip" value="체크하면 RapidStream영역을 확인하고 수정할 수 있습니다." />
+        </imgdir>
+        <imgdir name="button:reset">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_inlink" value="SkyWhale/button:reset/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_inlink" value="SkyWhale/button:reset/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_inlink" value="SkyWhale/button:reset/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-540" y="-70" />
+                    <string name="_inlink" value="SkyWhale/button:reset/mouseOver/0" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="2005" />
+            <string name="ToolTip" value="현재 선택된 RapidStream 세팅을 초기화합니다." />
+        </imgdir>
+        <int name="x" value="14" />
+        <int name="y" value="80" />
+    </imgdir>
+    <imgdir name="AttrField">
+        <imgdir name="src">
+            <canvas name="edit:src_walk" width="1" height="1">
+                <vector name="origin" x="-140" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="3000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_drag" width="1" height="1">
+                <vector name="origin" x="-140" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="3001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_gravity" width="1" height="1">
+                <vector name="origin" x="-140" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="3002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_fly" width="1" height="1">
+                <vector name="origin" x="-140" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="3003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="ctrl">
+            <canvas name="edit:ctrl_walk" width="1" height="1">
+                <vector name="origin" x="-240" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="4000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_drag" width="1" height="1">
+                <vector name="origin" x="-240" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="4001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_gravity" width="1" height="1">
+                <vector name="origin" x="-240" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="4002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_fly" width="1" height="1">
+                <vector name="origin" x="-240" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="4003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <int name="x" value="14" />
+        <int name="y" value="80" />
+    </imgdir>
+    <imgdir name="AttrShoe">
+        <imgdir name="src">
+            <canvas name="edit:src_mass" width="1" height="1">
+                <vector name="origin" x="-140" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_walkacc" width="1" height="1">
+                <vector name="origin" x="-140" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_walkspeed" width="1" height="1">
+                <vector name="origin" x="-140" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_walkdrag" width="1" height="1">
+                <vector name="origin" x="-140" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_walkslant" width="1" height="1">
+                <vector name="origin" x="-140" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_walkjump" width="1" height="1">
+                <vector name="origin" x="-140" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_swimacc" width="1" height="1">
+                <vector name="origin" x="-140" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_swimspeedH" width="1" height="1">
+                <vector name="origin" x="-140" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_swimspeedV" width="1" height="1">
+                <vector name="origin" x="-140" y="-240" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5008" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_flyacc" width="1" height="1">
+                <vector name="origin" x="-140" y="-260" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5009" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_flyspeed" width="1" height="1">
+                <vector name="origin" x="-140" y="-280" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5010" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:src_compulsionSlant" width="1" height="1">
+                <vector name="origin" x="-140" y="-300" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="5011" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <imgdir name="ctrl">
+            <canvas name="edit:ctrl_mass" width="1" height="1">
+                <vector name="origin" x="-240" y="-80" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6000" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_walkacc" width="1" height="1">
+                <vector name="origin" x="-240" y="-100" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6001" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_walkspeed" width="1" height="1">
+                <vector name="origin" x="-240" y="-120" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6002" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_walkdrag" width="1" height="1">
+                <vector name="origin" x="-240" y="-140" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6003" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_walkslant" width="1" height="1">
+                <vector name="origin" x="-240" y="-160" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6004" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_walkjump" width="1" height="1">
+                <vector name="origin" x="-240" y="-180" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6005" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_swimacc" width="1" height="1">
+                <vector name="origin" x="-240" y="-200" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6006" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_swimspeedH" width="1" height="1">
+                <vector name="origin" x="-240" y="-220" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6007" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_swimspeedV" width="1" height="1">
+                <vector name="origin" x="-240" y="-240" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6008" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_flyacc" width="1" height="1">
+                <vector name="origin" x="-240" y="-260" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6009" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_flyspeed" width="1" height="1">
+                <vector name="origin" x="-240" y="-280" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6010" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+            <canvas name="edit:ctrl_compulsionSlant" width="1" height="1">
+                <vector name="origin" x="-240" y="-300" />
+                <int name="z" value="0" />
+                <int name="maxlen" value="14" />
+                <int name="id" value="6011" />
+                <string name="backColor" value="ffdfdfdf" />
+                <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+            </canvas>
+        </imgdir>
+        <int name="x" value="14" />
+        <int name="y" value="80" />
+    </imgdir>
+    <imgdir name="Assets">
+        <string name="info" value="Autobuild에서 가져다 쓰기 좋게 모아놓음" />
+        <imgdir name="edits">
+            <imgdir name="10pts">
+                <canvas name="edit:19w_10pt" width="19" height="10">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="id" value="0" />
+                    <int name="maxlen" value="3" />
+                    <int name="number" value="1" />
+                    <string name="_hash" value="b912bf10ae932956ec6d30def7afd48ba0e8dacbba0197622f702af0b8ef3923" />
+                </canvas>
+                <canvas name="edit:27w_10pt" width="27" height="10">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="maxlen" value="4" />
+                    <int name="number" value="1" />
+                    <string name="_hash" value="88fb248d99a0ab2cf39badd97a044f9d41e1f2095bfa9615efd63f81aeea3084" />
+                </canvas>
+            </imgdir>
+            <imgdir name="11pts">
+                <canvas name="edit:88w_11pt" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="maxlen" value="14" />
+                    <int name="number" value="1" />
+                    <string name="_inlink" value="SkyWhale/src/edit:src_name" />
+                </canvas>
+                <canvas name="edit:151w_11pt" width="151" height="11">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="1" />
+                    <int name="id" value="1020" />
+                    <int name="maxlen" value="24" />
+                    <string name="color" value="ffff0000" />
+                    <string name="_hash" value="a523ab9641583f13aeb42e3fd13275058db3780aa9ab9d5cd454fd15ed4c7a23" />
+                </canvas>
+                <canvas name="edit:123_11pt" width="123" height="11">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="2" />
+                    <int name="id" value="0" />
+                    <int name="maxlen" value="20" />
+                    <string name="_hash" value="dae6f2f2573030bf7c92140c0cbfb4a12f19f57ea0c4530c2053b4b383cd1fa2" />
+                </canvas>
+            </imgdir>
+            <imgdir name="12pts">
+                <canvas name="edit:348w_12pt" width="348" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="maxlen" value="60" />
+                    <string name="font" value="MD모리스9" />
+                    <string name="color" value="ff555555" />
+                    <int name="height" value="11" />
+                    <string name="_hash" value="810d50bcf20391f66b86187783aaf754eff2bd6e39c9614944de49585e06d81f" />
+                </canvas>
+            </imgdir>
+            <imgdir name="17pts">
+                <canvas name="edit:51w_17pt" width="51" height="17">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="number" value="1" />
+                    <int name="maxlen" value="5" />
+                    <string name="font" value="나눔고딕 ExtraBold" />
+                    <string name="color" value="ffffffff" />
+                    <int name="height" value="16" />
+                    <int name="id" value="1033" />
+                    <string name="_hash" value="c17021cee059f6fbcf347e75b1dc9a2a0f2871c78a3e0b92ccf84bb89c9c9586" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="tooltips">
+            <imgdir name="tooltip:TTing">
+                <string name="text" value="현재 진행 중인 거래의 목록입니다." />
+                <vector name="lt" x="324" y="55" />
+                <vector name="rb" x="573" y="180" />
+            </imgdir>
+            <imgdir name="tooltip:TTcomplete">
+                <string name="text" value="취소되거나 완료된 거래의 목록입니다." />
+                <vector name="lt" x="323" y="228" />
+                <vector name="rb" x="574" y="357" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="buttons">
+            <imgdir name="button:Yes">
+                <imgdir name="normal">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-124" y="-259" />
+                        <string name="_hash" value="2890a576439b8ff36fbcba4b2b4a9d1c9c75b15a53fb246aaee26885676e5c1e" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-124" y="-259" />
+                        <string name="_hash" value="110d219cfcef0a729da99662edc5a73ff95bb929f70d3a5826109cda92f9120f" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-124" y="-259" />
+                        <string name="_hash" value="f2c95dbc2977483ded1547b616d983ebf4940ae0828c3da43914057c6911e25c" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-124" y="-259" />
+                        <string name="_hash" value="24459995fddd4f1607d182ca37412db98e4b4ff5d2dbde692109686e0ce85b31" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1" />
+            </imgdir>
+            <imgdir name="button:No">
+                <imgdir name="normal">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-213" y="-259" />
+                        <string name="_hash" value="009120c24c30544de2ce7547bb81e63b652687f3af0fc9a24818a3a6f6c8c541" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-213" y="-259" />
+                        <string name="_hash" value="ee57cd487f6d9b6bdc893584777acb3853d48a0aac92ed475634769888e44ce9" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-213" y="-259" />
+                        <string name="_hash" value="2f7a6b4b355c93767ce72602ddec42897e9cb56bba85609b48dbf44e675602a7" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="83" height="26">
+                        <vector name="origin" x="-213" y="-259" />
+                        <string name="_hash" value="fa325569e497fcf43a9f72ed1733f1991ae0fb07e1fc295225db7229c3575f21" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="2" />
+            </imgdir>
+            <imgdir name="button:Front">
+                <imgdir name="normal">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-570" y="-129" />
+                        <string name="_hash" value="ee202d3c85d2b367628dd584ed1f1e9a9c0f97adefda22768969bd62c82792dc" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-570" y="-129" />
+                        <string name="_hash" value="b33695bf16fb1bacab436714419aa4c637e6ab3f5b5903848e6361c7ae7d9039" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-570" y="-129" />
+                        <string name="_hash" value="55e19189d778a6fd4e2b90a81e7170c7fdf935d8deec5857236d9d67c91b99d1" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-570" y="-129" />
+                        <string name="_hash" value="4f3a19e4a0eb5437d31f9690a5995b4d3db64ed5953e8335688e8ef18a5e1714" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1015" />
+                <string name="ToolTip" value="목록의 가장 앞 페이지로 이동합니다." />
+            </imgdir>
+            <imgdir name="button:Forward">
+                <imgdir name="normal">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-591" y="-129" />
+                        <string name="_hash" value="852d1cc8e4d9254e12b9fd00b0c5da42236be801b6d1069293f395ddb1da19ed" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-591" y="-129" />
+                        <string name="_hash" value="4692ebe6a9a7e8c8110e900e12c894de4cb9cd5ed931c94a2fcf14c625b0bd19" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-591" y="-129" />
+                        <string name="_hash" value="bf0c52f0a3a2d4360968b4d01207b06c72421cb0d55528d973914e7292f8eb6c" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-591" y="-129" />
+                        <string name="_hash" value="86a47a00f39ae40b22ec2b2abe3ca7df073f548596921bd13b00c51999764019" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1016" />
+                <string name="ToolTip" value="목록의 이전 페이지로 이동합니다." />
+            </imgdir>
+            <imgdir name="button:Backward">
+                <imgdir name="normal">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-668" y="-129" />
+                        <string name="_hash" value="19aa2a43e12a514e38dce719a748b84a8655008cb35aded31126399219263cb1" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-668" y="-129" />
+                        <string name="_hash" value="fd5d0fd142105fc6ad60c4b7e2359aa8a1d170fd8710e4f3f520d54c10b5e90c" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-668" y="-129" />
+                        <string name="_hash" value="49bbbc9ddd2fb84acaeab017428c21d1accf2f96e6758b070efa519d13c8abe7" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-668" y="-129" />
+                        <string name="_hash" value="757cb3b9c4a24549b70f582f14f077f303dc545a1deff2d2398b5267a194be86" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1017" />
+                <string name="ToolTip" value="목록의 다음 페이지로 이동합니다." />
+            </imgdir>
+            <imgdir name="button:Back">
+                <imgdir name="normal">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-689" y="-129" />
+                        <string name="_hash" value="35c30f2c373a015a0efa21452305783d8bcdb0c9c44c181b9fd90974db9d23c1" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-689" y="-129" />
+                        <string name="_hash" value="445f9e989177b89cc431726b403c03a2a0b58c45b1c3e1775a1bff26f0befb69" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-689" y="-129" />
+                        <string name="_hash" value="1a7bce8201e90135ea7f98dbd696d7bcb2bff7a828e9e9c6dd9f8d4ea3d0efef" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="18" height="13">
+                        <vector name="origin" x="-689" y="-129" />
+                        <string name="_hash" value="82e0b7b1923fc8820b6f49d28e5839ef67cc8572feb4fbfffc2b9b870d1bc3cf" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1018" />
+                <string name="ToolTip" value="목록의 가장 뒷 페이지로 이동합니다." />
+            </imgdir>
+            <imgdir name="button:reset">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-24" y="-110" />
+                        <string name="_inlink" value="SkyWhale/button:reset/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-24" y="-110" />
+                        <string name="_inlink" value="SkyWhale/button:reset/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-24" y="-110" />
+                        <string name="_inlink" value="SkyWhale/button:reset/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-24" y="-110" />
+                        <string name="_inlink" value="SkyWhale/button:reset/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1116" />
+                <string name="ToolTip" value="현재 검색조건을 모두 초기화합니다." />
+            </imgdir>
+            <imgdir name="button:checkBox">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <string name="_inlink" value="button:apply/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="checked">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="button:apply/checked/0" />
+                    </canvas>
+                </imgdir>
+                <int name="toggle" value="1" />
+                <string name="ToolTip" value="체크하면 현재 검색 조건을 경매장 종료시에도 기억합니다." />
+            </imgdir>
+            <imgdir name="button:change">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-400" y="-300" />
+                        <int name="z" value="1" />
+                        <string name="_inlink" value="button:change/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-400" y="-300" />
+                        <int name="z" value="1" />
+                        <string name="_inlink" value="button:change/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-400" y="-300" />
+                        <int name="z" value="1" />
+                        <string name="_inlink" value="button:change/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-400" y="-300" />
+                        <int name="z" value="1" />
+                        <string name="_inlink" value="button:change/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <string name="ToolTip" value="아이템 코드에 있는 아이템 데이터를 수정합니다." />
+                <int name="id" value="2003" />
+            </imgdir>
+            <imgdir name="button:add">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <string name="_inlink" value="SkyWhale/button:add/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <string name="_inlink" value="SkyWhale/button:add/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <string name="_inlink" value="SkyWhale/button:add/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <string name="_inlink" value="SkyWhale/button:add/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="1000" />
+                <string name="ToolTip" value="추가합니다." />
+            </imgdir>
+            <imgdir name="button:Setting">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="SkyWhale/button:redraw/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="SkyWhale/button:redraw/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="SkyWhale/button:redraw/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="0" y="0" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="SkyWhale/button:redraw/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="5" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <canvas name="backgrnd" width="646" height="361">
+        <vector name="origin" x="0" y="0" />
+        <string name="_hash" value="6fba176f9aa6ac2b40dc07392787de2508d85902d5164c746d9f9aebe870cff3" />
+    </canvas>
+</imgdir>

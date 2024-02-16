@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1414.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="event" />
+        <string name="subCategory" value="seaSideOutLaw" />
+        <string name="name" value="Clock's Ticking!" />
+        <string name="desc" value="Score 10,000 points in a single day" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="period">
+            <string name="start" value="20171214000000" />
+            <string name="end" value="20180103000000" />
+            <string name="start_t" value="20171214000000" />
+            <string name="end_t" value="20180103000000" />
+        </imgdir>
+        <imgdir name="uiType">
+            <string name="uiForm" value="reward" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="script" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Score 10,000 points in a single day" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1000" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="reward">
+        <imgdir name="0">
+            <int name="id" value="3700448" />
+            <string name="desc" value="Paradise Prankster" />
+        </imgdir>
+    </imgdir>
+</imgdir>

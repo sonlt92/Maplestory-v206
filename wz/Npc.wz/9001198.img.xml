@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9001198.img">
+    <imgdir name="info">
+        <imgdir name="script">
+            <imgdir name="0">
+                <string name="script" value="npc_9001198" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="speak">
+            <string name="0" value="n0" />
+            <string name="1" value="n1" />
+        </imgdir>
+        <int name="dcMark" value="1" />
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="73" height="100">
+            <vector name="origin" x="31" y="100" />
+            <int name="z" value="0" />
+            <string name="_hash" value="c1a9bec87418c3091e3c482f3c63c3a000ee7272135c1ac954cca3d3d9383679" />
+        </canvas>
+    </imgdir>
+    <imgdir name="say">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="31" y="100" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="stand/0" />
+        </canvas>
+        <canvas name="1" width="74" height="101">
+            <vector name="origin" x="32" y="101" />
+            <int name="z" value="0" />
+            <string name="_hash" value="685a5382d055177a7c920b35762ba6f8f58fbe99df51cdd2edf813c8a0b2d99e" />
+        </canvas>
+        <uol name="2" value="0" />
+        <uol name="3" value="1" />
+        <uol name="4" value="0" />
+        <uol name="5" value="1" />
+        <uol name="6" value="0" />
+    </imgdir>
+    <imgdir name="dance">
+        <canvas name="0" width="78" height="100">
+            <vector name="origin" x="36" y="100" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_hash" value="9419f330de672da573e4bb0e81df07aa8a5770d7469c1528fae80d104d200988" />
+        </canvas>
+        <canvas name="1" width="77" height="101">
+            <vector name="origin" x="35" y="101" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_hash" value="09fe60b17dcdbe760c9e5049ce2069213b5285c6e3e285bfdbea4b760020f132" />
+        </canvas>
+        <canvas name="2" width="76" height="100">
+            <vector name="origin" x="34" y="100" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_hash" value="5dda1a9a97d13e13b0ea94740de5ba518bb70da40d98f5f215c2ed8e6e04f7b3" />
+        </canvas>
+        <canvas name="3" width="1" height="1">
+            <vector name="origin" x="35" y="101" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_inlink" value="dance/1" />
+        </canvas>
+        <uol name="4" value="0" />
+        <uol name="5" value="1" />
+        <uol name="6" value="2" />
+        <uol name="7" value="3" />
+        <uol name="8" value="0" />
+        <uol name="9" value="1" />
+        <uol name="10" value="2" />
+        <uol name="11" value="3" />
+    </imgdir>
+</imgdir>

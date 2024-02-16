@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="0566.img">
+    <imgdir name="05660000">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_hash" value="cd6cf9923d582f129a6893c940617f9bb38c01bf9c065e1b52be70936268847f" />
+            </canvas>
+            <canvas name="iconRaw" width="32" height="31">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_hash" value="20764f0a98225efb6080e34dc5ec3c2370020aa3b50160109ca4f61004bde731" />
+            </canvas>
+            <int name="cash" value="1" />
+        </imgdir>
+        <imgdir name="questAccept">
+            <imgdir name="disallow">
+                <string name="0" value="3706" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05660001">
+        <imgdir name="info">
+            <canvas name="icon" width="33" height="32">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_hash" value="44eed3eb37f9db3d50cd87e3514b3e4435d133b1e3fe270472bc0a5fb8682fb0" />
+            </canvas>
+            <canvas name="iconRaw" width="33" height="31">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_hash" value="87efb83fbe881dbadc70af87de3915495168c58692b3d0e5bddca2ca16f1a581" />
+            </canvas>
+            <int name="cash" value="1" />
+        </imgdir>
+        <imgdir name="questComplete">
+            <imgdir name="disallow">
+                <string name="0" value="32700" />
+                <string name="1" value="32701" />
+                <string name="2" value="32702" />
+                <string name="3" value="32703" />
+                <string name="4" value="32704" />
+                <string name="5" value="32705" />
+                <string name="6" value="33530" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05660002">
+        <imgdir name="info">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_inlink" value="05660000/info/icon" />
+            </canvas>
+            <canvas name="iconRaw" width="1" height="1">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_inlink" value="05660000/info/iconRaw" />
+            </canvas>
+            <int name="noMoveToLocker" value="1" />
+            <int name="cash" value="1" />
+        </imgdir>
+        <imgdir name="questAccept">
+            <imgdir name="disallow">
+                <string name="0" value="3706" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05660003">
+        <imgdir name="info">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_inlink" value="05660001/info/icon" />
+            </canvas>
+            <canvas name="iconRaw" width="1" height="1">
+                <vector name="origin" x="-2" y="31" />
+                <string name="_inlink" value="05660001/info/iconRaw" />
+            </canvas>
+            <int name="cash" value="1" />
+            <int name="noMoveToLocker" value="1" />
+        </imgdir>
+        <imgdir name="questComplete">
+            <imgdir name="disallow" />
+        </imgdir>
+    </imgdir>
+</imgdir>

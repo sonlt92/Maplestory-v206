@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1012109.img">
+    <imgdir name="info" />
+    <imgdir name="stand">
+        <canvas name="0" width="43" height="71">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="2000" />
+            <string name="_hash" value="5ee2685ea430671118c1d52dab8dc8c290af1bf0d61780c270a34a3aa9e1c829" />
+        </canvas>
+        <canvas name="1" width="43" height="71">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="300" />
+            <string name="_hash" value="a4bf8a1d1e3ea5e7b84eb2a2721bb277595cb264aceb7b3d1616d30088cee6b7" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="300" />
+            <string name="_inlink" value="stand/0" />
+        </canvas>
+        <uol name="3" value="1" />
+    </imgdir>
+    <imgdir name="say">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="1000" />
+            <string name="_inlink" value="stand/1" />
+        </canvas>
+        <canvas name="1" width="43" height="71">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="200" />
+            <string name="_hash" value="dacd5ff7b85580c6487a1ad6522bff4775252e137d618ada50b03a8d452cede0" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="300" />
+            <string name="_inlink" value="stand/1" />
+        </canvas>
+        <uol name="3" value="1" />
+        <canvas name="4" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="500" />
+            <string name="_inlink" value="stand/1" />
+        </canvas>
+        <canvas name="5" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="150" />
+            <string name="_inlink" value="say/1" />
+        </canvas>
+        <canvas name="6" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="200" />
+            <string name="_inlink" value="stand/1" />
+        </canvas>
+        <canvas name="7" width="1" height="1">
+            <vector name="origin" x="19" y="71" />
+            <int name="delay" value="100" />
+            <string name="_inlink" value="say/1" />
+        </canvas>
+        <uol name="8" value="6" />
+        <uol name="9" value="1" />
+        <uol name="10" value="6" />
+        <uol name="11" value="1" />
+        <imgdir name="speak">
+            <string name="0" value="s0" />
+            <string name="1" value="s1" />
+        </imgdir>
+    </imgdir>
+</imgdir>

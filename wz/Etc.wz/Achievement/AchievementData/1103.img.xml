@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1103.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="exploration" />
+        <string name="name" value="[Area Exploration] Kritias" />
+        <string name="desc" value="Explore these locations in and around Kritias!" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Kritias" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000000" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020000" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Kritias" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Marketplace" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000100" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020100" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Marketplace" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Ranheim Academy" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000110" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020110" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Ranheim Academy" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Town Hall" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000120" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020120" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Town Hall" />
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Northeastern Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000130" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020130" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Northeastern Road" />
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Southern Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000140" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020140" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Southern Road" />
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Northwestern Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000150" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020150" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Northwestern Road" />
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Northern Barracks on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000200" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020200" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Northern Barracks" />
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Forest of Laments 5 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000201" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020201" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Laments 5" />
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Forest of Laments 4 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000202" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020202" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Laments 4" />
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Forest of Laments 3 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000203" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020203" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Laments 3" />
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Forest of Laments 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000204" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020204" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Laments 2" />
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Forest of Laments 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000205" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020205" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Laments 1" />
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Corrupted Magic Forest 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000206" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020206" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corrupted Magic Forest 2" />
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Scorching Forest 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000207" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020207" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Scorching Forest 1" />
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Scorching Forest 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000208" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020208" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Scorching Forest 2" />
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Southeastern Barracks on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000210" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020210" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Southeastern Barracks" />
+        </imgdir>
+        <imgdir name="17">
+            <string name="name" value="Forest of Pain 5 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000211" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020211" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Pain 5" />
+        </imgdir>
+        <imgdir name="18">
+            <string name="name" value="Forest of Pain 4 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000212" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020212" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Pain 4" />
+        </imgdir>
+        <imgdir name="19">
+            <string name="name" value="Forest of Pain 3 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000213" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020213" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Pain 3" />
+        </imgdir>
+        <imgdir name="20">
+            <string name="name" value="Forest of Pain 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000214" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020214" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Pain 2" />
+        </imgdir>
+        <imgdir name="21">
+            <string name="name" value="Forest of Pain 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000215" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020215" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Pain 1" />
+        </imgdir>
+        <imgdir name="22">
+            <string name="name" value="Corrupted Magic Forest 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000216" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020216" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corrupted Magic Forest 1" />
+        </imgdir>
+        <imgdir name="23">
+            <string name="name" value="Freezing Forest 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000217" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020217" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Freezing Forest 1" />
+        </imgdir>
+        <imgdir name="24">
+            <string name="name" value="Freezing Forest 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000218" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020218" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Freezing Forest 2" />
+        </imgdir>
+        <imgdir name="25">
+            <string name="name" value="Southwestern Barracks on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000220" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020220" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Southwestern Barracks" />
+        </imgdir>
+        <imgdir name="26">
+            <string name="name" value="Forest of Sorrows 5 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000221" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020221" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Sorrows 5" />
+        </imgdir>
+        <imgdir name="27">
+            <string name="name" value="Forest of Sorrows 4 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000222" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020222" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Sorrows 4" />
+        </imgdir>
+        <imgdir name="28">
+            <string name="name" value="Forest of Sorrows 3 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000223" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020223" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Sorrows 3" />
+        </imgdir>
+        <imgdir name="29">
+            <string name="name" value="Forest of Sorrows 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000224" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020224" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Sorrows 2" />
+        </imgdir>
+        <imgdir name="30">
+            <string name="name" value="Forest of Sorrows 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000225" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020225" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Sorrows 1" />
+        </imgdir>
+        <imgdir name="31">
+            <string name="name" value="Corrupted Magic Forest 3 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000226" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020226" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Corrupted Magic Forest 3" />
+        </imgdir>
+        <imgdir name="32">
+            <string name="name" value="Forest of Darkness 1 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000227" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020227" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Forest of Darkness 1" />
+        </imgdir>
+        <imgdir name="33">
+            <string name="name" value="Darkness Forest 2 on Kingdom Road" />
+            <imgdir name="subMission">
+                <imgdir name="field_enter">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="field">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="field_id" value="241000228" />
+                                </imgdir>
+                                <imgdir name="1">
+                                    <int name="field_id" value="241020228" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Darkness Forest 2" />
+        </imgdir>
+    </imgdir>
+</imgdir>

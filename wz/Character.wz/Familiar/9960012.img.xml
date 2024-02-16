@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960012.img">
+    <imgdir name="info">
+        <int name="grade" value="1" />
+        <int name="range" value="600" />
+        <imgdir name="skill">
+            <int name="id" value="810" />
+            <int name="effectAfter" value="360" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <uol name="0" value="../stand/0" />
+        <uol name="1" value="../stand/1" />
+        <uol name="2" value="../stand/2" />
+        <uol name="3" value="../stand/3" />
+        <uol name="4" value="../stand/4" />
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="62" height="69">
+            <vector name="origin" x="31" y="69" />
+            <vector name="lt" x="-31" y="-69" />
+            <vector name="rb" x="31" y="0" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="79a9a185645365e82a653d53c57bc1859bcf34ac054cf0c7350d36a3b6f894df" />
+        </canvas>
+        <canvas name="1" width="62" height="69">
+            <vector name="origin" x="33" y="69" />
+            <vector name="lt" x="-33" y="-69" />
+            <vector name="rb" x="29" y="0" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="b8ea877d00cfabe808676820543517ca71f6fc77c6777219abfae712278ec138" />
+        </canvas>
+        <canvas name="2" width="65" height="70">
+            <vector name="origin" x="34" y="70" />
+            <vector name="lt" x="-34" y="-70" />
+            <vector name="rb" x="31" y="0" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="fed93c0ee172e2841ed6f975b4d597ba1ea8df6c2df438951ce8c403ecd313b8" />
+        </canvas>
+        <canvas name="3" width="66" height="69">
+            <vector name="origin" x="36" y="69" />
+            <vector name="lt" x="-36" y="-69" />
+            <vector name="rb" x="30" y="0" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="037e8fee57b57759dc355b4d8e645de8d5711671040565acaf50e5a5fde71efe" />
+        </canvas>
+        <canvas name="4" width="64" height="70">
+            <vector name="origin" x="35" y="69" />
+            <vector name="lt" x="-35" y="-69" />
+            <vector name="rb" x="29" y="1" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_hash" value="903f6b1f1fbaab3f43ac949d567d8dca2801ff936d50794fc67b922f2eef045f" />
+        </canvas>
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="38" y="45" />
+                    <int name="delay" value="300" />
+                    <int name="a0" value="255" />
+                    <int name="a1" value="0" />
+                    <string name="_hash" value="03a300a01c150d6902b99ba87b92414365b6e74165ee30a1aa77922270e1f7b7" />
+                    <string name="_outlink" value="Character/Familiar/9960004.img/attack/info/hit/0" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="600" />
+        </imgdir>
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="31" y="69" />
+            <vector name="lt" x="-31" y="-69" />
+            <vector name="rb" x="31" y="0" />
+            <vector name="head" x="-4" y="-64" />
+            <int name="delay" value="120" />
+            <string name="_inlink" value="stand/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="stand" />
+    </imgdir>
+</imgdir>

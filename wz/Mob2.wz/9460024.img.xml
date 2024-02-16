@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9460024.img">
+    <imgdir name="info">
+        <int name="level" value="10" />
+        <int name="exp" value="1650" />
+        <int name="maxHP" value="100" />
+        <int name="maxMP" value="100" />
+        <int name="PADamage" value="58" />
+        <int name="PDDamage" value="100" />
+        <int name="MADamage" value="51" />
+        <int name="MDDamage" value="100" />
+        <int name="acc" value="4" />
+        <int name="speed" value="30" />
+        <int name="eva" value="1" />
+        <int name="pushed" value="50" />
+        <float name="fs" value="10.0" />
+        <int name="summonType" value="1" />
+        <int name="category" value="0" />
+        <string name="mobType" value="1N" />
+        <int name="firstAttack" value="1" />
+        <imgdir name="attack">
+            <imgdir name="0">
+                <int name="action" value="1" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="100" />
+                <int name="tremble" value="1" />
+                <int name="onlyFsm" value="1" />
+                <int name="fixDamRType" value="0" />
+                <int name="fixDamR" value="100" />
+                <int name="ignoreEvasion" value="1" />
+                <int name="notMissAttack" value="1" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="action" value="2" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="100" />
+                <int name="tremble" value="1" />
+                <int name="onlyFsm" value="1" />
+                <int name="fixDamRType" value="0" />
+                <int name="fixDamR" value="100" />
+                <int name="ignoreEvasion" value="1" />
+                <int name="notMissAttack" value="1" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="action" value="3" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="tremble" value="1" />
+                <int name="fixDamRType" value="0" />
+                <int name="fixDamR" value="40" />
+                <int name="ignoreEvasion" value="1" />
+                <int name="notMissAttack" value="1" />
+                <int name="disease" value="123" />
+                <int name="level" value="6" />
+                <int name="knockback" value="1" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="action" value="4" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="tremble" value="1" />
+                <int name="fixDamRType" value="0" />
+                <int name="fixDamR" value="40" />
+                <int name="ignoreEvasion" value="1" />
+                <int name="notMissAttack" value="1" />
+                <int name="disease" value="123" />
+                <int name="level" value="6" />
+                <int name="knockback" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="skill">
+            <imgdir name="0">
+                <int name="skill" value="169" />
+                <int name="action" value="1" />
+                <int name="level" value="2" />
+                <int name="skillAfter" value="1200" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="skill" value="169" />
+                <int name="action" value="2" />
+                <int name="level" value="3" />
+                <int name="skillAfter" value="1200" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="2" height="1">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="0" />
+            <int name="delay" value="200" />
+        </canvas>
+    </imgdir>
+    <imgdir name="hit1">
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="die1">
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="move">
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="attack1">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-133" y="-158" />
+                <vector name="rb" x="121" y="-51" />
+            </imgdir>
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="18" y="28" />
+                    <int name="delay" value="70" />
+                    <string name="_hash" value="ec87d258fe0194ee093228fd269d49e8710fc4ada93ce6522d1a698f929a65ae" />
+                    <string name="_outlink" value="Mob/9460023.img/attack1/info/hit/0" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="800" />
+            <int name="onlyFsm" value="1" />
+        </imgdir>
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="attack2">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-50" y="-369" />
+                <vector name="rb" x="64" y="-177" />
+            </imgdir>
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="108" y="101" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="33aa3202e85d1bc7085d594a76e3274be5e91fb922f15181e19cd4ea5cb8325c" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="102" y="100" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d5be23d78a3b9a7488f73cf3d3c49e8e2167a8f62040dbcc4c66b7b6d32ad871" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="103" y="97" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8db538b5fc79622204401f63d07c9fa6639f38d040b33120f758e664027eea9e" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="108" y="96" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="72aa6eb3eb5a7d6e25c95794a202c7d40e9522fc43749fa6100fc3f6b894b70d" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="78" y="94" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="641ce0b79c71ef97d6d22be93f5cb18183a6cf9207edf7da7dfffe980cadfba8" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="78" y="94" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="dbe9a4aded922428ae7dba05d7e9376c8e0eb74cbdc7c1a3140bee26bd10966a" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="13" y="42" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="eb33afa4edb147b699dc653ee72492aec8a55b5d59680ac4baab5998f17d9ef3" />
+                    <string name="_outlink" value="Mob/9460023.img/attack2/info/hit/6" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="800" />
+            <int name="delay" value="150" />
+        </imgdir>
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="attack3">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-177" y="-143" />
+                <vector name="rb" x="156" y="10" />
+            </imgdir>
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="77" y="102" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="300bf801d0e57053134facaf2947ce8afb8d91a04e9fb98ce3de05772bb18263" />
+                    <string name="_outlink" value="Mob/9460023.img/attack3/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="92" y="102" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="74f5ee45d6dce1844d971cbca15965cb09a2e6e3e64a0ea495b96cb1f50a77b9" />
+                    <string name="_outlink" value="Mob/9460023.img/attack3/info/hit/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="100" y="113" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="7edecf4c5dd8873863f51ec5a1ff18d5cc7b6a267690606e4b557381b9ed2832" />
+                    <string name="_outlink" value="Mob/9460023.img/attack3/info/hit/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="138" y="118" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="03b39510e52336f434dd9424c8788ec8518422e01172017eac5f750b967a5d4b" />
+                    <string name="_outlink" value="Mob/9460023.img/attack3/info/hit/3" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="900" />
+        </imgdir>
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="attack4">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-209" y="-784" />
+                <vector name="rb" x="17" y="-196" />
+            </imgdir>
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="61" y="140" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="804c783635fab2f8f912f60c2f371a3adefea2c01be3cf9347b2a6c7d8a9934f" />
+                    <string name="_outlink" value="Mob/9460025.img/attack4/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="76" y="143" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="950b6554ff0bbb7cc9549b7fed8536b960511083752e4ae4ed1424eddbe050a7" />
+                    <string name="_outlink" value="Mob/9460025.img/attack4/info/hit/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="73" y="142" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6c835a9f70b66bf220789091d8b5c7f5963afff26fcfdc577ef1c9a7dc50afeb" />
+                    <string name="_outlink" value="Mob/9460025.img/attack4/info/hit/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="71" y="125" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="869a43d896116a6bc61a453553d7c0a1c408808e9f73be71cd4141aab9cc4ad7" />
+                    <string name="_outlink" value="Mob/9460025.img/attack4/info/hit/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="62" y="117" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f9fa8993d9ec91683ebcc20dab58a96fe737a299f1ef50798340d626f2ca36f9" />
+                    <string name="_outlink" value="Mob/9460025.img/attack4/info/hit/4" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="1200" />
+        </imgdir>
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="skill1">
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+    <imgdir name="skill2">
+        <uol name="0" value="../stand/0" />
+        <vector name="lt" x="-226" y="-812" />
+        <vector name="rb" x="78" y="-118" />
+    </imgdir>
+    <imgdir name="chase">
+        <uol name="0" value="../stand/0" />
+    </imgdir>
+</imgdir>

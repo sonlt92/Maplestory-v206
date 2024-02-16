@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="602.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Inferno Wolf] Every Wolf Has His Day" />
+        <string name="desc" value="Claim rewards after achieving Inferno Wolf moderate/considerable/enormous/critical damage ranks." />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Claim a reward after achieving Moderate Damage Rank" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Achieve Moderate Damage Rank" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Claim a reward after achieving Considerable Damage Rank" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Achieve Considerable Damage Rank" />
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Claim a reward after achieving Enormous Damage Rank" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Achieve Enormous Damage Rank" />
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Claim a reward after achieving Critical Damage Rank" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+            <string name="keyword" value="Achieve Critical Damage Rank" />
+        </imgdir>
+    </imgdir>
+</imgdir>

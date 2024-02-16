@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="800006.img">
+    <imgdir name="info">
+        <canvas name="icon" width="1" height="1">
+            <vector name="origin" x="-4" y="30" />
+            <string name="_hash" value="f549c2e5c4ff0fac210709f9a185961d7abcf7459d63c93abec23b6aabc670cd" />
+            <string name="_outlink" value="Skill/15211.img/info/icon" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <imgdir name="80000600">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="e90446fa35dfba499712ca3f0e262ba8a180afa5b5827deff693a139e7c07af5" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/80000600/icon" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/80000600/icon" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="1" />
+                <string name="padX" value="15" />
+                <string name="madX" value="15" />
+                <string name="strX" value="30" />
+                <string name="dexX" value="30" />
+                <string name="intX" value="30" />
+                <string name="lukX" value="30" />
+                <string name="bdR" value="15" />
+                <string name="ignoreMobpdpR" value="15" />
+                <string name="mhpX" value="1500" />
+                <string name="nbdR" value="15" />
+                <string name="cr" value="15" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="50" />
+                <int name="pvp" value="0" />
+            </imgdir>
+            <int name="invisible" value="1" />
+            <int name="psd" value="1" />
+        </imgdir>
+    </imgdir>
+</imgdir>

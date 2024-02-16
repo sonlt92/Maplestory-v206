@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="6702006.img">
+    <imgdir name="info">
+        <string name="info" value="메이플아일랜드 범용리엑터" />
+    </imgdir>
+    <imgdir name="0">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="44" height="28">
+                <vector name="origin" x="21" y="28" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="721d41dbbc38da709a9dff51ac7ac8b184bc93648341e20a50bf40f4012954eb" />
+            </canvas>
+            <canvas name="1" width="47" height="31">
+                <vector name="origin" x="26" y="30" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="fa8fd2e9dc1a3378c56a640df3482e86f6d90f20517a647eec91015c1b3a6047" />
+            </canvas>
+            <canvas name="2" width="50" height="31">
+                <vector name="origin" x="23" y="31" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="78f17ced552c40262665029515005a15e0eeb4a02ac3945a59c6a8f54fbf9ee4" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="21" y="28" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_inlink" value="0/hit/0" />
+            </canvas>
+        </imgdir>
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="21" y="28" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="1">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="2">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="3" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="3">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="4" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../../0/hit/0" />
+            <uol name="1" value="../../0/hit/1" />
+            <canvas name="2" width="49" height="31">
+                <vector name="origin" x="20" y="30" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="eeda914f28573e711e167db2a837809c30d315fae4e218e11933ba8582e7ac4d" />
+            </canvas>
+            <canvas name="3" width="59" height="25">
+                <vector name="origin" x="20" y="24" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="a6229c2f0b0195a58b5bafdd71d6f65681adc4294440e5dcc2f19db4456a47c5" />
+            </canvas>
+            <canvas name="4" width="65" height="18">
+                <vector name="origin" x="23" y="18" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="7a7c43dd45f8259aa66f16b875ae8699882a31b035de7d749400ee14022b6c9b" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="4">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="0" y="0" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="amoriaItem6" />
+</imgdir>

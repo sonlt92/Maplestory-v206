@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="MonsterBookSet.img">
+    <imgdir name="generalStats">
+        <string name="info" value="세트 점수가 일정치 이상이 되면 붙는 기본 스탯. 폴더명은 최소 점수" />
+        <imgdir name="0">
+            <int name="incSTR" value="1" />
+            <int name="incINT" value="1" />
+            <int name="incDEX" value="1" />
+            <int name="incLUK" value="1" />
+        </imgdir>
+        <imgdir name="10">
+            <int name="incSTR" value="2" />
+            <int name="incINT" value="2" />
+            <int name="incDEX" value="2" />
+            <int name="incLUK" value="2" />
+        </imgdir>
+        <imgdir name="100">
+            <int name="incSTR" value="3" />
+            <int name="incINT" value="3" />
+            <int name="incDEX" value="3" />
+            <int name="incLUK" value="3" />
+        </imgdir>
+        <imgdir name="300">
+            <int name="incSTR" value="4" />
+            <int name="incINT" value="4" />
+            <int name="incDEX" value="4" />
+            <int name="incLUK" value="4" />
+        </imgdir>
+        <imgdir name="600">
+            <int name="incSTR" value="5" />
+            <int name="incINT" value="5" />
+            <int name="incDEX" value="5" />
+            <int name="incLUK" value="5" />
+        </imgdir>
+        <imgdir name="1000">
+            <int name="incSTR" value="6" />
+            <int name="incINT" value="6" />
+            <int name="incDEX" value="6" />
+            <int name="incLUK" value="6" />
+        </imgdir>
+        <imgdir name="2000">
+            <int name="incSTR" value="7" />
+            <int name="incINT" value="7" />
+            <int name="incDEX" value="7" />
+            <int name="incLUK" value="7" />
+        </imgdir>
+        <imgdir name="4000">
+            <int name="incSTR" value="8" />
+            <int name="incINT" value="8" />
+            <int name="incDEX" value="8" />
+            <int name="incLUK" value="8" />
+        </imgdir>
+        <imgdir name="7000">
+            <int name="incSTR" value="9" />
+            <int name="incINT" value="9" />
+            <int name="incDEX" value="9" />
+            <int name="incLUK" value="9" />
+        </imgdir>
+        <imgdir name="10000">
+            <int name="incSTR" value="10" />
+            <int name="incINT" value="10" />
+            <int name="incDEX" value="10" />
+            <int name="incLUK" value="10" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="medal">
+        <string name="info" value="세트 점수에 따라 받는 훈장 코드" />
+        <int name="100" value="1142322" />
+        <int name="1000" value="1142323" />
+        <int name="4000" value="1142324" />
+        <int name="7000" value="1142325" />
+        <int name="10000" value="1142326" />
+    </imgdir>
+    <imgdir name="setList">
+        <imgdir name="0">
+            <string name="setName" value="Victoria Island Friends " />
+            <int name="exp" value="65" />
+            <int name="setScore" value="10" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="5" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="ce25375e48b0e5c42edc7181c6db692c9c335cb117aaa97ff974493dd0699155" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="7808451184a7ae057825d83859737afd80100b23076eb9f5a3534286e020310a" />
+            </canvas>
+            <canvas name="iconComplete" width="51" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="90eb870faf4d88b795a18bf6d208842f38156cbdfc87a712a8fa3b0d012d9112" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380000" />
+                <int name="1" value="2380001" />
+                <int name="2" value="2380002" />
+                <int name="3" value="2380004" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="setName" value="Rien Friends " />
+            <int name="exp" value="447" />
+            <int name="setScore" value="10" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="5" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="62f82a562594a9b8768da475e69e5dd2f3fa27e8082a9d09c9380f860cb8b7f0" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="e2a501ce6c534607231180be361bc9ccce39b995a112e13e6dfcc7dea66d02f7" />
+            </canvas>
+            <canvas name="iconComplete" width="51" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="034ad85ce49e99f88b42928ec46f99b33374081648fa215a0b9c9fa0e6d70282" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380015" />
+                <int name="1" value="2380016" />
+                <int name="2" value="2380017" />
+                <int name="3" value="2380018" />
+                <int name="4" value="2380019" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="setName" value="Edelstein Friends" />
+            <int name="exp" value="328" />
+            <int name="setScore" value="10" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="5" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="47">
+                <vector name="origin" x="-1" y="48" />
+                <string name="_hash" value="0e7fbbc39244875dc1bba8153638baee0841b7758786c851ff62389be92b5fce" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="47">
+                <vector name="origin" x="-1" y="48" />
+                <string name="_hash" value="b50b510fe7632b5f51993810819831634a9bb9312b0efe202cfbecd56b1cb5ee" />
+            </canvas>
+            <canvas name="iconComplete" width="51" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="f6c0a2c041186d9a918fc78ebf51d7c6f0e3da075fdf96a9d2734a4290a382df" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380021" />
+                <int name="1" value="2380022" />
+                <int name="2" value="2380026" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="setName" value="Kerning City" />
+            <int name="exp" value="1818" />
+            <int name="setScore" value="30" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="8" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="326c7c5152c6df06b8a2cfef83f1ff41237dc0f3ce970317e03450dc0a1c379f" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="804c0f5f424a4d52e666aa971a1f2fcd9e5dcec698f2d281afccba5581d481ab" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="6f3118217b0ebf5043100ef5a70b003823bdbb2da7940f7e5f7ca8b5fc8ff573" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380010" />
+                <int name="1" value="2381006" />
+                <int name="2" value="2381101" />
+                <int name="3" value="2380029" />
+                <int name="4" value="2381092" />
+                <int name="5" value="2380036" />
+                <int name="6" value="2380041" />
+                <int name="7" value="2388087" />
+                <int name="8" value="2381097" />
+                <int name="9" value="2388090" />
+                <int name="10" value="2388091" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="setName" value="Kerning Square" />
+            <int name="exp" value="6852" />
+            <int name="setScore" value="50" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="8" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="281c5c0bfe393b059f6994b45f167c996e48caaf781f1e57aad6781fc47ae871" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="2f024058cdbf3dd2845d3d866466b7f30cd77a94a1ad3731c688a31c37de772f" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="cc790486937dbdfc79ccb30bf7903b11d8ff5e3e2b2a710179510e35cdff32da" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2382097" />
+                <int name="1" value="2382099" />
+                <int name="2" value="2382098" />
+                <int name="3" value="2382100" />
+                <int name="4" value="2382101" />
+                <int name="5" value="2382102" />
+                <int name="6" value="2382103" />
+                <int name="7" value="2382104" />
+                <int name="8" value="2382105" />
+                <int name="9" value="2382106" />
+                <int name="10" value="2382107" />
+                <int name="11" value="2382108" />
+                <int name="12" value="2382126" />
+                <int name="13" value="2382129" />
+                <int name="14" value="2382130" />
+                <int name="15" value="2382132" />
+                <int name="16" value="2388075" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="setName" value="Ellinia" />
+            <int name="exp" value="1893" />
+            <int name="setScore" value="40" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="6" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="09272eb6b9eba984a4077d1304642e4f9891470cdd85ce54337284f6e9c121c5" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="915cecf76c34deb322e257927b18c82ce7d2d6067eb993ec0d8a789e3cc8612e" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="99f51033de16fdd191c5211c0fffd13aeb11fcc19f0fbb3eb80908a8e8e54fb8" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380005" />
+                <int name="1" value="2380012" />
+                <int name="2" value="2381024" />
+                <int name="3" value="2381099" />
+                <int name="4" value="2380032" />
+                <int name="5" value="2380042" />
+                <int name="6" value="2381104" />
+                <int name="7" value="2381088" />
+                <int name="8" value="2381093" />
+                <int name="9" value="2381106" />
+                <int name="10" value="2388092" />
+                <int name="11" value="2381109" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="6">
+            <string name="setName" value="Sleepywood" />
+            <int name="exp" value="39333" />
+            <int name="setScore" value="90" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="11" />
+                    <int name="1" value="13" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="5235d39fe5d435f74295d4360a083b5969c1ec434020d1ddc855bb8a60e37c5f" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="48b53ca0e02ef2862844e21882131bf108cbfaddcd0c4b4b366618cfa1a37a53" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="dee8d39055cd0d8080f4be7775dc92b8006fe8b5ab6b447fe84e97c6f9705d10" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2383081" />
+                <int name="1" value="2383012" />
+                <int name="2" value="2383044" />
+                <int name="3" value="2383102" />
+                <int name="4" value="2383094" />
+                <int name="5" value="2383099" />
+                <int name="6" value="2384020" />
+                <int name="7" value="2384036" />
+                <int name="8" value="2388099" />
+                <int name="9" value="2388054" />
+                <int name="10" value="2388124" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="7">
+            <string name="setName" value="Perion" />
+            <int name="exp" value="2481" />
+            <int name="setScore" value="40" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="5" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="ce62791cfee2b62ce9258308ec99d5c31d31aa180084556ca1b05a78c21ac50c" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="78fa532d040ff0483473e7c35e37f19e018e70c707f8f3f27b528584d0748479" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="a892669dea6e2b396f7c69546af07c09fc32bd5fdc369c5f9cc3066556eeebf8" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380003" />
+                <int name="1" value="2380008" />
+                <int name="2" value="2380030" />
+                <int name="3" value="2381001" />
+                <int name="4" value="2381082" />
+                <int name="5" value="2380038" />
+                <int name="6" value="2381022" />
+                <int name="7" value="2381014" />
+                <int name="8" value="2381018" />
+                <int name="9" value="2381085" />
+                <int name="10" value="2381103" />
+                <int name="11" value="2388088" />
+                <int name="12" value="2380023" />
+                <int name="13" value="2381094" />
+                <int name="14" value="2382063" />
+                <int name="15" value="2383005" />
+                <int name="16" value="2381098" />
+                <int name="17" value="2382116" />
+                <int name="18" value="2382118" />
+                <int name="19" value="2382120" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="8">
+            <string name="setName" value="Henesys" />
+            <int name="exp" value="1339" />
+            <int name="setScore" value="30" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="7" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="7a5240ee58db9669d1940088e35b7929acc893fd53449e9666ed73e20528857a" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="a8cb92737263ed63384dbf386f9e63ee6459c2d1495939513676d5b4ae8d7ebd" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="cfdf169ac0304189cba9b2fb8936a384cfc937fa81570bcedf359faca376b8e9" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380011" />
+                <int name="1" value="2380007" />
+                <int name="2" value="2380031" />
+                <int name="3" value="2380027" />
+                <int name="4" value="2380028" />
+                <int name="5" value="2380040" />
+                <int name="6" value="2381083" />
+                <int name="7" value="2381089" />
+                <int name="8" value="2381096" />
+                <int name="9" value="2381105" />
+                <int name="10" value="2388086" />
+                <int name="11" value="2388089" />
+                <int name="12" value="2388053" />
+                <int name="13" value="2380013" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="9">
+            <string name="setName" value="Mushroom Castle" />
+            <int name="exp" value="3453" />
+            <int name="setScore" value="40" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="46">
+                <vector name="origin" x="-1" y="47" />
+                <string name="_hash" value="b2d593b02cd97a3a02ef5d010ece542eda7fefa69d78c899a77ccfd427c9d192" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="46">
+                <vector name="origin" x="-1" y="47" />
+                <string name="_hash" value="74c56f0debbadca33d546c0e1e836119e72c72ee28d6e37cae100ee61f4d9659" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="75f8a864038054f76d02437dbfe201bc35a87c068253b5625526eb7d67c91e27" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2381108" />
+                <int name="1" value="2382113" />
+                <int name="2" value="2382094" />
+                <int name="3" value="2382095" />
+                <int name="4" value="2382096" />
+                <int name="5" value="2388067" />
+                <int name="6" value="2388069" />
+                <int name="7" value="2388068" />
+                <int name="8" value="2388070" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="10">
+            <string name="setName" value="Overlooked Villages" />
+            <int name="exp" value="4860" />
+            <int name="setScore" value="50" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="9" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="629db01baeabe1ec3a6952f96666f8d332c2abe50b6a3c3537987fe3a935546b" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="3e35bd893887ff30e3b6c95cc45f79b5c76c93110905eb4e24615241cdb09359" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="f893b7ad21f40d25448031f65f14d939e61654a27fee5cb2e71528e6613be88e" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380000" />
+                <int name="1" value="2380001" />
+                <int name="2" value="2380015" />
+                <int name="3" value="2380016" />
+                <int name="4" value="2380017" />
+                <int name="5" value="2380018" />
+                <int name="6" value="2380019" />
+                <int name="7" value="2380002" />
+                <int name="8" value="2380004" />
+                <int name="9" value="2380006" />
+                <int name="10" value="2380009" />
+                <int name="11" value="2380037" />
+                <int name="12" value="2388085" />
+                <int name="13" value="2382030" />
+                <int name="14" value="2382123" />
+                <int name="15" value="2382121" />
+                <int name="16" value="2388095" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="11">
+            <string name="setName" value="Edelstein" />
+            <int name="exp" value="2136" />
+            <int name="setScore" value="50" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="13" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="693b850054dcab785072fbf511e10e56d3f7bdc7f5a5d62df1ee09a25874a76b" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="74db877d50463603cf573c8a75123db51c2dfa452b56a0b060819f1adc72b579" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="778c466a915b3901b7fa5c18b40d737944c08cfb25ce1f4f578c2cd6507ab3b9" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2380021" />
+                <int name="1" value="2380022" />
+                <int name="2" value="2380026" />
+                <int name="3" value="2380039" />
+                <int name="4" value="2381086" />
+                <int name="5" value="2381087" />
+                <int name="6" value="2381090" />
+                <int name="7" value="2381095" />
+                <int name="8" value="2381100" />
+                <int name="9" value="2381107" />
+                <int name="10" value="2382114" />
+                <int name="11" value="2382115" />
+                <int name="12" value="2382119" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="12">
+            <string name="setName" value="Verne Mine" />
+            <int name="exp" value="80388" />
+            <int name="setScore" value="55" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="13" />
+                    <int name="1" value="14" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="00fde5e24c39c6cc692cae26a2eb435e2ce96cff102200770a2f0a6714215250" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="113c302be2415e122df2d47ac59bb9e735b91b7c57ac55a7debab0aa5207d582" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="082bf24af5f4f15a9d4620884128bd84f9c4c570f6ff9c53e76fb9caa1d6a6c4" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2384078" />
+                <int name="1" value="2384089" />
+                <int name="2" value="2384094" />
+                <int name="3" value="2384099" />
+                <int name="4" value="2385049" />
+                <int name="5" value="2385058" />
+                <int name="6" value="2385067" />
+                <int name="7" value="2385078" />
+                <int name="8" value="2385084" />
+                <int name="9" value="2386041" />
+                <int name="10" value="2386048" />
+                <int name="11" value="2386057" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="13">
+            <string name="setName" value="Nihal Desert" />
+            <int name="exp" value="44478" />
+            <int name="setScore" value="90" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="6" />
+                    <int name="1" value="14" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="07f513667553ced895cec7a4c686c881184d68749511f0846fc555bc4fa38937" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="0c4f330521d8c871796205ddb051a3c2155ad1d4b64effe3229ea4f15ad44dc1" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="8aea097895be680171657397d7681b5d0acea3fd5b5055f1a6729d218ac37ecd" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2384076" />
+                <int name="1" value="2384079" />
+                <int name="2" value="2384083" />
+                <int name="3" value="2384095" />
+                <int name="4" value="2385045" />
+                <int name="5" value="2384090" />
+                <int name="6" value="2384092" />
+                <int name="7" value="2385050" />
+                <int name="8" value="2385046" />
+                <int name="9" value="2385051" />
+                <int name="10" value="2385060" />
+                <int name="11" value="2385070" />
+                <int name="12" value="2385056" />
+                <int name="13" value="2385071" />
+                <int name="14" value="2388105" />
+                <int name="15" value="2385079" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="14">
+            <string name="setName" value="Magatia" />
+            <int name="exp" value="86015" />
+            <int name="setScore" value="110" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10003" />
+                    <int name="1" value="12" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="d0b34392ce7faaa51779841258436f0659b6800bc35855ce6b6ee1312db5cfa8" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="e89bb5c0e70df0f344d4d032d2c7783f09f6032355ef59e1b6ccdafeaadf345c" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="75d227330f5337e1a09c1fb1237545aa16f8006450e0b9ca684e269e22d27fe1" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2385053" />
+                <int name="1" value="2385061" />
+                <int name="2" value="2385064" />
+                <int name="3" value="2385068" />
+                <int name="4" value="2385072" />
+                <int name="5" value="2385076" />
+                <int name="6" value="2385077" />
+                <int name="7" value="2385080" />
+                <int name="8" value="2385082" />
+                <int name="9" value="2388106" />
+                <int name="10" value="2386037" />
+                <int name="11" value="2386043" />
+                <int name="12" value="2388108" />
+                <int name="13" value="2388135" />
+                <int name="14" value="2386052" />
+                <int name="15" value="2388110" />
+                <int name="16" value="2386055" />
+                <int name="17" value="2388112" />
+                <int name="18" value="2388014" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="15">
+            <string name="setName" value="Ludibrium" />
+            <int name="exp" value="23071" />
+            <int name="setScore" value="160" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10005" />
+                    <int name="1" value="10013" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="c070605559a157c7fb335d0921c8a2b58956b3d559da5cf0b75e96202d83915c" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="6ed7119fb56d5095b59dcf8f8297bf1eccb546b8816acb157d5d6d7688674edb" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="85402966c6acc135ccf15b2b2bd6895ce0fa5e40669371344a8f6f1fa5fa6c08" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2383075" />
+                <int name="1" value="2383076" />
+                <int name="2" value="2383077" />
+                <int name="3" value="2383083" />
+                <int name="4" value="2382005" />
+                <int name="5" value="2383088" />
+                <int name="6" value="2383086" />
+                <int name="7" value="2382016" />
+                <int name="8" value="2383093" />
+                <int name="9" value="2384080" />
+                <int name="10" value="2383098" />
+                <int name="11" value="2383089" />
+                <int name="12" value="2383095" />
+                <int name="13" value="2383101" />
+                <int name="14" value="2383096" />
+                <int name="15" value="2384096" />
+                <int name="16" value="2383080" />
+                <int name="17" value="2384064" />
+                <int name="18" value="2383085" />
+                <int name="19" value="2388100" />
+                <int name="20" value="2384068" />
+                <int name="21" value="2384072" />
+                <int name="22" value="2384065" />
+                <int name="23" value="2384069" />
+                <int name="24" value="2384084" />
+                <int name="25" value="2384098" />
+                <int name="26" value="2384100" />
+                <int name="27" value="2388103" />
+                <int name="28" value="2388094" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="16">
+            <string name="setName" value="Clocktower Bottom Floor" />
+            <int name="exp" value="224666" />
+            <int name="setScore" value="130" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10045" />
+                    <int name="1" value="13" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="d8066c91625f5f44f3eb064d65667c56272582a856c093ecf4ba2a348aefbebd" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="ef604871c8f612e6181a04d94e1023b6522db9815c4cec07b598611e30830866" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="2f6005462165ca5e5022b3cb40ee0001f78af8f04fd103b5dca9f0ab58c1c232" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2386044" />
+                <int name="1" value="2386049" />
+                <int name="2" value="2386047" />
+                <int name="3" value="2386051" />
+                <int name="4" value="2386065" />
+                <int name="5" value="2387033" />
+                <int name="6" value="2387038" />
+                <int name="7" value="2387042" />
+                <int name="8" value="2387037" />
+                <int name="9" value="2387040" />
+                <int name="10" value="2386058" />
+                <int name="11" value="2386064" />
+                <int name="12" value="2387053" />
+                <int name="13" value="2387057" />
+                <int name="14" value="2387054" />
+                <int name="15" value="2387060" />
+                <int name="16" value="2387000" />
+                <int name="17" value="2387001" />
+                <int name="18" value="2388022" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="17">
+            <string name="setName" value="Ellin Forest" />
+            <int name="exp" value="36759" />
+            <int name="setScore" value="90" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="5" />
+                    <int name="1" value="13" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="7cb497584146bb3232f6fd9fd52e4ee37bc46533a6cfca568fac2352f8e64a05" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="cbec952cd23e6c402a9d491c8ef76cba2906e4e53058cb7243e35f498954b82e" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="2e375f2f8a661c79f9327e7a889a753556d1aee4f8adcb49a9ab5f3214dfef9f" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2385048" />
+                <int name="1" value="2385054" />
+                <int name="2" value="2385066" />
+                <int name="3" value="2385059" />
+                <int name="4" value="2385074" />
+                <int name="5" value="2388039" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="18">
+            <string name="setName" value="Aqua Road" />
+            <int name="exp" value="114948" />
+            <int name="setScore" value="240" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="20052" />
+                    <int name="1" value="10014" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="e0495707144b792236cfebd58c216c3002e72f73c62e1f95e8e9f8e3a77a88eb" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="dfb7ab51c02896f3ee01eef2b775994a2d6b301231129ba8818e237ed0c7c3d4" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="709b61c6b8a9bc6e22c15f16962723304480ca9caa381a20e143b4465d36ff6f" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2383087" />
+                <int name="1" value="2383097" />
+                <int name="2" value="2383092" />
+                <int name="3" value="2383084" />
+                <int name="4" value="2383100" />
+                <int name="5" value="2384063" />
+                <int name="6" value="2384066" />
+                <int name="7" value="2384074" />
+                <int name="8" value="2384070" />
+                <int name="9" value="2384081" />
+                <int name="10" value="2388098" />
+                <int name="11" value="2384097" />
+                <int name="12" value="2384093" />
+                <int name="13" value="2384086" />
+                <int name="14" value="2384087" />
+                <int name="15" value="2386036" />
+                <int name="16" value="2386000" />
+                <int name="17" value="2386003" />
+                <int name="18" value="2386007" />
+                <int name="19" value="2386012" />
+                <int name="20" value="2387035" />
+                <int name="21" value="2388020" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="19">
+            <string name="setName" value="Orbis" />
+            <int name="exp" value="14381" />
+            <int name="setScore" value="60" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="9" />
+                    <int name="1" value="10" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="2319e52e30ef75e6a457583aa7c79f910dd989624d9ae3edb3cbd76ea8ed3feb" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="085302a1703351ade6ba9c3fd9a0290fbd1d7f1ac0e8acfbc32692a6db9ae872" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="e1bdc401437b6bc4b6840c0f5e831d1fb9976ed275b188885d9e4d62229e2902" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2382011" />
+                <int name="1" value="2382012" />
+                <int name="2" value="2382013" />
+                <int name="3" value="2382020" />
+                <int name="4" value="2382127" />
+                <int name="5" value="2382052" />
+                <int name="6" value="2382064" />
+                <int name="7" value="2382131" />
+                <int name="8" value="2383021" />
+                <int name="9" value="2383022" />
+                <int name="10" value="2383023" />
+                <int name="11" value="2383082" />
+                <int name="12" value="2383090" />
+                <int name="13" value="2388015" />
+                <int name="14" value="2388097" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="20">
+            <string name="setName" value="El Nath" />
+            <int name="exp" value="12330" />
+            <int name="setScore" value="60" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="11" />
+                    <int name="1" value="2" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="8efbf593cf9d0e4c36118a71d2539a4aad25b4b29ad711a5a02f7b78528bb6c9" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="41735562938318c789a3b032b0b778b549501e1c8fccb47d07ae4107d6aa15bb" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="8f5b23fa466010ffcc5d116f685d0a7c84e3bd5bf1de31d0aede8c26b099dcdf" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2382122" />
+                <int name="1" value="2382133" />
+                <int name="2" value="2383031" />
+                <int name="3" value="2383033" />
+                <int name="4" value="2383040" />
+                <int name="5" value="2382117" />
+                <int name="6" value="2382124" />
+                <int name="7" value="2382125" />
+                <int name="8" value="2382006" />
+                <int name="9" value="2382014" />
+                <int name="10" value="2382023" />
+                <int name="11" value="2388096" />
+                <int name="12" value="2383045" />
+                <int name="13" value="2383078" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="21">
+            <string name="setName" value="Dead Mine" />
+            <int name="exp" value="381269" />
+            <int name="setScore" value="210" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="20051" />
+                    <int name="1" value="10012" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="eb9e21b4d4dfe9aeda0402fc20470508e7ec3bea69a270f478103225d2155ce9" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="ffd9a5b2a206dd17e9b967bfd7ca5f5354e10658b7dd5fe5d616ddcffdcc140d" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="b690fd4bdd8599b70a4ed6fe80519b1ef030a8055eedb16c39bb1074c7c31653" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2387055" />
+                <int name="1" value="2387058" />
+                <int name="2" value="2383017" />
+                <int name="3" value="2387066" />
+                <int name="4" value="2387067" />
+                <int name="5" value="2388117" />
+                <int name="6" value="2387044" />
+                <int name="7" value="2387050" />
+                <int name="8" value="2387069" />
+                <int name="9" value="2387056" />
+                <int name="10" value="2387061" />
+                <int name="11" value="2387064" />
+                <int name="12" value="2387059" />
+                <int name="13" value="2388116" />
+                <int name="14" value="2388023" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="22">
+            <string name="setName" value="Omega Sector &amp; Korean Village" />
+            <int name="exp" value="26378" />
+            <int name="setScore" value="80" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="3" />
+                    <int name="1" value="6" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="f936c07339e18918441948ae511c953e88c2604193737630b354bb8071eaee39" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="9980908d7f048666eda06d016cce710a6d703070c0c98abf19373a34b996a697" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="2bc2b690709116b70ebfb1ea7feda1f0d46bb675ad494e0e1a3c7355b08d45f9" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2384073" />
+                <int name="1" value="2384077" />
+                <int name="2" value="2384085" />
+                <int name="3" value="2384075" />
+                <int name="4" value="2384082" />
+                <int name="5" value="2384091" />
+                <int name="6" value="2383091" />
+                <int name="7" value="2384101" />
+                <int name="8" value="2383014" />
+                <int name="9" value="2384067" />
+                <int name="10" value="2383024" />
+                <int name="11" value="2388102" />
+                <int name="12" value="2388101" />
+                <int name="13" value="2384071" />
+                <int name="14" value="2388104" />
+                <int name="15" value="2384021" />
+                <int name="16" value="2384022" />
+                <int name="17" value="2384023" />
+                <int name="18" value="2388009" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="23">
+            <string name="setName" value="Mu Lung" />
+            <int name="exp" value="876608" />
+            <int name="setScore" value="320" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="30371" />
+                    <int name="1" value="20291" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="93bb0865eebabe2a63b893e2dad12f8d6e9e7da14284471f1268707673b6681a" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="9ca6abce9c2ff25d8de10dd8860c9d68f8bfc06838c89e98b2c333d4ae653f66" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="902b812ba15d04a365f64f8a9f1a18ea0b51a07921e3c28e1d5b5fde7072bdf9" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2385047" />
+                <int name="1" value="2385052" />
+                <int name="2" value="2385057" />
+                <int name="3" value="2385062" />
+                <int name="4" value="2385063" />
+                <int name="5" value="2386035" />
+                <int name="6" value="2386040" />
+                <int name="7" value="2388107" />
+                <int name="8" value="2385075" />
+                <int name="9" value="2386042" />
+                <int name="10" value="2386046" />
+                <int name="11" value="2385065" />
+                <int name="12" value="2385069" />
+                <int name="13" value="2385081" />
+                <int name="14" value="2385073" />
+                <int name="15" value="2385083" />
+                <int name="16" value="2386053" />
+                <int name="17" value="2386038" />
+                <int name="18" value="2386059" />
+                <int name="19" value="2386045" />
+                <int name="20" value="2386062" />
+                <int name="21" value="2388109" />
+                <int name="22" value="2388111" />
+                <int name="23" value="2388011" />
+                <int name="24" value="2388046" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="24">
+            <string name="setName" value="Leafre" />
+            <int name="exp" value="1537475" />
+            <int name="setScore" value="680" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="30106" />
+                    <int name="1" value="30291" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="41">
+                <vector name="origin" x="-1" y="42" />
+                <string name="_hash" value="a77ac299038c41950a0e563a8736a84ff2b61cc04fdb0fcbc38b64e89001bbb0" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="41">
+                <vector name="origin" x="-1" y="42" />
+                <string name="_hash" value="cbe72b1324b744997b58be30cf4f34be95c55efc48e6248b90d2054af0b0dbf2" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="eca1be4e90ba6169a909cea1777e14333f43c9851d0c88824602f80ad1c21eff" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2386054" />
+                <int name="1" value="2386061" />
+                <int name="2" value="2387034" />
+                <int name="3" value="2386050" />
+                <int name="4" value="2386060" />
+                <int name="5" value="2386056" />
+                <int name="6" value="2386063" />
+                <int name="7" value="2387036" />
+                <int name="8" value="2387039" />
+                <int name="9" value="2387047" />
+                <int name="10" value="2387048" />
+                <int name="11" value="2387049" />
+                <int name="12" value="2387041" />
+                <int name="13" value="2387043" />
+                <int name="14" value="2387062" />
+                <int name="15" value="2387063" />
+                <int name="16" value="2387065" />
+                <int name="17" value="2387068" />
+                <int name="18" value="2387072" />
+                <int name="19" value="2387076" />
+                <int name="20" value="2387070" />
+                <int name="21" value="2387074" />
+                <int name="22" value="2387075" />
+                <int name="23" value="2388114" />
+                <int name="24" value="2388115" />
+                <int name="25" value="2387079" />
+                <int name="26" value="2387004" />
+                <int name="27" value="2387002" />
+                <int name="28" value="2387003" />
+                <int name="29" value="2388033" />
+                <int name="30" value="2388081" />
+                <int name="31" value="2388082" />
+                <int name="32" value="2388024" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="25">
+            <string name="setName" value="Temple of Time" />
+            <int name="exp" value="3835136" />
+            <int name="setScore" value="285" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="20201" />
+                    <int name="1" value="20206" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="45">
+                <vector name="origin" x="-1" y="46" />
+                <string name="_hash" value="439f6c6b498124269b6ce253b0b7e39252a34c6c12242c45120cd6fcc12cb15a" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="45">
+                <vector name="origin" x="-1" y="46" />
+                <string name="_hash" value="ea330f7c0d4ab92d2b394efebfbea1db37421789921f2fd8cb161c6d1c0d1b4f" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="08e15603a1a7a4cc76f0775113f3d4608bfdde7b3e14e2907d8ef757be2c9546" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2387073" />
+                <int name="1" value="2387077" />
+                <int name="2" value="2387078" />
+                <int name="3" value="2387080" />
+                <int name="4" value="2387081" />
+                <int name="5" value="2387006" />
+                <int name="6" value="2387007" />
+                <int name="7" value="2387008" />
+                <int name="8" value="2387009" />
+                <int name="9" value="2387010" />
+                <int name="10" value="2387011" />
+                <int name="11" value="2387012" />
+                <int name="12" value="2387013" />
+                <int name="13" value="2388040" />
+                <int name="14" value="2388041" />
+                <int name="15" value="2388042" />
+                <int name="16" value="2388043" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="26">
+            <string name="setName" value="Mushroom Shrine" />
+            <int name="exp" value="161221" />
+            <int name="setScore" value="240" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="20406" />
+                    <int name="1" value="10054" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="ada5990af8c76857d23855db23e6336f8467392db3d76eb58aa1f60943b7bac1" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="733b402aeee05de846a285f62869ba128579da9c8d1841bd74f3977604c80c25" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="c7716333cb78b33e9ca2a7fca94d35bc1074adf101051144c782a84db9780b23" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2381039" />
+                <int name="1" value="2381040" />
+                <int name="2" value="2381041" />
+                <int name="3" value="2383050" />
+                <int name="4" value="2382073" />
+                <int name="5" value="2382074" />
+                <int name="6" value="2383051" />
+                <int name="7" value="2386018" />
+                <int name="8" value="2388035" />
+                <int name="9" value="2388034" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="27">
+            <string name="setName" value="Sakura Castle" />
+            <int name="exp" value="3835136" />
+            <int name="setScore" value="190" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10009" />
+                    <int name="1" value="10010" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="b71d3ea8fbb5540e0aadba9b846471c2fb6cf99ac5b8562726378f2ff6d86c36" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="09faec6b265a780bd3bb3286ccef7c07c4939adbcec925ff569ff75da6003aba" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="dff9dfccba13bad02fbbbb3aed7840a9d3bb5080c688b8bb35a82ff54e74c624" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2381042" />
+                <int name="1" value="2383054" />
+                <int name="2" value="2385024" />
+                <int name="3" value="2386020" />
+                <int name="4" value="2387005" />
+                <int name="5" value="2388038" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="28">
+            <string name="setName" value="Showa Village" />
+            <int name="exp" value="3275242" />
+            <int name="setScore" value="180" />
+            <imgdir name="stats">
+                <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 스탯" />
+                <imgdir name="potential">
+                    <string name="info" value="해당 세트를 선택했을 때 몬스터북에 붙는 잠재능력(옵션코드)" />
+                    <int name="0" value="10081" />
+                    <int name="1" value="10048" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="0648eaa3c0f90a6e3017eb5211b11d7ea14f001d3176daf97e023c2c64f4a732" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="3249945316a6d96c88d916cce1b173afef2c985eaba04169876264b4d114f307" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="6b8cb01bcb369acc0a7ef00127c18345fbf5eaadd03f91220890ce6494e65dbf" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2387071" />
+                <int name="1" value="2382075" />
+                <int name="2" value="2383052" />
+                <int name="3" value="2383053" />
+                <int name="4" value="2384041" />
+                <int name="5" value="2384042" />
+                <int name="6" value="2384043" />
+                <int name="7" value="2386019" />
+                <int name="8" value="2388036" />
+                <int name="9" value="2388056" />
+                <int name="10" value="2388153" />
+                <int name="11" value="2388154" />
+                <int name="12" value="2388037" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="32">
+            <string name="setName" value="Silent Crusade" />
+            <int name="exp" value="211327" />
+            <int name="setScore" value="240" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="54decee23b01bb43085938eccb9feebaeb1d095ce221560b6fd3202a9be60984" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="5c49c7458f254e56a983c9348e89ae637ac5a374dd8a1658836e3da94ba537ae" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="babfa306695170e55fa7169d1c4301d2fa04ac646efbd322faa5c70de377fd99" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2388085" />
+                <int name="1" value="2388088" />
+                <int name="2" value="2388090" />
+                <int name="3" value="2388092" />
+                <int name="4" value="2388136" />
+                <int name="5" value="2388095" />
+                <int name="6" value="2388137" />
+                <int name="7" value="2388138" />
+                <int name="8" value="2388015" />
+                <int name="9" value="2388139" />
+                <int name="10" value="2388009" />
+                <int name="11" value="2388103" />
+                <int name="12" value="2388104" />
+                <int name="13" value="2388105" />
+                <int name="14" value="2388106" />
+                <int name="15" value="2388135" />
+                <int name="16" value="2388111" />
+                <int name="17" value="2388140" />
+                <int name="18" value="2388141" />
+                <int name="19" value="2388142" />
+                <int name="20" value="2388143" />
+                <int name="21" value="2388144" />
+                <int name="22" value="2388145" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="33">
+            <string name="setName" value="Hoblin King" />
+            <int name="exp" value="38848" />
+            <int name="setScore" value="90" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <canvas name="iconDisable" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="5af88707ce9f7055ac804b62dc7c4ff05109c06d90c1793f94cbaaa0a5bbf2c7" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="65152965989f16fccfd0a333358eb4f1d71163caf42d00b0eea917c327d585d3" />
+            </canvas>
+            <canvas name="iconComplete" width="51" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="3e7c9a7213ec8bb0d5ff379cb4abf19f06ce3a60bf852f83dc70224d47ef76f5" />
+            </canvas>
+            <imgdir name="cardList">
+                <int name="0" value="2385085" />
+                <int name="1" value="2385086" />
+                <int name="2" value="2385087" />
+                <int name="3" value="2385088" />
+                <int name="4" value="2385089" />
+                <int name="5" value="2388084" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="34">
+            <canvas name="iconDisable" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="ed3403b10fea42c39e771054aeac5c006f67ce3d533ea34fd5eb45d3123b5c4d" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="49">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="a5a6b6eb2ce0d83b90d7bad4dd8aef39ce97c0488b68f769b2bb88cc95bc9322" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="46fb5f22dd536c7a18f66fbe68b98b48f69faa01d14a46332eb3ec2e4083f950" />
+            </canvas>
+            <string name="setName" value="How to Be Awesome" />
+            <int name="exp" value="181137" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2380002" />
+                <int name="1" value="2380023" />
+                <int name="2" value="2380036" />
+                <int name="3" value="2381006" />
+                <int name="4" value="2382011" />
+                <int name="5" value="2382012" />
+                <int name="6" value="2382013" />
+                <int name="7" value="2382023" />
+                <int name="8" value="2382115" />
+                <int name="9" value="2382117" />
+                <int name="10" value="2382133" />
+                <int name="11" value="2383014" />
+                <int name="12" value="2383033" />
+                <int name="13" value="2383082" />
+                <int name="14" value="2384081" />
+                <int name="15" value="2384083" />
+                <int name="16" value="2384084" />
+                <int name="17" value="2387058" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="35">
+            <canvas name="iconDisable" width="49" height="43">
+                <vector name="origin" x="-2" y="44" />
+                <string name="_hash" value="849206f2426934816be448c6245d17b058c40763f51f4762e0019fedef82fc9a" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="66bdd2fa67ff15fea53cf31fa21fa434a57a73153d9fb9ac3b1b4c1e80e20f2c" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="a4142df0be4f96514a7cca35d115823b3d981d4c5f4730cf8db9899fdbf1c125" />
+            </canvas>
+            <string name="setName" value="Von Leon" />
+            <int name="exp" value="458710" />
+            <int name="setScore" value="195" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="10051" />
+                    <int name="1" value="10070" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2387082" />
+                <int name="1" value="2387083" />
+                <int name="2" value="2387084" />
+                <int name="3" value="2387085" />
+                <int name="4" value="2387086" />
+                <int name="5" value="2387087" />
+                <int name="6" value="2388146" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="36">
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="2dc2253080fb93d9f549aad7697800a91eff3790f4216ecd651fd679eb5297fd" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="c867cdf45980023af10fa445182bf5f1c81bf95b58b443390e4ec8aaea81fbe1" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="a54f8daa40792d7c82ea1a3ebe6f819034aef123dd3162e45c028d3f86e0f450" />
+            </canvas>
+            <string name="setName" value="Henesys Ruins" />
+            <int name="exp" value="46856390" />
+            <int name="setScore" value="600" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="30051" />
+                    <int name="1" value="30052" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2387088" />
+                <int name="1" value="2387089" />
+                <int name="2" value="2387090" />
+                <int name="3" value="2387091" />
+                <int name="4" value="2387092" />
+                <int name="5" value="2387093" />
+                <int name="6" value="2387094" />
+                <int name="7" value="2387095" />
+                <int name="8" value="2387096" />
+                <int name="9" value="2387097" />
+                <int name="10" value="2387098" />
+                <int name="11" value="2387099" />
+                <int name="12" value="2387100" />
+                <int name="13" value="2387101" />
+                <int name="14" value="2387102" />
+                <int name="15" value="2387103" />
+                <int name="16" value="2387104" />
+                <int name="17" value="2387105" />
+                <int name="18" value="2387106" />
+                <int name="19" value="2387107" />
+                <int name="20" value="2387108" />
+                <int name="21" value="2387109" />
+                <int name="22" value="2388147" />
+                <int name="23" value="2388148" />
+                <int name="24" value="2388149" />
+                <int name="25" value="2388150" />
+                <int name="26" value="2388151" />
+                <int name="27" value="2388152" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="100">
+            <canvas name="iconDisable" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="35a1d24bf698560649ae4fd7ed553d1665a9edd7afe3dbcdf25674524c90a56d" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="42">
+                <vector name="origin" x="-1" y="43" />
+                <string name="_hash" value="59df467a4a8df1ea9f204f56caf66b87d0426d421054b92996394a1b1e71b884" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="eee79eb697dcbcc7b6b6b7de8c54339396363905c1355e42445d2d5dca9f8b02" />
+            </canvas>
+            <string name="setName" value="Harmless Critters" />
+            <int name="exp" value="768" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2380000" />
+                <int name="1" value="2380001" />
+                <int name="2" value="2380004" />
+                <int name="3" value="2380006" />
+                <int name="4" value="2380009" />
+                <int name="5" value="2380010" />
+                <int name="6" value="2380015" />
+                <int name="7" value="2380016" />
+                <int name="8" value="2380017" />
+                <int name="9" value="2380018" />
+                <int name="10" value="2380019" />
+                <int name="11" value="2380029" />
+                <int name="12" value="2380037" />
+                <int name="13" value="2381022" />
+                <int name="14" value="2381085" />
+                <int name="15" value="2381087" />
+                <int name="16" value="2381090" />
+                <int name="17" value="2381094" />
+                <int name="18" value="2388085" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="101">
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="124f6c6fd8651ae6e7d6fb1c81ee87c5ce915571c67f61be247d960805e2e8a0" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="9e265723d594c75f8b8451a27427d57699be3f620c2ffe92621df4a8e2dad35e" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="62a0df28334a75d9d4c2c7b76202043f30dd2364ec8c6f893f4efb27b1001753" />
+            </canvas>
+            <string name="setName" value="Tame Creatures" />
+            <int name="exp" value="5895" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2381039" />
+                <int name="1" value="2381040" />
+                <int name="2" value="2381041" />
+                <int name="3" value="2381098" />
+                <int name="4" value="2381103" />
+                <int name="5" value="2381104" />
+                <int name="6" value="2382011" />
+                <int name="7" value="2382012" />
+                <int name="8" value="2382013" />
+                <int name="9" value="2382023" />
+                <int name="10" value="2382073" />
+                <int name="11" value="2382094" />
+                <int name="12" value="2382095" />
+                <int name="13" value="2382096" />
+                <int name="14" value="2382133" />
+                <int name="15" value="2388067" />
+                <int name="16" value="2388068" />
+                <int name="17" value="2388069" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="102">
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="78f6e924bcc3c7ec970884254f45fc9684ca6248d9f57d59e68ada2fa441293b" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="c03374c9b15dc9c56fe2b6cd21a0de2bed070a004703a05179a49463bd3caed4" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="3814f83bfe5e8f82ce8b9a1ad717ca2fe61aa74be555acc1bf8ef3d2d9116124" />
+            </canvas>
+            <string name="setName" value="Wild Animals" />
+            <int name="exp" value="19017" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2383014" />
+                <int name="1" value="2383021" />
+                <int name="2" value="2383022" />
+                <int name="3" value="2383023" />
+                <int name="4" value="2383024" />
+                <int name="5" value="2383031" />
+                <int name="6" value="2383033" />
+                <int name="7" value="2383040" />
+                <int name="8" value="2383045" />
+                <int name="9" value="2383075" />
+                <int name="10" value="2383076" />
+                <int name="11" value="2383078" />
+                <int name="12" value="2383080" />
+                <int name="13" value="2383082" />
+                <int name="14" value="2383090" />
+                <int name="15" value="2383091" />
+                <int name="16" value="2384064" />
+                <int name="17" value="2384067" />
+                <int name="18" value="2384074" />
+                <int name="19" value="2384076" />
+                <int name="20" value="2384079" />
+                <int name="21" value="2384081" />
+                <int name="22" value="2388009" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="103">
+            <canvas name="iconDisable" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="badbdd7a11b27718fd93c09ac9929880cffdf98972016a04d653050b6055ab5f" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="43">
+                <vector name="origin" x="-1" y="44" />
+                <string name="_hash" value="ab769a58c767712dddb7a6249b87c7b64d42dfb4afcd41d19eeb7bbddf2e19fe" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="83b94acecfcba5c4d5e015a3d064a4a390e6f81a0154ef20ec063d72f4d1b5b5" />
+            </canvas>
+            <string name="setName" value="Vicious Beasts" />
+            <int name="exp" value="68142" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2384089" />
+                <int name="1" value="2384093" />
+                <int name="2" value="2384094" />
+                <int name="3" value="2384097" />
+                <int name="4" value="2384099" />
+                <int name="5" value="2385046" />
+                <int name="6" value="2385047" />
+                <int name="7" value="2385048" />
+                <int name="8" value="2385049" />
+                <int name="9" value="2385051" />
+                <int name="10" value="2385052" />
+                <int name="11" value="2385056" />
+                <int name="12" value="2385057" />
+                <int name="13" value="2385060" />
+                <int name="14" value="2385067" />
+                <int name="15" value="2385074" />
+                <int name="16" value="2385075" />
+                <int name="17" value="2385081" />
+                <int name="18" value="2385083" />
+                <int name="19" value="2386038" />
+                <int name="20" value="2386045" />
+                <int name="21" value="2386050" />
+                <int name="22" value="2388109" />
+                <int name="23" value="2388111" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="104">
+            <canvas name="iconDisable" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="776ac0b9d451e23c03d1bff5f4570e06055c455d642cdcf1462dcc659544ae44" />
+            </canvas>
+            <canvas name="iconProgress" width="50" height="44">
+                <vector name="origin" x="-1" y="45" />
+                <string name="_hash" value="fcda03fece06c66649f682c9828eefd5b27a76d407e096ab461e01e22af2f401" />
+            </canvas>
+            <canvas name="iconComplete" width="50" height="50">
+                <vector name="origin" x="-1" y="50" />
+                <string name="_hash" value="29a9687033d55a12e96a7cf817585ad718dc5b1a5038737d09bd922261974bcc" />
+            </canvas>
+            <string name="setName" value="Terrifying Monsters" />
+            <int name="exp" value="2886147" />
+            <int name="setScore" value="90" />
+            <int name="deactivated" value="1" />
+            <imgdir name="stats">
+                <imgdir name="potential">
+                    <int name="0" value="20086" />
+                    <int name="1" value="10291" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="cardList">
+                <int name="0" value="2386054" />
+                <int name="1" value="2386057" />
+                <int name="2" value="2386060" />
+                <int name="3" value="2386061" />
+                <int name="4" value="2387036" />
+                <int name="5" value="2387039" />
+                <int name="6" value="2387041" />
+                <int name="7" value="2387043" />
+                <int name="8" value="2387044" />
+                <int name="9" value="2387050" />
+                <int name="10" value="2387055" />
+                <int name="11" value="2387056" />
+                <int name="12" value="2387058" />
+                <int name="13" value="2387059" />
+                <int name="14" value="2387061" />
+                <int name="15" value="2387064" />
+                <int name="16" value="2387069" />
+                <int name="17" value="2387071" />
+                <int name="18" value="2388042" />
+                <int name="19" value="2388046" />
+                <int name="20" value="2388115" />
+                <int name="21" value="2388116" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

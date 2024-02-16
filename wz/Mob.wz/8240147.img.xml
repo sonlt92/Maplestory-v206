@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8240147.img">
+    <imgdir name="info">
+        <int name="boss" value="1" />
+        <int name="level" value="150" />
+        <int name="maxHP" value="60000000" />
+        <int name="maxMP" value="1000000" />
+        <int name="hpTagColor" value="1" />
+        <int name="hpTagBgcolor" value="5" />
+        <int name="acc" value="203" />
+        <int name="eva" value="51" />
+        <int name="speed" value="50" />
+        <int name="pushed" value="2000000000" />
+        <float name="fs" value="10.0" />
+        <int name="category" value="0" />
+        <int name="summonType" value="1" />
+        <string name="mobType" value="1N" />
+        <int name="hideHP" value="1" />
+        <int name="PADamage" value="1000" />
+        <int name="PDDamage" value="1000" />
+        <int name="MADamage" value="1000" />
+        <int name="MDDamage" value="1000" />
+        <int name="firstAttack" value="1" />
+        <int name="ignoreMoveImpact" value="1" />
+        <int name="skeleton" value="1" />
+        <int name="nonLevelCheckEVA" value="1" />
+        <int name="nonLevelCheckACC" value="1" />
+        <int name="skelAniMixRate" value="0" />
+        <imgdir name="firstAttackRange">
+            <vector name="lt" x="-1024" y="-800" />
+            <vector name="rb" x="1024" y="800" />
+        </imgdir>
+        <imgdir name="attack">
+            <imgdir name="0">
+                <string name="info" value="밀치기 넉백 공격" />
+                <int name="action" value="1" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="fixDamR" value="5" />
+                <int name="cooltime" value="8000" />
+                <int name="afterDelay" value="6000" />
+                <int name="ignoreStance" value="100" />
+                <int name="notMissAttack" value="1" />
+                <int name="ignoreEvasion" value="100" />
+                <int name="knockback" value="1" />
+            </imgdir>
+            <imgdir name="1">
+                <string name="info" value="내려찍기, 아래로 넉백 공격 밀치기와 연계하기 쉽게 돌무더기 소환" />
+                <int name="action" value="2" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="fixDamR" value="5" />
+                <int name="cooltime" value="8000" />
+                <int name="afterDelay" value="6000" />
+                <int name="ignoreStance" value="100" />
+                <int name="ignoreEvasion" value="100" />
+                <int name="notMissAttack" value="1" />
+                <int name="dragdown" value="1" />
+                <int name="jumpAttack" value="1" />
+                <imgdir name="jumpAttackInfo">
+                    <int name="impact" value="1000" />
+                    <int name="min" value="60" />
+                    <int name="max" value="120" />
+                </imgdir>
+                <imgdir name="callSkillWithData">
+                    <int name="skill" value="201" />
+                    <int name="level" value="176" />
+                    <int name="delay" value="2000" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="skill">
+            <imgdir name="0">
+                <string name="info" value="돌무더기소환, 액션없이" />
+                <int name="action" value="1" />
+                <int name="skill" value="201" />
+                <int name="level" value="176" />
+                <int name="skillAfter" value="500" />
+                <int name="afterDelay" value="3000" />
+                <int name="onlyOtherSkill" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="speak">
+            <int name="chatBalloon" value="0" />
+            <imgdir name="0">
+                <int name="hp" value="50000000" />
+                <string name="0" value="That is pointless. I am immortal, and I protect the ruins by order of the king!" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="hp" value="30000000" />
+                <string name="0" value="That is correct. You cannot defeat me with your pitiful magic!" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="hp" value="20000000" />
+                <string name="0" value="That is correct. I am the gatekeeper!" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="hp" value="10000000" />
+                <string name="0" value="That is correct. You cannot defeat me with your pitiful magic!" />
+                <string name="1" value="That is pointless. I am immortal, and I protect the ruins by order of the king!" />
+                <string name="2" value="That is correct. I am the gatekeeper!" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="damagedBySelectedSkill">
+            <int name="0" value="80001910" />
+            <int name="1" value="80001911" />
+            <int name="2" value="80001912" />
+            <int name="3" value="80001913" />
+            <int name="4" value="80001914" />
+            <int name="5" value="80001915" />
+            <int name="6" value="80001916" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="attack1">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-480" y="-150" />
+                <vector name="rb" x="50" y="-10" />
+            </imgdir>
+            <imgdir name="hit">
+                <canvas name="0" width="82" height="120">
+                    <vector name="origin" x="47" y="63" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d00a1911bf4e05543c1b77035a2519224fd853a6f968bdd6444a53d643917204" />
+                </canvas>
+                <canvas name="1" width="79" height="112">
+                    <vector name="origin" x="54" y="71" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e86af8202aa4db7921726587793d6d8e8cf23eb9befd6bad60ce50a977e20b3d" />
+                </canvas>
+                <canvas name="2" width="104" height="128">
+                    <vector name="origin" x="79" y="82" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f98c7008bfaad3818f9985da72a2e35dbe0bcaa7025ea9b09a541783eb9474d8" />
+                </canvas>
+                <canvas name="3" width="102" height="129">
+                    <vector name="origin" x="79" y="83" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d3f3d1a117e1d9e5584be9b0e300aa676894f8f89892f5d6854da95e49dd24d8" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="2160" />
+        </imgdir>
+        <string name="aniName" value="06_attack_B" />
+    </imgdir>
+    <imgdir name="attack2">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-400" y="-600" />
+                <vector name="rb" x="0" y="10" />
+            </imgdir>
+            <imgdir name="hit">
+                <int name="attach" value="1" />
+                <canvas name="0" width="148" height="136">
+                    <vector name="origin" x="75" y="76" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="adb1a34eb46678023a9cecf2d94ec83857b3f18d9bb5fdeb5828f8cb6585a005" />
+                </canvas>
+                <canvas name="1" width="159" height="175">
+                    <vector name="origin" x="69" y="90" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="dff1577458a5f125f93408d6ef1b3dadfb07f537beb6330b178559171d346fc5" />
+                </canvas>
+                <canvas name="2" width="148" height="177">
+                    <vector name="origin" x="76" y="85" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="3cae98327efcb2edd6e711e31f1ec9d95ee8512f7fd979187f777447e8452ac2" />
+                </canvas>
+                <canvas name="3" width="155" height="180">
+                    <vector name="origin" x="80" y="83" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="46e0efc93a8f2415468c130fffe38ab547053ff5528e2a7e3a0b6841b8b0a683" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="1650" />
+        </imgdir>
+        <string name="aniName" value="05_attack_A" />
+    </imgdir>
+    <imgdir name="skill1">
+        <string name="aniName" value="07_attack_C" />
+    </imgdir>
+    <imgdir name="move">
+        <string name="aniName" value="03_move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="02_stand" />
+    </imgdir>
+    <imgdir name="die1">
+        <string name="aniName" value="08_die" />
+    </imgdir>
+    <imgdir name="sleep">
+        <string name="aniName" value="00_bit stand" />
+    </imgdir>
+    <imgdir name="wakeup">
+        <string name="aniName" value="01_summon" />
+    </imgdir>
+    <imgdir name="say">
+        <string name="aniName" value="04_tire" />
+    </imgdir>
+    <imgdir name="HitParts">
+        <imgdir name="1">
+            <string name="info" value="Hardness" />
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="80" />
+                    <int name="hardness" value="100" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                    <string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/0" />
+                    <string name="replaceHitSound" value="Sound/SoundEff.img/urus/hardHit" />
+                </imgdir>
+                <imgdir name="breakEvent">
+                    <string name="info" value="info에 durability가 없으면 사용불가" />
+                    <string name="changeAction" value="tire" />
+                    <imgdir name="slotAttachment" />
+                    <imgdir name="effect" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="info" value="Weakness" />
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="99999999" />
+                    <int name="hardness" value="50" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                    <string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/1" />
+                    <string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit" />
+                </imgdir>
+                <imgdir name="breakEvent">
+                    <string name="info" value="info에 durability가 없으면 사용불가" />
+                    <imgdir name="slotAttachment" />
+                    <imgdir name="effect" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="HitBlendEffect">
+        <imgdir name="info">
+            <int name="alpha" value="80" />
+            <int name="red" value="255" />
+            <int name="green" value="255" />
+            <int name="blue" value="255" />
+            <int name="loopCount" value="3" />
+            <int name="delay" value="200" />
+        </imgdir>
+        <imgdir name="HitPartsToSlot">
+            <imgdir name="1">
+                <string name="L_arm_A" value="L_arm_A" />
+                <string name="L_arm_B_01" value="L_arm_B_01" />
+                <string name="L_arm_B_02" value="L_arm_B_02" />
+                <string name="L_arm_B_03" value="L_arm_B_03" />
+                <string name="L_arm_B_04" value="L_arm_B_04" />
+                <string name="L_arm_C_01" value="L_arm_C_01" />
+                <string name="L_arm_C_02" value="L_arm_C_02" />
+                <string name="L_arm_C_03" value="L_arm_C_03" />
+                <string name="L_arm_C_04" value="L_arm_C_04" />
+                <string name="L_arm_C_05" value="L_arm_C_05" />
+                <string name="head copy" value="head copy" />
+                <string name="r_arm_A" value="r_arm_A" />
+                <string name="r_arm_B_01" value="r_arm_B_01" />
+                <string name="r_arm_B_02" value="r_arm_B_02" />
+                <string name="r_arm_B_03" value="r_arm_B_03" />
+                <string name="r_arm_B_04" value="r_arm_B_04" />
+                <string name="r_arm_C_01" value="r_arm_C_01" />
+                <string name="r_arm_C_02" value="r_arm_C_02" />
+                <string name="r_arm_C_03" value="r_arm_C_03" />
+                <string name="r_arm_C_04" value="r_arm_C_04" />
+                <string name="r_arm_C_05" value="r_arm_C_05" />
+                <string name="L_leg" value="L_leg" />
+                <string name="R_leg" value="R_leg" />
+                <string name="body_01" value="body_01" />
+                <string name="body_02" value="body_02" />
+                <string name="body_03" value="body_03" />
+                <string name="body_04" value="body_04" />
+                <string name="body_05" value="body_05" />
+                <string name="body_06" value="body_06" />
+                <string name="body_07" value="body_07" />
+                <string name="body_08" value="body_08" />
+                <string name="body_09" value="body_09" />
+                <string name="body_10" value="body_10" />
+                <string name="body_back" value="body_back" />
+            </imgdir>
+            <imgdir name="2">
+                <string name="body_core_1" value="body_core_1" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <string name="8240147.atlas" value="&#xA;shimma.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;L_arm_A_core&#xA;  rotate: true&#xA;  xy: 946, 64&#xA;  size: 51, 40&#xA;  orig: 51, 40&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_B_01&#xA;  rotate: true&#xA;  xy: 998, 732&#xA;  size: 20, 23&#xA;  orig: 20, 23&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_B_01&#xA;  rotate: true&#xA;  xy: 998, 732&#xA;  size: 20, 23&#xA;  orig: 20, 23&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_B_02&#xA;  rotate: false&#xA;  xy: 998, 792&#xA;  size: 24, 31&#xA;  orig: 24, 31&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_B_02&#xA;  rotate: false&#xA;  xy: 998, 792&#xA;  size: 24, 31&#xA;  orig: 24, 31&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_B_04&#xA;  rotate: false&#xA;  xy: 526, 478&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_B_04_grow&#xA;  rotate: true&#xA;  xy: 946, 2&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_C_01&#xA;  rotate: true&#xA;  xy: 437, 6&#xA;  size: 84, 73&#xA;  orig: 84, 73&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_leg&#xA;  rotate: false&#xA;  xy: 838, 116&#xA;  size: 46, 41&#xA;  orig: 46, 41&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_leg_grow&#xA;  rotate: false&#xA;  xy: 886, 116&#xA;  size: 46, 41&#xA;  orig: 46, 41&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_03&#xA;  rotate: false&#xA;  xy: 988, 108&#xA;  size: 34, 49&#xA;  orig: 34, 49&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_04&#xA;  rotate: true&#xA;  xy: 934, 117&#xA;  size: 40, 52&#xA;  orig: 40, 52&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_11&#xA;  rotate: true&#xA;  xy: 587, 8&#xA;  size: 82, 97&#xA;  orig: 82, 97&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_01&#xA;  rotate: false&#xA;  xy: 2, 785&#xA;  size: 588, 237&#xA;  orig: 588, 237&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_02&#xA;  rotate: true&#xA;  xy: 2, 461&#xA;  size: 322, 50&#xA;  orig: 322, 50&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_04&#xA;  rotate: true&#xA;  xy: 2, 21&#xA;  size: 438, 342&#xA;  orig: 438, 342&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_06&#xA;  rotate: true&#xA;  xy: 838, 159&#xA;  size: 300, 184&#xA;  orig: 300, 184&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_07&#xA;  rotate: true&#xA;  xy: 346, 92&#xA;  size: 371, 240&#xA;  orig: 371, 240&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_08&#xA;  rotate: false&#xA;  xy: 592, 825&#xA;  size: 412, 197&#xA;  orig: 412, 197&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/r_light&#xA;  rotate: true&#xA;  xy: 592, 461&#xA;  size: 362, 404&#xA;  orig: 362, 404&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/ring_06&#xA;  rotate: true&#xA;  xy: 54, 465&#xA;  size: 318, 307&#xA;  orig: 318, 307&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/smoke_01&#xA;  rotate: true&#xA;  xy: 588, 115&#xA;  size: 344, 248&#xA;  orig: 344, 248&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/text&#xA;  rotate: true&#xA;  xy: 363, 524&#xA;  size: 259, 223&#xA;  orig: 259, 223&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect_core_A&#xA;  rotate: false&#xA;  xy: 998, 754&#xA;  size: 23, 36&#xA;  orig: 23, 36&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect_core_B&#xA;  rotate: false&#xA;  xy: 479, 466&#xA;  size: 45, 56&#xA;  orig: 45, 56&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head copy&#xA;  rotate: true&#xA;  xy: 686, 5&#xA;  size: 108, 128&#xA;  orig: 108, 128&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_grow&#xA;  rotate: true&#xA;  xy: 346, 4&#xA;  size: 86, 89&#xA;  orig: 86, 89&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_grow copy&#xA;  rotate: true&#xA;  xy: 816, 5&#xA;  size: 108, 128&#xA;  orig: 108, 128&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_A_core&#xA;  rotate: true&#xA;  xy: 429, 465&#xA;  size: 57, 48&#xA;  orig: 57, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_01&#xA;  rotate: true&#xA;  xy: 512, 6&#xA;  size: 84, 73&#xA;  orig: 84, 73&#xA;  offset: 0, 0&#xA;  index: -1&#xA;ring_01&#xA;  rotate: false&#xA;  xy: 992, 60&#xA;  size: 30, 46&#xA;  orig: 30, 46&#xA;  offset: 0, 0&#xA;  index: -1&#xA;ring_02&#xA;  rotate: false&#xA;  xy: 992, 20&#xA;  size: 30, 38&#xA;  orig: 30, 38&#xA;  offset: 0, 0&#xA;  index: -1&#xA;ring_03&#xA;  rotate: false&#xA;  xy: 363, 465&#xA;  size: 64, 57&#xA;  orig: 64, 57&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;shimma2.png&#xA;size: 1024,1023&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;L_arm_A&#xA;  rotate: false&#xA;  xy: 2, 4&#xA;  size: 130, 129&#xA;  orig: 130, 129&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_B_03&#xA;  rotate: true&#xA;  xy: 982, 133&#xA;  size: 65, 31&#xA;  orig: 65, 31&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_C_02&#xA;  rotate: true&#xA;  xy: 866, 44&#xA;  size: 48, 90&#xA;  orig: 48, 90&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_C_03&#xA;  rotate: false&#xA;  xy: 982, 375&#xA;  size: 36, 49&#xA;  orig: 36, 49&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_C_05&#xA;  rotate: false&#xA;  xy: 982, 254&#xA;  size: 33, 68&#xA;  orig: 33, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_05&#xA;  rotate: false&#xA;  xy: 982, 254&#xA;  size: 33, 68&#xA;  orig: 33, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_leg_core&#xA;  rotate: true&#xA;  xy: 991, 984&#xA;  size: 37, 28&#xA;  orig: 37, 28&#xA;  offset: 0, 0&#xA;  index: -1&#xA;Layer 82&#xA;  rotate: false&#xA;  xy: 982, 200&#xA;  size: 32, 52&#xA;  orig: 32, 52&#xA;  offset: 0, 0&#xA;  index: -1&#xA;R_leg_core&#xA;  rotate: true&#xA;  xy: 449, 94&#xA;  size: 39, 27&#xA;  orig: 39, 27&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_01&#xA;  rotate: true&#xA;  xy: 903, 15&#xA;  size: 27, 48&#xA;  orig: 27, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_02&#xA;  rotate: false&#xA;  xy: 866, 12&#xA;  size: 35, 30&#xA;  orig: 35, 30&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_07_d&#xA;  rotate: true&#xA;  xy: 982, 477&#xA;  size: 49, 40&#xA;  orig: 49, 40&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_07_d_grow&#xA;  rotate: true&#xA;  xy: 982, 426&#xA;  size: 49, 40&#xA;  orig: 49, 40&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_09&#xA;  rotate: true&#xA;  xy: 487, 536&#xA;  size: 90, 68&#xA;  orig: 90, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_11_grow&#xA;  rotate: true&#xA;  xy: 495, 10&#xA;  size: 82, 97&#xA;  orig: 82, 97&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_core_01&#xA;  rotate: true&#xA;  xy: 594, 19&#xA;  size: 73, 100&#xA;  orig: 73, 100&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/2xring_big&#xA;  rotate: false&#xA;  xy: 958, 5&#xA;  size: 59, 59&#xA;  orig: 59, 59&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_05&#xA;  rotate: false&#xA;  xy: 2, 628&#xA;  size: 553, 393&#xA;  orig: 553, 393&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/core light&#xA;  rotate: false&#xA;  xy: 557, 528&#xA;  size: 432, 493&#xA;  orig: 432, 493&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/core light2&#xA;  rotate: true&#xA;  xy: 487, 94&#xA;  size: 432, 493&#xA;  orig: 432, 493&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/light_001&#xA;  rotate: true&#xA;  xy: 2, 135&#xA;  size: 491, 483&#xA;  orig: 491, 483&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/ring_05&#xA;  rotate: false&#xA;  xy: 399, 2&#xA;  size: 94, 90&#xA;  orig: 94, 90&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/ringring&#xA;  rotate: true&#xA;  xy: 696, 22&#xA;  size: 70, 168&#xA;  orig: 70, 168&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect_body light effect&#xA;  rotate: true&#xA;  xy: 134, 9&#xA;  size: 124, 129&#xA;  orig: 124, 129&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect_core_C&#xA;  rotate: true&#xA;  xy: 399, 95&#xA;  size: 38, 48&#xA;  orig: 38, 48&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_A&#xA;  rotate: true&#xA;  xy: 265, 11&#xA;  size: 122, 132&#xA;  orig: 122, 132&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_B_03&#xA;  rotate: true&#xA;  xy: 982, 66&#xA;  size: 65, 31&#xA;  orig: 65, 31&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_03&#xA;  rotate: false&#xA;  xy: 982, 324&#xA;  size: 36, 49&#xA;  orig: 36, 49&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;shimma3.png&#xA;size: 994,624&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;L_arm_C_04&#xA;  rotate: false&#xA;  xy: 867, 163&#xA;  size: 72, 59&#xA;  orig: 72, 59&#xA;  offset: 0, 0&#xA;  index: -1&#xA;L_arm_C__BACK&#xA;  rotate: false&#xA;  xy: 164, 12&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_BACK&#xA;  rotate: false&#xA;  xy: 164, 12&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;R_leg&#xA;  rotate: false&#xA;  xy: 448, 34&#xA;  size: 52, 46&#xA;  orig: 52, 46&#xA;  offset: 0, 0&#xA;  index: -1&#xA;R_leg_grow&#xA;  rotate: false&#xA;  xy: 502, 34&#xA;  size: 52, 46&#xA;  orig: 52, 46&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_06&#xA;  rotate: false&#xA;  xy: 923, 371&#xA;  size: 63, 68&#xA;  orig: 63, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_06_grow&#xA;  rotate: true&#xA;  xy: 378, 17&#xA;  size: 63, 68&#xA;  orig: 63, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_08&#xA;  rotate: false&#xA;  xy: 867, 224&#xA;  size: 101, 113&#xA;  orig: 101, 113&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_08_grow&#xA;  rotate: false&#xA;  xy: 884, 48&#xA;  size: 101, 113&#xA;  orig: 101, 113&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_10&#xA;  rotate: false&#xA;  xy: 923, 441&#xA;  size: 69, 43&#xA;  orig: 69, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_BACK&#xA;  rotate: false&#xA;  xy: 770, 7&#xA;  size: 112, 140&#xA;  orig: 112, 140&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body_core_02&#xA;  rotate: true&#xA;  xy: 94, 6&#xA;  size: 50, 68&#xA;  orig: 50, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/2xring&#xA;  rotate: false&#xA;  xy: 2, 58&#xA;  size: 300, 298&#xA;  orig: 300, 298&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/attack_after1&#xA;  rotate: false&#xA;  xy: 2, 358&#xA;  size: 342, 264&#xA;  orig: 342, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/attack_light&#xA;  rotate: false&#xA;  xy: 638, 339&#xA;  size: 283, 283&#xA;  orig: 283, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/bit_03&#xA;  rotate: true&#xA;  xy: 346, 339&#xA;  size: 283, 290&#xA;  orig: 283, 290&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/r_light2&#xA;  rotate: true&#xA;  xy: 304, 82&#xA;  size: 255, 297&#xA;  orig: 255, 297&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/smoke_02&#xA;  rotate: false&#xA;  xy: 603, 149&#xA;  size: 262, 188&#xA;  orig: 262, 188&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/summon_t&#xA;  rotate: true&#xA;  xy: 603, 10&#xA;  size: 137, 165&#xA;  orig: 137, 165&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect_core_D&#xA;  rotate: true&#xA;  xy: 923, 486&#xA;  size: 136, 68&#xA;  orig: 136, 68&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_B_04&#xA;  rotate: false&#xA;  xy: 226, 12&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_B_04_grow&#xA;  rotate: false&#xA;  xy: 884, 2&#xA;  size: 60, 44&#xA;  orig: 60, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_02&#xA;  rotate: true&#xA;  xy: 2, 8&#xA;  size: 48, 90&#xA;  orig: 48, 90&#xA;  offset: 0, 0&#xA;  index: -1&#xA;r_arm_C_04&#xA;  rotate: false&#xA;  xy: 304, 21&#xA;  size: 72, 59&#xA;  orig: 72, 59&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+    <sound name="8240147" />
+    <canvas name="shimma.png" width="1024" height="1024">
+        <vector name="origin" x="512" y="512" />
+        <int name="z" value="0" />
+        <string name="_hash" value="94bacd30207a9f29ed75d02d234f03357700fb0e5cba0160e5cf9f229a461294" />
+    </canvas>
+    <canvas name="shimma2.png" width="1024" height="1023">
+        <vector name="origin" x="512" y="511" />
+        <int name="z" value="0" />
+        <string name="_hash" value="e012b25297a8f6d3955557378d6370cf0664f9afc2c587547be9d0c466f884fd" />
+    </canvas>
+    <canvas name="shimma3.png" width="994" height="624">
+        <vector name="origin" x="687" y="125" />
+        <int name="z" value="0" />
+        <string name="_hash" value="2429594eb051f4242bdebae18280c168f93d795ef0d8c64db9ac5bca01b76208" />
+    </canvas>
+</imgdir>

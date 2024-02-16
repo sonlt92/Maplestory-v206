@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="6829000.img">
+    <imgdir name="info">
+        <string name="name" value="Bob" />
+    </imgdir>
+    <imgdir name="0">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <canvas name="0" width="37" height="26">
+            <vector name="origin" x="18" y="26" />
+            <string name="_hash" value="7ec17c27765be13c2b7a4707da72882388fdffea19ebf36047b7ae3b1a1d15c7" />
+        </canvas>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="21" y="33" />
+                <int name="delay" value="600" />
+                <string name="_hash" value="ded7c24cdf80d230c672f4ba48928c2d4afa4cd5226007ddfa1f97d0e9cd8758" />
+                <string name="_outlink" value="Reactor/9260009.img/0/event/0/hit/0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+            </imgdir>
+        </imgdir>
+        <uol name="0" value="../0/0" />
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="2">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="3" />
+            </imgdir>
+        </imgdir>
+        <uol name="0" value="../1/0" />
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="3">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="4" />
+            </imgdir>
+        </imgdir>
+        <uol name="0" value="../2/0" />
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="4">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="5" />
+            </imgdir>
+        </imgdir>
+        <uol name="0" value="../0/0" />
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="5">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="6" />
+            </imgdir>
+        </imgdir>
+        <uol name="0" value="../0/0" />
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="21" y="33" />
+                <int name="delay" value="120" />
+                <string name="_outlink" value="Reactor/9260009.img/0/event/0/hit/0" />
+            </canvas>
+            <canvas name="1" width="44" height="31">
+                <vector name="origin" x="22" y="31" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="06f24b53d818adf74c14c8ef5002da116d6343dfdff1021ca73ea1499ada1e11" />
+            </canvas>
+            <canvas name="2" width="36" height="24">
+                <vector name="origin" x="14" y="24" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="2715d7517d8e1fb30c54c704fe9e9c3f105f621b097c12157e12ae08b152c7d4" />
+            </canvas>
+            <canvas name="3" width="36" height="24">
+                <vector name="origin" x="14" y="24" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="7807ea3e23caefae014457e129388c15ed6f089a3c1d8749efe4b060c467ce36" />
+            </canvas>
+            <canvas name="4" width="35" height="23">
+                <vector name="origin" x="13" y="23" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="5b7c14ab1d646fccb9dd4a22643d666ae682bd5d21f3554949dfd3c6518d800a" />
+            </canvas>
+            <canvas name="5" width="35" height="18">
+                <vector name="origin" x="13" y="18" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="137b0b96ea79d29e04a64b8002098345eb6c9c46acc103a86fb777447786e407" />
+            </canvas>
+            <canvas name="6" width="33" height="14">
+                <vector name="origin" x="13" y="14" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="c227a23949398fa1df13f2e10794c6fa06e76cb2087f632d4b1be42f53d1409f" />
+            </canvas>
+            <canvas name="7" width="33" height="10">
+                <vector name="origin" x="13" y="10" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="b67634e44621c38ce7867a6b7b919bef095d1369afef78adec006b8911d15bec" />
+            </canvas>
+            <canvas name="8" width="33" height="6">
+                <vector name="origin" x="13" y="6" />
+                <int name="delay" value="300" />
+                <string name="_hash" value="4324dd8b0377ce1c285d6dcf7f6fc13c9fc9a547d842b2c78980a187549b2f2d" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="6">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="0" y="0" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="halloweenbox" />
+</imgdir>

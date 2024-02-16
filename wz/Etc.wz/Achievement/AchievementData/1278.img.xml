@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1278.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="adventure" />
+        <string name="subCategory" value="special" />
+        <string name="name" value="[Monster Park] You do plan to have monsters on your monster tour, right?" />
+        <string name="desc" value="Clear Monster Park 1,000 times" />
+        <int name="parentId" value="1280" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="script" />
+        </imgdir>
+        <imgdir name="prior">
+            <string name="block" value="hide" />
+            <string name="condition" value="and" />
+            <imgdir name="values">
+                <imgdir name="0">
+                    <int name="achievement_id" value="1277" />
+                    <int name="achievement_state" value="2" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <string name="keyword" value="Clear Monster Park" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="[Monster Park] Clear it 1,000 times" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1000" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

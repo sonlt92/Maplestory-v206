@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="PL_Gunman.img">
+    <imgdir name="Stage">
+        <imgdir name="foothold">
+            <imgdir name="0">
+                <canvas name="0" width="160" height="30">
+                    <vector name="origin" x="80" y="7" />
+                    <int name="z" value="0" />
+                    <extended name="foothold">
+                        <vector name="foothold" x="-80" y="0" />
+                        <vector name="foothold" x="80" y="0" />
+                    </extended>
+                    <string name="_hash" value="c0599fb9365bca0e0cab9634885065573ee7addd87b3b5f441f975eaadeba1bc" />
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="160" height="26">
+                    <vector name="origin" x="80" y="4" />
+                    <int name="z" value="0" />
+                    <extended name="foothold">
+                        <vector name="foothold" x="-80" y="0" />
+                        <vector name="foothold" x="80" y="0" />
+                    </extended>
+                    <string name="_hash" value="64981af2f3de1f913496affef00c84ace80d60da3f769b3571c414624dcb1a4b" />
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="160" height="26">
+                    <vector name="origin" x="80" y="4" />
+                    <int name="z" value="0" />
+                    <extended name="foothold">
+                        <vector name="foothold" x="-80" y="0" />
+                        <vector name="foothold" x="80" y="0" />
+                    </extended>
+                    <string name="_hash" value="883a7e87f53ea75b7daca38843905b97317c6185b9c220c0227794491821530b" />
+                </canvas>
+            </imgdir>
+            <imgdir name="3">
+                <canvas name="0" width="160" height="26">
+                    <vector name="origin" x="80" y="4" />
+                    <int name="z" value="0" />
+                    <extended name="foothold">
+                        <vector name="foothold" x="-80" y="0" />
+                        <vector name="foothold" x="80" y="0" />
+                    </extended>
+                    <string name="_hash" value="bff8dc690aff0349cd9f2caa3d2c1ab156d51b70e166b75e8dbdd1dde0868a29" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="convex">
+            <imgdir name="0">
+                <canvas name="0" width="142" height="112">
+                    <vector name="origin" x="71" y="56" />
+                    <int name="z" value="0" />
+                    <imgdir name="foothold">
+                        <extended name="0">
+                            <vector name="0" x="-1000" y="0" />
+                            <vector name="0" x="1000" y="0" />
+                        </extended>
+                    </imgdir>
+                    <string name="_hash" value="23ee82df1ed670dc9852657bdcb34a1909ecca47cc76e00ab32f44205f2f5a3e" />
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="71" y="56" />
+                    <int name="z" value="0" />
+                    <imgdir name="foothold">
+                        <extended name="0">
+                            <vector name="0" x="-460" y="0" />
+                            <vector name="0" x="460" y="0" />
+                        </extended>
+                    </imgdir>
+                    <string name="_inlink" value="Stage/convex/0/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="71" y="56" />
+                    <int name="z" value="0" />
+                    <imgdir name="foothold">
+                        <extended name="0">
+                            <vector name="0" x="-20" y="0" />
+                            <vector name="0" x="20" y="0" />
+                        </extended>
+                    </imgdir>
+                    <string name="_inlink" value="Stage/convex/0/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="ladder">
+            <imgdir name="0">
+                <canvas name="0" width="19" height="49">
+                    <vector name="origin" x="5" y="24" />
+                    <int name="z" value="0" />
+                    <extended name="rope">
+                        <vector name="rope" x="0" y="0" />
+                        <vector name="rope" x="0" y="27" />
+                    </extended>
+                    <string name="_hash" value="cbca9d5cbf81011d5f154fd5def06bb9338d459c962ff0899defb09194e6b46a" />
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="5" height="30">
+                    <vector name="origin" x="2" y="15" />
+                    <int name="z" value="0" />
+                    <extended name="rope">
+                        <vector name="rope" x="0" y="-17" />
+                        <vector name="rope" x="0" y="17" />
+                    </extended>
+                    <string name="_hash" value="cb20453dc3a0930faad3f200054aa82ab8e16e2fb6e27a2f2a07d2ae2138c1d2" />
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="12" height="30">
+                    <vector name="origin" x="5" y="15" />
+                    <int name="z" value="0" />
+                    <extended name="rope">
+                        <vector name="rope" x="0" y="-17" />
+                        <vector name="rope" x="0" y="0" />
+                    </extended>
+                    <string name="_hash" value="e364466e9164bc1850f182d0778d4b47b68968d0dbb0b8b187966509d6e46e1c" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="Back">
+            <imgdir name="0">
+                <canvas name="0" width="410" height="89">
+                    <vector name="origin" x="205" y="44" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="236d837246e3551ac30378b3d64bfc35db89aa93c6d053670d3fbc1a37452ee6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="1">
+                <canvas name="0" width="770" height="353">
+                    <vector name="origin" x="385" y="176" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="59a9cf439f37a1197d0ae3317a640d2a27b88db6346b4af877802fb087bf3a95" />
+                </canvas>
+            </imgdir>
+            <imgdir name="2">
+                <canvas name="0" width="1540" height="698">
+                    <vector name="origin" x="770" y="349" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="9422323c0bd386dd02fec3eb4cac94752374381279453ea52bbe3c9478ce9b57" />
+                </canvas>
+            </imgdir>
+            <imgdir name="3">
+                <canvas name="0" width="1540" height="695">
+                    <vector name="origin" x="770" y="347" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="c55b2c36b07f0cc6ba2c8414a45be7e242159be29c58874ab0e81474cd35b916" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

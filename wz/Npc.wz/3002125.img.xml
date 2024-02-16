@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="3002125.img">
+    <imgdir name="info">
+        <int name="hideName" value="1" />
+        <int name="skeleton" value="1" />
+        <imgdir name="spine">
+            <canvas name="treex3.png" width="993" height="920">
+                <vector name="origin" x="496" y="460" />
+                <int name="z" value="0" />
+                <string name="_hash" value="2dd2c9ede65d89f52b52611c8a86a8bf8a343a07e2b81d605743f68817159694" />
+            </canvas>
+            <canvas name="treex32.png" width="984" height="920">
+                <vector name="origin" x="492" y="460" />
+                <int name="z" value="0" />
+                <string name="_hash" value="298abf9932152a7336b96e4ab22cd05c209aeec61ff8f7282a49e096643f413d" />
+            </canvas>
+            <sound name="3002125" />
+            <string name="3002125.atlas" value="&#xA;treex3.png&#xA;size: 998,924&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;01_(Stree)&#xA;  rotate: true&#xA;  xy: 870, 748&#xA;  size: 174, 126&#xA;  orig: 174, 126&#xA;  offset: 0, 0&#xA;  index: -1&#xA;01g_(Stree)&#xA;  rotate: false&#xA;  xy: 666, 80&#xA;  size: 188, 157&#xA;  orig: 188, 157&#xA;  offset: 0, 0&#xA;  index: -1&#xA;03g_(Ltree)&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 662, 920&#xA;  orig: 662, 920&#xA;  offset: 0, 0&#xA;  index: -1&#xA;burn&#xA;  rotate: true&#xA;  xy: 666, 239&#xA;  size: 683, 202&#xA;  orig: 683, 202&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;treex32.png&#xA;size: 989,924&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;02_(Mtree)&#xA;  rotate: true&#xA;  xy: 623, 87&#xA;  size: 405, 336&#xA;  orig: 405, 336&#xA;  offset: 0, 0&#xA;  index: -1&#xA;02g_(Mtree)&#xA;  rotate: true&#xA;  xy: 623, 494&#xA;  size: 428, 364&#xA;  orig: 428, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;03_(Ltree)&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 619, 920&#xA;  orig: 619, 920&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="01_S_stand" />
+    </imgdir>
+    <imgdir name="S_grow">
+        <string name="aniName" value="02_S_grow" />
+        <int name="special" value="1" />
+    </imgdir>
+    <imgdir name="M_stand">
+        <string name="aniName" value="03_M_stand" />
+        <int name="special" value="1" />
+    </imgdir>
+    <imgdir name="M_grow">
+        <string name="aniName" value="04_M_grow" />
+        <int name="special" value="1" />
+    </imgdir>
+    <imgdir name="L_stand">
+        <string name="aniName" value="05_L_stand" />
+        <int name="special" value="1" />
+    </imgdir>
+    <imgdir name="Burn_stand">
+        <string name="aniName" value="06_Burn_stand" />
+        <int name="special" value="1" />
+    </imgdir>
+</imgdir>

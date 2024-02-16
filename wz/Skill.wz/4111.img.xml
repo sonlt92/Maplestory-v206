@@ -1,0 +1,2638 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="4111.img">
+    <imgdir name="info">
+        <canvas name="icon" width="1" height="1">
+            <vector name="origin" x="-4" y="30" />
+            <string name="_hash" value="3b3c979df4075485297b106c664f5bec7d7e7dfbfb55b832f810b8b1dd5cd82a" />
+            <string name="_outlink" value="Skill/1211.img/info/icon" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <imgdir name="41111000">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="12372b38bd8d8a4fa8c2a0dbebf2f6da30355b50d2a686ebbeecdc5369e0e27f" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="70d5f5f57a362c1767d59856daa4a7d349644b2820846989659564853edee46d" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="3331c95caef8ac8ed9ec0a00dfb43ed491de2fff8212341ca464193787b17002" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="14+2*u(x/5)" />
+                <string name="damage" value="190+2*x" />
+                <string name="attackCount" value="2" />
+                <string name="mobCount" value="6" />
+                <string name="x" value="190+3*x" />
+                <string name="y" value="200+3*x" />
+                <vector name="lt" x="-340" y="-170" />
+                <vector name="rb" x="85" y="0" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="delay" value="30" />
+                </canvas>
+                <canvas name="1" width="189" height="102">
+                    <vector name="origin" x="100" y="83" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="b82899acda2a63112a2ba71866fb8e0ee51b3d44b86ecfb59fecb31303a1a629" />
+                </canvas>
+                <canvas name="2" width="474" height="140">
+                    <vector name="origin" x="337" y="112" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="683590afb11dcf54a282625771241edef0fba0a09df126dd822539f51ed6a43d" />
+                </canvas>
+                <canvas name="3" width="567" height="183">
+                    <vector name="origin" x="401" y="109" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="6f1db2b06b9fdc70a71330187a0bd9946ef25693a7220941818dd6f4f4e38842" />
+                </canvas>
+            </imgdir>
+            <imgdir name="effect0">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="delay" value="0" />
+                </canvas>
+                <canvas name="1" width="94" height="43">
+                    <vector name="origin" x="53" y="38" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="8ed7c16a5f9e5c6e7334bb142bc27ecdfe776ed2d7e880309b82f71292583329" />
+                </canvas>
+                <canvas name="2" width="122" height="52">
+                    <vector name="origin" x="54" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="150" />
+                    <string name="_hash" value="40ca7d6e13e44e0ae4d6529d5b28cf232ab79da82f6f9cabe73af1a8ea94246c" />
+                </canvas>
+                <canvas name="3" width="129" height="57">
+                    <vector name="origin" x="52" y="56" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <int name="a0" value="255" />
+                    <int name="a1" value="60" />
+                    <string name="_hash" value="7270517a283e3a360e0a76d49bc5131d5deedd7d08e29be3cc42a5936661cd4b" />
+                </canvas>
+                <canvas name="4" width="135" height="59">
+                    <vector name="origin" x="43" y="64" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e2ffcaf6d49b6d27d5d9244e2e13bcc6befec29ffceab342cc7b9062221448f6" />
+                </canvas>
+                <int name="z" value="-1" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiSwing1" />
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="223" height="254">
+                        <vector name="origin" x="104" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="24a7d473bbafb2febad91d7b055340800c9f8a02de42129194456b5dcfb7ea62" />
+                    </canvas>
+                    <canvas name="1" width="239" height="252">
+                        <vector name="origin" x="120" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="50733d2574300d4fde020079746f897b2e97282a0fe7197c4d3f599dc6f621e2" />
+                    </canvas>
+                    <canvas name="2" width="268" height="268">
+                        <vector name="origin" x="139" y="135" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="af675fd3192734e3149d79e10cae0e5c945d98b7bb9979f286df487b208a558f" />
+                    </canvas>
+                    <canvas name="3" width="283" height="279">
+                        <vector name="origin" x="146" y="142" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="ab52b40a8c8f7a0c4c0edf34d835dac31ebd8913221abca0fa1ce015bfb99d90" />
+                    </canvas>
+                    <canvas name="4" width="296" height="287">
+                        <vector name="origin" x="154" y="146" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="9f24a40d8e038fa93fdd5c7fc25115be3a44c6e23654e6c88803d9200f192944" />
+                    </canvas>
+                    <canvas name="5" width="302" height="293">
+                        <vector name="origin" x="157" y="148" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="c2bdcae16b956e9fab05118b094d231fea8420033de2148687b6fea355694ec9" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41111011" />
+                <int name="type" value="0" />
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="154" />
+                <int name="skipActionFrame" value="4" />
+                <int name="patternType" value="1" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41001002" />
+                </imgdir>
+                <imgdir name="patternPlus">
+                    <imgdir name="0">
+                        <string name="pattern" value="155" />
+                        <int name="skill" value="41001002" />
+                    </imgdir>
+                    <imgdir name="1">
+                        <string name="pattern" value="150" />
+                        <int name="skill" value="41111011" />
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <imgdir name="req">
+                <int name="41101000" value="20" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111011">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="0376a8c0b4fe9abbbaa28b2223413034221cc080a40a6f73f57584ce16d0bbd3" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="f6bdb92a49114377d3c1484e345c12b61f968fcd70769c03a5ee0e146e27c23d" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="5ef749060141cd5232cdf1049cf76f126cf61a36467f3023354fb77e78d68659" />
+                <string name="_outlink" value="Skill/4100.img/skill/41001004/iconDisabled" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="14+2*u(x/5)" />
+                <string name="damage" value="190+3*x" />
+                <string name="attackCount" value="3" />
+                <string name="mobCount" value="6" />
+                <vector name="lt" x="-340" y="-125" />
+                <vector name="rb" x="85" y="0" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="480" height="173">
+                    <vector name="origin" x="341" y="111" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="21baf2be950f7bf3db6a734043b41641d5da30f4267b135b5747f25f1608bd36" />
+                </canvas>
+                <canvas name="1" width="538" height="178">
+                    <vector name="origin" x="372" y="143" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="33f5d5a51e9edfaa320cdf82e430083c4268b76de896557c2856f440f2939301" />
+                </canvas>
+                <canvas name="2" width="496" height="223">
+                    <vector name="origin" x="360" y="150" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="306110b0bb9b992e25df98c621fad222d43c6e0a1523e102e1fc8ea989c51b70" />
+                </canvas>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiSwing2" />
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="104" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="120" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="139" y="135" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="146" y="142" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="154" y="146" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/4" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="157" y="148" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/5" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <int name="weapon" value="54" />
+            <int name="invisible" value="1" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41111012" />
+                <int name="type" value="0" />
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="154" />
+                <int name="skipActionFrame" value="3" />
+                <int name="patternType" value="1" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41001002" />
+                </imgdir>
+                <imgdir name="patternPlus">
+                    <imgdir name="0">
+                        <string name="pattern" value="155" />
+                        <int name="skill" value="41001002" />
+                    </imgdir>
+                    <imgdir name="1">
+                        <string name="pattern" value="150" />
+                        <int name="skill" value="41111012" />
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111012">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111011/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111011/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_outlink" value="Skill/4100.img/skill/41001004/iconDisabled" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="14+2*u(x/5)" />
+                <string name="damage" value="200+3*x" />
+                <string name="attackCount" value="4" />
+                <string name="mobCount" value="6" />
+                <vector name="lt" x="-440" y="-175" />
+                <vector name="rb" x="50" y="75" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiSwing3" />
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="104" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="120" y="132" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="139" y="135" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="146" y="142" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="154" y="146" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/4" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="157" y="148" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_inlink" value="skill/41111000/hit/0/5" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="591" height="174">
+                    <vector name="origin" x="450" y="147" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="7330695afae7bda5803cfa8c1473d3d927965c6fd5311077a02f2d4a971a95d5" />
+                </canvas>
+                <canvas name="1" width="634" height="183">
+                    <vector name="origin" x="497" y="130" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="3c2aa3d91c3bc20669f5d93d1941116d5df1487c3987b5bd8f77e62394aefa46" />
+                </canvas>
+                <canvas name="2" width="670" height="209">
+                    <vector name="origin" x="529" y="130" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="65f962e6bc605bfd4dfd7b058664c9193f6020c9f0fbe95b080fd2efdd46a45a" />
+                </canvas>
+                <canvas name="3" width="679" height="164">
+                    <vector name="origin" x="530" y="95" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="3f76d29a4fe6b091458570281df48914d0a952be2ad539d64acb3682fc48ed7b" />
+                </canvas>
+                <canvas name="4" width="703" height="171">
+                    <vector name="origin" x="512" y="92" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="40f4e10c8b978d30ef3a70683de306d9436df66e6f3789cad82749d17878a898" />
+                </canvas>
+                <canvas name="5" width="409" height="158">
+                    <vector name="origin" x="290" y="94" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="4f8363f4c22a8a9074d11a3cb24bbe8b79b46ec92faf34679d7d409ba9c2b32d" />
+                </canvas>
+                <canvas name="6" width="203" height="89">
+                    <vector name="origin" x="214" y="89" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="a5de60dc72647bbea590630369c4079340a53e983c9edebfae92ddfe31dcb882" />
+                </canvas>
+            </imgdir>
+            <int name="weapon" value="54" />
+            <int name="invisible" value="1" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41001002" />
+                <int name="type" value="0" />
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="155" />
+                <int name="patternType" value="1" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111001">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d13656ad10483c6dfab968340913d65d92acc6d2b2aef82505bf985e2fa3ff37" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d0be2474527ff66fe03c39805055b61768eea08882f644bf0dba2c0f91cfb281" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="cd4459abd14b653bcb8c45ff44f7ca162b47d3c7029fc1f29f245f64d6653126" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="1" width="176" height="55">
+                    <vector name="origin" x="141" y="50" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="b1f2dde06c142d4319a66827d57422637555e3715c09997f23f173facd3abc77" />
+                </canvas>
+                <canvas name="2" width="212" height="88">
+                    <vector name="origin" x="194" y="84" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="09221305a4353f3ed4e712724b76487c33beb4a6a9cc7c0befb46b01f5e7f873" />
+                </canvas>
+                <canvas name="3" width="162" height="81">
+                    <vector name="origin" x="174" y="79" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="2a8e4dbfe8f652f4fe848957b82f350c9aa53380af671d188569c99cec4ef93f" />
+                </canvas>
+                <canvas name="4" width="135" height="59">
+                    <vector name="origin" x="161" y="64" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="434c529b96ade96babcd4accbbb0f914451a181a8554f9c6a70bb1080b1d4cca" />
+                </canvas>
+                <canvas name="5" width="97" height="42">
+                    <vector name="origin" x="161" y="69" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="217cb92a16350ced93e08deb3caec1fac7fa38213c53f57b9e7711151419f7da" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="7" width="374" height="173">
+                    <vector name="origin" x="475" y="174" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="366b22d25738fe898dc728f9808e55444cc26e969e67873b7a8c53ae16b125ea" />
+                </canvas>
+                <canvas name="8" width="420" height="202">
+                    <vector name="origin" x="295" y="137" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="8ab8bb8129109ffb1d2e8af3e7853177d8f1085fef9b56f2fb3b482729728a9f" />
+                </canvas>
+                <canvas name="9" width="440" height="192">
+                    <vector name="origin" x="315" y="139" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="780a2bbd6f22cb0c754e0fdf852ba66389c6bb17176a0e4f747ee2b5352aa6a5" />
+                </canvas>
+                <canvas name="10" width="416" height="162">
+                    <vector name="origin" x="297" y="131" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="0a0a89b193abe682bcdde623419b375c6f0fe500182920690d6db68727f1fac6" />
+                </canvas>
+                <canvas name="11" width="245" height="110">
+                    <vector name="origin" x="126" y="123" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="d1f92b670f496a66f6314cad3497dc670844111d0d4a1bbc278c1701b8569905" />
+                </canvas>
+                <canvas name="12" width="171" height="66">
+                    <vector name="origin" x="111" y="101" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="85b8f41062849a53449f558f4c4449e418e5292dd75a00aa83e17a6407650f77" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="160" height="107">
+                        <vector name="origin" x="81" y="52" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="c341c948798f516b4915de6050281af108690aa86542a273b18cdebf1e0c8b74" />
+                    </canvas>
+                    <canvas name="1" width="164" height="130">
+                        <vector name="origin" x="79" y="58" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="0fb2ba3c87babd90d8d69a73096410bd0d3cfe5c3ee08152601fc12709553973" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiDraw" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="15+4*d(x/5)" />
+                <string name="damage" value="150+3*x" />
+                <string name="mobCount" value="10" />
+                <string name="attackCount" value="6" />
+                <vector name="lt" x="-560" y="-118" />
+                <vector name="rb" x="0" y="15" />
+            </imgdir>
+            <imgdir name="special">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="720" />
+                </canvas>
+                <canvas name="1" width="107" height="43">
+                    <vector name="origin" x="69" y="42" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="1109d4ff83401077afc60c07d34e523538be561fc26bb0a0ed0deaef2df55153" />
+                </canvas>
+                <canvas name="2" width="123" height="47">
+                    <vector name="origin" x="78" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="127b989f179e24e52f1f4710af0f020b0af6738adea1823ac8baf7f316aedd88" />
+                </canvas>
+                <canvas name="3" width="140" height="37">
+                    <vector name="origin" x="91" y="52" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="331906a581960232bd19f7674c58233ee388beec642c8052b0987647d26c2e5b" />
+                </canvas>
+                <canvas name="4" width="142" height="28">
+                    <vector name="origin" x="92" y="49" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="8e9a32228c4ad78bee6adf921aacf0371ff70dfeb1d4313c6ffc75013ba4379f" />
+                </canvas>
+            </imgdir>
+            <imgdir name="effect0">
+                <int name="z" value="-1" />
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="1" width="245" height="203">
+                    <vector name="origin" x="628" y="283" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="9ebc18aeae1d6349725db884c6766500a510f6eb05acf6b1c0768d924aeae064" />
+                </canvas>
+                <canvas name="2" width="235" height="186">
+                    <vector name="origin" x="623" y="281" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="6721eb6e0448184cc0874092c06b0d567a0097ae9e2869862730a24a0568eec7" />
+                </canvas>
+                <canvas name="3" width="260" height="318">
+                    <vector name="origin" x="655" y="423" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="99b75187971cbf786c2d39fdd73105feee2ae010cceeed5b52eb65a92327a0cf" />
+                </canvas>
+                <canvas name="4" width="278" height="148">
+                    <vector name="origin" x="677" y="274" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="6c8a2bebaeb0daacd939f9a56d9c1887182e9430eb965c90a6de8246861c650b" />
+                </canvas>
+                <canvas name="5" width="255" height="129">
+                    <vector name="origin" x="657" y="269" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="ba457f934495d541c3c0dc1e74dff9d35cc739fc845f1d20b550639078ce3de6" />
+                </canvas>
+                <canvas name="6" width="195" height="110">
+                    <vector name="origin" x="658" y="270" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="90afdc1a1bc8adfd7e4958e8184b1e84030eadd55dcfe89c65773386f4cfd8b8" />
+                </canvas>
+            </imgdir>
+            <imgdir name="specialActionFrame">
+                <int name="delay" value="4" />
+            </imgdir>
+            <imgdir name="addAttack">
+                <int name="skill" value="41111015" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41101001" />
+                    <int name="1" value="41111003" />
+                    <int name="2" value="41001002" />
+                    <int name="3" value="41121001" />
+                    <int name="4" value="41121002" />
+                </imgdir>
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="151" />
+                <int name="skipActionFrame" value="9" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111003">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a20c1de65671300ff301d75d29830eb15f90e4817ccfda6f11eb3884ae5bc44c" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="fc114738b4049bc06a95fa8b953946675bec6fadf3b6d90117408c58b36c5c5a" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="19f0cf1181018d7494e007fbb9adfe466218c7896e15c4938c8752b7b4189e09" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="25+2*u(x/5)" />
+                <string name="damage" value="300+4*x" />
+                <string name="attackCount" value="3" />
+                <string name="mobCount" value="6" />
+                <string name="x" value="223" />
+                <string name="y" value="123" />
+                <string name="z" value="30" />
+                <vector name="lt" x="-400" y="-50" />
+                <vector name="rb" x="0" y="0" />
+                <string name="damR" value="10+2*x" />
+                <string name="cr" value="100" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="208" height="210">
+                    <vector name="origin" x="176" y="187" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="5be9eb77cc13e1a8b3189f5b657d8ebcd8b817fdfecf61297c360a9916de7169" />
+                </canvas>
+                <canvas name="1" width="214" height="191">
+                    <vector name="origin" x="215" y="186" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="64edc87d750ffafb8ff3ead54a9a0027c9e6fc831b5476724cea9278825178bb" />
+                </canvas>
+                <canvas name="2" width="222" height="222">
+                    <vector name="origin" x="182" y="196" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="d46f1c4d0b6f4a63f23e0619b149ac54d83a06aed3ea3693593d25de27dd9698" />
+                </canvas>
+                <canvas name="3" width="257" height="220">
+                    <vector name="origin" x="271" y="195" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="fc09369e7535f88b1fbba9518adda7e3610c3f4864e9edbc9f7f6fc248a65c8f" />
+                </canvas>
+                <canvas name="4" width="366" height="282">
+                    <vector name="origin" x="339" y="257" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="6c01d57f60d10be0fa2a2fa7f8558c16d7490b2d5e8caa81339fa1cb9d7120ef" />
+                </canvas>
+                <canvas name="5" width="354" height="291">
+                    <vector name="origin" x="397" y="268" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="21dcb6bba7b2780eb1925614e7548636e057fe85315c5d83027be99d5d981a36" />
+                </canvas>
+                <canvas name="6" width="277" height="295">
+                    <vector name="origin" x="419" y="269" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="8bee7c55bc7b2a8935aced70214558262e236a114a5103dcf30313c9684a5c3d" />
+                </canvas>
+                <canvas name="7" width="304" height="404">
+                    <vector name="origin" x="429" y="362" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="527b4903aa51ae808a3c34585ad512a66da7e7dda6e06714c8a63ac22e891c3f" />
+                </canvas>
+                <canvas name="8" width="283" height="382">
+                    <vector name="origin" x="445" y="307" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="67a80c5ecfcad22230df5ff729465c73d549a288525ece5c737f97892fdcc1d2" />
+                </canvas>
+                <canvas name="9" width="259" height="318">
+                    <vector name="origin" x="474" y="225" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="a148c5e49a3ae37e6c92deb8bc19dbdc2e92ecdad63eac1695cb2d1779b800a1" />
+                </canvas>
+                <canvas name="10" width="235" height="279">
+                    <vector name="origin" x="475" y="184" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="9bbb0118f166538dbe546ceae4b832fe4bf8569d01b8c0863e99b3541d87034a" />
+                </canvas>
+                <canvas name="11" width="213" height="266">
+                    <vector name="origin" x="462" y="183" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="8ec83747f89060729e9e092358669b0eaacf0f92b8d8d2c9472f3315c658eb10" />
+                </canvas>
+            </imgdir>
+            <imgdir name="effect0">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="240" />
+                </canvas>
+                <canvas name="1" width="309" height="199">
+                    <vector name="origin" x="257" y="190" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="baed9525749dc148cf6f400a0f1993b3a702dbf904e2142d25b8fc3c8d28d58e" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="142" height="162">
+                        <vector name="origin" x="76" y="94" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="79cfa8a632d0784c66f0b46e58253cb301a178d9e144e1713f1b587527522619" />
+                    </canvas>
+                    <canvas name="1" width="168" height="195">
+                        <vector name="origin" x="90" y="114" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="1631b9cb6a8ef30a659780702ac3e27db868cd60e702fb095a74846fa496f7d6" />
+                    </canvas>
+                    <canvas name="2" width="192" height="213">
+                        <vector name="origin" x="106" y="123" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="cf02266ba3032afe8e1296e9beaa8e87798c4078640a5dac149b70b90a26d126" />
+                    </canvas>
+                    <canvas name="3" width="202" height="225">
+                        <vector name="origin" x="110" y="130" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="d47a73563778a6ff7fde3ac1ffaf38734f7897cdbcd754c387a338b5fb925ade" />
+                    </canvas>
+                    <canvas name="4" width="192" height="209">
+                        <vector name="origin" x="97" y="134" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="404d3e6d3b66ed2421f3725f88282cb27037b6055d1eebb2a712abc62720d9bf" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiRush" />
+            </imgdir>
+            <imgdir name="addAttack">
+                <int name="skill" value="41001013" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41111001" />
+                    <int name="1" value="41101002" />
+                    <int name="2" value="41121009" />
+                    <int name="3" value="41001002" />
+                    <int name="4" value="41121002" />
+                    <int name="5" value="41111015" />
+                    <int name="6" value="41101013" />
+                </imgdir>
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="151" />
+                <int name="skipActionFrame" value="8" />
+            </imgdir>
+            <int name="psd" value="1" />
+            <imgdir name="psdSkill">
+                <imgdir name="41111013" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111005">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="6866de8b7112f5111c91e82b0f31b18220625a82d2b24ba99957ab090d5d5f4f" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c2c880e28bd7ee96562138bccd921e33322283dceee2aa2b256a57f3d23d42ce" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="923ec3a4759906457bfd73b4819dd69cef1ebe1615c26978dcaadb8e8ed90685" />
+            </canvas>
+            <imgdir name="common">
+                <string name="mpCon" value="17+3*u(x/4)" />
+                <string name="mobCount" value="8" />
+                <string name="damage" value="180+x" />
+                <string name="attackCount" value="7" />
+                <string name="cr" value="100" />
+                <string name="cooltime" value="14-2*u(x/4)" />
+                <int name="maxLevel" value="20" />
+                <vector name="lt" x="-295" y="-120" />
+                <vector name="rb" x="295" y="-1" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiTornado" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="161" height="34">
+                    <vector name="origin" x="-28" y="82" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="d40f8f79806d15f76f90460471ba0d21bc86df2c4b1c00f95fd6f343d9813003" />
+                </canvas>
+                <canvas name="1" width="242" height="95">
+                    <vector name="origin" x="-27" y="95" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c09985f56dde7dc21f59cf419ea75b992879c86f7aff19149f20c1b979c5678b" />
+                </canvas>
+                <canvas name="2" width="237" height="92">
+                    <vector name="origin" x="-51" y="92" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="0af4ea9933c7d3b9dfbe3d7c4c82907fe99adf1969106195845a74e7f8e5742c" />
+                </canvas>
+                <canvas name="3" width="158" height="111">
+                    <vector name="origin" x="-133" y="101" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="e64321ae5a3c3e069ce27dc2db20e9041d501414e9007ddc2ef655eef2c32ac8" />
+                </canvas>
+                <canvas name="4" width="593" height="217">
+                    <vector name="origin" x="301" y="199" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="b945108f2dde70886c55ee1efc76a5ee5f30f89838a9a5bd5fb03fda8231811d" />
+                </canvas>
+                <canvas name="5" width="608" height="210">
+                    <vector name="origin" x="302" y="197" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="77487a5932ae27a786613b25318e1031a3ac72caf9f5aafe44f9cb1ef67b0655" />
+                </canvas>
+                <canvas name="6" width="619" height="263">
+                    <vector name="origin" x="315" y="254" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="17746927f180ae6608cba468f8fb5872356217fb6f2c4261da0408b82f773feb" />
+                </canvas>
+                <canvas name="7" width="643" height="239">
+                    <vector name="origin" x="340" y="231" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="0b16c4c574509bce75038700d5211c7df9dc046c9d2de35578dcb42ed34eedf0" />
+                </canvas>
+                <canvas name="8" width="662" height="231">
+                    <vector name="origin" x="363" y="227" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="6f23542596c159fb2e5121e5498207bac0c432758add490827f186f7313fa741" />
+                </canvas>
+                <canvas name="9" width="590" height="230">
+                    <vector name="origin" x="366" y="230" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="bf79e8b507db04f024c91e18c287cadfec64a09d4b4a4eb260da63165a829089" />
+                </canvas>
+                <canvas name="10" width="354" height="78">
+                    <vector name="origin" x="189" y="152" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="0187daee3f4d13fabab8d9bdcb5e97b57ce9e3926eab705fdb17ba6631894edc" />
+                </canvas>
+                <canvas name="11" width="284" height="76">
+                    <vector name="origin" x="101" y="152" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="a6eec8ec2d5f67356c136ada0c0de44e4584d5f5ed247a14c2eafebcf27038ac" />
+                </canvas>
+                <canvas name="12" width="162" height="13">
+                    <vector name="origin" x="29" y="129" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="b701ae59c267ddfb18ec51e65b38132c61aa7053488036c740e7d2323f776cbe" />
+                </canvas>
+            </imgdir>
+            <imgdir name="psdSkill">
+                <imgdir name="41111005" />
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="142" height="162">
+                        <vector name="origin" x="76" y="92" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="eaa83ca139e2d24d5eab7add3814c44a36ed6f4813039838e5c87a63f3733fa1" />
+                    </canvas>
+                    <canvas name="1" width="168" height="195">
+                        <vector name="origin" x="90" y="112" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="1f846e7eebfc2624d771f29c11356d0d7825c69b075a67e73071fe6973589549" />
+                    </canvas>
+                    <canvas name="2" width="191" height="213">
+                        <vector name="origin" x="106" y="121" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="52e4e85ad4e8194b11f8b83ff3f4576204c209bfc6d9e9050587a11d3dacbc6d" />
+                    </canvas>
+                    <canvas name="3" width="202" height="225">
+                        <vector name="origin" x="110" y="128" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="14380e1e67f3d1cf17d601627acee74c27e1b85bee7418c25059ef7605befc63" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <int name="psd" value="1" />
+            <int name="weapon" value="54" />
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <int name="invisible" value="1" />
+        </imgdir>
+        <imgdir name="41110006">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="1d3276ac945dace307f8b80fa4b0669e0736865de77729249a1f2bb9ba615ce5" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="3264f772119ef221ffc082e77d3083fd5c1e1083d71323d0f416b1c355faf23b" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="12a0a40e6abf93c48cc91908689688084033771fad2000b58c4ebdb067f0a623" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="15" />
+                <string name="prop" value="6*x" />
+                <string name="time" value="10+x" />
+                <string name="damR" value="6" />
+                <string name="x" value="5" />
+                <string name="y" value="5+2*x" />
+            </imgdir>
+            <imgdir name="special">
+                <canvas name="0" width="101" height="116">
+                    <vector name="origin" x="49" y="89" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="042888b70b99827a3262c149fae6902d8a16791afd39dfae39032a1d52e1a28a" />
+                </canvas>
+                <canvas name="1" width="139" height="135">
+                    <vector name="origin" x="68" y="105" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="04c4ef5349401d439436eb1130925af564c5b1f4698636ec5b06945cc77a3a25" />
+                </canvas>
+                <canvas name="2" width="144" height="126">
+                    <vector name="origin" x="69" y="102" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c958c6785c7bd6b7462966037b0809fcb8696e355dcc1b10b9702e2a32aea6f4" />
+                </canvas>
+                <canvas name="3" width="148" height="121">
+                    <vector name="origin" x="70" y="96" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="eac6a6f961deaeca4c7f85c9d82ff05f59463bd46c0dc7c5f130cb140aa8f0ef" />
+                </canvas>
+                <canvas name="4" width="110" height="105">
+                    <vector name="origin" x="54" y="91" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="e0d56c17a673f2c8d79c93804f920684cc5aa766f35713f3ffc48200943e47b0" />
+                </canvas>
+                <canvas name="5" width="70" height="87">
+                    <vector name="origin" x="35" y="71" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="1a9cb3b2135908faf74c1008bf267861ab28d091e26167415239524e8e3c5f83" />
+                </canvas>
+                <canvas name="6" width="70" height="87">
+                    <vector name="origin" x="35" y="71" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="35c1192245b8c719765bd1d72b3a5fcd94de65a0cffadfba30bad6528922c2c9" />
+                </canvas>
+                <canvas name="7" width="66" height="92">
+                    <vector name="origin" x="33" y="78" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="f04f2f497ab78b52cf63c502feb7dc65f8edc8f9abef2e26398353d53cab0bb8" />
+                </canvas>
+                <canvas name="8" width="62" height="49">
+                    <vector name="origin" x="31" y="59" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="10689d43fb7529e3842d8046519ba23363e6f114df4f97df8b1b183c59ad0980" />
+                </canvas>
+            </imgdir>
+            <canvas name="icon1" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="92c7bcfa5784f84a9bf1334f4d6e04de1308fea71c3a045ba69aa86ef1efa241" />
+            </canvas>
+            <canvas name="icon2" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="37868ce5665497926a3b83de029a92d9a676b477d40312e1e436c100f03f264a" />
+            </canvas>
+            <canvas name="icon3" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="7bcc31e8a07c5d3c533ccc8212c5b3ad7904b542c5efd27e93fcb6fc2d30cffb" />
+            </canvas>
+            <canvas name="icon4" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="500cc963c1ec2439182195c0a69b3ed85d82ee23e6425f61afc25bc40fa82f81" />
+            </canvas>
+            <canvas name="icon5" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="3ab231b5aabc7eb1175915c25f1304c85994c718b3784a57610bf49eb1eea2df" />
+            </canvas>
+            <canvas name="icon6" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="94f93241138c7e0b036d401d25686a00ab594656fa062ada9aa88b2fcbdff326" />
+            </canvas>
+        </imgdir>
+        <imgdir name="41110007">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="263ce2e3e84c2f3d536874840a9cadd14cd650891800b345df9a84cf03bff081" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000364/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="778b47d7337cdda43731d626f54bfa7405f906146c3df324e3f21f7125062463" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000364/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c79ca372ad88be2b6c72228a89852dd6913dcac93b0c0c164e0a291edde2ee02" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000364/iconDisabled" />
+            </canvas>
+            <imgdir name="common">
+                <string name="prop" value="2*x" />
+                <string name="dot" value="70+8*x" />
+                <string name="dotInterval" value="1" />
+                <string name="dotTime" value="3+d(x/5)" />
+                <int name="maxLevel" value="15" />
+            </imgdir>
+            <imgdir name="mob">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="23" y="77" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="e2b507ccdc4d234581d7152e65abe27884574250ca6fc213153e1ac82dfc35dd" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000364/mob/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="23" y="81" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="e7f5627b434ca1e5279277d123d04d62def8f1bb85a866a759f04a0d58ab5e62" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000364/mob/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="23" y="80" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="596a4668b2c634131aab4933b8403f09d8d33ce9d49077dde612a70ae401ea19" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000364/mob/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="23" y="78" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="67f308425ec383e3badda419bae9875ed8a935781592dd6c1e05b7548053b5ae" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000364/mob/3" />
+                </canvas>
+                <int name="pos" value="2" />
+                <int name="repeat" value="1" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41110008">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="e9f51730c874ff6741c686387c89e2ba2673a1661b5ad3faee9af0e5df49208b" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000365/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c40a90a54c809db60f2d857ab544e012b391d35a8bf146114fd666c5c66347a1" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000365/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d54bc2bba3869ec677d24a67760b158c0637d121acecc16588a5050c4a419e53" />
+                <string name="_outlink" value="Skill/800003.img/skill/80000365/iconDisabled" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="18" y="178" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="238ab3e2669702f0fa3536a157c6ceea9f2c2f30252e686e1a015d4b9b84d713" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="22" y="198" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c168f8ac098d4084f4899d7efe27407ff4a77dbda3704be3a26d6faa22c1fa67" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="24" y="212" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="1b5620dc9354e38bbaa25b3d8b8aed23ef6201a192d9fc2dfeda3b5db85ec400" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="24" y="214" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="85600f8d606ab20545396a9d73a17acaa52b8aad1998df838d89339f38acca84" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="25" y="216" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="166583349e579d51bc34a9c7ca1791642c1c40d714b4b9a5a7c3f58d0db420a6" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="25" y="217" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="82371ee9658633c109511df4e35322435b9a4f8be87107035c834274629a23ef" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="77" y="226" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="7146df5ce6c08157f40a823c67d482a85b5561dcfc60a01a02134318fed67517" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/6" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="79" y="222" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="8508b24b4dd692bdc46f623821ec442c0e7ed15cb5022995f347db09850a2941" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="80" y="222" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="150" />
+                    <string name="_hash" value="30d73041b68f346dab98370170905e7e62a8d9d5bfa1f56534f5b868e2cbec57" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/8" />
+                </canvas>
+                <canvas name="9" width="1" height="1">
+                    <vector name="origin" x="78" y="223" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="7eb3034677771a716962319f353b41bdf6395632d2eece24f4ad2efeb1f60e92" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/9" />
+                </canvas>
+                <canvas name="10" width="1" height="1">
+                    <vector name="origin" x="77" y="224" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="8b66f0718ce38bdf74380405c180726031c1fa6e5427b97506697124ff8adee8" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/10" />
+                </canvas>
+                <canvas name="11" width="1" height="1">
+                    <vector name="origin" x="58" y="225" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="d91f8af7229ccd788a4c83438b75d4beead67e878ce939b46ebea8a944e51339" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/11" />
+                </canvas>
+                <canvas name="12" width="1" height="1">
+                    <vector name="origin" x="53" y="214" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="5ea2f747c7d66ef809a3072a5898d03a14283dd64559185eae6262ac843ae1e1" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/12" />
+                </canvas>
+                <canvas name="13" width="1" height="1">
+                    <vector name="origin" x="82" y="172" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="66b6d68087c822634b7c927726a9eb4c695833ca8e0cc7b9ca828dd35ce4839f" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/13" />
+                </canvas>
+                <canvas name="14" width="1" height="1">
+                    <vector name="origin" x="80" y="132" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="d737a207432bbf677b79aa53d6d1373e694821a227d7be6995197793270bdf06" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/14" />
+                </canvas>
+                <canvas name="15" width="1" height="1">
+                    <vector name="origin" x="76" y="100" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c79b188e1dca310f7bbd8554a6529d7e6bb5e2f1d41fc2d1e28fafc2dc163618" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/15" />
+                </canvas>
+                <canvas name="16" width="1" height="1">
+                    <vector name="origin" x="73" y="82" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="86a407b3ea3aa17a682c7eb627c223219d33019fb0d6df26e9b56993c34d3258" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/16" />
+                </canvas>
+                <canvas name="17" width="1" height="1">
+                    <vector name="origin" x="73" y="80" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="4f18f067edbd9e7126898b315fc5a1fa528c9ad5546cfe2b2a31a98721383937" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/17" />
+                </canvas>
+                <canvas name="18" width="1" height="1">
+                    <vector name="origin" x="73" y="86" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="4f9856d41bc2d8845c487598342758b4ad57cbf0369f615e99d6bc96415f1c05" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/18" />
+                </canvas>
+                <canvas name="19" width="1" height="1">
+                    <vector name="origin" x="24" y="86" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="75665cc633bbff45a15702e711c6ec5db5adcfb424b30e90917f9ce7aa238830" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect/19" />
+                </canvas>
+                <int name="z" value="5" />
+            </imgdir>
+            <imgdir name="effect0">
+                <int name="z" value="-1" />
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-3" y="1" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="1320" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="137" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="08ff7e5df88e35d49a6647455e4214f50cfd63d5114c6292d29a1358952f6565" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="143" y="29" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="833fb7f90651d9f050aaf59095d776e7845ca7d10f48d0d10076b0325f1f32a7" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="158" y="32" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="bd40b115aad1288fff837737b7c99f58f00b0fd1a71032230f1f7078134cced3" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="158" y="32" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="b51b7e7f6507179ec03b1d2fe12bf953b2eb84ba09ace9609ba2d4ffc75a0e84" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="155" y="31" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="243b21fc88910791eb3f7c6f93d18fe51e5c30cabec66fd67811172d78b9696c" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="141" y="29" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="08658b27d20be010a5ac69e08470fc3a4c33d630cda217df318635ccf2f9b471" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="special">
+                <int name="repeat" value="1" />
+                <int name="z" value="-1" />
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="137" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/1" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="143" y="29" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/2" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="158" y="32" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/3" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="158" y="32" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/4" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="155" y="31" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/5" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="141" y="29" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_outlink" value="Skill/800003.img/skill/80000365/effect0/6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="damage" value="100+3*x" />
+                <string name="mobCount" value="4" />
+                <string name="padX" value="x" />
+                <string name="y" value="20+x" />
+                <string name="prop" value="20+x" />
+                <string name="subTime" value="1000" />
+                <vector name="lt" x="-150" y="-80" />
+                <vector name="rb" x="150" y="0" />
+            </imgdir>
+            <int name="psd" value="1" />
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="14" y="6" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="7cc423051bffce914919df0dd23b82a2e749347771efcfaa691e57b5d73db124" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="51" y="55" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="fed5066c0075b7649373596e6cec1cd37362bef9ec309cdaa9af24095fbd1a46" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="58" y="55" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="05ce36affba6bb5fc97d2f66a6a8975203eaf164e101ea4398eafbbf83471d00" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="55" y="52" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="ecda0f0819b2359b6010f4770376acb53d1478afb77e01b6a333ff1e698b05d9" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="49" y="41" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="b24e056cb7bb2b9f59062bff3f5fc52caf60e41e16459d5cc2b72b84227e23ad" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/4" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="47" y="35" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="153e1af7fc73f1152552b68124abafab5c0e0c141fb29d8d521e8bd73ccb4b71" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/5" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="45" y="15" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="c77fd0216e8b5ac779460c23f8debe831398b2cff84ce6aeb812e57ad7fc1791" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/6" />
+                    </canvas>
+                    <canvas name="7" width="1" height="1">
+                        <vector name="origin" x="10" y="8" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="317159bc21a39d1ae0e878b3b04dc9bce25bb705c77e4e9df51df28a594fa07b" />
+                        <string name="_outlink" value="Skill/800003.img/skill/80000365/hit/0/7" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="info2">
+                <string name="mes" value="freeze" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiBatdo" />
+            </imgdir>
+            <imgdir name="req">
+                <int name="41001001" value="20" />
+            </imgdir>
+            <int name="invisible" value="1" />
+        </imgdir>
+        <imgdir name="41110009">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="4060a2ae5b7139123f3c797ab4be753567a0a07da3b8a930b7339de0de1b1ee4" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a0b14cd3197de9ec3c8b36cf663635417ae4d631304d5e774d7ce25736f3b89b" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d25e062f58768e89630cf7bbb407019186d80fe4a5b55a4dc6ae8767a0e28509" />
+            </canvas>
+            <imgdir name="common">
+                <string name="prop" value="10+2*x" />
+                <string name="x" value="1+d(x/5)" />
+                <int name="maxLevel" value="15" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="36" height="20">
+                    <vector name="origin" x="31" y="78" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="7ca2e95644fa2a9225129781eceab383fcf537ab87ecbcd77ee4ac5d85dde739" />
+                </canvas>
+                <canvas name="1" width="44" height="62">
+                    <vector name="origin" x="48" y="76" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="e398e08117f98ac7bdee8a059330f0daf5a37942cd381e39d973bc6400e9e203" />
+                </canvas>
+                <canvas name="2" width="68" height="74">
+                    <vector name="origin" x="48" y="60" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="6b140912a244d3fa0e305b20b0cfb110a71c9e51909746e73cb40fb78b2bcaa3" />
+                </canvas>
+                <canvas name="3" width="85" height="74">
+                    <vector name="origin" x="43" y="60" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="76ee437be473635f5a9e79e5f9a9f92b8e65bd953ee1c819100c0c1b5f8e0ed6" />
+                </canvas>
+                <canvas name="4" width="57" height="74">
+                    <vector name="origin" x="13" y="61" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="65b6ed85174c0e34dcc658c89b2d6fbba831d66190dcb880e6b37e4186a7b98d" />
+                </canvas>
+                <canvas name="5" width="60" height="66">
+                    <vector name="origin" x="16" y="61" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="d435d32f2c87452255a1c11099579e245230bdf2eca413643fb4a7ad4c189664" />
+                </canvas>
+                <canvas name="6" width="78" height="56">
+                    <vector name="origin" x="34" y="65" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="c899cf9aaa84085bf8b13d649930abe961cd5294caed5dc0b952d983dd34381d" />
+                </canvas>
+                <canvas name="7" width="73" height="45">
+                    <vector name="origin" x="32" y="76" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="1c45dbde27fb0ba1cfcd8f8fd2cbd82618b036f881dc313da69fb1c21973bd56" />
+                </canvas>
+                <canvas name="8" width="25" height="22">
+                    <vector name="origin" x="24" y="76" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="88a8f17715ca0ce5829340926db65dd88b2517f53b8a25dd0afab94809887bbd" />
+                </canvas>
+                <canvas name="9" width="116" height="115">
+                    <vector name="origin" x="61" y="89" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="85ae51096ccb74a7ad927b520964125a2e025cd5d1b200da2abe05dac46b0269" />
+                </canvas>
+                <canvas name="10" width="112" height="111">
+                    <vector name="origin" x="58" y="85" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="d1af6c6cf71e35c740afe7b6897ed68e05c8eb804632b4e696f864a7fa532550" />
+                </canvas>
+                <canvas name="11" width="110" height="109">
+                    <vector name="origin" x="55" y="83" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="150" />
+                    <string name="_hash" value="d860d328c0fbdace626f8f1852082197ef24d478dc9b7d66323c5fce5ed0dc30" />
+                </canvas>
+                <canvas name="12" width="111" height="110">
+                    <vector name="origin" x="55" y="83" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="748bdc9b48e81ee0a5b5cd5363c94ecf63270c32de0109b2995618481ca011cd" />
+                </canvas>
+                <canvas name="13" width="111" height="107">
+                    <vector name="origin" x="54" y="81" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="6d6fa2acb999d3136697640d2b86b1b1efd97760923852a5ee127e89e7430cf0" />
+                </canvas>
+                <canvas name="14" width="90" height="100">
+                    <vector name="origin" x="50" y="78" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="53ac782d037da4d97d39f258340e037f9db26c9ba757d341b61a378f0be2fa5c" />
+                </canvas>
+                <canvas name="15" width="71" height="78">
+                    <vector name="origin" x="35" y="71" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="30" />
+                    <string name="_hash" value="4fca49f758a9c15d118d6a4b4d5e67c0d5495c4405018069231178693a00c4e5" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111013">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111003/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111003/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111003/iconDisabled" />
+            </canvas>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="25+2*u(x/5)" />
+                <string name="damage" value="400+4*x" />
+                <string name="attackCount" value="3" />
+                <string name="mobCount" value="6" />
+                <string name="x" value="223" />
+                <string name="y" value="123" />
+                <string name="z" value="30" />
+                <vector name="lt" x="-400" y="-50" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="176" y="187" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="215" y="186" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="182" y="196" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="271" y="195" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="339" y="257" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="397" y="268" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="419" y="269" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/6" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="429" y="362" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="445" y="307" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/8" />
+                </canvas>
+                <canvas name="9" width="1" height="1">
+                    <vector name="origin" x="474" y="225" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/9" />
+                </canvas>
+                <canvas name="10" width="1" height="1">
+                    <vector name="origin" x="475" y="184" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/10" />
+                </canvas>
+                <canvas name="11" width="1" height="1">
+                    <vector name="origin" x="462" y="183" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111003/effect/11" />
+                </canvas>
+            </imgdir>
+            <imgdir name="effect0">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="450" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="257" y="190" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_inlink" value="skill/41111003/effect0/1" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="76" y="94" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111003/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="90" y="114" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111003/hit/0/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="106" y="123" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111003/hit/0/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="110" y="130" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111003/hit/0/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="97" y="134" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111003/hit/0/4" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiRush" />
+            </imgdir>
+            <int name="invisible" value="1" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41001013" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41111001" />
+                    <int name="1" value="41101002" />
+                    <int name="2" value="41121009" />
+                </imgdir>
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="151" />
+                <int name="skipActionFrame" value="8" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111014">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="855ce9a8072c8cb50363b023011127546dfb3690b449b17b51182ae1bab4c709" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="8c88a485f788018347a34ab59b2f49baa6faf600ce6ce6fced0a8f0d39d1a092" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="92ed8d5f9b3497d1252cbca3056cd2b14de45ba0527187edf424599a740e07fc" />
+            </canvas>
+            <imgdir name="common">
+                <string name="mpCon" value="10+d(x/5)" />
+                <string name="damage" value="310+7*x" />
+                <string name="mobCount" value="1" />
+                <string name="attackCount" value="3" />
+                <vector name="lt" x="-418" y="-80" />
+                <vector name="rb" x="-10" y="10" />
+                <int name="maxLevel" value="20" />
+            </imgdir>
+            <imgdir name="PVPcommon">
+                <string name="mpCon" value="10+d(x/5)" />
+                <string name="damage" value="190+2*x" />
+                <string name="mobCount" value="1" />
+                <string name="attackCount" value="3" />
+                <vector name="lt" x="-418" y="-50" />
+                <vector name="rb" x="-10" y="0" />
+                <int name="maxLevel" value="20" />
+            </imgdir>
+            <imgdir name="effect">
+                <canvas name="0" width="133" height="102">
+                    <vector name="origin" x="73" y="87" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="6fa4142c6bd826159041d01f914d99bd78fd5a589ae39148216cb1f1f4a8ac73" />
+                </canvas>
+                <canvas name="1" width="357" height="160">
+                    <vector name="origin" x="165" y="108" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="c77ba0001f7f2da53a1d87be41e0f8060cec582a5e01e67e6c020163fb3e4a55" />
+                </canvas>
+                <canvas name="2" width="595" height="191">
+                    <vector name="origin" x="322" y="125" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="36def71fb6f40d5de494e831298571106b29032682465110150b44ea9cec479a" />
+                </canvas>
+                <canvas name="3" width="816" height="149">
+                    <vector name="origin" x="426" y="107" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="9eeb596b260c0525326294861305d7adc5a1104a3a08f9b8d504d8f081d0ac11" />
+                </canvas>
+                <canvas name="4" width="747" height="103">
+                    <vector name="origin" x="480" y="60" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="bb3a85cc64aee72b5b35c7a14cd607ae442344e3b34830ef436a6e8289dd05d1" />
+                </canvas>
+                <canvas name="5" width="741" height="57">
+                    <vector name="origin" x="531" y="38" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="a011e3217f08ae2d861908be90e430319c0d7f947058f920d82e4c2c5f93a621" />
+                </canvas>
+                <canvas name="6" width="695" height="21">
+                    <vector name="origin" x="522" y="40" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="250f6e9f5e9f63b8f793fd6dd0589bc7d12401a1d40324de62faf125984742c6" />
+                </canvas>
+                <canvas name="7" width="644" height="34">
+                    <vector name="origin" x="509" y="46" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="a4ceff7caea726aacd7596b217c593ff50cc1167089348a943e6b059d124579d" />
+                </canvas>
+                <canvas name="8" width="641" height="35">
+                    <vector name="origin" x="509" y="47" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="c5b2bc38ec63afbd66c702f80eb92d609236bb3540ab699b659adcc24edacb09" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="166" height="133">
+                        <vector name="origin" x="83" y="73" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="b23f37ed799d63d62a6f442da94151a6d1cd915c9e503f79483a64294c55a477" />
+                    </canvas>
+                    <canvas name="1" width="167" height="154">
+                        <vector name="origin" x="83" y="86" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="575288d129382a2a778ef11376d49e78e2e41055f9710367e06f2c193cb73d10" />
+                    </canvas>
+                    <canvas name="2" width="165" height="171">
+                        <vector name="origin" x="82" y="95" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="5635cdd8c687cedad798d1c072a020de1b6de0d86bb2a462ba0b954092fd979e" />
+                    </canvas>
+                    <canvas name="3" width="161" height="180">
+                        <vector name="origin" x="85" y="100" />
+                        <int name="delay" value="60" />
+                        <string name="_hash" value="e1904c548bcb7c412d69e186e1a8be4e19960534fb231d1d853fee4e53925674" />
+                    </canvas>
+                    <string name="onlyOnce" value="1" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjidrawingsword" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+                <int name="areaAttack" value="1" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <int name="invisible" value="1" />
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111015">
+            <canvas name="icon" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a50522033296fcc8f38c8053030936a6722501ecf48c7cfbc084da2064fb579b" />
+            </canvas>
+            <canvas name="iconMouseOver" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="bb8ab1c90ba88b480fa287e95253f825b74f034657bc8a9078628be55a5e5b1d" />
+            </canvas>
+            <canvas name="iconDisabled" width="32" height="32">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a38bc33737c64b8d27c6128d05bf566229ee3a140b365ddb5230e6d6d9cc745c" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="240" />
+                </canvas>
+                <canvas name="1" width="550" height="58">
+                    <vector name="origin" x="484" y="56" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="180" />
+                    <string name="_hash" value="6f49fd855898ba39385d38c357a60d99f3212e52c795021f97387bffea4064b8" />
+                </canvas>
+                <canvas name="2" width="540" height="53">
+                    <vector name="origin" x="479" y="54" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="2a103750f2ee2c2c0affec3f0ada6f70527aff48fbe15edfda68df9ed0392374" />
+                </canvas>
+                <canvas name="3" width="521" height="48">
+                    <vector name="origin" x="474" y="50" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="b6e7c2eef6c5deee4e9a3c14e0c205738e835aab987aa70141d4be51aafb60d9" />
+                </canvas>
+                <canvas name="4" width="488" height="46">
+                    <vector name="origin" x="445" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="5f58e7a8ea51fb9233e8504493aa2b36db55a29a200cebcd9b8b1b2aec8bf2b4" />
+                </canvas>
+                <canvas name="5" width="432" height="22">
+                    <vector name="origin" x="424" y="39" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="d4f704fe11d96ea646cdd88da4761e2608fa3ad7a37e33c1b82abe110c913343" />
+                </canvas>
+                <canvas name="6" width="362" height="15">
+                    <vector name="origin" x="404" y="35" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="6a4c4cbd3d20ef27669c6501e343bfcb3c5ec31070e475ddc726c6af3abda528" />
+                </canvas>
+                <canvas name="7" width="326" height="1">
+                    <vector name="origin" x="380" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="0fa8201da818275458628a1e649b84290817bb6757e02410cafb2d4afe804310" />
+                </canvas>
+                <canvas name="8" width="288" height="1">
+                    <vector name="origin" x="355" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_hash" value="92da51601aa16eb9adc5fdc6b3dc17edbdcbe8b38f3002e0915749ed7c059ac4" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="119" height="156">
+                        <vector name="origin" x="66" y="85" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="84ceb753f9de23e6ac3edf9e9553bc408df1f9acdc4525be4bcbbc8326b68ff0" />
+                    </canvas>
+                    <canvas name="1" width="161" height="160">
+                        <vector name="origin" x="78" y="87" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="e4c60a201ab753391889cfaed3ef82ffa1d0f08829ba3650c99c39cae0306e53" />
+                    </canvas>
+                    <canvas name="2" width="178" height="160">
+                        <vector name="origin" x="86" y="87" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="37242c7e0ff990d4b94c7e2a34491d523ec8ef4761e7290402f3eed8297ee1f4" />
+                    </canvas>
+                    <canvas name="3" width="177" height="157">
+                        <vector name="origin" x="86" y="86" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="ccb70541f5732ae5fd546ede0664bf1137cf19db69142bd66f7cbc392dd7594f" />
+                    </canvas>
+                    <canvas name="4" width="149" height="40">
+                        <vector name="origin" x="71" y="39" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="5d2bc97476d3b040400ca87ff0593c21ec1d911a598474b76fc11797a29a3583" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="3+3*u(x/5)" />
+                <string name="damage" value="170+2*x" />
+                <string name="mobCount" value="6" />
+                <string name="attackCount" value="4" />
+                <string name="cr" value="100" />
+                <vector name="lt" x="-480" y="-120" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiAssualt" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41001013" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41001002" />
+                    <int name="1" value="41111001" />
+                    <int name="2" value="41111003" />
+                    <int name="3" value="41121009" />
+                    <int name="4" value="41001000" />
+                    <int name="5" value="41101000" />
+                    <int name="6" value="41111000" />
+                    <int name="7" value="41121000" />
+                    <int name="8" value="41121002" />
+                    <int name="9" value="41101013" />
+                    <int name="10" value="41111003" />
+                </imgdir>
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="151" />
+                <imgdir name="patternPlus">
+                    <imgdir name="0">
+                        <string name="pattern" value="155" />
+                        <int name="skill" value="41001002" />
+                    </imgdir>
+                    <imgdir name="1">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41101000" />
+                    </imgdir>
+                    <imgdir name="2">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41001000" />
+                    </imgdir>
+                    <imgdir name="3">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41111000" />
+                    </imgdir>
+                    <imgdir name="4">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41121000" />
+                    </imgdir>
+                </imgdir>
+                <int name="skipActionFrame" value="7" />
+            </imgdir>
+            <int name="psd" value="1" />
+            <imgdir name="psdSkill">
+                <imgdir name="41111016" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <imgdir name="skillList">
+                <int name="0" value="400011000" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111016">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/iconDisabled" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="240" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="484" y="56" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="180" />
+                    <string name="_inlink" value="skill/41111015/effect/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="479" y="54" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="474" y="50" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="445" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="424" y="39" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="404" y="35" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/6" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="380" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="355" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/8" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="66" y="85" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111015/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="78" y="87" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111015/hit/0/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="86" y="87" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111015/hit/0/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="86" y="86" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111015/hit/0/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="71" y="39" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111015/hit/0/4" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="3+3*u(x/5)" />
+                <string name="damage" value="140+x" />
+                <string name="mobCount" value="6" />
+                <string name="attackCount" value="4" />
+                <string name="cr" value="100" />
+                <vector name="lt" x="-480" y="-120" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiAssualt" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <int name="invisible" value="1" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41001013" />
+                <imgdir name="skillPlus">
+                    <int name="0" value="41001002" />
+                    <int name="1" value="41111001" />
+                    <int name="2" value="41111003" />
+                    <int name="3" value="41121009" />
+                    <int name="4" value="41001000" />
+                    <int name="5" value="41101000" />
+                    <int name="6" value="41111000" />
+                    <int name="7" value="41121000" />
+                    <int name="8" value="41121002" />
+                </imgdir>
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="151" />
+                <imgdir name="patternPlus">
+                    <imgdir name="0">
+                        <string name="pattern" value="155" />
+                        <int name="skill" value="41001002" />
+                    </imgdir>
+                    <imgdir name="1">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41101000" />
+                    </imgdir>
+                    <imgdir name="2">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41001000" />
+                    </imgdir>
+                    <imgdir name="3">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41111000" />
+                    </imgdir>
+                    <imgdir name="4">
+                        <string name="pattern" value="154" />
+                        <int name="skill" value="41121000" />
+                    </imgdir>
+                </imgdir>
+                <int name="skipActionFrame" value="7" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111017">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111001/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111001/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111001/iconDisabled" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="141" y="50" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="194" y="84" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="174" y="79" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="161" y="64" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="161" y="69" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="475" y="174" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="295" y="137" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111001/effect/8" />
+                </canvas>
+                <canvas name="9" width="1" height="1">
+                    <vector name="origin" x="315" y="139" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111001/effect/9" />
+                </canvas>
+                <canvas name="10" width="1" height="1">
+                    <vector name="origin" x="297" y="131" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111001/effect/10" />
+                </canvas>
+                <canvas name="11" width="1" height="1">
+                    <vector name="origin" x="126" y="123" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111001/effect/11" />
+                </canvas>
+                <canvas name="12" width="1" height="1">
+                    <vector name="origin" x="111" y="101" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111001/effect/12" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="81" y="52" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111001/hit/0/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="79" y="58" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_inlink" value="skill/41111001/hit/0/1" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiDraw" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="15+4*d(x/5)" />
+                <string name="damage" value="150+3*x" />
+                <string name="mobCount" value="10" />
+                <string name="attackCount" value="6" />
+                <vector name="lt" x="-560" y="-118" />
+                <vector name="rb" x="0" y="15" />
+            </imgdir>
+            <imgdir name="special">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="720" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="69" y="42" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/special/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="78" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/special/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="91" y="52" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/special/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="92" y="49" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/special/4" />
+                </canvas>
+            </imgdir>
+            <imgdir name="effect0">
+                <int name="z" value="-1" />
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="253" y="147" />
+                    <int name="delay" value="90" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="628" y="283" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="623" y="281" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="655" y="423" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="677" y="274" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="657" y="269" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="658" y="270" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_inlink" value="skill/41111001/effect0/6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="specialActionFrame">
+                <int name="delay" value="4" />
+            </imgdir>
+            <imgdir name="addAttack">
+                <int name="skill" value="41121020" />
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="154" />
+                <int name="skipActionFrame" value="9" />
+                <int name="patternType" value="1" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <int name="invisible" value="1" />
+            <imgdir name="effect1">
+                <canvas name="0" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="edc44b64f09fbba610eaa24ba3214f785700dbcbc5c3f3f0b53570038eaa9d32" />
+                </canvas>
+                <canvas name="1" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="8816daf92c540735db0c8051e8a84de40f525b749a68f1efd4364bb3bd4af213" />
+                </canvas>
+                <canvas name="2" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="f2fa00a5d77ec600769fc5f31fcc520e7168652fd4e9b2df65de9de58754b24a" />
+                </canvas>
+                <canvas name="3" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="39228b100c3025ee3cf0acf2d8a2e0adfc2e878795726e736521ed163049ea10" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_inlink" value="skill/41111017/effect1/1" />
+                </canvas>
+                <canvas name="5" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="21330df39b4197e1e823191a56cd46f3c0a444511bfb812d5776c93f2f16acc0" />
+                </canvas>
+                <canvas name="6" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="8d6243d2516a3c06f6221544ec1073ff3f0b95f52ed3b0766fe9b1ca2b8e7630" />
+                </canvas>
+                <int name="fixed" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="41111018">
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/icon" />
+            </canvas>
+            <canvas name="iconMouseOver" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/iconMouseOver" />
+            </canvas>
+            <canvas name="iconDisabled" width="1" height="1">
+                <vector name="origin" x="0" y="32" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="skill/41111015/iconDisabled" />
+            </canvas>
+            <imgdir name="effect">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="240" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="524" y="56" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_inlink" value="skill/41111015/effect/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="549" y="54" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_inlink" value="skill/41111015/effect/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="574" y="50" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="575" y="48" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="574" y="39" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="574" y="35" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/6" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="450" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="365" y="28" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="60" />
+                    <string name="_inlink" value="skill/41111015/effect/8" />
+                </canvas>
+            </imgdir>
+            <imgdir name="hit">
+                <imgdir name="0">
+                    <canvas name="0" width="209" height="215">
+                        <vector name="origin" x="104" y="107" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="01a720c291d57e8485166a1142816bce0c51ac1f6a58b97cbef4a0fefd13e11d" />
+                    </canvas>
+                    <canvas name="1" width="266" height="257">
+                        <vector name="origin" x="133" y="128" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="28dc8f2ee29a15600de335832199679b914de4abe816079cfe2f370327efd079" />
+                    </canvas>
+                    <canvas name="2" width="284" height="275">
+                        <vector name="origin" x="142" y="137" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="c1752f869a99a75e6ca1dd01e087c7149336ae987a8ac728fbd25f0162f4caf2" />
+                    </canvas>
+                    <canvas name="3" width="297" height="278">
+                        <vector name="origin" x="148" y="139" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="e4aa153cdb4e01a9660ba1f9fb15f881b56e8fadae1728f55aed0b488d07958e" />
+                    </canvas>
+                    <canvas name="4" width="80" height="69">
+                        <vector name="origin" x="40" y="34" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="120" />
+                        <string name="_hash" value="00248c06133b0eedbe8790fe15513881cbf774e883842f19239c3d79f258fcc1" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="common">
+                <int name="maxLevel" value="20" />
+                <string name="mpCon" value="3+3*u(x/5)" />
+                <string name="damage" value="170+2*x" />
+                <string name="mobCount" value="6" />
+                <string name="attackCount" value="4" />
+                <string name="cr" value="100" />
+                <vector name="lt" x="-480" y="-120" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+            <imgdir name="action">
+                <string name="0" value="kenjiAssualt" />
+            </imgdir>
+            <int name="weapon" value="54" />
+            <imgdir name="addAttack">
+                <int name="skill" value="41111017" />
+                <int name="reqCount" value="1" />
+                <string name="pattern" value="154" />
+                <int name="skipActionFrame" value="7" />
+                <int name="patternType" value="1" />
+            </imgdir>
+            <int name="psd" value="1" />
+            <imgdir name="psdSkill">
+                <imgdir name="41111016" />
+            </imgdir>
+            <imgdir name="info">
+                <int name="type" value="1" />
+            </imgdir>
+            <int name="invisible" value="1" />
+            <imgdir name="effect0">
+                <canvas name="0" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="19980eed6b27620ecb956baaf2af50976baa05f38833b917c555a2a32e6f183d" />
+                </canvas>
+                <canvas name="1" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="41141778b3adf9b0ecaa016f4b1373a4b4dffe9837860f54a3e1e078314d1930" />
+                </canvas>
+                <canvas name="2" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="bb654a04515e21fdc7883518ffd7bc889b2852c4d9aca6c43759cbd2c3e3b52b" />
+                </canvas>
+                <canvas name="3" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="b09c8d1842e2713172e18800c6e16115803fe85a1764f09898f54835c030f79a" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_inlink" value="skill/41111018/effect0/1" />
+                </canvas>
+                <canvas name="5" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="5eb3e6818563b83f614ca44fafcbde2e2ab223fff7e30ab35d7a508042b20e9d" />
+                </canvas>
+                <canvas name="6" width="122" height="70">
+                    <vector name="origin" x="49" y="134" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="d970cee007095463bc52c0a77aac421cf45ee53a926e7cdce2f1daa5d5592610" />
+                </canvas>
+                <int name="fixed" value="1" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

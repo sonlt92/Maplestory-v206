@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="CaptainNomad.img">
+    <imgdir name="suit">
+        <imgdir name="basic">
+            <imgdir name="99">
+                <imgdir name="head">
+                    <canvas name="head" width="44" height="48">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="eef01e949a3d28a29c7ab69cb109a09d7e82d1225c0371f34aa9659d28645590" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="29" height="41">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="6a296a52728d8aa98708ff79a20f6ab3deeb14fe4e751b3b7dcd2f7637697d93" />
+                        </canvas>
+                        <canvas name="1" width="29" height="42">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="22649da22797caec0d67da01515445457e0c316879fc28cddebbc62f49aa083c" />
+                        </canvas>
+                        <canvas name="2" width="29" height="43">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="6f38d81c215b76d3870cd8136dfe745cf544265dc7c9e1fac27f3df31ad8f2d7" />
+                        </canvas>
+                        <canvas name="3" width="29" height="41">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="743cdaf50e7dfec91841306e3fb368571b12765aa3b2d71bc97419cd47b0b6a5" />
+                        </canvas>
+                        <canvas name="4" width="29" height="42">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="5de035359752cf15cf848ea75aba86ca339eb2a075a3d149344df5a5933d8357" />
+                        </canvas>
+                        <canvas name="5" width="29" height="43">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="f5db4e1a8b3b939511cc11b57db10f4995ae05139be38e291bc85192125e46a8" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="29" height="43">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="041a8f6bc5fec6c2b8a15a6bc902070a3ca229fe9e94c26eeba2077097841c70" />
+                        </canvas>
+                        <canvas name="1" width="29" height="42">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="542cfe7dbbfd148af27f612fce7b7055fe2382fb1f43cbe38a21afacf340a42b" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="29" height="44">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_hash" value="98e5b538dc8ce10b0f53c3de4b26022f2f246327ddca940f2842e5c9584b62de" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-46" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <int name="def" value="0" />
+                <int name="rdef" value="0" />
+                <int name="weight" value="10" />
+                <string name="name" value="기본슈트 (basic suit)" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="closerange">
+            <imgdir name="100">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="42" height="50">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="79b34e69a82a20a32521d2e97808147c046eac218320f5322a4ada78049e9d93" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="2" />
+                <int name="rdef" value="0" />
+                <int name="weight" value="20" />
+                <string name="name" value="근거리방어 mk1 (melee defense suit mk1)" />
+            </imgdir>
+            <imgdir name="101">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="43" height="52">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="67db886fe77ec03e27a2f1bd2922ae03217dea320f820134ccddff6c1d694992" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="4" />
+                <int name="rdef" value="0" />
+                <int name="weight" value="15" />
+                <string name="name" value="근거리방어 mk2 (melee defense suit mk2)" />
+            </imgdir>
+            <imgdir name="102">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="43" height="56">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="a50788203944e297d90de5979b61aae3954ab22addcb2efa67fa873794797f8e" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="6" />
+                <int name="rdef" value="0" />
+                <int name="weight" value="10" />
+                <string name="name" value="근거리방어 mk3 (melee defense suit mk3)" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="longrange">
+            <imgdir name="200">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="42" height="48">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="c5814d4c2d5788bca84ea8913ec29c1ef8ca5386de77e8e5e233644ba754e5a5" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="0" />
+                <int name="rdef" value="2" />
+                <int name="weight" value="20" />
+                <string name="name" value="원거리방어 mk1 (ranged defense suit mk1)" />
+            </imgdir>
+            <imgdir name="201">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="43" height="50">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="09f242c8017f451e11a7b1a675e6a62b445c40d74b3abaa2c371d2c777ffdbf5" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="0" />
+                <int name="rdef" value="4" />
+                <int name="weight" value="15" />
+                <string name="name" value="원거리방어 mk2 (ranged defense suit mk2)" />
+            </imgdir>
+            <imgdir name="202">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                    <canvas name="head" width="47" height="51">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="75eb4f0c9d6ae6e54890c7fde8abd2516c10dd2d9c19be2fe8615dd8774fe48a" />
+                    </canvas>
+                </imgdir>
+                <int name="def" value="0" />
+                <int name="rdef" value="6" />
+                <int name="weight" value="10" />
+                <string name="name" value="원거리방어 mk3 (ranged defense suit mk3)" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="complex">
+            <imgdir name="300">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="40" height="47">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="6787b6b779c364ddbf33a513123921281cae873ca19210c98e8366f0916b1333" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="1" />
+                <int name="rdef" value="1" />
+                <int name="weight" value="20" />
+                <string name="name" value="복합방어 mk1 (mixed defense suit mk1)" />
+            </imgdir>
+            <imgdir name="301">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="42" height="52">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="794b60df348b67334c22b582ccef5f00003ffe69de4cb41911c400f402e5c0e4" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="2" />
+                <int name="rdef" value="2" />
+                <int name="weight" value="15" />
+                <string name="name" value="복합방어 mk2 (mixed defense suit mk2)" />
+            </imgdir>
+            <imgdir name="302">
+                <imgdir name="body">
+                    <imgdir name="walk">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="stand">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/1" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="44" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/stand/3" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="jump">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                    </imgdir>
+                    <imgdir name="walkback">
+                        <canvas name="0" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/5" />
+                        </canvas>
+                        <canvas name="1" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/4" />
+                        </canvas>
+                        <canvas name="2" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/3" />
+                        </canvas>
+                        <canvas name="3" width="1" height="1">
+                            <vector name="origin" x="14" y="43" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/2" />
+                        </canvas>
+                        <canvas name="4" width="1" height="1">
+                            <vector name="origin" x="14" y="42" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/1" />
+                        </canvas>
+                        <canvas name="5" width="1" height="1">
+                            <vector name="origin" x="14" y="41" />
+                            <int name="z" value="0" />
+                            <string name="_inlink" value="suit/basic/99/body/walk/0" />
+                        </canvas>
+                    </imgdir>
+                    <int name="startX" value="-12" />
+                    <int name="startY" value="-43" />
+                    <canvas name="body" width="1" height="1">
+                        <vector name="origin" x="14" y="43" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="suit/basic/99/body/stand/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="head">
+                    <canvas name="head" width="44" height="51">
+                        <vector name="origin" x="0" y="24" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="e7b3c3aaf5dda43a9990e5512929269435fb5dc343ddb2b48d5a4db8c96f8e7e" />
+                    </canvas>
+                    <int name="startX" value="0" />
+                    <int name="startY" value="-40" />
+                </imgdir>
+                <int name="def" value="3" />
+                <int name="rdef" value="3" />
+                <int name="weight" value="10" />
+                <string name="name" value="복합방어 mk3 (mixed defense suit mk3)" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="weapon">
+        <imgdir name="longrange">
+            <imgdir name="pistol">
+                <canvas name="icon" width="27" height="28">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_hash" value="29a22a76670692f0903d630344b53e07037bc6411505d12f2d618eee93b1e116" />
+                </canvas>
+                <canvas name="iconRaw" width="27" height="25">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_hash" value="6e986f80dff272b02fb34cf511606a1dd5fb5814087b3d6a89b9d13113ff3389" />
+                </canvas>
+                <canvas name="ingame" width="36" height="79">
+                    <vector name="origin" x="20" y="71" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="7e34ffba88f9cd2651ce054b016de0b7cdbf82f6377c1db0f385379623b42480" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/pistol/ingame" />
+                    </canvas>
+                    <canvas name="1" width="36" height="79">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="fe87b9e7dda0a9ea129a5255963fd9db97ad270924ed34d5edcef44ad6aaac8c" />
+                    </canvas>
+                    <canvas name="2" width="36" height="79">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="7bc5e7947898a273bead32609ceb1bf585a2b70810fae3d359fd0ae41f39c934" />
+                    </canvas>
+                    <canvas name="3" width="36" height="79">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="b160312866bcd83216c68f10e941e8651c0945b050e7ef5e12da7310bb07d0bc" />
+                    </canvas>
+                    <canvas name="4" width="36" height="79">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="770583d015dcd2a6b00a21dfbf046b77b8507f775246565a844044a82710f85e" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="20" y="71" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/pistol/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011585" />
+                    <int name="weight" value="1" />
+                    <int name="reloadTime" value="2000" />
+                    <int name="attackMode" value="1" />
+                    <int name="maxBullet" value="13" />
+                    <int name="maxMag" value="10" />
+                    <string name="GunName" value="pistol" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="smg">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <canvas name="ingame" width="55" height="120">
+                    <vector name="origin" x="26" y="113" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="bef9113d05c879a36d8d372e4c3ca5d1cd1621d74ebcf5a5de85ac550812f0d5" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/smg/ingame" />
+                    </canvas>
+                    <canvas name="1" width="55" height="120">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="f9b850fbf89648196553fc9fddac59ea7b484c1ca713e2c2019f67bb97a34f52" />
+                    </canvas>
+                    <canvas name="2" width="55" height="120">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="3e32db92e8d0ca72af83bc4ae9eb0b893b587860b103ea136bccc4e95a751059" />
+                    </canvas>
+                    <canvas name="3" width="55" height="120">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="ad6de88dcb65f5a66a201a387b7a5f9b451115760a99214a5a71e7929b2a909f" />
+                    </canvas>
+                    <canvas name="4" width="55" height="120">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="58fc60dd5afd08213e07ec8166352dafe636cda4d4aaaee2f2dc3223ac0943d6" />
+                    </canvas>
+                    <canvas name="5" width="55" height="120">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="bacf448be811be5340a14c8ca87c21c2a6532580ca22f08e5d3acc9477ecb0da" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="26" y="113" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/smg/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011586" />
+                    <int name="weight" value="2" />
+                    <int name="reloadTime" value="3000" />
+                    <int name="attackMode" value="0" />
+                    <int name="maxBullet" value="60" />
+                    <int name="maxMag" value="4" />
+                    <string name="GunName" value="smg" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="ar">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="ingame" width="55" height="129">
+                    <vector name="origin" x="26" y="120" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2fb5ac3a5f002c837407f6747f8072cbeef73938eee1b366d0a836413f958387" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/ar/ingame" />
+                    </canvas>
+                    <canvas name="1" width="55" height="129">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="1141fb3804dfaa8fb10bf0bf61ebce96275c698768718173b0c95450af0380fd" />
+                    </canvas>
+                    <canvas name="2" width="55" height="129">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="953d888a0c80253ed83681828392fc684b2ca7b5f44351c4f0e26853570e3d13" />
+                    </canvas>
+                    <canvas name="3" width="55" height="129">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="9058f3d1c73c1dadeee450f502d3996023b555ba91c6c2f07b4828538d41a1f4" />
+                    </canvas>
+                    <canvas name="4" width="55" height="129">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="4a78746e9559da8f91c40d3d34c0eaea99fdf76287d31b8e2ca8aff4ffe25357" />
+                    </canvas>
+                    <canvas name="5" width="55" height="129">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="8ecd6d940f6232990f28851679e98c2f98ee6070da03298ccd1ed0f87e6b6deb" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="26" y="120" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/ar/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011587" />
+                    <int name="weight" value="3" />
+                    <int name="reloadTime" value="3000" />
+                    <int name="attackMode" value="0" />
+                    <int name="maxBullet" value="40" />
+                    <int name="maxMag" value="4" />
+                    <string name="GunName" value="assault rifle" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="shotgun">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <canvas name="ingame" width="76" height="114">
+                    <vector name="origin" x="33" y="106" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="1c9ccfa0f851a457d8dc256124680b694c387de65590bbdc62d9c48c34e3e098" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/shotgun/ingame" />
+                    </canvas>
+                    <canvas name="1" width="76" height="114">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="891060ec374ad8a34736eb1a53e32e5b0160be5956d14d4e6a840fdab9e75b05" />
+                    </canvas>
+                    <canvas name="2" width="76" height="114">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="f68a48ce709f6dbda38640fcea6d5e11e723aeaf35f1b150e6d568fda16d0217" />
+                    </canvas>
+                    <canvas name="3" width="76" height="114">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="fe7cb3b6a502c151c69d051f26c289fb6c8422982bc4fa10bdb34d1773b45bb7" />
+                    </canvas>
+                    <canvas name="4" width="76" height="114">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="5c24043c13da9c5c38f6bb2ac2d586b19745e2d9dc6d6f1e817b51e9a26b1cba" />
+                    </canvas>
+                    <canvas name="5" width="76" height="114">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="ffed763f638549c5f05464c7d21e5ed19717a35a6b968c35fc37114c6b509fad" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="33" y="106" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/shotgun/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011588" />
+                    <int name="weight" value="4" />
+                    <int name="reloadTime" value="4000" />
+                    <int name="attackMode" value="1" />
+                    <int name="maxBullet" value="24" />
+                    <string name="GunName" value="shotgun" />
+                    <short name="availableStart" value="-1" />
+                    <int name="maxMag" value="6" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="launcher">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="ingame" width="75" height="173">
+                    <vector name="origin" x="34" y="157" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2eec569233b21e85f20c64e27bfb2c01da4ba1c9708b4158c90b0e41110927dc" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/launcher/ingame" />
+                    </canvas>
+                    <canvas name="1" width="75" height="173">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="8cab621e57ecf89658b1e52a74d3c2659de9f4808d0de7e0a1a70793d9bc4dab" />
+                    </canvas>
+                    <canvas name="2" width="75" height="173">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="af24af8a087bf76738a64fd02c4247524e93ccaa11de430486b625b5a19512d8" />
+                    </canvas>
+                    <canvas name="3" width="75" height="173">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="466567a89072dce02081d2323a5d8ae91b4cf45ec7b180a229a41d8b24d8a23f" />
+                    </canvas>
+                    <canvas name="4" width="75" height="173">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="65f8d2dd15dff8beb9e8649b825b2431c6650d001a184cebc0ef80c64e392035" />
+                    </canvas>
+                    <canvas name="5" width="75" height="173">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="9e91d7303ddf619aef25c11b851af0be1a84384177b4a85557b3cd679f1ab398" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="34" y="157" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/launcher/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011589" />
+                    <int name="weight" value="5" />
+                    <int name="reloadTime" value="7000" />
+                    <int name="attackMode" value="2" />
+                    <int name="maxBullet" value="30" />
+                    <string name="GunName" value="rocket launcher" />
+                    <short name="availableStart" value="-1" />
+                    <int name="maxMag" value="3" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="flamethrower">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <canvas name="ingame" width="153" height="316">
+                    <vector name="origin" x="71" y="294" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2a6b3f0310345249dc57e261f9be32b03b4fa972b94aaed3ef4a4063723e7819" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/ingame" />
+                    </canvas>
+                    <canvas name="1" width="153" height="316">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="8d630a1cf0c6d046b195f8416f60a0731e74f32adbf7d0ecf306b0d0bf2288a2" />
+                    </canvas>
+                    <canvas name="2" width="153" height="316">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="508b761f890fecdf33f29e7e56728abaef902d2721144925eaa64ce79acf3eb5" />
+                    </canvas>
+                    <canvas name="3" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="c0f5eb4d9dc119ad6daf0b88b2073e894f6c11cde9be2106a6a94e133ec58b94" />
+                    </canvas>
+                    <canvas name="4" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="f2bd35cf8b2cd21ff9e35c9ce1fd0ad107da294647698d249bdb8d9545634064" />
+                    </canvas>
+                    <canvas name="5" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="cecf41bc65e6e331b4f6b2f70e5294318e2bdf0ad63ea1dbfea0427f34e09d41" />
+                    </canvas>
+                    <canvas name="6" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="59daf190a5a6fb6913c676c44ed492bf8997d015a3aa467777a8db2ea8beb75c" />
+                    </canvas>
+                    <canvas name="7" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="35e18b6035dbb95dd01c2d78925607d4a80b6c32f1491f33774ed25ebdd1a288" />
+                    </canvas>
+                    <canvas name="8" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="7dcd1716bd13c0fe8c2ef1119c7d9e1ac72716aaaa58c02a62c9ef3f05f97f42" />
+                    </canvas>
+                    <canvas name="9" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="16c1b18fa7581f10fd78985408803a5a6081afa0173a5ea08406142963e5b24e" />
+                    </canvas>
+                    <canvas name="10" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="305c023507e7da10dced1c15797df49f099bd024d8add39169a54a8bfbb551b6" />
+                    </canvas>
+                    <canvas name="11" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="e22a56634a6fb3c1fa638bfc8bcaeac04e68ddf3f6d855e2ae97c5d8da961637" />
+                    </canvas>
+                    <canvas name="12" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="846dee2a49cc5aa96559a857e828d24a4bd5855d6cf0bb9c6138fff452223af2" />
+                    </canvas>
+                    <canvas name="13" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="45bd55e29917ddfdb7c512007805ea93b664426699e54517b71705c2d8396d6c" />
+                    </canvas>
+                    <canvas name="14" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="4851fc1c8af77d6aa44923a9c5031aeb01c997de8ff319266ad402020eb16299" />
+                    </canvas>
+                    <canvas name="15" width="153" height="316">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="36ec4a9c1e62e6e958b984b58d94e80451a2f9b65a9cd3d866bd9cb757d702ab" />
+                    </canvas>
+                    <canvas name="16" width="1" height="1">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/ingame" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="loop">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/ingame" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/1" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="71" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/2" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/4" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/5" />
+                    </canvas>
+                    <canvas name="6" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/6" />
+                    </canvas>
+                    <canvas name="7" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/7" />
+                    </canvas>
+                    <canvas name="8" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/8" />
+                    </canvas>
+                    <canvas name="9" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/9" />
+                    </canvas>
+                    <canvas name="10" width="1" height="1">
+                        <vector name="origin" x="70" y="294" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/longrange/flamethrower/shoot/10" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011590" />
+                    <int name="weight" value="10" />
+                    <int name="reloadTime" value="10000" />
+                    <int name="attackMode" value="0" />
+                    <int name="maxBullet" value="500" />
+                    <int name="maxMag" value="1" />
+                    <string name="GunName" value="flamethrower" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="minigun">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <canvas name="ingame" width="104" height="181">
+                    <vector name="origin" x="51" y="161" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="b784ef6f18d9287cd4a09e04fead9ce023ae655c3695f7f9fb6283cbff4cd69b" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/minigun/ingame" />
+                    </canvas>
+                    <canvas name="1" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="a5d9b458153a04789af11ea591ed090aa2e428410e3d474ac0fe9c6b8c1163db" />
+                    </canvas>
+                    <canvas name="2" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="92506c7c82900e866fd65e9a05f5485a4b948817ac8d9a191ac3ac87cb969b17" />
+                    </canvas>
+                    <canvas name="3" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="6777e7836b97b8a03022260c49a6d917ea4e494c85222f3602faa02dde57cab4" />
+                    </canvas>
+                    <canvas name="4" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="ae84a1f765e641f420e34c1f30db6c1aac20d26a37f94cd7f774c62078358704" />
+                    </canvas>
+                    <canvas name="5" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="cce6019d8dd0b461a6f43591dc01093ad2215c4803d889d7024e391c9eb8821b" />
+                    </canvas>
+                    <canvas name="6" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="85621ec265c88753f42aa4cbc787bc5c27ad1e61f56bfe0459c3f1defa02497b" />
+                    </canvas>
+                    <canvas name="7" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="937e88a0ff3b51abbc1c71a97741f33c46faea9407d5890ad57505685451f091" />
+                    </canvas>
+                    <canvas name="8" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="0d91d3592ef58cd9bb5e9beaece06da57c2371d189e9f1a0098313f514ee59f4" />
+                    </canvas>
+                    <canvas name="9" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="e945fab0f3507d62220b39eb0d39a45d6d3f6bc0432592cdcd4df9b38ad42902" />
+                    </canvas>
+                    <canvas name="10" width="104" height="181">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_hash" value="1701c6a1f573d805b661f5ed1439fdebdf3170f0f1a293d123253efbb69fbd54" />
+                    </canvas>
+                    <canvas name="11" width="1" height="1">
+                        <vector name="origin" x="51" y="161" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="10" />
+                        <string name="_inlink" value="weapon/longrange/minigun/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="10" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011591" />
+                    <int name="weight" value="10" />
+                    <int name="reloadTime" value="15000" />
+                    <int name="attackMode" value="0" />
+                    <int name="maxBullet" value="350" />
+                    <int name="maxMag" value="0" />
+                    <string name="GunName" value="minigun" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="closerange">
+            <imgdir name="spear">
+                <canvas name="icon" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/icon" />
+                </canvas>
+                <canvas name="iconRaw" width="1" height="1">
+                    <vector name="origin" x="-3" y="28" />
+                    <string name="_inlink" value="weapon/longrange/pistol/iconRaw" />
+                </canvas>
+                <canvas name="ingame" width="150" height="150">
+                    <vector name="origin" x="59" y="117" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="83471e63599caa20236776af8f6eb36cfbe4a5bf6efbff19ffbd82a4471dbbad" />
+                </canvas>
+                <imgdir name="shoot">
+                    <canvas name="0" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="7a052ec914b16da911e8838e438ab5075d390d980dbf8e083b3f0dd16e44b935" />
+                    </canvas>
+                    <canvas name="1" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="e37b92ef8690e8ff61e93d33ab4d58c5a24723253171020873249558e45356d6" />
+                    </canvas>
+                    <canvas name="2" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="3c16911957c11ce6e33db985eca719a45ae938993105dc49f0dac8d83994209f" />
+                    </canvas>
+                    <canvas name="3" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="f97bed0aaed1b5ae7e5bc2885208cfc672bdd5424f513be3ca7fcf0cb6a979d5" />
+                    </canvas>
+                    <canvas name="4" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="63b8ef45eeda28cb324d7dd9def958c65e71c2bfefde60635cc607f37a69395b" />
+                    </canvas>
+                    <canvas name="5" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="7ceb330ab0ea16f09d37fd6ed7a7f3cefbbf86418b4c9b96b0b3735feffb9852" />
+                    </canvas>
+                    <canvas name="6" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="9ba4301fed73da45d29dacef59a3470bd89d39cdcc45be4001b2cb53298a883e" />
+                    </canvas>
+                    <canvas name="7" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="d18a5146ce1f984b3979039a9c57b21bfbf2639371baea69e6ace6428d342af1" />
+                    </canvas>
+                    <canvas name="8" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="b06b40410557ddea67967743fb0598d598cb904e85d19f102d857a76a3862a04" />
+                    </canvas>
+                    <canvas name="9" width="1" height="1">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/closerange/spear/shoot/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="shoot2">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/closerange/spear/ingame" />
+                    </canvas>
+                    <canvas name="1" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="6103ae4fd8992e44b6a0171a8b83443648f7452a89172bf2d8dba1fb4a61c826" />
+                    </canvas>
+                    <canvas name="2" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="c7594596902fcaea7cb11ddc891d7eb474487fa42abc6453b17f77a5e8134c64" />
+                    </canvas>
+                    <canvas name="3" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="8aa971cbfc451e81622c97b84b268b3005f576f571aabbc1ce6efa7c85551e27" />
+                    </canvas>
+                    <canvas name="4" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="bb308e6b028080c6d2fc1f3d553a2405faa1f690271ddec5d612541459088fcb" />
+                    </canvas>
+                    <canvas name="5" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="0b2782fb598f516b4d1e0a037bd508606538fb6923b6e6280aee79e524f62870" />
+                    </canvas>
+                    <canvas name="6" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="fc8c14a84690e365c5d91ed49f2db9735bd8bb94e98ba23e0d35dd402f4c3236" />
+                    </canvas>
+                    <canvas name="7" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="6e086553e320f3a2420fa7cf16f29eeef45014c22af8259a14b5175da220d00c" />
+                    </canvas>
+                    <canvas name="8" width="150" height="150">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="8db35e3a3e1c16dbe561b394c3a618e10d7df5697f4de1471c54ace837d722f4" />
+                    </canvas>
+                    <canvas name="9" width="1" height="1">
+                        <vector name="origin" x="59" y="117" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="weapon/closerange/spear/ingame" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="13" />
+                <int name="startY" value="-38" />
+                <imgdir name="info">
+                    <string name="info" value="skill: 연결되는 스킬아이디, weight: 무기무게, reloadTime: 장전시간밀리세컨드, attackMode: 0자동/1반자동/2수동, maxBullet: 탄창에 들어가는 총알 수, maxMag: 소지할 수 있는 최대 탄창 수" />
+                    <int name="skill" value="80011635" />
+                    <int name="reloadTime" value="0" />
+                    <int name="attackMode" value="2" />
+                    <int name="weight" value="6" />
+                    <string name="maxBullet" value="999999999" />
+                    <int name="maxMag" value="0" />
+                    <short name="availableStart" value="-1" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="town">
+        <imgdir name="0">
+            <imgdir name="body">
+                <imgdir name="walk">
+                    <canvas name="0" width="54" height="88">
+                        <vector name="origin" x="27" y="88" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="30c7314b3ebac6b5f1cc4b03173c279c1b860f05afacb1801ddaf5bcc39ebce4" />
+                    </canvas>
+                    <canvas name="1" width="53" height="85">
+                        <vector name="origin" x="27" y="85" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="daa70bb815795f792f04661e282edcb26c666762df5c6c47e6450cae03cba7b4" />
+                    </canvas>
+                    <canvas name="2" width="54" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="ac30ca9c4be02733e112475d7a60cca5b9d39015a82618e157bd1d49300756bc" />
+                    </canvas>
+                    <canvas name="3" width="54" height="88">
+                        <vector name="origin" x="27" y="88" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="fbb70c1fb3c16a0c796eb545556e7cf4b0fd7178ca04a1216dd172e0e50d30f2" />
+                    </canvas>
+                    <canvas name="4" width="55" height="85">
+                        <vector name="origin" x="27" y="85" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="1d7f3de1256610dab46facac73061ad897cf7583c09ebed3c6e4f9528db2f149" />
+                    </canvas>
+                    <canvas name="5" width="56" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="abca2526e390fc4170f46af0d75ef810143eee982360bffd8d7afd1c0cc408d3" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="stand">
+                    <canvas name="0" width="53" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="505547c18f6d9538a297f9a7572a164d5afebda78373deb6a44c04f7a58ca7dd" />
+                    </canvas>
+                    <canvas name="1" width="54" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="643288d657576d5099833c3cacd1c2d684cf63bcce6d1151cd6aff0c17c36e54" />
+                    </canvas>
+                    <canvas name="2" width="54" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="2ea1ee9333c002ed61591a5a851c163dd7c6d468fe2ae6ddd5eb4c590e23c210" />
+                    </canvas>
+                    <canvas name="3" width="55" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="9a2e0690d565ab8d79ce1ff1e235c7290a3c1a5f459da85c81224ec779138c67" />
+                    </canvas>
+                    <canvas name="4" width="56" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="531de5ec6d0adde1046677ef995527e78cb3a569fd12235693ead7e2483df9d3" />
+                    </canvas>
+                    <canvas name="5" width="54" height="87">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="27b95a4fd948a9fd49f93d0f7f1e6cad87dfd87fbe64ecf3f70a48192fe1ce2d" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="jump">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/5" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="walkback">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="27" y="88" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/0" />
+                    </canvas>
+                    <canvas name="1" width="1" height="1">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/5" />
+                    </canvas>
+                    <canvas name="2" width="1" height="1">
+                        <vector name="origin" x="27" y="85" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/4" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="27" y="88" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="27" y="87" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/2" />
+                    </canvas>
+                    <canvas name="5" width="1" height="1">
+                        <vector name="origin" x="27" y="85" />
+                        <int name="z" value="0" />
+                        <string name="_inlink" value="town/0/body/walk/1" />
+                    </canvas>
+                </imgdir>
+                <int name="startX" value="-27" />
+                <int name="startY" value="-87" />
+                <canvas name="body" width="1" height="1">
+                    <vector name="origin" x="27" y="87" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="town/0/body/stand/0" />
+                </canvas>
+            </imgdir>
+            <int name="def" value="0" />
+            <int name="rdef" value="0" />
+            <int name="weight" value="10" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="ForceAtomMove">
+        <int name="ForceAtomCollisionMoveRatio" value="100" />
+    </imgdir>
+    <imgdir name="MovementInfo">
+        <int name="NormalSpeed" value="100" />
+        <int name="NormalJump" value="100" />
+        <int name="NormalMove" value="80" />
+        <int name="Dash" value="200" />
+        <int name="FlashJump" value="200" />
+        <int name="JetPack" value="200" />
+    </imgdir>
+</imgdir>

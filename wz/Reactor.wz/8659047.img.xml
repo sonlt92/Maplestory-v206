@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659047.img">
+    <imgdir name="info">
+        <string name="info" value="배추나비" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="40" height="32">
+            <vector name="origin" x="15" y="26" />
+            <string name="_hash" value="73e09111c54aed25fe7446fba1860766d5206c2e39428721f8f8929a5306e151" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="type" value="101" />
+                <int name="state" value="1" />
+            </imgdir>
+            <int name="timeOut" value="60000" />
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="45" height="38">
+                <vector name="origin" x="20" y="27" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="c464b23e02c3d805410f8b66d14955570b49d7de068223c51c0a53d6891b4438" />
+            </canvas>
+            <canvas name="1" width="45" height="38">
+                <vector name="origin" x="22" y="26" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="93027e9023bbf57db9a1efbeda2d0284cc2bb6658a23092414363239ea810f3e" />
+            </canvas>
+            <canvas name="2" width="44" height="31">
+                <vector name="origin" x="32" y="2" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="e5e97524b935fe14a194b2b4642dd705be614a438c4af3441fadb2db27b55dc8" />
+            </canvas>
+            <canvas name="3" width="43" height="28">
+                <vector name="origin" x="31" y="4" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="a566da647ae01e3e36446436047864d0ab8577ca33ff2bca21c28ed546d1bc18" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="20" y="27" />
+            <int name="delay" value="120" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+        <canvas name="1" width="1" height="1">
+            <vector name="origin" x="22" y="26" />
+            <int name="delay" value="120" />
+            <string name="_inlink" value="0/hit/1" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="32" y="2" />
+            <int name="delay" value="120" />
+            <string name="_inlink" value="0/hit/2" />
+        </canvas>
+        <canvas name="3" width="1" height="1">
+            <vector name="origin" x="31" y="4" />
+            <int name="delay" value="120" />
+            <string name="_inlink" value="0/hit/3" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="springSummonMob06" />
+</imgdir>

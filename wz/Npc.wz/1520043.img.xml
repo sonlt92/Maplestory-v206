@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1520043.img">
+    <imgdir name="info">
+        <int name="hide" value="1" />
+        <imgdir name="script">
+            <imgdir name="0">
+                <string name="script" value="talk_babypig" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="69" height="90">
+            <vector name="origin" x="31" y="90" />
+            <int name="z" value="0" />
+            <int name="delay" value="1000" />
+            <string name="_hash" value="b8b16a0326d7c72850d6041c8fdfe90e4e1569de43af23e03be8168a9a1592d8" />
+        </canvas>
+    </imgdir>
+    <imgdir name="eye">
+        <uol name="0" value="../stand/0" />
+        <canvas name="1" width="69" height="90">
+            <vector name="origin" x="31" y="90" />
+            <int name="z" value="0" />
+            <int name="delay" value="180" />
+            <string name="_hash" value="62ee409773e0b179280c3554f599dd55b50fd84d119fe748c430b279618ddfa4" />
+        </canvas>
+        <canvas name="2" width="69" height="90">
+            <vector name="origin" x="31" y="90" />
+            <int name="z" value="0" />
+            <int name="delay" value="180" />
+            <string name="_hash" value="4feeb943c7d4a67a38e30c24ae7d2bfe8cfdcfd6b3755225844353585bd82f27" />
+        </canvas>
+        <uol name="3" value="0" />
+        <uol name="4" value="1" />
+        <uol name="5" value="2" />
+    </imgdir>
+    <imgdir name="body">
+        <uol name="0" value="../stand/0" />
+        <canvas name="1" width="72" height="90">
+            <vector name="origin" x="34" y="91" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_hash" value="7afc0049dc84130e7981117fc0383fdd8c13f8c0732a984ac8e9fed9aa7cc6b9" />
+        </canvas>
+        <canvas name="2" width="71" height="90">
+            <vector name="origin" x="33" y="91" />
+            <int name="z" value="0" />
+            <int name="delay" value="150" />
+            <string name="_hash" value="8ba24b3e0b754e394a40613fe4743e9379260455956bebb6ee3fd07c5ff4fb9b" />
+        </canvas>
+        <uol name="3" value="1" />
+        <uol name="4" value="1" />
+        <uol name="5" value="2" />
+        <uol name="6" value="1" />
+    </imgdir>
+    <imgdir name="condition1">
+        <imgdir name="32330">
+            <string name="value" value="1" />
+        </imgdir>
+        <int name="hide" value="1" />
+        <imgdir name="stand">
+            <uol name="0" value="../../stand/0" />
+        </imgdir>
+        <imgdir name="eye">
+            <uol name="0" value="../../eye/0" />
+            <uol name="1" value="../../eye/1" />
+            <uol name="2" value="../../eye/2" />
+            <uol name="3" value="../../eye/0" />
+            <uol name="4" value="../../eye/1" />
+            <uol name="5" value="../../eye/2" />
+        </imgdir>
+        <imgdir name="body">
+            <uol name="0" value="../../body/0" />
+            <uol name="1" value="../../body/1" />
+            <uol name="2" value="../../body/2" />
+            <uol name="3" value="../../body/3" />
+            <uol name="4" value="../../body/4" />
+            <uol name="5" value="../../body/5" />
+            <uol name="6" value="../../body/6" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="condition2">
+        <int name="32371" value="1" />
+        <imgdir name="stand">
+            <uol name="0" value="../../stand/0" />
+        </imgdir>
+        <imgdir name="eye">
+            <uol name="0" value="../../eye/0" />
+            <uol name="1" value="../../eye/1" />
+            <uol name="2" value="../../eye/2" />
+            <uol name="3" value="../../eye/0" />
+            <uol name="4" value="../../eye/1" />
+            <uol name="5" value="../../eye/2" />
+        </imgdir>
+        <imgdir name="body">
+            <uol name="0" value="../../body/0" />
+            <uol name="1" value="../../body/1" />
+            <uol name="2" value="../../body/2" />
+            <uol name="3" value="../../body/3" />
+            <uol name="4" value="../../body/4" />
+            <uol name="5" value="../../body/5" />
+            <uol name="6" value="../../body/6" />
+        </imgdir>
+    </imgdir>
+</imgdir>

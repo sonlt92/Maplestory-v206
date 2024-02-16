@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960037.img">
+    <imgdir name="info">
+        <int name="grade" value="1" />
+        <int name="range" value="800" />
+        <imgdir name="skill">
+            <int name="id" value="810" />
+            <int name="effectAfter" value="800" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="31" height="28">
+            <vector name="origin" x="15" y="28" />
+            <vector name="lt" x="-15" y="-28" />
+            <vector name="rb" x="16" y="0" />
+            <vector name="head" x="-6" y="-26" />
+            <string name="_hash" value="72a7ad060e2ae9b83bed987dbdc36541264f74f56d2d73aa5df7884a4083b85b" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="33" y="56" />
+                    <string name="_hash" value="58c1d2cda3978da6115f0cd6a82756cd73f1036ce3169be755175b9a42e0f73b" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="42" y="67" />
+                    <string name="_hash" value="1b3e5f49021dd6a2db86a97bc51dd5208ee6f609ce5c84432b101cd2f6ece755" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/1" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="800" />
+        </imgdir>
+        <string name="link" value="move" />
+    </imgdir>
+</imgdir>

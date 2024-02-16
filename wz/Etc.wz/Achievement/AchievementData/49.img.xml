@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="49.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="memory" />
+        <string name="subCategory" value="level" />
+        <string name="name" value="V Lickety Split" />
+        <string name="desc" value="Complete 5th Job Advancement within 90 min\n(Accept &lt;5th Job: Call of the Erdas&gt; and complete &lt;5th Job: Record of Power&gt;)" />
+        <string name="difficulty" value="epic" />
+        <int name="score" value="30" />
+        <string name="keyword" value="Complete 5th Job Advancement within 90 min" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Complete 5th Job Advancement within 90 min" />
+            <imgdir name="subMission">
+                <imgdir name="script">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

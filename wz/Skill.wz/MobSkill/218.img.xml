@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="218.img">
+    <imgdir name="level">
+        <imgdir name="1">
+            <int name="prop" value="100" />
+            <int name="count" value="1" />
+            <int name="interval" value="30" />
+            <int name="x" value="50" />
+            <int name="bossHeal" value="20" />
+            <imgdir name="affected">
+                <int name="repeat" value="1" />
+                <canvas name="0" width="34" height="30">
+                    <vector name="origin" x="16" y="133" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="c523495bdce6cea5952da37da2a5404b8ccd5f55e2bf27514d95ac34bc3d4098" />
+                </canvas>
+                <canvas name="1" width="32" height="30">
+                    <vector name="origin" x="15" y="134" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="8d2baefa5f3cd201733651adfee83a7fb7c7322e2f9223b495fd641fed24544e" />
+                </canvas>
+                <canvas name="2" width="28" height="37">
+                    <vector name="origin" x="12" y="135" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="7315878eb8cc7c4d473a1db0d53f957178c1e9d88fe2d45ee371970174d431d0" />
+                </canvas>
+                <canvas name="3" width="24" height="39">
+                    <vector name="origin" x="7" y="124" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="4dd8c306f2f82afa9207fdb569d1c7b4861ecf18a7648c43fb3115567bbf8b0c" />
+                </canvas>
+                <canvas name="4" width="118" height="101">
+                    <vector name="origin" x="84" y="106" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="bf8d6df0aabca3082bdfb0d365ed761004b07608c545a0b6c5dd210f173617ea" />
+                </canvas>
+                <canvas name="5" width="124" height="104">
+                    <vector name="origin" x="84" y="109" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="f6742506a078f514ef193e1867777ce190475a78ae34484efd341a0b225b7b33" />
+                </canvas>
+                <canvas name="6" width="129" height="124">
+                    <vector name="origin" x="84" y="129" />
+                    <int name="delay" value="130" />
+                    <string name="_hash" value="dd743ae1803857a49f9d9cbc899817c1e1ded6c707687751653e48cddf69a8e0" />
+                </canvas>
+            </imgdir>
+            <int name="afterEffect" value="3" />
+            <int name="ignoreResist" value="1" />
+            <int name="y" value="0" />
+            <int name="z" value="0" />
+            <int name="time" value="3600" />
+        </imgdir>
+        <imgdir name="2">
+            <int name="w" value="1" />
+            <int name="time" value="3600" />
+            <int name="y" value="173" />
+            <int name="z" value="4" />
+            <int name="ignoreResist" value="1" />
+        </imgdir>
+        <imgdir name="3">
+            <int name="prop" value="100" />
+            <int name="count" value="1" />
+            <int name="interval" value="30" />
+            <int name="x" value="50" />
+            <int name="bossHeal" value="20" />
+            <imgdir name="affected">
+                <int name="repeat" value="1" />
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="16" y="133" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="15" y="134" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/1" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="12" y="135" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="7" y="124" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="84" y="106" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="84" y="109" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="84" y="129" />
+                    <int name="delay" value="130" />
+                    <string name="_inlink" value="level/1/affected/6" />
+                </canvas>
+            </imgdir>
+            <int name="afterEffect" value="3" />
+            <int name="ignoreResist" value="1" />
+            <int name="y" value="173" />
+            <int name="z" value="4" />
+            <int name="time" value="3600" />
+        </imgdir>
+        <imgdir name="4">
+            <int name="w" value="1" />
+            <int name="time" value="3600" />
+            <int name="y" value="0" />
+            <int name="z" value="0" />
+            <string name="broadCastScreenMsg" value="Blackbean is crying! Now's your chance!" />
+        </imgdir>
+    </imgdir>
+</imgdir>

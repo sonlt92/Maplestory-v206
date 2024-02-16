@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="564.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Rune] Ruminating About Runes" />
+        <string name="desc" value="Use a Rune Successfully 100 times" />
+        <int name="parentId" value="567" />
+        <string name="difficulty" value="normal" />
+        <int name="score" value="10" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="rune_stone_use_result_success" />
+        </imgdir>
+        <string name="keyword" value="Use Rune" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Use a Rune Successfully 100 times" />
+            <imgdir name="subMission">
+                <imgdir name="rune_stone_use_result_success">
+                    <imgdir name="score">
+                        <int name="targetScore" value="100" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

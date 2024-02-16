@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9601059.img">
+    <imgdir name="info">
+        <int name="ignoreFieldOut" value="1" />
+        <int name="escort" value="1" />
+        <int name="level" value="250" />
+        <int name="bodyAttack" value="1" />
+        <int name="maxHP" value="100" />
+        <int name="maxMP" value="100" />
+        <int name="speed" value="10" />
+        <int name="PADamage" value="100" />
+        <int name="PDDamage" value="100" />
+        <int name="PDRate" value="25" />
+        <int name="MADamage" value="25" />
+        <int name="MDDamage" value="25" />
+        <int name="MDRate" value="25" />
+        <int name="acc" value="25" />
+        <int name="pushed" value="1" />
+        <float name="fs" value="10.0" />
+        <int name="boss" value="1" />
+        <int name="summonType" value="1" />
+        <int name="category" value="8" />
+        <string name="mobType" value="7N" />
+        <int name="hideHP" value="1" />
+        <int name="invincible" value="1" />
+        <string name="removeAfter" value="128" />
+    </imgdir>
+    <imgdir name="fly">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-11" y="-67" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_hash" value="367b3320faf904e35b316f6be8c5c0aefc65a672f5639553f6186dfb865db7c5" />
+            <string name="_outlink" value="Mob/9601058.img/stand/0" />
+        </canvas>
+        <canvas name="1" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-12" y="-71" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_hash" value="a67f1d28a3c95e0652dc63a4b58d9184e73208a78801c717174e543e99cbf6e2" />
+            <string name="_outlink" value="Mob/9601058.img/move/1" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-11" y="-66" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_hash" value="91c6b00435f94e0a7e70db0f09ad1a8cc0a6e5ad7841a4a89e78e9aaeccc238a" />
+            <string name="_outlink" value="Mob/9601058.img/move/2" />
+        </canvas>
+        <canvas name="3" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-13" y="-70" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_hash" value="46103ae774b2113219e90f85de029bca4d4b1ce5361b36df636350cf05a033c7" />
+            <string name="_outlink" value="Mob/9601058.img/move/3" />
+        </canvas>
+    </imgdir>
+    <imgdir name="hit1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-11" y="-67" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_outlink" value="Mob/9601058.img/stand/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="die1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="32" y="70" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-11" y="-67" />
+            <imgdir name="rect">
+                <imgdir name="0">
+                    <vector name="lt" x="-14" y="-42" />
+                    <vector name="rb" x="14" y="-28" />
+                </imgdir>
+            </imgdir>
+            <string name="_outlink" value="Mob/9601058.img/stand/0" />
+        </canvas>
+    </imgdir>
+</imgdir>

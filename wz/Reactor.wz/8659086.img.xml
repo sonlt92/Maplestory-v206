@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659086.img">
+    <imgdir name="info">
+        <string name="info" value="발판 생성 레버" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="35" y="104" />
+            <int name="z" value="0" />
+            <string name="_hash" value="8db493b99522554620a8c845fe5f1a7ce685748e5ec832493c1ad5d45a20855c" />
+            <string name="_outlink" value="Reactor/8659093.img/0/0" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="35" y="104" />
+                <int name="z" value="0" />
+                <int name="delay" value="80" />
+                <string name="_outlink" value="Reactor/8659093.img/0/0" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="35" y="98" />
+                <int name="z" value="0" />
+                <int name="delay" value="80" />
+                <string name="_hash" value="342d1fd34d15603b404fe21f6a9ed240a87f393c8afffff8718a67d22a69d237" />
+                <string name="_outlink" value="Reactor/8659093.img/0/hit/1" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="36" y="76" />
+                <int name="z" value="0" />
+                <int name="delay" value="80" />
+                <string name="_hash" value="1c96eb0387a800f9cd44dc30cbce70f20b1bf1cfd2274317e547c83d9fe2160a" />
+                <string name="_outlink" value="Reactor/8659093.img/0/hit/2" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="36" y="76" />
+            <int name="z" value="0" />
+            <string name="_outlink" value="Reactor/8659093.img/0/hit/2" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="0" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../../0/hit/2" />
+            <uol name="1" value="../../0/hit/1" />
+            <uol name="2" value="../../0/hit/0" />
+        </imgdir>
+    </imgdir>
+    <string name="action" value="reactor_8659086" />
+</imgdir>

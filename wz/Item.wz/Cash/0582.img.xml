@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="0582.img">
+    <imgdir name="05820000">
+        <imgdir name="info">
+            <int name="slotMax" value="1" />
+            <int name="cash" value="1" />
+            <int name="noMoveToLocker" value="1" />
+            <canvas name="icon" width="31" height="32">
+                <vector name="origin" x="-1" y="31" />
+                <string name="_hash" value="a671ec81135e716d5d5d47b8eadd41bfa07a760703dea60d530b7058a600e09e" />
+            </canvas>
+            <canvas name="iconRaw" width="31" height="32">
+                <vector name="origin" x="-1" y="31" />
+                <string name="_hash" value="e9d929f796c37c87a7a21dbe91fb80aaf32df55c64f55930568cb93313eff84d" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05820001">
+        <imgdir name="info">
+            <int name="slotMax" value="1" />
+            <int name="cash" value="1" />
+            <int name="noMoveToLocker" value="1" />
+            <canvas name="icon" width="1" height="1">
+                <vector name="origin" x="-1" y="31" />
+                <string name="_inlink" value="05820000/info/icon" />
+            </canvas>
+            <canvas name="iconRaw" width="1" height="1">
+                <vector name="origin" x="-1" y="31" />
+                <string name="_inlink" value="05820000/info/iconRaw" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="05821000">
+        <imgdir name="info">
+            <canvas name="icon" width="31" height="29">
+                <vector name="origin" x="0" y="28" />
+                <string name="_hash" value="72c02f14b9da1673c81e5317578c985eecd014e8ad86694cc81fc2976795cda2" />
+            </canvas>
+            <canvas name="iconRaw" width="31" height="26">
+                <vector name="origin" x="0" y="28" />
+                <string name="_hash" value="cef4fa3a1ae22a200e61e42fef5afd1d5ca74b75f64251ac4793d823955e1bc4" />
+            </canvas>
+            <int name="slotMax" value="200" />
+            <int name="cash" value="1" />
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8659085.img">
+    <imgdir name="info">
+        <string name="info" value="회전 톱날 빨리감기 버튼" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="69" height="24">
+            <vector name="origin" x="22" y="11" />
+            <int name="z" value="0" />
+            <string name="_hash" value="a839f0fd761b2be4432513d08fe148b54a01fc4cd1ed8e58604a57f69583af65" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="9" />
+                <int name="state" value="1" />
+                <vector name="lt" x="-22" y="-11" />
+                <vector name="rb" x="47" y="13" />
+                <imgdir name="clickArea">
+                    <vector name="lt" x="-100" y="-150" />
+                    <vector name="rb" x="150" y="100" />
+                    <string name="Message" value="Because of the distance, I cannot do anything." />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="22" y="11" />
+                <int name="z" value="0" />
+                <int name="delay" value="80" />
+                <string name="_inlink" value="0/0" />
+            </canvas>
+            <canvas name="1" width="64" height="24">
+                <vector name="origin" x="17" y="11" />
+                <int name="z" value="0" />
+                <int name="delay" value="80" />
+                <string name="_hash" value="021ce6324809de4b00779dd9299f22491fb0e57fcf225b81440f2a5a1dc9aa77" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="17" y="11" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/1" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="9" />
+                <int name="state" value="0" />
+                <vector name="lt" x="-22" y="-11" />
+                <vector name="rb" x="47" y="13" />
+                <imgdir name="clickArea">
+                    <vector name="lt" x="-100" y="-150" />
+                    <vector name="rb" x="150" y="100" />
+                    <string name="Message" value="Because of the distance, I cannot do anything." />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <uol name="0" value="../../0/hit/1" />
+            <uol name="1" value="../../0/hit/0" />
+        </imgdir>
+    </imgdir>
+    <string name="action" value="reactor_8659085" />
+</imgdir>

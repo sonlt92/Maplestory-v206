@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9601176.img">
+    <imgdir name="info">
+        <int name="level" value="100" />
+        <int name="maxHP" value="1000" />
+        <int name="maxMP" value="1000" />
+        <int name="speed" value="-50" />
+        <int name="PADamage" value="10" />
+        <int name="PDRate" value="10" />
+        <int name="MADamage" value="10" />
+        <int name="MDRate" value="10" />
+        <int name="acc" value="9999" />
+        <int name="pushed" value="1000000000" />
+        <float name="fs" value="10.0" />
+        <int name="exp" value="0" />
+        <int name="summonType" value="1" />
+        <int name="category" value="1" />
+        <string name="mobType" value="1N" />
+        <int name="eva" value="750" />
+        <int name="firstAttack" value="0" />
+        <imgdir name="flyingMove">
+            <imgdir name="info">
+                <int name="range_min" value="10" />
+                <int name="range_max" value="40" />
+            </imgdir>
+            <imgdir name="0">
+                <imgdir name="move">
+                    <vector name="pos" x="1133" y="-560" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="45" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="1">
+                <imgdir name="move">
+                    <vector name="pos" x="875" y="-421" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="-45" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="2">
+                <imgdir name="move">
+                    <vector name="pos" x="697" y="-435" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="-45" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="3">
+                <imgdir name="move">
+                    <vector name="pos" x="78" y="-524" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="-45" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="4">
+                <imgdir name="move">
+                    <vector name="pos" x="482" y="-469" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="45" />
+                </imgdir>
+            </imgdir>
+            <imgdir name="5">
+                <imgdir name="move">
+                    <vector name="pos" x="1000" y="-525" />
+                    <int name="v" value="30" />
+                    <int name="ImpactInterval" value="600" />
+                    <int name="impactRot" value="-45" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <int name="boss" value="1" />
+        <int name="hideHP" value="1" />
+        <int name="hideName" value="1" />
+        <int name="PDDamage" value="100" />
+        <int name="MDDamage" value="100" />
+        <int name="fixedDamage" value="1000" />
+        <string name="link" value="9601175" />
+    </imgdir>
+</imgdir>

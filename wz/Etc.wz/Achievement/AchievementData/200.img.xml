@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="200.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="memory" />
+        <string name="name" value="[Fusion] Greater Than The Sum of Its Parts" />
+        <string name="desc" value="Fuse two items that don't have Potential to yield an item that does have Potential, and also has a rank of at least Epic, and even has some Bonus Potential" />
+        <string name="keyword" value="Particular Item Fusion" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+        <imgdir name="demand">
+            <imgdir name="world_type">
+                <string name="0" value="normal" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Fuse two items that don't have Potential to yield an item that does have Potential, and also has a rank of at least Epic, and even has some Bonus Potential" />
+            <imgdir name="subMission">
+                <imgdir name="makingskill_synthesize">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="item">
+                            <string name="condition" value="and" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <imgdir name="item_potential">
+                                        <imgdir name="item_potential_grade">
+                                            <int name="min" value="0" />
+                                            <int name="max" value="0" />
+                                        </imgdir>
+                                    </imgdir>
+                                </imgdir>
+                                <imgdir name="1">
+                                    <imgdir name="item_potential">
+                                        <imgdir name="item_potential_grade">
+                                            <int name="min" value="0" />
+                                            <int name="max" value="0" />
+                                        </imgdir>
+                                    </imgdir>
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                        <imgdir name="makingskill_result">
+                            <int name="is_success" value="1" />
+                            <imgdir name="item">
+                                <string name="condition" value="or" />
+                                <imgdir name="values">
+                                    <imgdir name="0">
+                                        <imgdir name="item_potential">
+                                            <imgdir name="item_potential_grade">
+                                                <int name="min" value="2" />
+                                            </imgdir>
+                                        </imgdir>
+                                        <imgdir name="item_additional">
+                                            <imgdir name="item_additional_grade">
+                                                <int name="min" value="1" />
+                                            </imgdir>
+                                        </imgdir>
+                                    </imgdir>
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

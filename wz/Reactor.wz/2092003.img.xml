@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="2092003.img">
+    <imgdir name="info">
+        <string name="info" value="크리스마스 이벤트용 지팡이드롭" />
+    </imgdir>
+    <imgdir name="0">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="65" height="93">
+                <vector name="origin" x="32" y="46" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="d00ac2e97ed03bee994f4097a8591d8444b96ae7c76701b9ce5eac74eca9b153" />
+            </canvas>
+            <canvas name="1" width="65" height="93">
+                <vector name="origin" x="32" y="46" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="6cc874554bcac1076a9bb1c87a6f921811bcda6054b86e5e18f0f8c002c1e7f3" />
+            </canvas>
+            <canvas name="2" width="64" height="94">
+                <vector name="origin" x="32" y="47" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="5757e279644fc7d866a524fa8fd1a7518895a24d139dc560aed47351e7e5b581" />
+            </canvas>
+            <canvas name="3" width="65" height="95">
+                <vector name="origin" x="32" y="47" />
+                <int name="z" value="0" />
+                <int name="delay" value="150" />
+                <string name="_hash" value="04339bd5131d9145629f3bd899d46eb53ab879495317023383ffca7f820af5ff" />
+            </canvas>
+            <canvas name="7" width="64" height="94">
+                <vector name="origin" x="32" y="47" />
+                <int name="z" value="0" />
+                <string name="_hash" value="4450b21a0ffe5e30d5b46bbc3870b6de49285c6ebe59ef7c0e794e5414d5d018" />
+            </canvas>
+            <canvas name="6" width="64" height="94">
+                <vector name="origin" x="32" y="47" />
+                <int name="z" value="0" />
+                <string name="_hash" value="7d6e24b762fe65e1b063039f322132d997bd83bfff3b004153f5236495e5c093" />
+            </canvas>
+            <canvas name="5" width="65" height="93">
+                <vector name="origin" x="32" y="46" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ae748ea3255a8986f3ecfeb268954e91a3e543bc2f283e1b7eccb9bb289afcd0" />
+            </canvas>
+            <canvas name="4" width="64" height="94">
+                <vector name="origin" x="32" y="47" />
+                <int name="z" value="0" />
+                <string name="_hash" value="e09169f4da0c0c069c42e30ce81a409acddba80b417da3abc39db93012a1d405" />
+            </canvas>
+        </imgdir>
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="32" y="46" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="1">
+        <uol name="0" value="../0/0" />
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="0" />
+                <int name="state" value="2" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+    </imgdir>
+    <imgdir name="2">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="32" y="46" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+        <canvas name="1" width="1" height="1">
+            <vector name="origin" x="32" y="46" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+        <canvas name="2" width="1" height="1">
+            <vector name="origin" x="32" y="46" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+        <canvas name="3" width="1" height="1">
+            <vector name="origin" x="32" y="46" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/0" />
+        </canvas>
+        <uol name="hit" value="../0/hit" />
+        <int name="repeat" value="1" />
+    </imgdir>
+    <string name="action" value="canedrop" />
+</imgdir>

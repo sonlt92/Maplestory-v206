@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9402278.img">
+    <imgdir name="info">
+        <int name="boss" value="1" />
+        <int name="level" value="120" />
+        <string name="mobType" value="7N" />
+        <int name="category" value="8" />
+        <string name="elemAttr" value="P2H2F2I2S2L2D2" />
+        <int name="skeleton" value="1" />
+        <int name="ignoreFieldOut" value="1" />
+        <int name="ignoreMoveImpact" value="1" />
+        <int name="useReaction" value="1" />
+        <int name="firstAttack" value="1" />
+        <int name="maxHP" value="1000000000" />
+        <int name="maxMP" value="2000000" />
+        <int name="PADamage" value="4600" />
+        <int name="MADamage" value="3600" />
+        <int name="PDRate" value="30" />
+        <int name="MDRate" value="30" />
+        <int name="acc" value="9999" />
+        <int name="eva" value="750" />
+        <int name="pushed" value="1000000000" />
+        <float name="fs" value="10.0" />
+        <imgdir name="attack">
+            <imgdir name="0">
+                <int name="action" value="1" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="203" />
+                <int name="fixDamR" value="100" />
+                <int name="fixAttack" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+            <imgdir name="1">
+                <int name="action" value="2" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="fixAttack" value="1" />
+                <int name="afterDelay" value="3000" />
+                <int name="fixDamR" value="2" />
+                <int name="disease" value="123" />
+                <int name="level" value="81" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="action" value="3" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="203" />
+                <int name="fixDamR" value="100" />
+                <int name="fixAttack" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="action" value="4" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="fixAttack" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+            <imgdir name="4">
+                <int name="action" value="5" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="knockback" value="1" />
+                <int name="ignoreStance" value="100" />
+                <int name="fixDamR" value="100" />
+                <int name="fixDamRType" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+            <imgdir name="5">
+                <int name="action" value="6" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="knockback" value="1" />
+                <int name="ignoreStance" value="100" />
+                <int name="fixDamR" value="100" />
+                <int name="fixDamRType" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+            <imgdir name="6">
+                <int name="action" value="7" />
+                <int name="attackRatio" value="100" />
+                <int name="type" value="0" />
+                <int name="knockback" value="1" />
+                <int name="ignoreStance" value="100" />
+                <int name="fixDamR" value="100" />
+                <int name="fixDamRType" value="1" />
+                <int name="fixAttack" value="1" />
+                <int name="rush" value="1" />
+                <int name="afterDelay" value="3000" />
+            </imgdir>
+        </imgdir>
+        <int name="bodyAttack" value="1" />
+        <int name="isRemoteRange" value="1" />
+        <int name="speed" value="-99" />
+        <int name="hpTagColor" value="1" />
+        <int name="hpTagBgcolor" value="5" />
+        <int name="wp" value="120" />
+        <int name="publicReward" value="1" />
+        <int name="explosiveReward" value="1" />
+        <int name="charismaEXP" value="125" />
+        <int name="useCreateScript" value="1" />
+        <string name="default_skin" value="phase0" />
+        <int name="noFlip" value="1" />
+        <int name="ignoreMovable" value="1" />
+        <int name="DamageScale_PL" value="1" />
+        <imgdir name="skill">
+            <imgdir name="0">
+                <int name="skill" value="146" />
+                <int name="level" value="15" />
+                <int name="action" value="1" />
+                <int name="skillAfter" value="800" />
+                <int name="effectAfter" value="1200" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hitScript">
+            <imgdir name="0">
+                <int name="hp" value="30" />
+                <string name="script" value="mob_9402278" />
+            </imgdir>
+        </imgdir>
+        <int name="notLevelPenalty" value="1" />
+    </imgdir>
+    <imgdir name="move">
+        <string name="aniName" value="Stand1" />
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="5" />
+                <vector name="impactX" x="200" y="250" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_head" />
+            <imgdir name="bbox_body" />
+            <imgdir name="bbox_tail1" />
+            <imgdir name="bbox_tail2" />
+            <imgdir name="bbox_hand_r" />
+            <imgdir name="bbox_hand_l" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="Stand1" />
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="2" />
+                <vector name="impactX" x="50" y="100" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_head" />
+            <imgdir name="bbox_body" />
+            <imgdir name="bbox_tail1" />
+            <imgdir name="bbox_tail2" />
+            <imgdir name="bbox_hand_r" />
+            <imgdir name="bbox_hand_l" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="die1">
+        <string name="aniName" value="Die" />
+    </imgdir>
+    <imgdir name="regen">
+        <string name="aniName" value="idle1" />
+        <string name="info_skill" value="포효(리젠)" />
+    </imgdir>
+    <imgdir name="attack1">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-1300" y="-500" />
+                <vector name="rb" x="0" y="0" />
+                <int name="areaCount" value="3" />
+                <int name="targetCount" value="1" />
+                <int name="attackCount" value="1" />
+            </imgdir>
+            <int name="attackAfter" value="1800" />
+            <int name="effectAfter" value="900" />
+            <int name="inflate" value="120" />
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="90" />
+                <vector name="impactX" x="10" y="50" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_Attack_01_1_t2_8" />
+            <imgdir name="bbox_Attack_01_1_t1_8" />
+            <imgdir name="bbox_Attack_01_1_t2_7" />
+            <imgdir name="bbox_Attack_01_1_t1_7" />
+            <imgdir name="bbox_Attack_01_1_t0_8" />
+            <imgdir name="bbox_Attack_01_1_t0_7" />
+        </imgdir>
+        <string name="aniName" value="Attack_01_ready" />
+        <string name="info_skill" value="쥴리에타 촉수 공격" />
+    </imgdir>
+    <imgdir name="attack2">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-1500" y="-600" />
+                <vector name="rb" x="1500" y="140" />
+            </imgdir>
+            <int name="attackAfter" value="1350" />
+        </imgdir>
+        <string name="aniName" value="idle0" />
+        <string name="info_skill" value="광역 포효" />
+    </imgdir>
+    <imgdir name="attack3">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-1800" y="-500" />
+                <vector name="rb" x="0" y="0" />
+                <int name="areaCount" value="10" />
+                <int name="targetCount" value="1" />
+                <int name="attackCount" value="1" />
+            </imgdir>
+            <imgdir name="areaWarning">
+                <canvas name="0" width="320" height="59">
+                    <vector name="origin" x="160" y="43" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="0" />
+                    <int name="a1" value="10" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="677c7f2589e6c36249e27c2a5bd1bf249a3d33a0a50fba89387a51ae96ee36dc" />
+                </canvas>
+                <canvas name="1" width="324" height="60">
+                    <vector name="origin" x="167" y="44" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="10" />
+                    <int name="a1" value="25" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="514aad8104d596b3137c9da703b4caaa8abd588933493ad3721912a1e84d15a4" />
+                </canvas>
+                <canvas name="2" width="326" height="58">
+                    <vector name="origin" x="173" y="42" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="25" />
+                    <int name="a1" value="40" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="e5d7279891c0b7ad8841ba8767665daaf6db54128be0483a91576c0cc2f626c4" />
+                </canvas>
+                <canvas name="3" width="331" height="43">
+                    <vector name="origin" x="174" y="27" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="40" />
+                    <int name="a1" value="50" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="a630726b23e9c60d6d84c22a1e3ba2fba87c897cd37a765a85487c10b7329fc3" />
+                </canvas>
+                <canvas name="4" width="318" height="55">
+                    <vector name="origin" x="158" y="37" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="50" />
+                    <int name="a1" value="100" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="5aee4878cdf8f88096d7907da6c14dcbf6583b8c8aa477f9dd2c179a4b912346" />
+                </canvas>
+                <canvas name="5" width="327" height="57">
+                    <vector name="origin" x="162" y="39" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="100" />
+                    <int name="a1" value="150" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="1c776e4337451ea2c292da1358190e89046b4bb3242bad69f09f7471db5a34ba" />
+                </canvas>
+                <canvas name="6" width="326" height="61">
+                    <vector name="origin" x="163" y="43" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="150" />
+                    <int name="a1" value="200" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="d72d513236b0a19edfa3f95d3fac023bc51c2d59950c65ebbdc0f1b5a40889f8" />
+                </canvas>
+                <canvas name="7" width="331" height="60">
+                    <vector name="origin" x="164" y="44" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="200" />
+                    <int name="a1" value="255" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="58c18bbba76e119a1fb5681f1982ad1491f38a6d4b10b12193682e472bf8101e" />
+                </canvas>
+                <canvas name="8" width="340" height="59">
+                    <vector name="origin" x="166" y="43" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="255" />
+                    <int name="a1" value="200" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="306679f3b89f650d1642cd487e7e3a444ea419cb88b14e2de5076557d79188ea" />
+                </canvas>
+                <canvas name="9" width="344" height="44">
+                    <vector name="origin" x="169" y="28" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="200" />
+                    <int name="a1" value="150" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="c86ead1088fe50b468ddfe41fcc3ecf0533aaec499c16c07d314d7967ff89991" />
+                </canvas>
+                <canvas name="10" width="320" height="38">
+                    <vector name="origin" x="149" y="22" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="150" />
+                    <int name="a1" value="100" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="3d4800757f752ddc10ada1e8619698300ecfe8a0911df889961906b56fcab9a6" />
+                </canvas>
+                <canvas name="11" width="324" height="45">
+                    <vector name="origin" x="150" y="27" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="100" />
+                    <int name="a1" value="50" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="fbf73dd5528eb20b0377e1db41116a84478584d44be077bf279dcac4103028c1" />
+                </canvas>
+                <canvas name="12" width="308" height="54">
+                    <vector name="origin" x="157" y="36" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="50" />
+                    <int name="a1" value="40" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="774d4ac424df8159820fce4b17fa0f2dfb6648ace3d5e8fdcc56d56309c16c2d" />
+                </canvas>
+                <canvas name="13" width="311" height="52">
+                    <vector name="origin" x="164" y="34" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="40" />
+                    <int name="a1" value="25" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="cbcd7e65edbaddfc91e62b94a5bfac66c1b2b7d2b1f6634e1bbd3561a7d17aa3" />
+                </canvas>
+                <canvas name="14" width="313" height="40">
+                    <vector name="origin" x="160" y="22" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="25" />
+                    <int name="a1" value="10" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="8d3234efd236a6983820319b8f22a55179107b05b11ac0b6924ee1362af9a5c8" />
+                </canvas>
+                <canvas name="15" width="307" height="40">
+                    <vector name="origin" x="150" y="22" />
+                    <int name="z" value="0" />
+                    <int name="a0" value="10" />
+                    <int name="a1" value="0" />
+                    <int name="delay" value="90" />
+                    <string name="_hash" value="2573393dab9b2538a8f8a893bcac94488ceb0b25d685811f98c375667514e738" />
+                </canvas>
+            </imgdir>
+            <int name="randDelayAttack" value="1500" />
+            <int name="attackAfter" value="1200" />
+            <int name="effectAfter" value="900" />
+            <int name="viewRange" value="200" />
+            <int name="viewTime_Start" value="500" />
+            <int name="viewTime_End" value="500" />
+            <int name="viewTime_Duration" value="1000" />
+            <int name="fixDelayAttack" value="200" />
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="90" />
+                <vector name="impactX" x="10" y="50" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_tentacle" />
+        </imgdir>
+        <string name="aniName" value="Attack_03_ready" />
+        <string name="info_skill" value="쥴리에타 강화촉수 공격" />
+    </imgdir>
+    <imgdir name="attack4">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="0" y="0" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+        </imgdir>
+        <string name="aniName" value="Attack_06_2" />
+        <string name="info_skill" value="포자 배출2" />
+    </imgdir>
+    <imgdir name="attack5">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-590" y="-500" />
+                <vector name="rb" x="0" y="20" />
+            </imgdir>
+            <int name="attackAfter" value="1890" />
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="40" />
+                <vector name="impactX" x="200" y="250" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_Attack_07" />
+        </imgdir>
+        <string name="aniName" value="Attack_07" />
+        <string name="info_skill" value="앞손 휘두르기" />
+    </imgdir>
+    <imgdir name="attack6">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-480" y="-500" />
+                <vector name="rb" x="-210" y="20" />
+            </imgdir>
+            <int name="attackAfter" value="1590" />
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="70" />
+                <vector name="impactX" x="200" y="250" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_Attack_08" />
+        </imgdir>
+        <string name="aniName" value="Attack_08" />
+        <string name="info_skill" value="앞손찍기" />
+    </imgdir>
+    <imgdir name="attack7">
+        <imgdir name="info">
+            <imgdir name="range">
+                <vector name="lt" x="-300" y="-220" />
+                <vector name="rb" x="0" y="0" />
+            </imgdir>
+            <int name="attackAfter" value="840" />
+        </imgdir>
+        <imgdir name="AttackParts">
+            <imgdir name="info">
+                <int name="fixDamR" value="100" />
+                <vector name="impactX" x="200" y="250" />
+                <vector name="impactY" x="1" y="20" />
+            </imgdir>
+            <imgdir name="bbox_head" />
+            <imgdir name="bbox_body" />
+            <imgdir name="bbox_tail1" />
+            <imgdir name="bbox_tail2" />
+            <imgdir name="bbox_hand_r" />
+            <imgdir name="bbox_hand_l" />
+        </imgdir>
+        <string name="aniName" value="Crash" />
+    </imgdir>
+    <imgdir name="skill1">
+        <string name="aniName" value="idle1" />
+        <string name="info_skill" value="무적" />
+    </imgdir>
+    <imgdir name="HitParts">
+        <imgdir name="bbox_tail2">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_tail1">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_attack">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_body">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_head">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t2_8">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t1_8">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t2_7">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t1_7">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t0_8">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_Attack_01_1_t0_7">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_hand_r">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="bbox_hand_l">
+            <imgdir name="0">
+                <imgdir name="stat">
+                    <string name="info" value="부위의 속성값" />
+                    <int name="durability" value="100" />
+                    <int name="hardness" value="40" />
+                </imgdir>
+                <imgdir name="hitEvent">
+                    <string name="info" value="해당 부위 타격시 처리해야할 내용들" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <canvas name="boss_normal_body.png" width="1024" height="1023">
+        <vector name="origin" x="512" y="511" />
+        <int name="z" value="0" />
+        <string name="_hash" value="570e7a1e0c12a3c424652d7f474b18bf04835de17190c5b12359e22dbdef9828" />
+    </canvas>
+    <canvas name="boss_normal_body2.png" width="1024" height="1024">
+        <vector name="origin" x="512" y="512" />
+        <int name="z" value="0" />
+        <string name="_hash" value="dddd2f71d41b2c1c1ac9cc3ca736dc2538db9d5412fbd838eaaa0f254b3f6be0" />
+    </canvas>
+    <canvas name="boss_normal_body3.png" width="1024" height="1024">
+        <vector name="origin" x="512" y="512" />
+        <int name="z" value="0" />
+        <string name="_hash" value="f051e04e84693240004243186664d3a5b353a6de152bd32f7009f12fbf538202" />
+    </canvas>
+    <canvas name="boss_normal_body4.png" width="1024" height="1024">
+        <vector name="origin" x="512" y="512" />
+        <int name="z" value="0" />
+        <string name="_hash" value="e5e506c71a0c654a1dd2976cf81fe24e889e43972aa34e53bf61078b7b94a286" />
+    </canvas>
+    <canvas name="boss_normal_body5.png" width="1024" height="1024">
+        <vector name="origin" x="512" y="512" />
+        <int name="z" value="0" />
+        <string name="_hash" value="e78151bb5f747dc13494ff198cf4f419a084977a5b9c38e92b1705ca8215fae3" />
+    </canvas>
+    <canvas name="boss_normal_body6.png" width="1024" height="1024">
+        <vector name="origin" x="903" y="34" />
+        <int name="z" value="0" />
+        <string name="_hash" value="b81f35d6a485bc9a4ddfb5580d14e74531d099675883260e0209d963ed62a51f" />
+    </canvas>
+    <canvas name="boss_normal_body7.png" width="1024" height="1018">
+        <vector name="origin" x="121" y="378" />
+        <int name="z" value="0" />
+        <string name="_hash" value="c4bbac6f11bfba36d692c775bcedbd3410244be59b87f299bbc8189de17cdf16" />
+    </canvas>
+    <canvas name="boss_normal_body8.png" width="1024" height="1023">
+        <vector name="origin" x="998" y="180" />
+        <int name="z" value="0" />
+        <string name="_hash" value="9d4d5948da07e147f7661f707665c77b072d3d826138e57ea821fbe637970a7c" />
+    </canvas>
+    <canvas name="boss_normal_body9.png" width="1024" height="1023">
+        <vector name="origin" x="846" y="27" />
+        <int name="z" value="0" />
+        <string name="_hash" value="4cfaef32f697fb642faae2783fdbd93d34dcd14fd59db58552c31aab517825a1" />
+    </canvas>
+    <canvas name="boss_normal_body10.png" width="1022" height="1017">
+        <vector name="origin" x="511" y="508" />
+        <int name="z" value="0" />
+        <string name="_hash" value="320fe9e5b73f03787425e57a326bfafb1e643bcb921f64a6a4b9fab1e56b3a52" />
+    </canvas>
+    <canvas name="boss_normal_body11.png" width="995" height="1006">
+        <vector name="origin" x="493" y="23" />
+        <int name="z" value="0" />
+        <string name="_hash" value="d3b622f77c876f5e08ad1d11430df18a62bad4ef51a3f26318646f0236008eb2" />
+    </canvas>
+    <canvas name="boss_normal_body12.png" width="1020" height="1024">
+        <vector name="origin" x="517" y="184" />
+        <int name="z" value="0" />
+        <string name="_hash" value="bd46cc8edafb07415bc22cd8f394fd11c1126154c2fa6441c15a2d083f72a800" />
+    </canvas>
+    <canvas name="boss_normal_body13.png" width="993" height="1021">
+        <vector name="origin" x="115" y="468" />
+        <int name="z" value="0" />
+        <string name="_hash" value="8f376f6d8f1dc24788ea9a86ba10dfd40ebc4ee1fbd2585fe48c0b476c7eb9d7" />
+    </canvas>
+    <canvas name="boss_normal_body14.png" width="1022" height="1020">
+        <vector name="origin" x="520" y="136" />
+        <int name="z" value="0" />
+        <string name="_hash" value="a49a78ef830d9047b38b2ec38e35eeb399d8acf96288fe62f754bca0fef8bce7" />
+    </canvas>
+    <canvas name="boss_normal_body15.png" width="1022" height="1022">
+        <vector name="origin" x="511" y="511" />
+        <int name="z" value="0" />
+        <string name="_hash" value="a32c803826ab6d2339ff0e24d7b22202f5250c1586c5c5070a44b889e27dbbb7" />
+    </canvas>
+    <canvas name="boss_normal_body16.png" width="1019" height="1019">
+        <vector name="origin" x="509" y="509" />
+        <int name="z" value="0" />
+        <string name="_hash" value="4800f37a32e201aaddc9c48790dd778351cd89d97e8371dfccfe1836d93c8408" />
+    </canvas>
+    <canvas name="boss_normal_body17.png" width="1020" height="1011">
+        <vector name="origin" x="899" y="92" />
+        <int name="z" value="0" />
+        <string name="_hash" value="2bdc0efd71481f5036807127c3c60e3873d60a9dfafbac3591f595b1ce26f08b" />
+    </canvas>
+    <canvas name="boss_normal_body18.png" width="1004" height="1018">
+        <vector name="origin" x="532" y="943" />
+        <int name="z" value="0" />
+        <string name="_hash" value="e287e69b1d300cfab74b86f8c85abda9b6874b3646e555cdc51bf774fceecc39" />
+    </canvas>
+    <canvas name="boss_normal_body19.png" width="1013" height="1004">
+        <vector name="origin" x="506" y="502" />
+        <int name="z" value="0" />
+        <string name="_hash" value="9aaa914cf19e46807c44d7e9cd91ab689cdbe884df1c2278b0fed16d03a138d9" />
+    </canvas>
+    <canvas name="boss_normal_body20.png" width="960" height="985">
+        <vector name="origin" x="358" y="142" />
+        <int name="z" value="0" />
+        <string name="_hash" value="e982cd6a23bbf3c7a996851a25e7598f9264f029a7d2f47f59cb7f04f9853b4d" />
+    </canvas>
+    <canvas name="boss_normal_body21.png" width="1007" height="1006">
+        <vector name="origin" x="503" y="503" />
+        <int name="z" value="0" />
+        <string name="_hash" value="72aaa6693abe6ac1e91de74913dac09802d3374e3406d6cacda5ffc7bc511fab" />
+    </canvas>
+    <canvas name="boss_normal_body22.png" width="892" height="847">
+        <vector name="origin" x="446" y="423" />
+        <int name="z" value="0" />
+        <string name="_hash" value="fe4cebf59578165efa0be8316c2760f72daea9df90647840474b171036768394" />
+    </canvas>
+    <imgdir name="spine_tentacle">
+        <imgdir name="areaWarning">
+            <canvas name="0" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="0" />
+                <int name="a1" value="50" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="a00be49cc26178e6fab1e5f574e2d3495aae0ea3aa5a41169c2c3dbdbe61280b" />
+            </canvas>
+            <canvas name="1" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="50" />
+                <int name="a1" value="100" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="6b86cc71c7be4f636fb6825f32e899d9538b6e55c9d456fbd931000df118c8bd" />
+            </canvas>
+            <canvas name="2" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="100" />
+                <int name="a1" value="150" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="b5942def21044f618b8b84005a2eb4326eb71ca7a7c90373720892bd9b18cc7d" />
+            </canvas>
+            <canvas name="3" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="150" />
+                <int name="a1" value="200" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="5bdf74f9de2a99e9380fe8bf3ff8ef9c83b1591fd53ae4e0aa2f340a6cbe73d8" />
+            </canvas>
+            <canvas name="4" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="200" />
+                <int name="a1" value="255" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="ee8a4b8358105982eca01c43f5499f1022b63759d36ee55736aad15a419ea6d9" />
+            </canvas>
+            <canvas name="5" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="eb8addb7d3c209b51bbcac53c0985425c3e9a81259180b79e414ad80c9bcc639" />
+            </canvas>
+            <canvas name="6" width="1039" height="88">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="76ab49f15832ab24cfe44ec8b4f39fcc8de01146ad5a799601c23cb22b262fe7" />
+            </canvas>
+            <canvas name="7" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/5" />
+            </canvas>
+            <canvas name="8" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="255" />
+                <int name="a1" value="200" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/4" />
+            </canvas>
+            <canvas name="9" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="200" />
+                <int name="a1" value="150" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/3" />
+            </canvas>
+            <canvas name="10" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="150" />
+                <int name="a1" value="100" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/2" />
+            </canvas>
+            <canvas name="11" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="100" />
+                <int name="a1" value="50" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/1" />
+            </canvas>
+            <canvas name="12" width="1" height="1">
+                <vector name="origin" x="1039" y="44" />
+                <int name="z" value="0" />
+                <int name="a0" value="50" />
+                <int name="a1" value="0" />
+                <int name="delay" value="120" />
+                <string name="_inlink" value="spine_tentacle/areaWarning/0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="areaWarning0">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <canvas name="boss_eff_tentacle0.png" width="824" height="76">
+                <vector name="origin" x="412" y="38" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a7a742b7cbd861e93bd2f645d32299e038920936f939b8b7799aa3192ece279d" />
+            </canvas>
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+            <sound name="boss_eff_tentacle0" />
+        </imgdir>
+        <imgdir name="areaWarning1">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning2">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning3">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning4">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning5">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning6">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning7">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning8">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+        <imgdir name="areaWarning9">
+            <string name="spineAni" value="Attack_03_all" />
+            <string name="spine" value="boss_eff_tentacle0" />
+            <uol name="boss_eff_tentacle0.png" value="../areaWarning0/boss_eff_tentacle0.png" />
+            <uol name="boss_eff_tentacle0" value="../areaWarning0/boss_eff_tentacle0" />
+            <string name="boss_eff_tentacle0.atlas" value="&#xA;boss_eff_tentacle0.png&#xA;size: 824,76&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+        </imgdir>
+    </imgdir>
+    <string name="9402278.atlas" value="&#xA;boss_normal_body.png&#xA;size: 1024,1023&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;attackt0&#xA;  rotate: false&#xA;  xy: 2, 949&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body&#xA;  rotate: true&#xA;  xy: 2, 200&#xA;  size: 747, 582&#xA;  orig: 747, 582&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0021_b6&#xA;  rotate: true&#xA;  xy: 971, 324&#xA;  size: 129, 51&#xA;  orig: 129, 51&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_breakhead (4)&#xA;  rotate: false&#xA;  xy: 415, 2&#xA;  size: 25, 18&#xA;  orig: 25, 18&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0002_-&#xA;  rotate: false&#xA;  xy: 824, 786&#xA;  size: 197, 235&#xA;  orig: 197, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0003_-&#xA;  rotate: false&#xA;  xy: 906, 138&#xA;  size: 113, 181&#xA;  orig: 113, 181&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0008_-&#xA;  rotate: false&#xA;  xy: 906, 4&#xA;  size: 98, 132&#xA;  orig: 98, 132&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke4&#xA;  rotate: false&#xA;  xy: 586, 787&#xA;  size: 218, 160&#xA;  orig: 218, 160&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0000_32&#xA;  rotate: true&#xA;  xy: 415, 22&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0001_31&#xA;  rotate: true&#xA;  xy: 415, 22&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0000_spark&#xA;  rotate: false&#xA;  xy: 2, 9&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_inner&#xA;  rotate: true&#xA;  xy: 586, 7&#xA;  size: 312, 318&#xA;  orig: 312, 318&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder&#xA;  rotate: true&#xA;  xy: 586, 321&#xA;  size: 463, 383&#xA;  orig: 463, 383&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_3&#xA;  rotate: true&#xA;  xy: 971, 455&#xA;  size: 329, 51&#xA;  orig: 329, 51&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body2.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_r1_1&#xA;  rotate: true&#xA;  xy: 751, 373&#xA;  size: 210, 78&#xA;  orig: 210, 78&#xA;  offset: 0, 0&#xA;  index: -1&#xA;attackt1&#xA;  rotate: false&#xA;  xy: 2, 950&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;attackt2&#xA;  rotate: false&#xA;  xy: 2, 876&#xA;  size: 820, 72&#xA;  orig: 820, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body0&#xA;  rotate: false&#xA;  xy: 2, 292&#xA;  size: 747, 582&#xA;  orig: 747, 582&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0003_b15&#xA;  rotate: false&#xA;  xy: 857, 282&#xA;  size: 164, 89&#xA;  orig: 164, 89&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0013_b10&#xA;  rotate: true&#xA;  xy: 751, 733&#xA;  size: 141, 71&#xA;  orig: 141, 71&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0014_9&#xA;  rotate: true&#xA;  xy: 814, 327&#xA;  size: 44, 38&#xA;  orig: 44, 38&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0001_-&#xA;  rotate: false&#xA;  xy: 751, 585&#xA;  size: 104, 146&#xA;  orig: 104, 146&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0006_-&#xA;  rotate: true&#xA;  xy: 751, 292&#xA;  size: 79, 61&#xA;  orig: 79, 61&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0006&#xA;  rotate: true&#xA;  xy: 857, 2&#xA;  size: 278, 149&#xA;  orig: 278, 149&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0009&#xA;  rotate: true&#xA;  xy: 857, 594&#xA;  size: 256, 165&#xA;  orig: 256, 165&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0010&#xA;  rotate: true&#xA;  xy: 857, 373&#xA;  size: 219, 165&#xA;  orig: 219, 165&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0000&#xA;  rotate: true&#xA;  xy: 2, 6&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0001&#xA;  rotate: true&#xA;  xy: 287, 6&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0002&#xA;  rotate: true&#xA;  xy: 572, 6&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0&#xA;  rotate: false&#xA;  xy: 824, 938&#xA;  size: 194, 84&#xA;  orig: 194, 84&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_d&#xA;  rotate: false&#xA;  xy: 824, 852&#xA;  size: 194, 84&#xA;  orig: 194, 84&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body3.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_r0&#xA;  rotate: false&#xA;  xy: 751, 787&#xA;  size: 264, 235&#xA;  orig: 264, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r0a&#xA;  rotate: false&#xA;  xy: 751, 550&#xA;  size: 264, 235&#xA;  orig: 264, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r0b&#xA;  rotate: false&#xA;  xy: 751, 313&#xA;  size: 264, 235&#xA;  orig: 264, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body1&#xA;  rotate: false&#xA;  xy: 2, 440&#xA;  size: 747, 582&#xA;  orig: 747, 582&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0008_12&#xA;  rotate: true&#xA;  xy: 259, 363&#xA;  size: 75, 88&#xA;  orig: 75, 88&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0012_10&#xA;  rotate: false&#xA;  xy: 751, 245&#xA;  size: 66, 66&#xA;  orig: 66, 66&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0015_b9&#xA;  rotate: true&#xA;  xy: 2, 319&#xA;  size: 119, 44&#xA;  orig: 119, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0018_7&#xA;  rotate: true&#xA;  xy: 728, 4&#xA;  size: 68, 89&#xA;  orig: 68, 89&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0024_4&#xA;  rotate: false&#xA;  xy: 980, 155&#xA;  size: 42, 45&#xA;  orig: 42, 45&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0028_2&#xA;  rotate: false&#xA;  xy: 574, 3&#xA;  size: 152, 69&#xA;  orig: 152, 69&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_breakhead (3)&#xA;  rotate: false&#xA;  xy: 980, 86&#xA;  size: 35, 67&#xA;  orig: 35, 67&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0009_-&#xA;  rotate: true&#xA;  xy: 819, 202&#xA;  size: 109, 202&#xA;  orig: 109, 202&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0011_-&#xA;  rotate: true&#xA;  xy: 259, 314&#xA;  size: 47, 54&#xA;  orig: 47, 54&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0001&#xA;  rotate: false&#xA;  xy: 48, 320&#xA;  size: 209, 118&#xA;  orig: 209, 118&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (01)&#xA;  rotate: false&#xA;  xy: 350, 74&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (02)&#xA;  rotate: false&#xA;  xy: 350, 74&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face1&#xA;  rotate: false&#xA;  xy: 2, 13&#xA;  size: 346, 298&#xA;  orig: 346, 298&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f1&#xA;  rotate: true&#xA;  xy: 819, 5&#xA;  size: 67, 100&#xA;  orig: 67, 100&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f1_d&#xA;  rotate: true&#xA;  xy: 921, 5&#xA;  size: 67, 100&#xA;  orig: 67, 100&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t3&#xA;  rotate: false&#xA;  xy: 751, 74&#xA;  size: 227, 126&#xA;  orig: 227, 126&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t5&#xA;  rotate: true&#xA;  xy: 350, 2&#xA;  size: 70, 110&#xA;  orig: 70, 110&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t5_d&#xA;  rotate: true&#xA;  xy: 462, 2&#xA;  size: 70, 110&#xA;  orig: 70, 110&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body4.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_r0c&#xA;  rotate: false&#xA;  xy: 751, 787&#xA;  size: 264, 235&#xA;  orig: 264, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r0c_d&#xA;  rotate: false&#xA;  xy: 751, 550&#xA;  size: 264, 235&#xA;  orig: 264, 235&#xA;  offset: 0, 0&#xA;  index: -1&#xA;body2&#xA;  rotate: false&#xA;  xy: 2, 440&#xA;  size: 747, 582&#xA;  orig: 747, 582&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0002_15&#xA;  rotate: true&#xA;  xy: 861, 3&#xA;  size: 90, 74&#xA;  orig: 90, 74&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0007_b13&#xA;  rotate: false&#xA;  xy: 630, 3&#xA;  size: 229, 90&#xA;  orig: 229, 90&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0027_b3&#xA;  rotate: true&#xA;  xy: 910, 101&#xA;  size: 153, 111&#xA;  orig: 153, 111&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0000_35&#xA;  rotate: true&#xA;  xy: 751, 315&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0013_-&#xA;  rotate: true&#xA;  xy: 910, 256&#xA;  size: 57, 112&#xA;  orig: 57, 112&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0014_-&#xA;  rotate: true&#xA;  xy: 937, 2&#xA;  size: 97, 83&#xA;  orig: 97, 83&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke5&#xA;  rotate: true&#xA;  xy: 748, 95&#xA;  size: 218, 160&#xA;  orig: 218, 160&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0000_Frame-63&#xA;  rotate: true&#xA;  xy: 2, 16&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0001_Frame-61&#xA;  rotate: true&#xA;  xy: 229, 16&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r2&#xA;  rotate: false&#xA;  xy: 456, 2&#xA;  size: 172, 91&#xA;  orig: 172, 91&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t0&#xA;  rotate: true&#xA;  xy: 456, 95&#xA;  size: 343, 290&#xA;  orig: 343, 290&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body5.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;body2_d&#xA;  rotate: false&#xA;  xy: 2, 440&#xA;  size: 747, 582&#xA;  orig: 747, 582&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0001_b16&#xA;  rotate: true&#xA;  xy: 748, 98&#xA;  size: 219, 156&#xA;  orig: 219, 156&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0004_14&#xA;  rotate: false&#xA;  xy: 906, 216&#xA;  size: 116, 101&#xA;  orig: 116, 101&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0016_8&#xA;  rotate: false&#xA;  xy: 964, 2&#xA;  size: 53, 54&#xA;  orig: 53, 54&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0001_34&#xA;  rotate: true&#xA;  xy: 751, 789&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0002_33&#xA;  rotate: true&#xA;  xy: 751, 554&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0003_32&#xA;  rotate: true&#xA;  xy: 751, 319&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0005_-&#xA;  rotate: true&#xA;  xy: 906, 114&#xA;  size: 100, 55&#xA;  orig: 100, 55&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0002_Frame-59&#xA;  rotate: true&#xA;  xy: 2, 16&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0003_Frame-57&#xA;  rotate: true&#xA;  xy: 229, 16&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0&#xA;  rotate: false&#xA;  xy: 456, 5&#xA;  size: 179, 88&#xA;  orig: 179, 88&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_d&#xA;  rotate: false&#xA;  xy: 637, 5&#xA;  size: 179, 88&#xA;  orig: 179, 88&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f1&#xA;  rotate: false&#xA;  xy: 818, 2&#xA;  size: 71, 94&#xA;  orig: 71, 94&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f1_d&#xA;  rotate: false&#xA;  xy: 891, 2&#xA;  size: 71, 94&#xA;  orig: 71, 94&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f2&#xA;  rotate: false&#xA;  xy: 964, 137&#xA;  size: 58, 77&#xA;  orig: 58, 77&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f2_d&#xA;  rotate: false&#xA;  xy: 964, 58&#xA;  size: 58, 77&#xA;  orig: 58, 77&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t0_d&#xA;  rotate: true&#xA;  xy: 456, 95&#xA;  size: 343, 290&#xA;  orig: 343, 290&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body6.png&#xA;size: 1024,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_l1&#xA;  rotate: true&#xA;  xy: 229, 250&#xA;  size: 177, 154&#xA;  orig: 177, 154&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r1_0&#xA;  rotate: false&#xA;  xy: 848, 236&#xA;  size: 106, 73&#xA;  orig: 106, 73&#xA;  offset: 0, 0&#xA;  index: -1&#xA;back_t0&#xA;  rotate: true&#xA;  xy: 517, 288&#xA;  size: 604, 114&#xA;  orig: 604, 114&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0000_15&#xA;  rotate: false&#xA;  xy: 780, 5&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0020_6&#xA;  rotate: true&#xA;  xy: 633, 837&#xA;  size: 55, 45&#xA;  orig: 55, 45&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0031_b1&#xA;  rotate: true&#xA;  xy: 956, 236&#xA;  size: 73, 61&#xA;  orig: 73, 61&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_breakhead (2)&#xA;  rotate: true&#xA;  xy: 848, 311&#xA;  size: 76, 174&#xA;  orig: 76, 174&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0012_-&#xA;  rotate: true&#xA;  xy: 633, 778&#xA;  size: 57, 44&#xA;  orig: 57, 44&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0000_32&#xA;  rotate: false&#xA;  xy: 780, 50&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0010_22&#xA;  rotate: false&#xA;  xy: 780, 50&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0004_Frame-55&#xA;  rotate: true&#xA;  xy: 2, 5&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0001_spark&#xA;  rotate: false&#xA;  xy: 367, 20&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear&#xA;  rotate: true&#xA;  xy: 685, 668&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t2&#xA;  rotate: true&#xA;  xy: 633, 307&#xA;  size: 359, 209&#xA;  orig: 359, 209&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_d&#xA;  rotate: true&#xA;  xy: 2, 429&#xA;  size: 463, 383&#xA;  orig: 463, 383&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t1&#xA;  rotate: true&#xA;  xy: 848, 389&#xA;  size: 277, 168&#xA;  orig: 277, 168&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t2&#xA;  rotate: true&#xA;  xy: 229, 2&#xA;  size: 246, 136&#xA;  orig: 246, 136&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_1&#xA;  rotate: false&#xA;  xy: 2, 894&#xA;  size: 681, 128&#xA;  orig: 681, 128&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_1_d&#xA;  rotate: true&#xA;  xy: 387, 211&#xA;  size: 681, 128&#xA;  orig: 681, 128&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_3_d&#xA;  rotate: false&#xA;  xy: 517, 235&#xA;  size: 329, 51&#xA;  orig: 329, 51&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body7.png&#xA;size: 1024,1018&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;back_t0_d&#xA;  rotate: false&#xA;  xy: 2, 902&#xA;  size: 604, 114&#xA;  orig: 604, 114&#xA;  offset: 0, 0&#xA;  index: -1&#xA;back_t1&#xA;  rotate: false&#xA;  xy: 2, 818&#xA;  size: 521, 82&#xA;  orig: 521, 82&#xA;  offset: 0, 0&#xA;  index: -1&#xA;back_t1_d&#xA;  rotate: false&#xA;  xy: 2, 734&#xA;  size: 521, 82&#xA;  orig: 521, 82&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0001_14&#xA;  rotate: false&#xA;  xy: 2, 349&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0023_b5&#xA;  rotate: false&#xA;  xy: 375, 4&#xA;  size: 182, 157&#xA;  orig: 182, 157&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0029_b2&#xA;  rotate: true&#xA;  xy: 958, 263&#xA;  size: 77, 64&#xA;  orig: 77, 64&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0010_-&#xA;  rotate: false&#xA;  xy: 958, 11&#xA;  size: 63, 104&#xA;  orig: 63, 104&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_dust&#xA;  rotate: true&#xA;  xy: 375, 163&#xA;  size: 251, 225&#xA;  orig: 251, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face2&#xA;  rotate: true&#xA;  xy: 2, 2&#xA;  size: 338, 371&#xA;  orig: 338, 371&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face2_d&#xA;  rotate: true&#xA;  xy: 2, 394&#xA;  size: 338, 371&#xA;  orig: 338, 371&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f0&#xA;  rotate: false&#xA;  xy: 958, 190&#xA;  size: 64, 71&#xA;  orig: 64, 71&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f0_d&#xA;  rotate: false&#xA;  xy: 958, 117&#xA;  size: 64, 71&#xA;  orig: 64, 71&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear1&#xA;  rotate: false&#xA;  xy: 602, 3&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t1&#xA;  rotate: false&#xA;  xy: 608, 680&#xA;  size: 412, 336&#xA;  orig: 412, 336&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t1_d&#xA;  rotate: false&#xA;  xy: 605, 342&#xA;  size: 412, 336&#xA;  orig: 412, 336&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t3_d&#xA;  rotate: false&#xA;  xy: 375, 416&#xA;  size: 227, 126&#xA;  orig: 227, 126&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t0&#xA;  rotate: true&#xA;  xy: 375, 639&#xA;  size: 93, 148&#xA;  orig: 93, 148&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t0_d&#xA;  rotate: true&#xA;  xy: 375, 544&#xA;  size: 93, 148&#xA;  orig: 93, 148&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_2&#xA;  rotate: true&#xA;  xy: 525, 544&#xA;  size: 356, 78&#xA;  orig: 356, 78&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body8.png&#xA;size: 1024,1023&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_r1&#xA;  rotate: false&#xA;  xy: 2, 7&#xA;  size: 209, 87&#xA;  orig: 209, 87&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r1b&#xA;  rotate: false&#xA;  xy: 213, 7&#xA;  size: 209, 87&#xA;  orig: 209, 87&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_r1c&#xA;  rotate: false&#xA;  xy: 424, 7&#xA;  size: 209, 87&#xA;  orig: 209, 87&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0002_13&#xA;  rotate: true&#xA;  xy: 974, 52&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0010_11&#xA;  rotate: false&#xA;  xy: 850, 799&#xA;  size: 170, 102&#xA;  orig: 170, 102&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0026_3&#xA;  rotate: true&#xA;  xy: 847, 441&#xA;  size: 77, 106&#xA;  orig: 77, 106&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0004_-&#xA;  rotate: true&#xA;  xy: 674, 384&#xA;  size: 54, 62&#xA;  orig: 54, 62&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke0&#xA;  rotate: true&#xA;  xy: 741, 2&#xA;  size: 252, 231&#xA;  orig: 252, 231&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0002_30&#xA;  rotate: true&#xA;  xy: 678, 618&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0003_29&#xA;  rotate: true&#xA;  xy: 678, 440&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0005_Frame-53&#xA;  rotate: false&#xA;  xy: 2, 796&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0006_Frame-51&#xA;  rotate: false&#xA;  xy: 426, 796&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0007_Frame-49&#xA;  rotate: true&#xA;  xy: 2, 96&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0008_Frame-47&#xA;  rotate: true&#xA;  xy: 229, 96&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0002&#xA;  rotate: false&#xA;  xy: 456, 383&#xA;  size: 216, 135&#xA;  orig: 216, 135&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0003&#xA;  rotate: true&#xA;  xy: 456, 97&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face0&#xA;  rotate: false&#xA;  xy: 2, 520&#xA;  size: 336, 274&#xA;  orig: 336, 274&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face0_d&#xA;  rotate: false&#xA;  xy: 340, 520&#xA;  size: 336, 274&#xA;  orig: 336, 274&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f0&#xA;  rotate: true&#xA;  xy: 741, 321&#xA;  size: 63, 72&#xA;  orig: 63, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_l0_f0_d&#xA;  rotate: true&#xA;  xy: 741, 256&#xA;  size: 63, 72&#xA;  orig: 63, 72&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r1&#xA;  rotate: false&#xA;  xy: 815, 296&#xA;  size: 207, 142&#xA;  orig: 207, 142&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r3&#xA;  rotate: false&#xA;  xy: 850, 903&#xA;  size: 170, 118&#xA;  orig: 170, 118&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r3_f0&#xA;  rotate: false&#xA;  xy: 955, 441&#xA;  size: 65, 77&#xA;  orig: 65, 77&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r3_f1&#xA;  rotate: false&#xA;  xy: 635, 38&#xA;  size: 99, 57&#xA;  orig: 99, 57&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r3_f2&#xA;  rotate: true&#xA;  xy: 738, 386&#xA;  size: 52, 75&#xA;  orig: 52, 75&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t1_d&#xA;  rotate: true&#xA;  xy: 850, 520&#xA;  size: 277, 168&#xA;  orig: 277, 168&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body9.png&#xA;size: 1024,1023&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_assult/eff_assult_0000s_0003_12&#xA;  rotate: false&#xA;  xy: 720, 3&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0005_b14&#xA;  rotate: true&#xA;  xy: 910, 118&#xA;  size: 191, 107&#xA;  orig: 191, 107&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0011_b11&#xA;  rotate: true&#xA;  xy: 910, 311&#xA;  size: 245, 108&#xA;  orig: 245, 108&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0017_b8&#xA;  rotate: true&#xA;  xy: 2, 667&#xA;  size: 127, 60&#xA;  orig: 127, 60&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0022_5&#xA;  rotate: true&#xA;  xy: 276, 687&#xA;  size: 107, 137&#xA;  orig: 107, 137&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0025_b4&#xA;  rotate: true&#xA;  xy: 223, 677&#xA;  size: 117, 51&#xA;  orig: 117, 51&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0004_31&#xA;  rotate: true&#xA;  xy: 188, 8&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0005_30&#xA;  rotate: true&#xA;  xy: 454, 8&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0000_-&#xA;  rotate: true&#xA;  xy: 910, 558&#xA;  size: 107, 110&#xA;  orig: 107, 110&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_head_gear_particle_0007_-&#xA;  rotate: false&#xA;  xy: 964, 45&#xA;  size: 58, 71&#xA;  orig: 58, 71&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke3&#xA;  rotate: true&#xA;  xy: 2, 2&#xA;  size: 239, 184&#xA;  orig: 239, 184&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke6&#xA;  rotate: false&#xA;  xy: 64, 676&#xA;  size: 157, 118&#xA;  orig: 157, 118&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0004_28&#xA;  rotate: true&#xA;  xy: 850, 845&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0005_27&#xA;  rotate: true&#xA;  xy: 850, 667&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0009_Frame-45&#xA;  rotate: false&#xA;  xy: 2, 796&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0010_Frame-43&#xA;  rotate: false&#xA;  xy: 426, 796&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0011_Frame-41&#xA;  rotate: true&#xA;  xy: 2, 243&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0012_Frame-39&#xA;  rotate: true&#xA;  xy: 229, 243&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0013_Frame-37&#xA;  rotate: true&#xA;  xy: 456, 243&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0014_Frame-35&#xA;  rotate: true&#xA;  xy: 683, 243&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0000&#xA;  rotate: false&#xA;  xy: 647, 707&#xA;  size: 201, 87&#xA;  orig: 201, 87&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0000_9&#xA;  rotate: true&#xA;  xy: 720, 48&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t3&#xA;  rotate: false&#xA;  xy: 415, 688&#xA;  size: 230, 106&#xA;  orig: 230, 106&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body10.png&#xA;size: 1022,1017&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_crash/eff_crash_0009_b12&#xA;  rotate: false&#xA;  xy: 494, 690&#xA;  size: 150, 98&#xA;  orig: 150, 98&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0019_b7&#xA;  rotate: false&#xA;  xy: 646, 693&#xA;  size: 143, 95&#xA;  orig: 143, 95&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0006_29&#xA;  rotate: true&#xA;  xy: 2, 2&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0007_28&#xA;  rotate: true&#xA;  xy: 268, 2&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke1&#xA;  rotate: false&#xA;  xy: 362, 688&#xA;  size: 130, 100&#xA;  orig: 130, 100&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0006_26&#xA;  rotate: true&#xA;  xy: 850, 839&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0007_25&#xA;  rotate: true&#xA;  xy: 850, 661&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0015_Frame-33&#xA;  rotate: false&#xA;  xy: 2, 790&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0016_Frame-31&#xA;  rotate: false&#xA;  xy: 426, 790&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0017_Frame-29&#xA;  rotate: true&#xA;  xy: 2, 237&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0018_Frame-27&#xA;  rotate: true&#xA;  xy: 229, 237&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0019_Frame-25&#xA;  rotate: true&#xA;  xy: 456, 237&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face0a&#xA;  rotate: false&#xA;  xy: 683, 29&#xA;  size: 336, 274&#xA;  orig: 336, 274&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f2&#xA;  rotate: false&#xA;  xy: 791, 704&#xA;  size: 51, 84&#xA;  orig: 51, 84&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear2&#xA;  rotate: true&#xA;  xy: 683, 305&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t4&#xA;  rotate: false&#xA;  xy: 234, 682&#xA;  size: 62, 106&#xA;  orig: 62, 106&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t4_d&#xA;  rotate: false&#xA;  xy: 298, 682&#xA;  size: 62, 106&#xA;  orig: 62, 106&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t3_d&#xA;  rotate: false&#xA;  xy: 2, 682&#xA;  size: 230, 106&#xA;  orig: 230, 106&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_0&#xA;  rotate: false&#xA;  xy: 534, 134&#xA;  size: 147, 101&#xA;  orig: 147, 101&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_0_d&#xA;  rotate: false&#xA;  xy: 534, 31&#xA;  size: 147, 101&#xA;  orig: 147, 101&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body11.png&#xA;size: 995,1006&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_assult/eff_assult_0000s_0004_11&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0005_10&#xA;  rotate: false&#xA;  xy: 246, 2&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0006_9&#xA;  rotate: false&#xA;  xy: 490, 2&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0007_8&#xA;  rotate: false&#xA;  xy: 734, 2&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0020_Frame-23&#xA;  rotate: false&#xA;  xy: 2, 47&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0021_Frame-21&#xA;  rotate: false&#xA;  xy: 426, 47&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0008&#xA;  rotate: true&#xA;  xy: 804, 301&#xA;  size: 290, 180&#xA;  orig: 290, 180&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (03)&#xA;  rotate: false&#xA;  xy: 2, 640&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (04)&#xA;  rotate: false&#xA;  xy: 2, 274&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (05)&#xA;  rotate: false&#xA;  xy: 403, 640&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (06)&#xA;  rotate: false&#xA;  xy: 403, 274&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0002_spark&#xA;  rotate: true&#xA;  xy: 804, 593&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t5&#xA;  rotate: true&#xA;  xy: 850, 48&#xA;  size: 251, 143&#xA;  orig: 251, 143&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body12.png&#xA;size: 1020,1024&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_assult/eff_assult_0000s_0008_7&#xA;  rotate: false&#xA;  xy: 2, 20&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0009_6&#xA;  rotate: true&#xA;  xy: 930, 116&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0010_5&#xA;  rotate: false&#xA;  xy: 246, 20&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0011_4&#xA;  rotate: false&#xA;  xy: 490, 20&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0012_3&#xA;  rotate: true&#xA;  xy: 975, 116&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_headgear_break_light&#xA;  rotate: true&#xA;  xy: 804, 360&#xA;  size: 249, 184&#xA;  orig: 249, 184&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0022_Frame-19&#xA;  rotate: false&#xA;  xy: 2, 65&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0023_Frame-17&#xA;  rotate: false&#xA;  xy: 426, 65&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (07)&#xA;  rotate: false&#xA;  xy: 2, 658&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (08)&#xA;  rotate: false&#xA;  xy: 2, 292&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (09)&#xA;  rotate: false&#xA;  xy: 403, 658&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (10)&#xA;  rotate: false&#xA;  xy: 403, 292&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0003_spark&#xA;  rotate: true&#xA;  xy: 804, 611&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;hand_r0_f2_d&#xA;  rotate: false&#xA;  xy: 930, 30&#xA;  size: 51, 84&#xA;  orig: 51, 84&#xA;  offset: 0, 0&#xA;  index: -1&#xA;tail_2_d&#xA;  rotate: true&#xA;  xy: 850, 2&#xA;  size: 356, 78&#xA;  orig: 356, 78&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body13.png&#xA;size: 993,1021&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_l0&#xA;  rotate: false&#xA;  xy: 759, 363&#xA;  size: 232, 232&#xA;  orig: 232, 232&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0013_2&#xA;  rotate: false&#xA;  xy: 2, 17&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0024_Frame-15&#xA;  rotate: true&#xA;  xy: 759, 597&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0025_Frame-13&#xA;  rotate: false&#xA;  xy: 2, 62&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (11)&#xA;  rotate: false&#xA;  xy: 2, 655&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_shout/eff_shout (12)&#xA;  rotate: false&#xA;  xy: 2, 289&#xA;  size: 399, 364&#xA;  orig: 399, 364&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear3&#xA;  rotate: false&#xA;  xy: 403, 682&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear4&#xA;  rotate: false&#xA;  xy: 403, 343&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_gear_d&#xA;  rotate: false&#xA;  xy: 426, 4&#xA;  size: 354, 337&#xA;  orig: 354, 337&#xA;  offset: 0, 0&#xA;  index: -1&#xA;head_t2_d&#xA;  rotate: true&#xA;  xy: 782, 2&#xA;  size: 359, 209&#xA;  orig: 359, 209&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body14.png&#xA;size: 1022,1020&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_r1c_d&#xA;  rotate: false&#xA;  xy: 255, 2&#xA;  size: 209, 87&#xA;  orig: 209, 87&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0014_1&#xA;  rotate: true&#xA;  xy: 977, 15&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_assult/eff_assult_0000s_0015_0&#xA;  rotate: false&#xA;  xy: 2, 31&#xA;  size: 242, 43&#xA;  orig: 242, 43&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0006_13&#xA;  rotate: false&#xA;  xy: 466, 5&#xA;  size: 156, 84&#xA;  orig: 156, 84&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0008_27&#xA;  rotate: true&#xA;  xy: 711, 24&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0026_Frame-11&#xA;  rotate: false&#xA;  xy: 2, 793&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0027_Frame-9&#xA;  rotate: false&#xA;  xy: 287, 318&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0028_Frame-7&#xA;  rotate: false&#xA;  xy: 287, 91&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0004&#xA;  rotate: true&#xA;  xy: 426, 734&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0005&#xA;  rotate: true&#xA;  xy: 2, 507&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0006&#xA;  rotate: true&#xA;  xy: 2, 221&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0007&#xA;  rotate: false&#xA;  xy: 711, 735&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0008&#xA;  rotate: true&#xA;  xy: 711, 259&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0001_8&#xA;  rotate: false&#xA;  xy: 425, 545&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0002_7&#xA;  rotate: false&#xA;  xy: 620, 545&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0003_6&#xA;  rotate: false&#xA;  xy: 815, 546&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t2_d&#xA;  rotate: true&#xA;  xy: 287, 545&#xA;  size: 246, 136&#xA;  orig: 246, 136&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t5_d&#xA;  rotate: false&#xA;  xy: 2, 76&#xA;  size: 251, 143&#xA;  orig: 251, 143&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body15.png&#xA;size: 1022,1022&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_l1b&#xA;  rotate: false&#xA;  xy: 423, 580&#xA;  size: 177, 154&#xA;  orig: 177, 154&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_l1c&#xA;  rotate: false&#xA;  xy: 602, 580&#xA;  size: 177, 154&#xA;  orig: 177, 154&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_l1c_d&#xA;  rotate: false&#xA;  xy: 180, 6&#xA;  size: 177, 154&#xA;  orig: 177, 154&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_0030_1&#xA;  rotate: true&#xA;  xy: 711, 873&#xA;  size: 147, 66&#xA;  orig: 147, 66&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0008_24&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0029_Frame-5&#xA;  rotate: false&#xA;  xy: 2, 795&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0030_Frame-3&#xA;  rotate: false&#xA;  xy: 287, 353&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_particle/eff_particle_0000s_0031_Frame-1&#xA;  rotate: true&#xA;  xy: 781, 598&#xA;  size: 422, 225&#xA;  orig: 422, 225&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0003&#xA;  rotate: true&#xA;  xy: 287, 580&#xA;  size: 213, 134&#xA;  orig: 213, 134&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0007&#xA;  rotate: false&#xA;  xy: 691, 61&#xA;  size: 329, 179&#xA;  orig: 329, 179&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0009&#xA;  rotate: true&#xA;  xy: 426, 736&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press_new2/eff_press_0010&#xA;  rotate: true&#xA;  xy: 2, 509&#xA;  size: 284, 283&#xA;  orig: 284, 283&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0004_spark&#xA;  rotate: false&#xA;  xy: 278, 162&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face0b&#xA;  rotate: true&#xA;  xy: 2, 171&#xA;  size: 336, 274&#xA;  orig: 336, 274&#xA;  offset: 0, 0&#xA;  index: -1&#xA;face0c&#xA;  rotate: true&#xA;  xy: 711, 242&#xA;  size: 336, 274&#xA;  orig: 336, 274&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t4&#xA;  rotate: false&#xA;  xy: 359, 14&#xA;  size: 319, 146&#xA;  orig: 319, 146&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body16.png&#xA;size: 1019,1019&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_die/eff_die_breakhead (1)&#xA;  rotate: false&#xA;  xy: 681, 100&#xA;  size: 82, 153&#xA;  orig: 82, 153&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0009_26&#xA;  rotate: true&#xA;  xy: 415, 20&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0001_31&#xA;  rotate: false&#xA;  xy: 765, 8&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0005_spark&#xA;  rotate: false&#xA;  xy: 2, 828&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0006_dust&#xA;  rotate: false&#xA;  xy: 415, 828&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0007_dust&#xA;  rotate: true&#xA;  xy: 828, 606&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0008_dust&#xA;  rotate: true&#xA;  xy: 2, 193&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0009_dust&#xA;  rotate: false&#xA;  xy: 2, 637&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0010_dust&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0011_dust&#xA;  rotate: true&#xA;  xy: 193, 224&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0012_dust&#xA;  rotate: false&#xA;  xy: 384, 446&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0013_dust&#xA;  rotate: false&#xA;  xy: 415, 637&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0014_dust&#xA;  rotate: true&#xA;  xy: 797, 193&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0015_dust&#xA;  rotate: false&#xA;  xy: 384, 255&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body17.png&#xA;size: 1020,1011&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_crash/eff_crash_body&#xA;  rotate: false&#xA;  xy: 828, 2&#xA;  size: 190, 181&#xA;  orig: 190, 181&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0016_dust&#xA;  rotate: false&#xA;  xy: 2, 820&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0017_trail&#xA;  rotate: false&#xA;  xy: 2, 629&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0018_trail&#xA;  rotate: false&#xA;  xy: 415, 820&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0019_trail&#xA;  rotate: false&#xA;  xy: 2, 438&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0020_trail&#xA;  rotate: false&#xA;  xy: 415, 629&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0021_trail&#xA;  rotate: false&#xA;  xy: 2, 247&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0022_stone&#xA;  rotate: false&#xA;  xy: 415, 438&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0023_stone&#xA;  rotate: true&#xA;  xy: 828, 598&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0024_stone&#xA;  rotate: false&#xA;  xy: 2, 56&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0025_stone&#xA;  rotate: false&#xA;  xy: 415, 247&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0026_stone&#xA;  rotate: false&#xA;  xy: 415, 56&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0027_stone&#xA;  rotate: true&#xA;  xy: 828, 185&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body18.png&#xA;size: 1004,1018&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_die/eff_die_girl_0000s_0010_25&#xA;  rotate: true&#xA;  xy: 2, 592&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0011_24&#xA;  rotate: true&#xA;  xy: 268, 592&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0012_23&#xA;  rotate: true&#xA;  xy: 534, 592&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0013_22&#xA;  rotate: false&#xA;  xy: 2, 187&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0014_21&#xA;  rotate: false&#xA;  xy: 237, 194&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0015_20&#xA;  rotate: true&#xA;  xy: 472, 357&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0016_19&#xA;  rotate: true&#xA;  xy: 738, 218&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_smoke2&#xA;  rotate: false&#xA;  xy: 472, 218&#xA;  size: 178, 137&#xA;  orig: 178, 137&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0002_30&#xA;  rotate: true&#xA;  xy: 800, 453&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0003_29&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0004_28&#xA;  rotate: false&#xA;  xy: 246, 9&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0005_27&#xA;  rotate: false&#xA;  xy: 490, 33&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0006_26&#xA;  rotate: false&#xA;  xy: 734, 33&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0004&#xA;  rotate: false&#xA;  xy: 2, 460&#xA;  size: 208, 130&#xA;  orig: 208, 130&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_press/eff_press_0005&#xA;  rotate: false&#xA;  xy: 212, 460&#xA;  size: 201, 130&#xA;  orig: 201, 130&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0028_stone&#xA;  rotate: false&#xA;  xy: 2, 827&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_swing/eff_swing_0029_stone&#xA;  rotate: false&#xA;  xy: 415, 827&#xA;  size: 411, 189&#xA;  orig: 411, 189&#xA;  offset: 0, 0&#xA;  index: -1&#xA;shoulder_t4_d&#xA;  rotate: true&#xA;  xy: 828, 697&#xA;  size: 319, 146&#xA;  orig: 319, 146&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body19.png&#xA;size: 1013,1004&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_die/eff_die_girl_0000s_0017_18&#xA;  rotate: false&#xA;  xy: 2, 738&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0018_17&#xA;  rotate: true&#xA;  xy: 2, 503&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0019_16&#xA;  rotate: true&#xA;  xy: 237, 769&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0020_15&#xA;  rotate: false&#xA;  xy: 268, 503&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0021_14&#xA;  rotate: true&#xA;  xy: 2, 268&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0022_13&#xA;  rotate: true&#xA;  xy: 268, 268&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0023_12&#xA;  rotate: true&#xA;  xy: 503, 769&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0024_11&#xA;  rotate: true&#xA;  xy: 503, 534&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0025_10&#xA;  rotate: false&#xA;  xy: 534, 268&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0026_9&#xA;  rotate: false&#xA;  xy: 769, 738&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0027_8&#xA;  rotate: false&#xA;  xy: 769, 472&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0028_7&#xA;  rotate: false&#xA;  xy: 769, 206&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0029_6&#xA;  rotate: true&#xA;  xy: 2, 33&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0030_5&#xA;  rotate: true&#xA;  xy: 268, 33&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0031_4&#xA;  rotate: false&#xA;  xy: 534, 2&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0007_25&#xA;  rotate: false&#xA;  xy: 769, 21&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0023_9&#xA;  rotate: false&#xA;  xy: 769, 21&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body20.png&#xA;size: 960,985&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;arm_l0a&#xA;  rotate: false&#xA;  xy: 237, 485&#xA;  size: 232, 232&#xA;  orig: 232, 232&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_l0b&#xA;  rotate: false&#xA;  xy: 472, 751&#xA;  size: 232, 232&#xA;  orig: 232, 232&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_l0c&#xA;  rotate: false&#xA;  xy: 237, 251&#xA;  size: 232, 232&#xA;  orig: 232, 232&#xA;  offset: 0, 0&#xA;  index: -1&#xA;arm_l0c_d&#xA;  rotate: false&#xA;  xy: 706, 751&#xA;  size: 232, 232&#xA;  orig: 232, 232&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_crash/eff_crash_body2&#xA;  rotate: false&#xA;  xy: 246, 25&#xA;  size: 224, 224&#xA;  orig: 224, 224&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0032_3&#xA;  rotate: false&#xA;  xy: 2, 719&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0033_2&#xA;  rotate: false&#xA;  xy: 2, 453&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0034_1&#xA;  rotate: false&#xA;  xy: 237, 719&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_die/eff_die_girl_0000s_0035_0&#xA;  rotate: false&#xA;  xy: 2, 187&#xA;  size: 233, 264&#xA;  orig: 233, 264&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0008_24&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0009_23&#xA;  rotate: false&#xA;  xy: 472, 566&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0011_21&#xA;  rotate: false&#xA;  xy: 471, 381&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0012_20&#xA;  rotate: false&#xA;  xy: 716, 566&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0013_19&#xA;  rotate: false&#xA;  xy: 715, 381&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0014_18&#xA;  rotate: false&#xA;  xy: 472, 196&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0015_17&#xA;  rotate: false&#xA;  xy: 716, 196&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0016_16&#xA;  rotate: false&#xA;  xy: 472, 11&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0017_15&#xA;  rotate: false&#xA;  xy: 716, 11&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body21.png&#xA;size: 1007,1006&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_crash/eff_crash_0000_16&#xA;  rotate: false&#xA;  xy: 860, 188&#xA;  size: 145, 150&#xA;  orig: 145, 150&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0009_23&#xA;  rotate: true&#xA;  xy: 431, 9&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0010_22&#xA;  rotate: true&#xA;  xy: 809, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0018_14&#xA;  rotate: false&#xA;  xy: 2, 821&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0019_13&#xA;  rotate: false&#xA;  xy: 191, 626&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0020_12&#xA;  rotate: false&#xA;  xy: 380, 431&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0021_11&#xA;  rotate: true&#xA;  xy: 624, 762&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0022_10&#xA;  rotate: true&#xA;  xy: 624, 518&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0024_8&#xA;  rotate: true&#xA;  xy: 624, 274&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0025_7&#xA;  rotate: false&#xA;  xy: 2, 246&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0026_6&#xA;  rotate: true&#xA;  xy: 246, 187&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0027_5&#xA;  rotate: true&#xA;  xy: 2, 2&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0028_4&#xA;  rotate: true&#xA;  xy: 431, 187&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0029_3&#xA;  rotate: false&#xA;  xy: 616, 89&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0030_2&#xA;  rotate: false&#xA;  xy: 187, 2&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0031_1&#xA;  rotate: true&#xA;  xy: 809, 762&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_more_0000s_0032_0&#xA;  rotate: true&#xA;  xy: 809, 518&#xA;  size: 242, 183&#xA;  orig: 242, 183&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0004_5&#xA;  rotate: true&#xA;  xy: 246, 811&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0005_4&#xA;  rotate: true&#xA;  xy: 2, 626&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0006_3&#xA;  rotate: true&#xA;  xy: 435, 811&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0007_2&#xA;  rotate: true&#xA;  xy: 435, 616&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0008_1&#xA;  rotate: true&#xA;  xy: 2, 431&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;girl/girl_0009_0&#xA;  rotate: true&#xA;  xy: 191, 431&#xA;  size: 193, 187&#xA;  orig: 193, 187&#xA;  offset: 0, 0&#xA;  index: -1&#xA;&#xA;boss_normal_body22.png&#xA;size: 892,847&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;eff_gross_pink/eff_gross_pink_0011_21&#xA;  rotate: false&#xA;  xy: 2, 678&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0012_20&#xA;  rotate: false&#xA;  xy: 2, 509&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0013_19&#xA;  rotate: false&#xA;  xy: 180, 678&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0014_18&#xA;  rotate: false&#xA;  xy: 2, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0015_17&#xA;  rotate: false&#xA;  xy: 180, 509&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0016_16&#xA;  rotate: false&#xA;  xy: 358, 678&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0017_15&#xA;  rotate: false&#xA;  xy: 2, 171&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0018_14&#xA;  rotate: false&#xA;  xy: 180, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0019_13&#xA;  rotate: false&#xA;  xy: 358, 509&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0020_12&#xA;  rotate: false&#xA;  xy: 536, 678&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0021_11&#xA;  rotate: false&#xA;  xy: 714, 678&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0022_10&#xA;  rotate: false&#xA;  xy: 2, 2&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0023_9&#xA;  rotate: false&#xA;  xy: 180, 171&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0024_8&#xA;  rotate: false&#xA;  xy: 358, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0025_7&#xA;  rotate: false&#xA;  xy: 536, 509&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0026_6&#xA;  rotate: false&#xA;  xy: 714, 509&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0027_5&#xA;  rotate: false&#xA;  xy: 180, 2&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0028_4&#xA;  rotate: false&#xA;  xy: 358, 171&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0029_3&#xA;  rotate: false&#xA;  xy: 536, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0030_2&#xA;  rotate: false&#xA;  xy: 714, 340&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0031_1&#xA;  rotate: false&#xA;  xy: 358, 2&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;eff_gross_pink/eff_gross_pink_0032_0&#xA;  rotate: false&#xA;  xy: 536, 171&#xA;  size: 176, 167&#xA;  orig: 176, 167&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+    <sound name="9402278" />
+</imgdir>

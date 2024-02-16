@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="558.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Hunt Monsters] Will the Hunter Become the Hunted?" />
+        <string name="desc" value="Eliminate 3,000 monsters near your level on one map, without ever getting hit" />
+        <string name="keyword" value="Defeat monsters without getting hit" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="mob_kill" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Eliminate 3,000 monsters near your level on one map, without ever getting hit" />
+            <imgdir name="subMission">
+                <imgdir name="mob_kill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="3000" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="mob">
+                            <int name="mob_is_optimum" value="1" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="user_hit">
+                    <imgdir name="score">
+                        <int name="targetScore" value="0" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                        <string name="option" value="achievement_reset" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+                <imgdir name="field_leave">
+                    <imgdir name="score">
+                        <int name="targetScore" value="0" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                        <string name="option" value="achievement_reset" />
+                    </imgdir>
+                    <imgdir name="checkValue" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

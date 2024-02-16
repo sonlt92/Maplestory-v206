@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="UIBattlePvP.img">
+    <imgdir name="BattleStatCoreBar">
+        <imgdir name="info" />
+        <canvas name="disable" width="50" height="50">
+            <vector name="origin" x="16" y="16" />
+            <int name="z" value="0" />
+            <string name="_hash" value="b2c7ad0b80a67c9921a90a4eb5296a22912eb3e2614f7372133bc24bba91a827" />
+        </canvas>
+        <canvas name="back" width="237" height="46">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-4" />
+            <string name="_hash" value="c4cd6c0e63a334daff624a38ae6161cdcdd9b02203f5f1e7d39f19901fa68c5b" />
+        </canvas>
+        <canvas name="key" width="154" height="9">
+            <vector name="origin" x="-71" y="-29" />
+            <int name="z" value="3" />
+            <string name="_hash" value="a3cccf41dc220a7b28208cae8fc901923dd05f453593f956faac5c6cdd016fed" />
+        </canvas>
+        <imgdir name="1">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9cd628911d8337c34ef2c617c2139791536b9398771c8a3b10c1eee7716ea230" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +#c2%#\nCost: #c540#" />
+            <string name="cost" value="Cost: 540" />
+            <string name="option" value="Effect: ATT +2%" />
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="24424d4ecc5ce05831eb5330b30b014e321cb78b8ed2d768923f0e0f5ac1d58b" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +#c5%#\nCost: #c990#" />
+            <string name="cost" value="Cost: 990" />
+            <string name="option" value="Effect: ATT 5%" />
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="647c7b5675637348ddc2043d7c48b85a5a29e193ee378c357727a0b0ec915a0c" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +#c10%#\nCost: #c1620#" />
+            <string name="cost" value="Cost: 1620" />
+            <string name="option" value="Effect: ATT 10%" />
+        </imgdir>
+        <imgdir name="4">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="b225c781f5281bfff96390bc7fc5e37b12f55f358d6c34261a931991c396569c" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +#c15%#\nCost: #c2340#" />
+            <string name="cost" value="Cost: 2340" />
+            <string name="option" value="Effect: ATT 15%" />
+        </imgdir>
+        <imgdir name="5">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="eb5d07fb20f45a12fee371f37dd704f02f33d3f78553c22d2903080930ab5c75" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +#c20%#\nCost: #c3300#" />
+            <string name="cost" value="Cost: 3300" />
+            <string name="option" value="Effect: ATT 20%" />
+        </imgdir>
+        <imgdir name="6">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-52" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9bca6d468bb927e59b6dea929e51da181f0d29acd96ad1d1fba87523dfe7403f" />
+            </canvas>
+            <string name="key" value="Q" />
+            <string name="toolTip" value="ATT +20%\nUpgrade Complete" />
+            <string name="cost" value="Complete" />
+            <string name="option" value="Complete" />
+        </imgdir>
+        <imgdir name="101">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ab75f6b199e8d6097e742a6959d6d3906596b50d051b73c3b5bdd5e67b6fb48b" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +#c2%# \nCost: #c540#" />
+            <string name="cost" value="Cost: 540" />
+            <string name="option" value="Effect: Max HP/MP +2%" />
+        </imgdir>
+        <imgdir name="102">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="92968aae0051f6d652892768942f6b76322f1a35a2adbff025f4fc877e34d7aa" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +#c7%# \nCost: #c990#" />
+            <string name="cost" value="Cost: 990" />
+            <string name="option" value="Effect: Max HP/MP 7%" />
+        </imgdir>
+        <imgdir name="103">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="f070cca9e15bdd985fbc78e2ad55e8677762e0efa1a6620e450d8188f63741ac" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +#c15%# \nCost: #c1620#" />
+            <string name="cost" value="Cost: 1620" />
+            <string name="option" value="Effect: Max HP/MP 15%" />
+        </imgdir>
+        <imgdir name="104">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="bbea53b806d7b921a8c57a112eb692358c71ffa9064b0da6e75238e23190adea" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +#c20%# \nCost: #c2340#" />
+            <string name="cost" value="Cost: 2340" />
+            <string name="option" value="Effect: Max HP/MP 20%" />
+        </imgdir>
+        <imgdir name="105">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="5f0a56c77bd6c1fec7ac705aadb3e174170bfa4d8753d3a9a92559e83ae7313c" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +#c30%# \nCost: #c3300#" />
+            <string name="cost" value="Cost: 3300" />
+            <string name="option" value="Effect: Max HP/MP 30%" />
+        </imgdir>
+        <imgdir name="106">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-88" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="24a24f2b658b9dc03c0ecab966f5d5e633cd958a3f9758008e440539787d82f1" />
+            </canvas>
+            <string name="key" value="W" />
+            <string name="toolTip" value="Max HP/MP +30%\nUpgrade Complete" />
+            <string name="cost" value="Complete" />
+            <string name="option" value="Complete" />
+        </imgdir>
+        <imgdir name="201">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="f4b9b0b3d685c600ed2d44e4372d199df5b16f5b841ba0370f3b81f1d3c231c9" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +#c3%#\nCost: #c540#" />
+            <string name="cost" value="Cost: 540" />
+            <string name="option" value="Effect: Critical Chance +3%" />
+        </imgdir>
+        <imgdir name="202">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="051a215b17ee9ba261cf47115b0b3815fa3f5ed32a1afe28602a404b3d500e2d" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +#c6%#\nCost: #c990#" />
+            <string name="cost" value="Cost: 990" />
+            <string name="option" value="Effect: Critical Chance 6%" />
+        </imgdir>
+        <imgdir name="203">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9f0a89a2e3a5813a274fb80e9fd72fc5e32c8f6031156aeee8f5ed36756c34f7" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +#c12%#\nCost: #c1620#" />
+            <string name="cost" value="Cost: 1620" />
+            <string name="option" value="Effect: Critical Chance 12%" />
+        </imgdir>
+        <imgdir name="204">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="29022b8a06d0042e5cc60310a0b7e00d842b3b42d4ac24b73791341138de209b" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +#c18%#\nCost: #c2340#" />
+            <string name="cost" value="Cost: 2340" />
+            <string name="option" value="Effect: Critical Chance 18%" />
+        </imgdir>
+        <imgdir name="205">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d27193f2d928c419f7f0ecb5bab0c84ee9b76f92e92f9b5fb4a48aade6bd9ff1" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +#c25%#\nCost: #c3300#" />
+            <string name="cost" value="Cost: 3300" />
+            <string name="option" value="Effect: Critical Chance 25%" />
+        </imgdir>
+        <imgdir name="206">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-124" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="63ba3f07825ffc0169c7c27555fb7bcef963392eba651aa6ddd74c99d0eba693" />
+            </canvas>
+            <string name="key" value="E" />
+            <string name="toolTip" value="Critical Chance +25%\nUpgrade Complete" />
+            <string name="cost" value="Complete" />
+            <string name="option" value="Complete" />
+        </imgdir>
+        <imgdir name="301">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9de8f9652fcf7755b567abdb7ce7a718168d4e582f6be77b31473a691a405bdf" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed #cStage 1#\nCost: #c540#" />
+            <string name="cost" value="Cost: 540" />
+            <string name="option" value="Effect: Attack Speed/Jump/Speed Stage 1" />
+        </imgdir>
+        <imgdir name="302">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="903f192591ba9ff067fe78f2bdf98bd222029707c83c2bbefddcc0b46b0ddda8" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed #cStage 2#\nCost: #c990#" />
+            <string name="cost" value="Cost: 990" />
+            <string name="option" value="Effect: Attack Speed/Jump/Speed Stage 2" />
+        </imgdir>
+        <imgdir name="303">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="78c05ca8de6777dc2902a04920ad4a391d94e2d91f842ace223d2f5231dc0b7f" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed #cStage 3#\nCost: #c1620#" />
+            <string name="cost" value="Cost: 1620" />
+            <string name="option" value="Effect: Attack Speed/Jump/Speed Stage 3" />
+        </imgdir>
+        <imgdir name="304">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="849f061d1de01949e10582b646bdaeb2fdb73a4c0a4b7172f92460c2ee41c42a" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed #cStage 4#\nCost: #c2340#" />
+            <string name="cost" value="Cost: 2340" />
+            <string name="option" value="Effect: Attack Speed/Jump/Speed Stage 4" />
+        </imgdir>
+        <imgdir name="305">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ac9c3a66c80cb7b92a830e309559a3d115b948fe4d0d78155383d9d97ad3b192" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed #cStage 5#\nCost: #c3300#" />
+            <string name="cost" value="Cost: 3300" />
+            <string name="option" value="Effect: Attack Speed/Jump/Speed Stage 5" />
+        </imgdir>
+        <imgdir name="306">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-160" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="8758b21f093fa2a9ef5be25d23a10914fe70a10ad92ece704255bde15c9d94c9" />
+            </canvas>
+            <string name="key" value="R" />
+            <string name="toolTip" value="Attack Speed/Jump/Speed Stage 5\nUpgrade Complete" />
+            <string name="cost" value="Complete" />
+            <string name="option" value="Complete" />
+        </imgdir>
+        <imgdir name="401">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c00a396ba0dad294f9c81335e433a2b88b692ebd1560a9e01e0d9632734e44a7" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery #cStage 1#\nCost: #c540#" />
+            <string name="cost" value="Cost: 540" />
+            <string name="option" value="Effect: HP/MP Recovery Stage 1" />
+        </imgdir>
+        <imgdir name="402">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="e7d1e495c65cfabdc73285f2190d2046653360ac808f4b058ba3673e6661aeec" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery #cStage 2#\nCost: #c990#" />
+            <string name="cost" value="Cost: 990" />
+            <string name="option" value="Effect: HP/MP Recovery Stage 2" />
+        </imgdir>
+        <imgdir name="403">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ed3f9d7b802ee0e66b66497759b6ecb9522af919a85aaefe9291372b646951ed" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery #cStage 3#\nCost: #c1620#" />
+            <string name="cost" value="Cost: 1620" />
+            <string name="option" value="Effect: HP/MP Recovery Stage 3" />
+        </imgdir>
+        <imgdir name="404">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="d4782d3c19405cbad99d96a12a70bc929d62774f19883ddeafbdec7c5151426c" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery #cStage 4#\nCost: #c2340#" />
+            <string name="cost" value="Cost: 2340" />
+            <string name="option" value="Effect: HP/MP Recovery Stage 4" />
+        </imgdir>
+        <imgdir name="405">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="217d083dc1292668631ae911a45daf40896c74599403fe9479c7b6ab27affb73" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery #cStage 5#\nCost: #c3300#" />
+            <string name="cost" value="Cost: 3300" />
+            <string name="option" value="Effect: HP/MP Recovery Stage 5" />
+        </imgdir>
+        <imgdir name="406">
+            <canvas name="0" width="32" height="32">
+                <vector name="origin" x="-196" y="-7" />
+                <int name="z" value="0" />
+                <string name="_hash" value="8bd3f5e837ab7ad8f33e1cc086e466aa6eeb3e94d5ffaa58d3b0354de9e6ad04" />
+            </canvas>
+            <string name="key" value="T" />
+            <string name="toolTip" value="HP/MP Recovery Stage 5\nUpgrade Complete" />
+            <string name="cost" value="Complete" />
+            <string name="option" value="Complete" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="BattleStatUI">
+        <canvas name="backgrnd" width="212" height="166">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="0" />
+            <string name="_hash" value="5fe0a8f8f977c948c47815a1a81aed134d6f7cb93561b5b9493ce92710ce8fc4" />
+        </canvas>
+    </imgdir>
+    <imgdir name="BattleBulletin">
+        <canvas name="backgrnd" width="210" height="222">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="0" />
+            <string name="_hash" value="be2c682477ee66c66a54edb73e9b83bef5a09a71b4ea5c55ff7c7b43af2b5bec" />
+        </canvas>
+    </imgdir>
+    <imgdir name="BattleAvatarSelect">
+        <canvas name="backgrnd" width="873" height="377">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="0" />
+            <string name="_hash" value="8633df6ef515bd325c593e8582ad36a53e6c145e1655f532c103d6f3fa5db9e8" />
+        </canvas>
+        <canvas name="backgrnd2" width="852" height="333">
+            <vector name="origin" x="-11" y="-23" />
+            <int name="z" value="1" />
+            <string name="_hash" value="f88980fe49104c6ce4ca783504ff43388514d370e697e1297b51faf91565e804" />
+        </canvas>
+        <imgdir name="backAnimation">
+            <canvas name="0" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="83b5232cd382e6fdb8588468a1962b25bd610a0cf44a1bf164429e210bf17884" />
+            </canvas>
+            <canvas name="1" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="65f15c41b6ba6d0642d1c2fd14b357a6aba25d936f2333e1ca1c3bd81ec111ad" />
+            </canvas>
+            <canvas name="2" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="747b3e4c99be7c8034e330fab76ad83948264fdd535d79d8ee0956dce8d84169" />
+            </canvas>
+            <canvas name="3" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="b0dc915da30f2333e8e97454e1186f693453488db15214c40fcd215f50d7f1a9" />
+            </canvas>
+            <canvas name="4" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="1e7e57b62f56692772ca1eb22ca60ca30df8c0e399c5aade17150bae29b1b790" />
+            </canvas>
+            <canvas name="5" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="c718982f97c0639b0f4ed43e1aca56ef994517825db3ba2e35bc1df4cc083e70" />
+            </canvas>
+            <canvas name="6" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="5e5bcbd1aecb86dfb6a2fc089c30b11c61383c02fcd51a53df126ac225a4c5fc" />
+            </canvas>
+            <canvas name="7" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="8a945b18646208334d78a2f53eb3c72623e7af1135a22aafaf4624008057e415" />
+            </canvas>
+            <canvas name="8" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="fa320318c7f1940ae81ad8e1328975b02c71c1bccd5df25c22d981a4a3fb613f" />
+            </canvas>
+            <canvas name="9" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="5181a880083d094753dd3431d31533b754132c5a2680e5150d9ce324e87bfbcd" />
+            </canvas>
+            <canvas name="10" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="b0e5dbccaf05d7d5635fd10f7e8f28807395e1a6bd6e872cd000bec08e4e2730" />
+            </canvas>
+            <canvas name="11" width="328" height="276">
+                <vector name="origin" x="-526" y="-70" />
+                <int name="z" value="6" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="78f4c9905a62820f7c995336abd5f4d80d244eb4f102c06339244df1fe7a681b" />
+            </canvas>
+        </imgdir>
+        <imgdir name="Avatar">
+            <canvas name="layer:lock" width="99" height="138">
+                <vector name="origin" x="-1" y="-2" />
+                <int name="z" value="2" />
+                <string name="_hash" value="d1c579ee8a11e6f60efaf8290ec955fb1860293bd58a3af2049f7af8d7b2fddf" />
+            </canvas>
+            <imgdir name="Avatar0">
+                <imgdir name="info">
+                    <string name="feature1" value="Slice the heavens," />
+                    <string name="feature2" value="sword master of Perion!" />
+                    <string name="skill1" value="Triple Slice" />
+                    <string name="skill2" value="Ankle Sweep" />
+                    <string name="skill3" value="Sky Splitter" />
+                    <string name="skill4" value="Heart of the Sword" />
+                </imgdir>
+                <canvas name="able" width="99" height="137">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6d201c67ac4b11f6d99e84c78dabd650103a40ad545fc02c5dcb0440ec64da3c" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8e91353f09878be779b222305d606bd0dd75c69b7778b456c25622ace9f06523" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="53c95fbadfe3e45c69abed618f44ae0918a5da68d172abcf4775c42baaf4d2c5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar1">
+                <imgdir name="info">
+                    <string name="feature1" value="Protect Victoria Island," />
+                    <string name="feature2" value="gatekeeper of good!" />
+                    <string name="skill1" value="Maul" />
+                    <string name="skill2" value="Iron Spirit" />
+                    <string name="skill3" value="Combat Shield" />
+                    <string name="skill4" value="Trumpet of Sacrifice" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="b469fe6aebfb3232bc60e42a03242eff8cbfac50b16260d0d90a971fa42b91a5" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8020ea21c01bef861c437288783c43de1baac51518ca6bb31705c562e1fa13a0" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d92b2273af0f91f9ef01f295285b0b39e64200e173866dddf1cea04cf64f4a99" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar2">
+                <imgdir name="info">
+                    <string name="feature1" value="Send foes to darkness," />
+                    <string name="feature2" value="mighty master of thieves!" />
+                    <string name="skill1" value="Dragon Poison" />
+                    <string name="skill2" value="Bat Grave" />
+                    <string name="skill3" value="Giant Shuriken" />
+                    <string name="skill4" value="Dark Wind" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="fd00481b6205199d518ae1973a8dd46a7d840a7ae42abf9072c109fe83fbdd64" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ac45503a605715938cfed6096388355c223cc9139fd844003c74db058bfe7a31" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2eb00f275457aa7776cc953c3fdb9f4dcd178c64e4a3957f44b7c3f40ee0e870" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar3">
+                <imgdir name="info">
+                    <string name="feature1" value="Leading his pupils to victory," />
+                    <string name="feature2" value="Ellinia's great magician!" />
+                    <string name="skill1" value="Ice Needle" />
+                    <string name="skill2" value="Healing Orb" />
+                    <string name="skill3" value="Ice Orb" />
+                    <string name="skill4" value="Doom Meteor" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="5d35a579c9efb6356d511f5b8939ccbb04aabe4f2e36c31778c71995b55d8fdf" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="a8e26fe30442f32d466feb371d4df8e6229b3a27832ca5d4085633e28ec3b2d5" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="3d6e9348bef249e69ef0ef3e61290f7ce3209a541619487ed45e571e21ee6073" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar4">
+                <imgdir name="info">
+                    <string name="feature1" value="Rising to the top," />
+                    <string name="feature2" value="Mu Lung's top fighter!" />
+                    <string name="skill1" value="One Ton Strike" />
+                    <string name="skill2" value="Whirlwind Kick" />
+                    <string name="skill3" value="Halfmoon Kick" />
+                    <string name="skill4" value="Panda Strike" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d7c7fdc3baa46a39ae6644253d7f9b97d2ec6d358898fde1c7ca513dd2116ddb" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ff3637a599b8455ba567e0b8941a1ee424d15208f75f9835d067a6deb5352b3a" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="13765bceb2dd890d2b2331755431f664f0e4fb0cfd208e7ddaa93a93274d1d0e" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar5">
+                <imgdir name="info">
+                    <string name="feature1" value="Piercing the heavens! " />
+                    <string name="feature2" value="Bowman Hero of Henesys!" />
+                    <string name="skill1" value="Windward" />
+                    <string name="skill2" value="Burning Salvo" />
+                    <string name="skill3" value="Ice Arrow" />
+                    <string name="skill4" value="Concentrated Fire" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="cf0f22ebe9153bf25130dfa548b52f5e8b467011560c906b331ac47704047110" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="5cc65e2cab506e274f471445ee4608a4ff470b51326b1feec5b46f93144cd4d3" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="26b7f33556b0f285c0027b1f09a074c25701334320a3e5cb210c9d6be9b3fadc" />
+                </canvas>
+                <canvas name="beforeStart" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e12b9897febf38c876d0b7f569db469e8df0d33aa113ca4fc086074fc7d63fe7" />
+                </canvas>
+                <canvas name="afterEnd" width="1" height="1">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="2" />
+                    <string name="_inlink" value="BattleAvatarSelect/Avatar/layer:lock" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar6">
+                <imgdir name="info">
+                    <string name="feature1" value="Wily spirit master! " />
+                    <string name="feature2" value="A paragon among foxes!" />
+                    <string name="skill1" value="Liver Circle Dance" />
+                    <string name="skill2" value="Fox Ridge Flash" />
+                    <string name="skill3" value="Shielding Spirit Ward" />
+                    <string name="skill4" value="Nine-Tailed Charm" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="b22b6cfeb40fd4d82864294d46f27dce6098a1c8e1dc44e2d0ed60ed35426ae7" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2358b4c35da30ea8086ab2595d22ab1655035558dcdbb76b8cb7606b445f1e49" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8fb976c2fbc86022348a24c846b4a08f067f8e8528dc272702d681c2e47347ae" />
+                </canvas>
+                <canvas name="beforeStart" width="1" height="1">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="BattleAvatarSelect/Avatar/Avatar5/beforeStart" />
+                </canvas>
+                <canvas name="afterEnd" width="1" height="1">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="2" />
+                    <string name="_inlink" value="BattleAvatarSelect/Avatar/layer:lock" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar7">
+                <imgdir name="info">
+                    <string name="feature1" value="이렇게 된 이상" />
+                    <string name="feature2" value=" 메이플로 간다" />
+                    <string name="skill1" value="와장창 퍽퍽" />
+                    <string name="skill2" value="갸아악 데굴데굴" />
+                    <string name="skill3" value="단도 만세" />
+                    <string name="skill4" value="그리고 세계는 멸망했다" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="a4f9a75aa5a6adf08db2c1871c286cefad113c9bf6019d2415b9aa04de527a8f" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ad71fcc78ebc602586de57204eb13f8dc9ff72a39ee644cdb3022b157baa6b76" />
+                </canvas>
+                <canvas name="select" width="101" height="143">
+                    <vector name="origin" x="0" y="4" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d6d7c99c10715a1d3755492318d7fb6360947537f89a27659d9ebca4d4702227" />
+                </canvas>
+                <canvas name="beforeStart" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="793335547fa28cbec208b4e171811cce11bb2edd2c127c2637bc724b8babf106" />
+                </canvas>
+                <canvas name="afterEnd" width="1" height="1">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="2" />
+                    <string name="_inlink" value="BattleAvatarSelect/Avatar/layer:lock" />
+                </canvas>
+                <int name="priority" value="3" />
+                <int name="new" value="1" />
+            </imgdir>
+            <imgdir name="Avatar8">
+                <imgdir name="info">
+                    <string name="feature1" value="The Forgotten" />
+                    <string name="feature2" value="Winter Bard" />
+                    <string name="skill1" value="Whoosh" />
+                    <string name="skill2" value="Transcendent's Blessing" />
+                    <string name="skill3" value="Requiem Sword" />
+                    <string name="skill4" value="Avalanche" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="30cd0d6b1ffcf131ee94bccdf39c2aaab036463e695969100edb7a04f5ba1016" />
+                </canvas>
+                <canvas name="disable" width="99" height="140">
+                    <vector name="origin" x="-1" y="1" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ffafa5f41bcfd91f149470ae0abdf17049ef7767e2b0e41ec16b8c843c4cb36c" />
+                </canvas>
+                <canvas name="select" width="102" height="142">
+                    <vector name="origin" x="1" y="2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="752947ffe158b2ac787ec0c4910278b554d929b54e93e12f04a0e9e28a90f76a" />
+                </canvas>
+            </imgdir>
+            <imgdir name="Avatar9">
+                <imgdir name="info">
+                    <string name="feature1" value="Unmapped Tower's" />
+                    <string name="feature2" value="Leaf Fairy" />
+                    <string name="skill1" value="Wonky Recharge" />
+                    <string name="skill2" value="Leaf Flurry" />
+                    <string name="skill3" value="Fairy Brilliance" />
+                    <string name="skill4" value="Wonky Bomb" />
+                </imgdir>
+                <canvas name="able" width="99" height="138">
+                    <vector name="origin" x="-1" y="-2" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="dfab85968c718a6b0c2359dbc618774aa4c6b96131eab83a10a2a91c01790ad0" />
+                </canvas>
+                <canvas name="disable" width="99" height="142">
+                    <vector name="origin" x="-1" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="42ca28e493442466eebc21c48fc43a5a49be2c3befe0347590852dfdd22a5c8a" />
+                </canvas>
+                <canvas name="select" width="103" height="144">
+                    <vector name="origin" x="0" y="3" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e5804f00319f904ad0193ae2ae9b5923196369910d52a887aec7abee7099a672" />
+                </canvas>
+                <int name="priority" value="3" />
+                <int name="new" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="Name">
+            <canvas name="Avatar0" width="71" height="31">
+                <vector name="origin" x="-580" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="11d7d959da70fff66f7b08d840877fac963448cb6390138d5afa5a6ca55e1bbe" />
+            </canvas>
+            <canvas name="Avatar1" width="62" height="27">
+                <vector name="origin" x="-585" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="800d13caf6310fbe481c3b126db34b8c9fad0a5d11a502440db0e89bc415ec40" />
+            </canvas>
+            <canvas name="Avatar2" width="126" height="27">
+                <vector name="origin" x="-552" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="6a2eb103a0d4753e64e104c4b7f1886a65ff84004dfea0b50d9a693f21d5d7bd" />
+            </canvas>
+            <canvas name="Avatar3" width="151" height="45">
+                <vector name="origin" x="-539" y="-301" />
+                <int name="z" value="9" />
+                <string name="_hash" value="413ce9250097ccac5e994f2efdbcaf5b127d1255c3e7252f7ac7640f1d98adb9" />
+            </canvas>
+            <canvas name="Avatar4" width="114" height="31">
+                <vector name="origin" x="-558" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="0e520aed1e16f4efd489c8e32950f009603db1719e88aeb562371240575717a5" />
+            </canvas>
+            <canvas name="Avatar5" width="154" height="27">
+                <vector name="origin" x="-538" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="27ce0dfa79bfdd3340d33d04b31fbf4f16b7b69c3bc93ce9a5f85aeb6f55bc1d" />
+            </canvas>
+            <canvas name="Avatar6" width="138" height="27">
+                <vector name="origin" x="-546" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="719bf1d8d3336da6c91378c868e7ba5cc4d1a8d7d320bc6bfa55632e58469896" />
+            </canvas>
+            <canvas name="Avatar7" width="83" height="38">
+                <vector name="origin" x="-572" y="-300" />
+                <int name="z" value="9" />
+                <string name="_hash" value="82d2fcf9993aec2bf6a856aa6727473c5ec6ef06fe1a4c2d07038d27e0f78b9a" />
+            </canvas>
+            <canvas name="Avatar8" width="83" height="31">
+                <vector name="origin" x="-574" y="-306" />
+                <int name="z" value="9" />
+                <string name="_hash" value="1783a315502967adc45665d259673d2fd26ccaca6eb32ecd202b3c3924917070" />
+            </canvas>
+            <canvas name="Avatar9" width="88" height="31">
+                <vector name="origin" x="-571" y="-306" />
+                <int name="z" value="10" />
+                <string name="_hash" value="95b9278d9a4935ccb0db0615a92c99d269ba4a6daa9184f05bf3199d7bcb5bd6" />
+            </canvas>
+        </imgdir>
+        <imgdir name="Notice">
+            <canvas name="0" width="158" height="7">
+                <vector name="origin" x="-589" y="-44" />
+                <int name="z" value="9" />
+                <int name="delay" value="2000" />
+                <string name="_hash" value="f1720d02e8d101aeb885ea5ebd9499846e6667a00171c9907af405909c7f094b" />
+            </canvas>
+            <canvas name="1" width="265" height="7">
+                <vector name="origin" x="-533" y="-43" />
+                <int name="z" value="9" />
+                <int name="delay" value="2000" />
+                <string name="_hash" value="e7ea7577d77fb56a30a5bee1654d9adfe093b8185fe88eb151d0c28e247dd8f6" />
+            </canvas>
+        </imgdir>
+        <imgdir name="button:Start">
+            <imgdir name="normal">
+                <canvas name="0" width="154" height="64">
+                    <vector name="origin" x="-695" y="-277" />
+                    <int name="z" value="9" />
+                    <string name="_hash" value="60f0798bdd3de45638f729b5ca5ee99bd9c99ccbb2bac3fef196fc9957c029e0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="154" height="64">
+                    <vector name="origin" x="-695" y="-277" />
+                    <int name="z" value="9" />
+                    <string name="_hash" value="cc9b59dc5c5a8927d25ac8b88cde2ebb769b868f09f4fbc3bb547082c706acd0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="154" height="64">
+                    <vector name="origin" x="-695" y="-277" />
+                    <int name="z" value="9" />
+                    <string name="_hash" value="f60351f6dc4bfa422b6d6251bcf93057fe2c5236c63b3140c8979f644f430ea7" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="154" height="64">
+                    <vector name="origin" x="-695" y="-277" />
+                    <int name="z" value="9" />
+                    <string name="_hash" value="00e16fb4e5ba76964cd5436eb970ed8523294c6b1a11e1a50c3420337d0e4b69" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="1900" />
+        </imgdir>
+        <imgdir name="New">
+            <canvas name="0" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="0bbdd5ec4f5bb610708c7afede4f0cf44fd7f83226627934b6e25577043024f9" />
+            </canvas>
+            <canvas name="1" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="b3b32e5246d1423648b3d93e97be84fe7f578526be2e9cacf15c8bd6459001c1" />
+            </canvas>
+            <canvas name="2" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="a6631f379af950dd788c55b11b7a40ba188ac79ef720e339913e12cd051e4a77" />
+            </canvas>
+            <canvas name="3" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="46f5051f28732c7dcaeda6b8631b5828497708c61937c43668a745def7b25561" />
+            </canvas>
+            <canvas name="4" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="be0c22371db07f953462ec5980539f109809d2326f9c9076bd91691d5ff7eceb" />
+            </canvas>
+            <canvas name="5" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="0ff26d65a7e8541fb495eb3ecd025bb5c26cfc6cd9c67de1ae1185c4ca7e60d9" />
+            </canvas>
+            <canvas name="6" width="26" height="24">
+                <vector name="origin" x="-11" y="-3" />
+                <int name="z" value="0" />
+                <string name="_hash" value="40507331fbd654d3f348d21d5406b54b3012a020602bea7c9a0bd877b5202e36" />
+            </canvas>
+        </imgdir>
+        <imgdir name="New1">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/0" />
+            </canvas>
+            <canvas name="1" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/1" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/2" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/3" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/4" />
+            </canvas>
+            <canvas name="5" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/5" />
+            </canvas>
+            <canvas name="6" width="1" height="1">
+                <vector name="origin" x="-11" y="-8" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="BattleAvatarSelect/New/6" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="BattleCoreTooltip">
+        <canvas name="0" width="265" height="170">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="0" />
+            <string name="_hash" value="8c9f27ab5badde2771670f791cce8ff88651c1194cc6da15e434e8f8a57477cb" />
+        </canvas>
+    </imgdir>
+</imgdir>

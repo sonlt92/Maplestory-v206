@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="624.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Multi KO] 1 Hit, 10 Deaths" />
+        <string name="desc" value="Achieve 10+ Multi KOs 1000 times" />
+        <int name="parentId" value="1384" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="multikill" />
+        </imgdir>
+        <string name="keyword" value="Achieve 10+ Multi KOs" />
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Achieve 10+ Multi KOs 1000 times" />
+            <imgdir name="subMission">
+                <imgdir name="multikill">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1000" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="multikill_count">
+                            <int name="min" value="10" />
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

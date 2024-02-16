@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960980.img">
+    <imgdir name="info">
+        <int name="grade" value="3" />
+        <int name="range" value="1300" />
+        <imgdir name="skill">
+            <int name="id" value="840" />
+            <int name="effectAfter" value="3600" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="264" height="244">
+            <vector name="origin" x="167" y="244" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-25" y="-157" />
+            <vector name="lt" x="-160" y="-226" />
+            <vector name="rb" x="92" y="-12" />
+            <string name="_hash" value="6d59028818ab71e8976fd5dcf9c339a9ab32931dcb9e8bfae9929711d4d1184c" />
+        </canvas>
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="attack">
+        <string name="link" value="attack1" />
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="attack1" />
+    </imgdir>
+    <imgdir name="FamiliarCardImg">
+        <canvas name="0" width="256" height="248">
+            <vector name="origin" x="161" y="242" />
+            <int name="z" value="0" />
+            <int name="delay" value="120" />
+            <vector name="head" x="-25" y="-157" />
+            <vector name="lt" x="-160" y="-226" />
+            <vector name="rb" x="92" y="-12" />
+            <string name="_hash" value="a3d5db7776a5cd68ec0e21d72b2fe37e59390e924f544a1e408c1f7ddc73d006" />
+        </canvas>
+    </imgdir>
+    <imgdir name="FamiliarCardPos">
+        <int name="x" value="0" />
+        <int name="y" value="0" />
+    </imgdir>
+</imgdir>

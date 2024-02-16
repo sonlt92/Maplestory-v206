@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="UIWindowGL.img">
+    <imgdir name="RewardSystem">
+        <canvas name="backgrnd" width="341" height="28">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="aa9e4ce34fabb42b9725252d1a9f965cb3b872f8c52a6114f6d25a306a31f8dd" />
+        </canvas>
+        <canvas name="backgrnd2" width="341" height="187">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="d08e9f1ae01881d270a8c6a26b141eef4d4ef1555238a0fa201e71a7184f5aa6" />
+        </canvas>
+        <canvas name="backgrnd3" width="341" height="13">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="64d5617e6d98c0eb74a5647ccc835d799b5e1c2810552638ea5419b5a68db3fa" />
+        </canvas>
+        <imgdir name="btClose">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-318" y="-5" />
+                    <string name="_hash" value="6e0656b2bfdce8790166d666ecfaff2b391b6ad6f655ec1d7544f43d3d7ea8aa" />
+                    <string name="_outlink" value="UI/Urus.img/enter/quickStart/BtClose/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-318" y="-5" />
+                    <string name="_hash" value="c8e960fb75c37301b81d8b78687b6beb3c1461aa215546d14facff5707faf201" />
+                    <string name="_outlink" value="UI/Urus.img/enter/quickStart/BtClose/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-318" y="-5" />
+                    <string name="_hash" value="2add57e4c9339f546675626f27d6a6a509106eedebf3d4b7d65a6a3117fdba89" />
+                    <string name="_outlink" value="UI/Urus.img/enter/quickStart/BtClose/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-318" y="-5" />
+                    <string name="_hash" value="98b3658001f31bda568b9b6b34c2952f38e38e266898944889e221c7eaabd429" />
+                    <string name="_outlink" value="UI/Urus.img/enter/quickStart/BtClose/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="rewardBox">
+            <canvas name="backgrnd" width="306" height="183">
+                <vector name="origin" x="-13" y="-34" />
+                <int name="z" value="-5" />
+                <string name="_hash" value="b0d91a1fa51fffdf988ed60959cf03aad060cd0d8cdd12e8c0af0382bf4e062b" />
+            </canvas>
+            <imgdir name="BtCancel">
+                <imgdir name="normal">
+                    <canvas name="0" width="44" height="16">
+                        <vector name="origin" x="-266" y="-191" />
+                        <string name="_hash" value="db4cc1a5330b45788311d010d73af3ccf950c492276c24d0fbf911d2007d30ab" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="44" height="16">
+                        <vector name="origin" x="-266" y="-191" />
+                        <string name="_hash" value="a102454ba05f178e86f9364f943cc525868dc84cc615d30ecbb2dc9ee64c8f3e" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="44" height="16">
+                        <vector name="origin" x="-266" y="-191" />
+                        <string name="_hash" value="b66e62778af07b412cd80be2de157a22e8c59676a7e2d38c8d73319a7e020c1e" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="44" height="16">
+                        <vector name="origin" x="-266" y="-191" />
+                        <string name="_hash" value="c75a3795c44b6f65460a29cb53c846b91a02d6efb97a0f6b87fa949c6c45fcde" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="BtOK">
+                <imgdir name="normal">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-220" y="-191" />
+                        <string name="_hash" value="e79f34c049d66d82777eb80ba9f9ef6d47ade5a22e10127d0d7455527b5e7294" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-220" y="-191" />
+                        <string name="_hash" value="ca449931132666bb59777443e82ee0b6efe102201247d9c93aa9be1cad793e72" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-220" y="-191" />
+                        <string name="_hash" value="8d179f473e1d89d36c4ae3a3e128210c4449323a3f05cb36602833b0273c6a31" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-220" y="-191" />
+                        <string name="_hash" value="65d59311089dc1ab7c55fbed57fe2dc603265d82538de2a90b001161ed441717" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="keyFocused">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-220" y="-191" />
+                        <string name="_inlink" value="RewardSystem/rewardBox/BtOK/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <canvas name="ExpIcon" width="65" height="43">
+                <vector name="origin" x="-20" y="-133" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c9a0f8024510127f32912fab974105153e47122dd58a740d1a7b1dce2859b39d" />
+            </canvas>
+            <canvas name="MesoIcon" width="46" height="47">
+                <vector name="origin" x="-29" y="-133" />
+                <int name="z" value="0" />
+                <string name="_hash" value="8ecf08bd82ccc6efb8c8fbdc88e5aec3d705f7e234bba4196ca0c7681b5e887a" />
+            </canvas>
+            <canvas name="MaplePointIcon" width="62" height="45">
+                <vector name="origin" x="-21" y="-133" />
+                <int name="z" value="0" />
+                <string name="_hash" value="f425c7c01e758b3638eec45536613a143f87070de77b2c196254b558c075abc7" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Mileage">
+        <imgdir name="Gauge">
+            <canvas name="backgrnd" width="237" height="51">
+                <vector name="origin" x="0" y="0" />
+                <int name="z" value="0" />
+                <string name="_hash" value="cd597078aa874c97cfa5dd713d64eac3255a476932f936a6259ed418766a1691" />
+            </canvas>
+            <canvas name="cover" width="145" height="9">
+                <vector name="origin" x="-29" y="-29" />
+                <int name="z" value="0" />
+                <string name="_hash" value="86574a16900709555dfb4135930e46cb819cfdbe5719db9525e4cf497fc54b0a" />
+            </canvas>
+            <canvas name="cover2" width="1" height="1">
+                <vector name="origin" x="-29" y="-54" />
+                <int name="z" value="0" />
+                <string name="_inlink" value="Mileage/Gauge/cover" />
+            </canvas>
+            <imgdir name="gauge">
+                <canvas name="0" width="3" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+                <canvas name="1" width="1" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+                <canvas name="2" width="3" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="gauge2">
+                <canvas name="0" width="3" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+                <canvas name="1" width="1" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+                <canvas name="2" width="3" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="number">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="a3700c5cc4f0299a3c2ad481ed86ad55455e19b7661b1f638ede776f36842a7f" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/0" />
+                </canvas>
+                <canvas name="1" width="4" height="9">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                </canvas>
+                <canvas name="2" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="eb440ca79110749b3d659f36dd615c0698a07930b872c341670c182963582e80" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/2" />
+                </canvas>
+                <canvas name="3" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="717d5f6826e1b5209396fb3bf336dd39e5cafc2b9c5c289a0a5249dab1b50f0a" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/3" />
+                </canvas>
+                <canvas name="4" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="bdfe492102b154b5cd21bae5a50eef2fe2365f43534c1f9cc027c700c78cf8b9" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/4" />
+                </canvas>
+                <canvas name="5" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6e0060fb2d69bf81a26cc4b3c1b31ea683bce6442e504fb790ceb7b8be194d73" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/5" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="dddd3d92d48a1e6ca24d79bf353c203a811e52c2709cda27ad1b420a24149ce4" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/6" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ddc13d7460f938a3ad54da0ba8f231cb78c7da66488b6e27b22131c8cfc3210e" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/7" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d2255b1cd5d16a7ade30d701b3efe425a0762fc690e5c896e55c25f9f2ef9eef" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/8" />
+                </canvas>
+                <canvas name="9" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="c8790435edb7a4793874b8c8220ac2c10b2e2a23bf656a51e6f2a351458965b8" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/9" />
+                </canvas>
+                <canvas name="[" width="1" height="1">
+                    <vector name="origin" x="0" y="1" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="5b2fcea2177024f6401b555517b18e9dde10c69525f0cdfe5b3b325442ca3be3" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/[" />
+                </canvas>
+                <canvas name="]" width="1" height="1">
+                    <vector name="origin" x="0" y="1" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="44efb5324bfc438654408845277b4aebcf68f6454521d95f79cee6ca47c36cdb" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/]" />
+                </canvas>
+                <canvas name="\" width="1" height="1">
+                    <vector name="origin" x="0" y="1" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2a1e37ad394b96c84cf4ebe5e58e8bdfc8932a3479bec07b06be51d8403f63ef" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/\" />
+                </canvas>
+                <canvas name="%" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="87dbdaef7898eb777552a98f20dd66e16b03233372a550b37d59715fa4525f65" />
+                    <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/%" />
+                </canvas>
+                <canvas name="." width="3" height="3">
+                    <vector name="origin" x="0" y="-6" />
+                    <int name="z" value="0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="btGuide">
+                <imgdir name="normal">
+                    <canvas name="0" width="28" height="30">
+                        <vector name="origin" x="-201" y="-16" />
+                        <string name="_hash" value="64fd7737c85a26630f8507b3c87b9878a4a977cd75d240b029942b562dd95f47" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="28" height="30">
+                        <vector name="origin" x="-201" y="-16" />
+                        <string name="_hash" value="4f691ac03899ea37b22bd52dbccddbc47959a1183431ca7087f448d4fc3e89ed" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="28" height="29">
+                        <vector name="origin" x="-201" y="-16" />
+                        <string name="_hash" value="df30e380cc242ea7e51901d6e0c3b24bf00f8365055f4455f18d0d8b13c1e615" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="28" height="30">
+                        <vector name="origin" x="-201" y="-16" />
+                        <string name="_hash" value="8b9430104dccd7ab306b6e18cac7093b8844901c6fe63fffa03e7c861240f331" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="Guide">
+            <canvas name="backgrnd" width="287" height="290">
+                <vector name="origin" x="0" y="0" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9b087ee1fee48a305002e668a6f4d2aca7b45d24db85cef820aaa63b824df053" />
+            </canvas>
+            <imgdir name="tab">
+                <imgdir name="enabled">
+                    <canvas name="0" width="87" height="19">
+                        <vector name="origin" x="-12" y="-27" />
+                        <string name="_hash" value="bb4f9ced9dddb9e22cbce70ca5c49fe966b45bcfbaa6e55e3b971002cbf9d836" />
+                    </canvas>
+                    <canvas name="1" width="87" height="19">
+                        <vector name="origin" x="-99" y="-27" />
+                        <string name="_hash" value="f48dae904c89d9e7118bfc26fe41241c4a9d6d2c3b0ed2fab16ab350b50d9f75" />
+                    </canvas>
+                    <canvas name="2" width="87" height="19">
+                        <vector name="origin" x="-186" y="-27" />
+                        <string name="_hash" value="430e170d7adf1e89af679e47f6c646e693417099e5240c0041cceb443274d5ab" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="87" height="17">
+                        <vector name="origin" x="-12" y="-29" />
+                        <string name="_hash" value="dd2c5c383377a6b1a1342724afe48e3cd5f988f0498359bd936e88631d89f39e" />
+                    </canvas>
+                    <canvas name="1" width="87" height="17">
+                        <vector name="origin" x="-99" y="-29" />
+                        <string name="_hash" value="b8ef203d2378fd1602ecd375087aa4399379589a86a5d73c6e836e7e0cc1d5aa" />
+                    </canvas>
+                    <canvas name="2" width="87" height="17">
+                        <vector name="origin" x="-186" y="-29" />
+                        <string name="_hash" value="326a3bddb2728a6c071edec3b1231d104b2016a3882b3b0df21de384ed7e0204" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="context">
+                <vector name="lt" x="20" y="64" />
+                <vector name="rb" x="261" y="265" />
+                <imgdir name="0">
+                    <string name="Text00" value="#eYou can earn Reward Points through gameplay in the following ways:#n\r\nCertain Maple Rewards quests can be found under the &quot;In Progress&quot; tab of the Quest Log in the &quot;Cash&quot; section.\r\n\r\n" />
+                    <string name="Text01" value="#b1. When your character reaches certain levels.#k\r\nThese rewards are restricted to one time per level per account.\r\nLv. 70 - #b20#k Reward Points\r\nLv. 100 - #b50#k Reward Points\r\nLv. 150 - #b80#k Reward Points\r\nLv. 200 - #b150#k Reward Points\r\nLv. 210 - #b300#k Reward Points\r\nLv. 220 - #b500#k Reward Points\r\nLv. 230 - #b600#k Reward Points\r\nLv. 240 - #b700#k Reward Points\r\nLv. 250 - #b1,000#k Reward Points\r\n\r\n" />
+                    <string name="Text02" value="#b2. When defeating bosses, you will get Reward Points.#k\r\nYou can only get Reward Points once per day per boss.\r\n#b50#k Reward Points when you beat Zakum, Chaos Zakum, Hilla, Hard Hilla, Horntail, Chaos Horntail, Von Leon, Arkarium, Pink Bean, Chaos Pink Bean, Cygnus, Magnus, Hard Magnus, Von Bon, Chaos Von Bon, Pierre, Chaos Pierre, Crimson Queen, Chaos Crimson Queen, Vellum, Chaos Vellum, Ranmaru, Hard Ranmaru, Princess No, or Gollux.\r\n#b20#k Reward Points when you beat Easy Magnus or Krexel.\r\n\r\n" />
+                    <string name="Text03" value="#b3. When defeating monsters in certain Party Quests, Theme Dungeons, and the Merchant Union Trade, you will earn Reward Points.#k\r\n#b40#k Reward Points when defeating Tarantulus.\r\n&#xD;&#xA;#b30#k Reward Points when defeating Demolishizer, Prison Guard Ani, Ephenia, Ravana, Angry Targa, Furious Scarboss, Emperor Toad, Grosso Polpo, Livyatan, Black Viking, or King Castle Golem.\r\n#b20#k Reward Points when defeating Mole King, Captain Darkgoo, Dragon Rider, Perfect Visitor, or Rex.\r\n#b10#k Reward Points when defeating Furious Targa, Furious Scarlion, or The Boss.\r\n#b5#k Reward Points when defeating Galacto-Drill.\r\n\r\n" />
+                    <string name="Text04" value="#b4. When entering Monster Park multiple times, you will receive Reward Points.#k\r\nPlay Monster Park 5 times to receive #b50#k Reward Points.\r\nPlay Monster Park 10 times to receive #b150#k Reward Points.\r\n\r\n" />
+                    <string name="Text05" value="To earn Reward Points from the Maple Rewards quests, you must click the #bFinish Quest#k button after selecting the quest from either the Maple Rewards notifier or the Quest Log." />
+                </imgdir>
+                <imgdir name="1">
+                    <string name="Text00" value="#bYou will receive #b5% of the total amount of NX Prepaid or NX Credit spent#k as Reward Points for making purchases in the #bCash Shop.#k#n\r\n" />
+                    <string name="Text01" value="Reward Points cannot be earned through purchasing gifts and gift related items such as Friendship Rings, permanent items, and additional inventory and storage slots." />
+                </imgdir>
+                <imgdir name="2">
+                    <string name="Text00" value="#eStoring Reward Points#n\r\n&#xD;&#xA;" />
+                    <string name="Text01" value="1. Whenever you earn Reward Points through #bgameplay#k, you must enter the Cash Shop within #b7 days#k of earning the points to store the points in your account for use.\r\nOtherwise, those Reward Points you earned will expire and be deleted.\r\n\r\n" />
+                    <string name="Text02" value="2. All Reward Points that are stored are usable until #bthe end of the next month at 11:59 PM Pacific from the date they are stored in the Cash Shop#k, after which the points will be deleted from your account.\r\nFor example, Maple Rewards earned in May can be used until 11:59 PM Pacific of June 30.\r\n\r\n" />
+                    <string name="Text03" value="3. When earning Reward Points through gameplay, you may earn points #bup to 10 times per account#k before you stop earning points through gameplay.\r\n\r\n" />
+                    <string name="Text04" value="4. Once you stop earning points, you must enter the Cash Shop and store your points before you can begin earning points through gameplay again.\r\n\r\n\r\n" />
+                    <string name="Text05" value="#eUsing Reward Points#n\r\n&#xD;&#xA;" />
+                    <string name="Text06" value="1. You can use Reward Points as payment for #b30%#k of certain Cash Shop purchases.\r\nYou must have 30% or more Reward Points of the purchase price in order to apply Reward Points.\r\n\r\n" />
+                    <string name="Text07" value="2. Reward Points cannot be used for Cash Shop purchases of the following items: \r\nPet and Equipment Cover Packages, Royal Hair and Face Coupons, All-Star Hair Coupons, Beauty Salon Hair and Face Slot Coupons, 2x EXP Coupons, 2x Drop Coupons, Quest Boosters, Nebulites and Nebulite Diffusers, Premium Fusion Ticket Exchange Coupons, Androids and any Android-related items such as Hearts and Naming Coupons, Scissors of Karma and Platinum Scissors of Karma, Sharing Tags, Monster Life Gems Coupons, All Surprise Boxes, Philosopher's Books, Gachapon Tickets, Nebula Conductors, Red Leaf High Entry Keys, Maple Leaf High Special Class Key, Sengoku Class Supplementary Pass, Meso Sacks, Premium Pet Food, Shadow Style, Return of Angel Wing, All Inventory and Storage Slots.\r\nThe list of Cash Shop items restricted from Reward Points may be updated in the future.\r\n\r\n" />
+                    <string name="Text09" value="3. You can also purchase items with Reward Points from the #bMaple Rewards Shop.#k\r\nTo enter the Rewards Shop, first enter the Cash Shop, and then click on the &quot;Maple Rewards Shop&quot; button.\r\nItems in the Maple Rewards Shop can only be purchased with Reward Points.\r\nAll items in the Maple Rewards Shop have #ba purchase limit per account#k. These purchase limits are reset at the #b1st of every month.#k\r\n\r\n\r\n" />
+                    <string name="Text10" value="#eReward Points Limits#n\r\n" />
+                    <string name="Text11" value="1. You may only earn up to #b2,000#k Reward Points #bper world per day#k from #bParty Quests, Theme Dungeons, Bosses, and Leveling Up.#k\r\n" />
+                    <string name="Text12" value="2. You may only earn up to #b1,000#k Reward Points #bper world per day#k from #bStar Planet mini-games#k.\r\n" />
+                    <string name="Text13" value="3. You may only earn up to #b3,000#k Reward Points #bper account per day#k from #bParty Quests, Theme Dungeons, Bosses, and Leveling Up, and Star Planet mini-games.#k\r\n" />
+                    <string name="Text14" value="4. You may only earn up to #b30,000#k Reward Points per account #bper month#k from #bParty Quests, Theme Dungeons, Bosses, and Leveling Up, and Star Planet mini-games.#k\r\n" />
+                    <string name="Text15" value="5. You may only earn up to #b150,000#k Reward Points #bper account per month.#k\r\n\r\nAdditional Reward Points cannot be earned if the total sum will exceed any of the limits." />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="FeedbackSystem">
+        <canvas name="backgrnd" width="494" height="211">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="96bb51bb4153236023d2f6b5993683867bc9efcfbdbad773e8ec7e6a7e39f57c" />
+        </canvas>
+        <canvas name="backgrnd2" width="452" height="26">
+            <vector name="origin" x="-21" y="-127" />
+            <int name="z" value="-4" />
+            <string name="_hash" value="6ad504feb73802d28ec61386d12a33371c29a6f50fa53ed2d745b150c48842a9" />
+        </canvas>
+        <canvas name="backgrnd3" width="212" height="29">
+            <vector name="origin" x="-11" y="-11" />
+            <int name="z" value="-3" />
+            <string name="_hash" value="880c75cc657c394f5b79795c1c718e2d46a455dfd55e56fa7c69585e67201e95" />
+        </canvas>
+        <imgdir name="BtOK">
+            <imgdir name="normal">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-335" y="-175" />
+                    <string name="_hash" value="2e123589b70f029e5449296f17ce943d6fe5931766d8d6be0ea7204c600c7655" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-335" y="-175" />
+                    <string name="_hash" value="6bdb01ff6a33af49a3c63763cf6c16b4f4cb70cb2ac20a3f5984d82d36d1d4f5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-335" y="-175" />
+                    <string name="_hash" value="d55ca1dc1950506f2dfc0232db5e994c174973280703ff667c626b1c5883b4f8" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-335" y="-175" />
+                    <string name="_hash" value="612e8b2653cd7deab59f3fe06d1785bf7196a35e89744c0fba40b8fa1e10386f" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtCancel">
+            <imgdir name="normal">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-415" y="-175" />
+                    <string name="_hash" value="c92be7c7bd9a4f4d1f5c72aaa72340c86721c1b43f087dd59669479daec4c6f7" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-415" y="-175" />
+                    <string name="_hash" value="428ca7861635380f674e9faa408618b9d6d438505af67940f78d013a147eaa24" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-415" y="-175" />
+                    <string name="_hash" value="b9146eac2cb85a73e27cdc25c8b1463563bb29dd5394bb6c2cb01e1a0108faef" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="73" height="29">
+                    <vector name="origin" x="-415" y="-175" />
+                    <string name="_hash" value="d2857e2406af2560db666750f381c5d4213bb6a877bdf2fa530a7142aa88f990" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <canvas name="Star" width="24" height="21">
+            <vector name="origin" x="0" y="0" />
+            <string name="_hash" value="cc6b1b6d307de6f4cc7dc9cbfe339de06036cf3f9b5ca87bdb87d101eae323a9" />
+        </canvas>
+    </imgdir>
+    <imgdir name="FeedbackNameTag">
+        <canvas name="backgrnd" width="527" height="348">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-2" />
+            <string name="_hash" value="cd32d107d64c6c7d10f55c75f14a58450f3b674b588164fcabdbcfdda1b3fb7e" />
+        </canvas>
+        <canvas name="backgrnd2" width="510" height="318">
+            <vector name="origin" x="-9" y="-21" />
+            <int name="z" value="-1" />
+            <string name="_hash" value="2c12ebc663fc7e960c8c5962748c834068450acfa1e2715b12749e9e328ef347" />
+        </canvas>
+        <canvas name="blink" width="475" height="36">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-6" />
+            <string name="_hash" value="9f4d51ae0d99fb406e4c8e607823819de15a46ce6921ab2d9485fcf8d973ac49" />
+        </canvas>
+        <canvas name="blink2" width="475" height="36">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-6" />
+            <string name="_hash" value="71ca9d9f760c6d98bd0431ecff00728858e0065cf02b2282e45b5814401a6a87" />
+        </canvas>
+        <canvas name="blink3" width="475" height="36">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-6" />
+            <string name="_hash" value="87f0fd0a533dbf841381753781eb129c9495b23474f5621322fb6e94981cd480" />
+        </canvas>
+        <canvas name="mark" width="19" height="15">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="3352847d46077b8ea68805d28ecd5dc2578beb2c811ab9828c5a32e7da29297c" />
+        </canvas>
+        <imgdir name="BtClose">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-505" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_hash" value="ff392b9672f480ae2d4f0b0506601dded3448b085aae429be9329b79337b5582" />
+                    <string name="_outlink" value="UI/UIWindow8.img/restaurantRED/button:Close/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-505" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_hash" value="3e8bbbdd154607e279306c864666b75ced6032117e5c9a14856185790f59e2a7" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-505" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_hash" value="ef82e2904ffd96eeb88250c61809a3a8249d484a57ac2684253c5d423a6bb6c5" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-505" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_hash" value="1f662949cd65fac9df8c2bb389f086e114a1bc35948f6aa6e93472298af65830" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtHelp">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-494" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_hash" value="eb96a093c07da89c4c1070bec66b2c5e13096ee5a00c985e9e9c7c9127840bbd" />
+                    <string name="_outlink" value="UI/AllianceUI.img/AllianceUI/button:help/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-494" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_outlink" value="UI/AllianceUI.img/AllianceUI/button:help/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-494" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_outlink" value="UI/AllianceUI.img/AllianceUI/button:help/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-494" y="-5" />
+                    <int name="z" value="-3" />
+                    <string name="_outlink" value="UI/AllianceUI.img/AllianceUI/button:help/normal/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtOk">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-240" y="-303" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="FeedbackSystem/BtOK/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-240" y="-303" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="FeedbackSystem/BtOK/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-240" y="-303" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="FeedbackSystem/BtOK/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-240" y="-303" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="FeedbackSystem/BtOK/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="Ani">
+            <canvas name="5" width="467" height="45">
+                <vector name="origin" x="0" y="0" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="194bc42a4a0f0f7f095f35e4db9699341ac0f9e591b44ac904ef1928cd5d562d" />
+            </canvas>
+            <canvas name="0" width="135" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="d620b94131c438f8c272051ce418d72015e8a2c47cafd6cad8af0f6613aa4290" />
+            </canvas>
+            <canvas name="1" width="450" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="0668c850b55c1ee2cdd81b197d4a91b8547e1405e659ed4d636452487550af93" />
+            </canvas>
+            <canvas name="2" width="452" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="786839185ea3f2891e6fa18fd6b8711cae7d67a760d170a5adc907464e8699c9" />
+            </canvas>
+            <canvas name="3" width="452" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="c48d2412d330b6a3d83e40ea6b4c330092c79c3cae7fbdb186fda260804cc85e" />
+            </canvas>
+            <canvas name="4" width="454" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="d6663057a15ea32b64260a6bda93aa0c331b6a7ea526476c871c1e9efb1b2cb1" />
+            </canvas>
+            <canvas name="6" width="456" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="14adf0fb9835aa1fc333163e496962080a2aeee1fe7f293f6b3706d98656125d" />
+            </canvas>
+            <canvas name="7" width="456" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="83cf5e16d291541145b66c38fa17fd83c13c4a32faa648b1b52fa59ca6290ac2" />
+            </canvas>
+            <canvas name="8" width="456" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="ff228b88b35f46c629ead9f3ef04a04c597322a30f6b827e46a6f3acd18934ef" />
+            </canvas>
+            <canvas name="9" width="454" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="df10fe36ebf9991824c26c4f2ab19cfa7a7ff408590a066ff01ef34ed225f61b" />
+            </canvas>
+            <canvas name="10" width="454" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="fe13496cd704f85178a28b84f306ddfe00887540958859abd7edf4072a6c481a" />
+            </canvas>
+            <canvas name="11" width="452" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="6552bd6180e8380d9ca4f674c1b4ac4ce1ad2f241b74427f4914eef4f1806a26" />
+            </canvas>
+            <canvas name="12" width="452" height="52">
+                <vector name="origin" x="0" y="52" />
+                <int name="z" value="-6" />
+                <string name="_hash" value="067c1fd8d3187b4bfec923a920deaed7a43a9841f6cd258153f0ee90e11e30b0" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="CookingTool">
+        <canvas name="backgrnd" width="267" height="579">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-3" />
+            <string name="_hash" value="0a13ce34d38a2d2d371fa173bc6358a8d125d0c9336836526e70a0ea26c6b377" />
+        </canvas>
+        <canvas name="backgrnd2" width="254" height="549">
+            <vector name="origin" x="-6" y="-24" />
+            <int name="z" value="-2" />
+            <string name="_hash" value="384c5168d723f6d77ed5253781342546da18e1d22a9591e15891be29d6d7a5e7" />
+        </canvas>
+        <canvas name="recipe" width="12" height="12">
+            <vector name="origin" x="1" y="9" />
+            <int name="z" value="0" />
+            <string name="_hash" value="96aedb2b1076edc9aa459ac0ebd6e84ccb47658609d4970e52deb65ac926dd74" />
+        </canvas>
+        <canvas name="guide" width="245" height="220">
+            <vector name="origin" x="-10" y="-346" />
+            <int name="z" value="2" />
+            <string name="_hash" value="4ce611537a51ad6d302d8eab00b5ffeb20b59def20544c018ae5d8c44b7e0727" />
+        </canvas>
+        <canvas name="icon" width="33" height="34">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="2" />
+            <string name="_hash" value="a6938937552343f856a332897a28e4671dd273fce3fd206dd28d5f4da6d65bf4" />
+        </canvas>
+        <canvas name="notUse" width="37" height="37">
+            <vector name="origin" x="0" y="0" />
+            <string name="_hash" value="372a67189d5a389695edfe40446b34931d92c68d9273bebbe70210893200740d" />
+        </canvas>
+        <imgdir name="Tab">
+            <canvas name="tabLine" width="252" height="4">
+                <vector name="origin" x="-7" y="-45" />
+                <int name="z" value="2" />
+                <string name="_hash" value="1de407c6093ef433d2de90c044a38fdb2aec2a11938c3003fa340c60cc7326e7" />
+            </canvas>
+            <imgdir name="enabled">
+                <canvas name="0" width="45" height="19">
+                    <vector name="origin" x="-9" y="-26" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="070f5379075839cd2a66cfd21cd9f7c886d88599352ab2c463730b5d276c2d90" />
+                </canvas>
+                <canvas name="1" width="45" height="19">
+                    <vector name="origin" x="-54" y="-26" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="00e54bdb309f50182c0132b679421584b8c3423c4c5219e50003fd3697072408" />
+                </canvas>
+                <canvas name="2" width="45" height="19">
+                    <vector name="origin" x="-99" y="-26" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="ce215591212d4076062ced71e06f58ee9ace29f5d846137160c575190567c071" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="45" height="17">
+                    <vector name="origin" x="-9" y="-27" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="ccd1af568b146d5635551e94b3e692d0b7daedda3f8993850d84664fce1d75c5" />
+                </canvas>
+                <canvas name="1" width="45" height="17">
+                    <vector name="origin" x="-54" y="-27" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="cb4f3450e53b122ea21d102e7b406fc9e06ad5e56ad3152e972b92068e9bb993" />
+                </canvas>
+                <canvas name="2" width="45" height="17">
+                    <vector name="origin" x="-99" y="-27" />
+                    <int name="z" value="-1" />
+                    <string name="_hash" value="cf6164849bfc54cd9a398679e64639a9dc5058ef6a034114009ef2ff45d41267" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="mainPage">
+            <canvas name="blank" width="11" height="11">
+                <vector name="origin" x="0" y="0" />
+                <string name="_hash" value="89a294db1960b6a33ee2a0b4323eaf2b9a2cc35edab8792eaff67670a5fbb051" />
+            </canvas>
+            <canvas name="check" width="6" height="6">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="BtSearch">
+            <imgdir name="normal">
+                <canvas name="0" width="40" height="16">
+                    <vector name="origin" x="-168" y="-53" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="3863d091a3b6b4c48acecaa45c5519d851908e520d9dd3c978b0d30133b82ec0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="40" height="16">
+                    <vector name="origin" x="-168" y="-53" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="7a3c145518fc2dbed4f95ce50715ca14ba25a6bf4e20bfe2827be5abfd849a65" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="40" height="16">
+                    <vector name="origin" x="-168" y="-53" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="92286399f5a1adf132799f92cc49ac1243128f0efe8c717adfda332c94f0b6e2" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="40" height="16">
+                    <vector name="origin" x="-168" y="-53" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="2c7cb66a29072269b5860c9add7cd55dcc27b5347f9ddbb21902dca5986d453b" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="num">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/0" />
+            </canvas>
+            <canvas name="1" width="7" height="9">
+                <vector name="origin" x="0" y="0" />
+                <string name="_hash" value="61f73be912ade494d42e6cfe5452a14ad342fcffe0bf2a4c2439ba52a2ec32a2" />
+            </canvas>
+            <canvas name="2" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/2" />
+            </canvas>
+            <canvas name="3" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/3" />
+            </canvas>
+            <canvas name="4" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/4" />
+            </canvas>
+            <canvas name="5" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/5" />
+            </canvas>
+            <canvas name="6" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/6" />
+            </canvas>
+            <canvas name="7" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/7" />
+            </canvas>
+            <canvas name="8" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/8" />
+            </canvas>
+            <canvas name="9" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/9" />
+            </canvas>
+            <canvas name="[" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/[" />
+            </canvas>
+            <canvas name="]" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/]" />
+            </canvas>
+            <canvas name="s" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/\" />
+            </canvas>
+            <canvas name="%" width="1" height="1">
+                <vector name="origin" x="0" y="0" />
+                <string name="_outlink" value="UI/UIWindowPL.img/WaterSmash/ScoreBoard/number/%" />
+            </canvas>
+            <canvas name="." width="3" height="3">
+                <vector name="origin" x="0" y="0" />
+            </canvas>
+        </imgdir>
+        <imgdir name="BtStart">
+            <imgdir name="normal">
+                <canvas name="0" width="67" height="16">
+                    <vector name="origin" x="-178" y="-545" />
+                    <string name="_hash" value="e315af51064fdb701a0dfd055b8417bba104b07eaf68cca1c1764861f5a9f10f" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="67" height="16">
+                    <vector name="origin" x="-178" y="-545" />
+                    <string name="_hash" value="938bb0716658007036a9ad34565c17b779868b1622b4862b9f6cb7d0759d8989" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="67" height="16">
+                    <vector name="origin" x="-178" y="-545" />
+                    <string name="_hash" value="eb1e1e3f30be26dd96d72bed75d610b8fe17fec0e8aaf9ed845452b9808b9efa" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="67" height="16">
+                    <vector name="origin" x="-178" y="-545" />
+                    <string name="_hash" value="4241c2e5fa5a64be82d48803bf1ad2a6d54e137f4e081cf9920aef5e2d1b6a7b" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtClose">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-245" y="-6" />
+                    <string name="_outlink" value="UI/UIWindow8.img/restaurantRED/button:Close/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-245" y="-6" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-245" y="-6" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-245" y="-6" />
+                    <string name="_outlink" value="UI/UIGhostPark.img/Enter/button:Exit/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtcategoryOpen">
+            <imgdir name="normal">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="1b7499109feb7d4e885098b9d19c524cb48c0664af4d29d24438779c2bba5a53" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8ef364ab1269f825af6a259fc77297a69961dcae53543dd91f25a8ca130cace3" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="fdcacd38ff2d2c0b851c84b49041f50696af3312ddcded7302aced30fed49b13" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d05a2dfce8e44c0c015da206fa178de39460b1451136b90f84e121f74075a2e2" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtcategoryClose">
+            <imgdir name="normal">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="da56ae98133dc73577d5eb6228db933e4f6b6f145785cb2c3b2104f27184dfe5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f361f1a0a02ac2fce9211523d2f2a987e28caa7281dee62b7afc56d1b461ae5e" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="CookingTool/BtcategoryOpen/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="56145f2ba4f55a8264238561666a1d01884dcff6e5549e9114379b56bd33daa9" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtcategoryOpenD">
+            <imgdir name="normal">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="e8ce6d4466530442b48b61050e00df56874320091095cadf1602d592bf12dde0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="d6174339c9013b66c4528c019583dec68a8fdc6eb81981c1f6f62fef22c20d1f" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="CookingTool/BtcategoryOpen/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="3ffd0febb720d0d1fe71f82e2e3660104455b2f488dafcfe445396a1d178345d" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtcategoryCloseD">
+            <imgdir name="normal">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="c34eb803e138e7481888a428747496439fdd6f559dd8ced796c12422b25522d9" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="CookingTool/BtcategoryCloseD/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="13" height="12">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="6738fadc1682d2e515d6e5cb26644be28e9aadf0502160baa456f7ebe7c4bcf5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="13" height="11">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="9b744197689c593e81244a5f0d880d13a779383014d5f3c8caedc1e5184d70ab" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="progress">
+            <canvas name="backgrnd" width="246" height="247">
+                <vector name="origin" x="0" y="0" />
+                <int name="z" value="2" />
+                <string name="_hash" value="5946990ff6cfaa3d079913f927e4a80e13bd92d6b6b9002b9ba78a766e6fd4c5" />
+            </canvas>
+            <imgdir name="BtOK">
+                <imgdir name="normal">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="979103f933e79792fec868ee7e586ac292cba941ecfe5da2ab49e5dbe561fb44" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="b7f947e18b70cdc649ba57260df629fd0444e59fd94241dbfa5852b476c95204" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="c6ee58d5b051f64a3b4309d231c2b19f162981e3a803a743e720b08a8e3ee783" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="217f2bb7a58f9549b6c9d3e23d3ee24f2a13e5e60f2a97c30201a653d0880d2d" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="BtCancel">
+                <imgdir name="normal">
+                    <canvas name="0" width="40" height="16">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="0244fc96c737b84425c199cb9faebdbe00bba851ca174030e15cd621b529d990" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="acbe075a7bdd12808f18a45b310048ce6b0a2ba1e5149f11ef4edaca82e3a2ad" />
+                        <string name="_outlink" value="UI/StarCityUI.img/UserList/Popup/AddFriend/button:Cancel/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="7ae79c715254099d8c314b971bdfed8b8cbf4b385cd84d251e0c7e5d747f5fc5" />
+                        <string name="_outlink" value="UI/StarCityUI.img/UserList/Popup/AddFriend/button:Cancel/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-107" y="-218" />
+                        <int name="z" value="3" />
+                        <string name="_hash" value="8e7e48b83a9319245944babe0f77b72c4c943d32d11543fbed1879d472095463" />
+                        <string name="_outlink" value="UI/StarCityUI.img/UserList/Popup/AddFriend/button:Cancel/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="ing">
+                <canvas name="0" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="3e5e1cdf8ee33e160bf65ccf37d45bb5180f4f251023316748c90ff9ede7b49c" />
+                </canvas>
+                <canvas name="1" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="e538ae0c6b72422a332b971ab9841c3dcd8718d01e47bf3bac6b48b449fe5304" />
+                </canvas>
+                <canvas name="2" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="20c96ba7329edf61d7f9fd855afb31fc933757ec599a4cc97a6fbbbcb6b00f03" />
+                </canvas>
+                <canvas name="3" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="d0ea400d73d697492e11913223d4f4a44025ea2317f79b0bd28cf66a5fe4d167" />
+                </canvas>
+                <canvas name="4" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="b26231d418a6c28961f4562e74126eb779e5c7c724f105c297bf527789d90d37" />
+                </canvas>
+                <canvas name="5" width="156" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="ab7a6d96f07571ecb9cb77b51914e55178c11d41d96866c7d681167abafb6720" />
+                </canvas>
+                <canvas name="6" width="155" height="19">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="6a6527a0515cdca19ea288802143fc26df8cedef5d3b6eb7f800296607d9ae5c" />
+                </canvas>
+                <canvas name="7" width="1" height="1">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/ing/5" />
+                </canvas>
+                <canvas name="8" width="1" height="1">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/ing/4" />
+                </canvas>
+                <canvas name="9" width="1" height="1">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/ing/3" />
+                </canvas>
+                <canvas name="10" width="1" height="1">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/ing/2" />
+                </canvas>
+                <canvas name="11" width="1" height="1">
+                    <vector name="origin" x="-47" y="-190" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/ing/1" />
+                </canvas>
+            </imgdir>
+            <imgdir name="end">
+                <canvas name="0" width="145" height="21">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="094c49b378e9c8863ddc4f8588290d46c6897444b95a07f2fe21ef3601b3c017" />
+                </canvas>
+                <canvas name="1" width="144" height="21">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="62fdf585dae749e016cf00d2deddbfc258ec40c25d0bede9c4eda1c2f365bac7" />
+                </canvas>
+                <canvas name="2" width="144" height="21">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="ab06823251a4621faf2a1751701f76e9a0903a2b9b4ab72b6b4c5d3ab40fd472" />
+                </canvas>
+                <canvas name="3" width="143" height="20">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="72ff33151947936df0d4897c9dbda74b900f18b055af10723154d4bae35a41f6" />
+                </canvas>
+                <canvas name="4" width="143" height="20">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="6d1da6077c460b9efbffaa7e9586d4f134f8003e375ca5bc60c8593bb079e08b" />
+                </canvas>
+                <canvas name="5" width="143" height="19">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_hash" value="e3a62dec757965a7c2d8f55e16c1943d543b106beae34066d2a47e759563c42c" />
+                </canvas>
+                <canvas name="6" width="1" height="1">
+                    <vector name="origin" x="-52" y="-187" />
+                    <int name="delay" value="90" />
+                    <int name="z" value="3" />
+                    <string name="_inlink" value="CookingTool/progress/end/5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="result">
+                <imgdir name="0">
+                    <canvas name="0" width="232" height="84">
+                        <vector name="origin" x="-7" y="-13" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="95ec23aae2f6aa69d2424d5bc22eca383a34f2ba4fe44f98f7a422df8343f7ad" />
+                    </canvas>
+                    <canvas name="1" width="132" height="53">
+                        <vector name="origin" x="-58" y="-22" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="6ca5e7433f7d45e4ac902140304636f0bad76ea94273da68b10f8d1828031b4d" />
+                    </canvas>
+                    <canvas name="2" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="2a9a2168633de7a181b10d024a30fc02dbff4de92adc7f398b9510c3d11d6a65" />
+                    </canvas>
+                    <canvas name="3" width="136" height="55">
+                        <vector name="origin" x="-56" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="13c2b642d640baf3133f0f67de367eeea75c5032af16866295a48be80a4849ef" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_inlink" value="CookingTool/progress/result/0/2" />
+                    </canvas>
+                    <canvas name="5" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="4d0c296be180f76a348c8b6a562c7a38461e545df7462e0a7c836d2d4f1d5aa6" />
+                    </canvas>
+                    <canvas name="6" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="e63315af971d40bfb8a058cb2f822afd0f8f74e4d3f37ec61898efd42564a076" />
+                    </canvas>
+                    <canvas name="7" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="b72f18da81d7c309af95e4a91569bc62ebbee8120ce5f01b5b09fc54301c4740" />
+                    </canvas>
+                    <canvas name="8" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="58545bc68d0e665e3bb9fa399ae367b96dcb3da19a8c06946d045a80339e1495" />
+                    </canvas>
+                    <canvas name="9" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="4d95b220d60f127c2187f273b5aa5d4f9a66adda9851795e57e8f5d592952991" />
+                    </canvas>
+                    <canvas name="10" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="69d709da8d0394556579691fad4efe6e6f9562eb34d004700ab5cd4951805c78" />
+                    </canvas>
+                    <canvas name="11" width="139" height="55">
+                        <vector name="origin" x="-55" y="-21" />
+                        <int name="delay" value="90" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="89b09c6c9c51f6eab33550f8369b469abeec141065d6434f20dbe4006fd9204b" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="1">
+                    <canvas name="0" width="206" height="69">
+                        <vector name="origin" x="-23" y="-15" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="af2e7f7047638da2e3f6e77e2a529e0cdfd459fecd6e1add7d6079cdff9bd593" />
+                    </canvas>
+                    <canvas name="1" width="120" height="47">
+                        <vector name="origin" x="-65" y="-27" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="12b20edfbd777b025c846fb83cd014c8a408294ac67816397f46fc963cf5f5a1" />
+                    </canvas>
+                    <canvas name="2" width="126" height="50">
+                        <vector name="origin" x="-62" y="-26" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="8398aeba25b92d23b1363393407696407f3ea85856f1ad187a9de6ad2bc9a61f" />
+                    </canvas>
+                    <canvas name="3" width="123" height="48">
+                        <vector name="origin" x="-63" y="-27" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="e33cb79fbced698e4f69b2a1a74c82b8a49acc9be65af2dc19900ff784c9fbb9" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="-62" y="-26" />
+                        <int name="delay" value="90" />
+                        <string name="_inlink" value="CookingTool/progress/result/1/2" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="2">
+                    <canvas name="0" width="168" height="56">
+                        <vector name="origin" x="-40" y="-20" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="be0edd4fdc5bfceee585b77326d8ff7aa4150ff806d214a0e0f0d3581c03fce7" />
+                    </canvas>
+                    <canvas name="1" width="99" height="39">
+                        <vector name="origin" x="-73" y="-35" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="a4f45ad4c2151e482c96118426ce7886b927ea7da5d1e4f60a11545a9cb742b8" />
+                    </canvas>
+                    <canvas name="2" width="104" height="42">
+                        <vector name="origin" x="-70" y="-33" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="28207226669a25ffde95162025f7cde21ec34f4a7c0dea1865df09fc6d817123" />
+                    </canvas>
+                    <canvas name="3" width="102" height="40">
+                        <vector name="origin" x="-71" y="-34" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="a48088ae49d4c5b757b2d762182eff131ec5e13d687e3630cbaf53928ca1c9a3" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="-70" y="-33" />
+                        <int name="delay" value="90" />
+                        <string name="_inlink" value="CookingTool/progress/result/2/2" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="fail">
+                    <canvas name="0" width="133" height="56">
+                        <vector name="origin" x="-57" y="-23" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="b9a4705a7e7473d05af6c97f0502dbe66b651410975cfbaa15c9901d5fb87c16" />
+                    </canvas>
+                    <canvas name="1" width="78" height="39">
+                        <vector name="origin" x="-84" y="-36" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="a42edd6cd8feff7980fb3fbcd16c5328f95ffa822fe81a9bb0c8f518c1b945a1" />
+                    </canvas>
+                    <canvas name="2" width="82" height="41">
+                        <vector name="origin" x="-82" y="-35" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="257db3f3bfaa34dd34236e8bd4d992199b58dad912ae31c812b04549fae27915" />
+                    </canvas>
+                    <canvas name="3" width="81" height="40">
+                        <vector name="origin" x="-82" y="-35" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="1dfb911c45e9937c422d25a42237edeec96afed120c8ecb2aea55bca55d2cb5a" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="-82" y="-35" />
+                        <int name="delay" value="90" />
+                        <string name="_inlink" value="CookingTool/progress/result/fail/2" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="gauge">
+                <canvas name="backgrd" width="103" height="40">
+                    <vector name="origin" x="54" y="43" />
+                    <int name="z" value="1" />
+                    <string name="_hash" value="47c9214c431c1dbfdccd7228f9e734e821786e15c5d1efc4302ed9e165db7191" />
+                </canvas>
+                <canvas name="0" width="21" height="23">
+                    <vector name="origin" x="59" y="21" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="fc337cfa4ea576460c0341eb3f526f1a5adf7b3fd0bfab1d55335feabfcbc2d5" />
+                </canvas>
+                <canvas name="1" width="22" height="23">
+                    <vector name="origin" x="54" y="30" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ce9da4def3674f20e1a650ace986e35b0db14db9d7e8fcccb9625266898f90a2" />
+                </canvas>
+                <canvas name="2" width="23" height="22">
+                    <vector name="origin" x="48" y="37" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f41804593fd7290bc9926b45b748db3dce08449e88fb69e52c854b2a2e2ca76f" />
+                </canvas>
+                <canvas name="3" width="23" height="21">
+                    <vector name="origin" x="39" y="43" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ce9b9ed8ddeab23a76deb2e6832fd5285db3feaeb2a6a7cec22456f1062177c8" />
+                </canvas>
+                <canvas name="4" width="24" height="21">
+                    <vector name="origin" x="30" y="47" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="09c98aa0c839b8ac34c18d32fc6f8ef2a08524a997f764442292d42fe77e3deb" />
+                </canvas>
+                <canvas name="5" width="24" height="20">
+                    <vector name="origin" x="20" y="49" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="39ba1d37a4311b92dea9bd3eab4c53f66e7e99a695aa63312c925f7649d4f978" />
+                </canvas>
+                <canvas name="6" width="24" height="20">
+                    <vector name="origin" x="9" y="49" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="a6e0e4f507701d85a4be081979d25ebb7089e87d3f6fcb1688c6af362c6edfbd" />
+                </canvas>
+                <canvas name="7" width="24" height="21">
+                    <vector name="origin" x="-1" y="47" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="19e3649a8becf629bc3fdcfe00b50fadfe4183a163fb311d586f2d530b7f02e3" />
+                </canvas>
+                <canvas name="8" width="23" height="21">
+                    <vector name="origin" x="-11" y="43" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="592b0493efacebc3efdd1b036de110990a99f6207faf2cf297c6eaf90157930e" />
+                </canvas>
+                <canvas name="9" width="23" height="22">
+                    <vector name="origin" x="-20" y="37" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="ee2be8ee3259aeabbb42f3d1050f2a95f1b5cda55b301f94e93c57fbd7379dc3" />
+                </canvas>
+                <canvas name="10" width="22" height="23">
+                    <vector name="origin" x="-27" y="30" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f81842cba2a5a2748c9546b032f5806e1c804764f9c95c31218867daedd066c8" />
+                </canvas>
+                <canvas name="11" width="21" height="23">
+                    <vector name="origin" x="-33" y="21" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="165edd1e269076813ac7545c17787cb19df7f6421c6309ede46646ef83387492" />
+                </canvas>
+                <imgdir name="disappearSucess">
+                    <canvas name="0" width="141" height="176">
+                        <vector name="origin" x="75" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="f3520ee1a2460a24e674f871351c79a6c73ee99d5601f962800e79825a369828" />
+                    </canvas>
+                    <canvas name="1" width="141" height="160">
+                        <vector name="origin" x="75" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="6c9f0e3401827cd0934113b32a754b5a7f6c01c9475844e481e427ab1504f03d" />
+                    </canvas>
+                    <canvas name="2" width="147" height="160">
+                        <vector name="origin" x="76" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="25116c5faaffac19850ceff60ce17922a8d6f8345165cc40f5d91e6d5ea174ce" />
+                    </canvas>
+                    <canvas name="3" width="154" height="160">
+                        <vector name="origin" x="79" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="6b85416431ecaa04861b2da8bc18e3b63cae0d9b3d2e526260331af1436fb62a" />
+                    </canvas>
+                    <canvas name="4" width="158" height="160">
+                        <vector name="origin" x="79" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="accc03d72f9c04f1d22ed5406ba8ba565eaa616ab1b2b05768329b6b74b6be2b" />
+                    </canvas>
+                    <canvas name="5" width="155" height="163">
+                        <vector name="origin" x="78" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="2d5e751770790c994939b849b6d7386e10e871cdecf9dc4668d10f4e91eeab3a" />
+                    </canvas>
+                    <canvas name="6" width="149" height="141">
+                        <vector name="origin" x="73" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="45e7dff5a0cda7f0cdbd586841e802d59d920c7051404ddbbb96b7f1db58a05d" />
+                    </canvas>
+                    <canvas name="7" width="139" height="141">
+                        <vector name="origin" x="73" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="ed2d3530cac33d1b8600c039b1e5d883714ebb1bdc074c29736754e257a1ce2c" />
+                    </canvas>
+                    <canvas name="8" width="139" height="141">
+                        <vector name="origin" x="73" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="ccc6e7d776d0979e5cc26439d20b27f20eb1841735178eb948687fd9bea0e36e" />
+                    </canvas>
+                    <canvas name="9" width="139" height="141">
+                        <vector name="origin" x="73" y="131" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="c2fba463b05c09fee30770582673ac3a42e3d00fdf45c5ddac618e50c8f1b383" />
+                    </canvas>
+                    <int name="pos" value="1" />
+                </imgdir>
+                <imgdir name="disappearFail">
+                    <canvas name="0" width="113" height="51">
+                        <vector name="origin" x="59" y="50" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="547aa47cdc8eb3fac74408e046f39a3c6fbe6934e2581d8a07fe1762105ed5ee" />
+                    </canvas>
+                    <canvas name="1" width="113" height="51">
+                        <vector name="origin" x="59" y="50" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="a583b69f3d4269689407539b5736d325b9a47471a856d17168c42db14c3cf9bd" />
+                    </canvas>
+                    <canvas name="2" width="113" height="51">
+                        <vector name="origin" x="59" y="50" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="b224905b24f856437ff51662cd4d5dc5f8b122771bfdb97ede83449fed7af5e0" />
+                    </canvas>
+                    <canvas name="3" width="113" height="102">
+                        <vector name="origin" x="59" y="101" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="b09d71367da2d47cc10179dcddf5bd0fd470f5f05984c5d3ca5ea12e7ca618c0" />
+                    </canvas>
+                    <canvas name="4" width="131" height="138">
+                        <vector name="origin" x="78" y="100" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="624f5393ed9b2b03b3abe09f25827c5d3a8072deaf53e53aa3f1bc2b8faa4d21" />
+                    </canvas>
+                    <canvas name="5" width="131" height="142">
+                        <vector name="origin" x="78" y="99" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="dc3acfee9b66080fd2bf24979ab4276709a5d8376a4c2df52f0048d5a3feffbd" />
+                    </canvas>
+                    <canvas name="6" width="155" height="166">
+                        <vector name="origin" x="81" y="99" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="4196619c17a287d80a81d6d0e8b85226fbf59524856f295ace773de5fac950e5" />
+                    </canvas>
+                    <canvas name="7" width="157" height="146">
+                        <vector name="origin" x="80" y="75" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="117ea49071b2a56abae0261df5871dc66d9bc6e2b6d63e980369123730de9d5e" />
+                    </canvas>
+                    <canvas name="8" width="154" height="142">
+                        <vector name="origin" x="79" y="68" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="e0319f0943a847c37be73081c2aaecfe29d8c28816291d2a390b9ecca6c3e34f" />
+                    </canvas>
+                    <canvas name="9" width="132" height="136">
+                        <vector name="origin" x="68" y="59" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="a1d12c72e0173140cc414a15a036949d8fa1b048c9f517779d2e182ab6468e17" />
+                    </canvas>
+                    <canvas name="10" width="96" height="117">
+                        <vector name="origin" x="68" y="44" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="662c7bbea29ebc1dccb71b4094be1497b9073f0a5b94cd999a0a6e73c8a2a6be" />
+                    </canvas>
+                    <canvas name="11" width="66" height="97">
+                        <vector name="origin" x="38" y="44" />
+                        <int name="z" value="0" />
+                        <int name="delay" value="90" />
+                        <string name="_hash" value="c4abc110485d601ada0b8ae2c23c1c870db32ae1f4572114b8c42d7df88c8d0b" />
+                    </canvas>
+                    <int name="pos" value="1" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Equip">
+        <imgdir name="Equip">
+            <imgdir name="effectDisable">
+                <imgdir name="0">
+                    <canvas name="0" width="49" height="48">
+                        <vector name="origin" x="4" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="5f98e914c7019c7db1c187774d22021b7d5f2b9a76a6c9d521b09dc0a1c3a957" />
+                    </canvas>
+                    <canvas name="1" width="49" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="990ba81d43dd8ac8e267407485760a80754dc50c2ed3ebd15682c62b22e74acf" />
+                    </canvas>
+                    <canvas name="2" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="2b8d945778924563c3771e54867d197d3acdb9be2f19c75f7bcb6044ba14e260" />
+                    </canvas>
+                    <canvas name="3" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="ec1f2889e98ec6dbdbf783385b110c4db62c35ca2aa40241e69b556f19de5647" />
+                    </canvas>
+                    <canvas name="4" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="baedadd71275d079676414c0c6aa94c16f825e9ab3fe0d584faef68c63748685" />
+                    </canvas>
+                    <canvas name="5" width="49" height="48">
+                        <vector name="origin" x="4" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="1680c4c00e826f9c59c9b4c1076f72ceccf0b720a8681237395d45367da59e82" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="1">
+                    <canvas name="0" width="49" height="48">
+                        <vector name="origin" x="4" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="f9b9703b356b2a45554fd0aa2519260fadfacd0e868642e4b9687330afa1dee8" />
+                    </canvas>
+                    <canvas name="1" width="49" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="724bb4991648d99c8d990e67113c994a8388708d30763dbf3ea85e5bfa670692" />
+                    </canvas>
+                    <canvas name="2" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="88a12af676f17320070d9710a7a7819d3b10a8c3fb96aa2d83ff3b38698ae411" />
+                    </canvas>
+                    <canvas name="3" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="81017498eba938ba598e9f7abd4a24071f6c395d95f550f4ddce3c7e6352ca79" />
+                    </canvas>
+                    <canvas name="4" width="50" height="48">
+                        <vector name="origin" x="5" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="05cc41b0945eebc57ee2d4356b5ff2e6934a0df96e49b249b89b8824761105e8" />
+                    </canvas>
+                    <canvas name="5" width="49" height="48">
+                        <vector name="origin" x="4" y="5" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="4cd4eb7451beb077780d3da5a1624ddbe615b0c6c07b7d54f0fd91ffd43dc575" />
+                    </canvas>
+                </imgdir>
+            </imgdir>
+            <imgdir name="btEffect">
+                <imgdir name="normal">
+                    <canvas name="0" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="7984629fa904e3621ee6acb82da132288e84a9134dd68eadff28a0657a1ecdeb" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="da9cbe12d8e9eb788e778c49b6c6eaec066a571ed49178cebd72b7fa40e3e10d" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="checked">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_inlink" value="Equip/Equip/btEffect/normal/0" />
+                    </canvas>
+                    <canvas name="1" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="b946cf0b110d2895982167d6fe97e5dc7e83d01cc6d39ac0c85eff0850fdd52a" />
+                    </canvas>
+                    <canvas name="2" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="7f1eb6b35f1326957756fb0681441e0cbd0fd5772d0b939ebbdfd13c42304404" />
+                    </canvas>
+                    <canvas name="3" width="1" height="1">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_inlink" value="Equip/Equip/btEffect/checked/1" />
+                    </canvas>
+                    <canvas name="4" width="1" height="1">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_inlink" value="Equip/Equip/btEffect/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="4359e30d4edf6b451da153025bfb9ed7adeb0a03eb989be07f2b65a2525b8b02" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="51" height="16">
+                        <vector name="origin" x="-10" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="45af83d66dd2081aac61ca71eea03031bf12ed7f3d430e71ab6fae6b4d76978b" />
+                    </canvas>
+                </imgdir>
+                <string name="ToolTip" value="Effect Activation\r\nAfter you equip the effect, you can right-click the Equip Slot to toggle the effect on or off. \r\nThe Equip Slot will be green if the effect is on, and red if it is off." />
+            </imgdir>
+            <imgdir name="btSalon">
+                <imgdir name="normal">
+                    <canvas name="0" width="55" height="16">
+                        <vector name="origin" x="-64" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="9b034dc230d14041b67bf587381382dfc5f6b514f30af9ce386a300d3081f0b8" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="55" height="16">
+                        <vector name="origin" x="-64" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="cdb2d3408d1c06d19f4d4653d092523df7dc50bd5a417cce31c0fa19fb23c56c" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="55" height="16">
+                        <vector name="origin" x="-64" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="6417736105d1de3fb45d7bce328a02abff47f19cc711dcc5be0aa829e37f023a" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="55" height="16">
+                        <vector name="origin" x="-64" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="431ae09aa08e11c39dd4060dbd47d5e29fd99661b9e496371796464e64b24dcf" />
+                    </canvas>
+                </imgdir>
+                <string name="ToolTip" value="Beauty Salon - You can save/change your face or hair at any time." />
+            </imgdir>
+            <imgdir name="btVessel">
+                <imgdir name="normal">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-166" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="65a44a3147dfe373f4851865ccda536ee198155a4723c70c8896d1ac6d85bfde" />
+                        <string name="_outlink" value="UI/UIWindow4.img/Equip/Equip/btToggle/normal/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-166" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="161678972cdb2ce1645a253c158547c991664a4ad6b00eb395154100fbaf8a7b" />
+                        <string name="_outlink" value="UI/UIWindow4.img/Equip/Equip/btToggle/pressed/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-166" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="35f4349c917851fe608fc645b10390e19fddf78822a164b8ae476ada19ae55a3" />
+                        <string name="_outlink" value="UI/UIWindow4.img/Equip/Equip/btToggle/disabled/0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="1" height="1">
+                        <vector name="origin" x="-166" y="-322" />
+                        <int name="z" value="4" />
+                        <string name="_hash" value="08532d830e10624151c22f272123d9a526da0ed937d1dd155b5162f3d6c63b86" />
+                        <string name="_outlink" value="UI/UIWindow4.img/Equip/Equip/btToggle/mouseOver/0" />
+                    </canvas>
+                </imgdir>
+                <string name="ToolTip" value="Trade Ship Info\r\nContains various trade functions.\r\nTrade items can #conly be viewed in this window#." />
+            </imgdir>
+        </imgdir>
+        <imgdir name="Totem">
+            <canvas name="backgrnd" width="60" height="154">
+                <vector name="origin" x="0" y="0" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9e0331af75c31aecbcda402f2cf7ac0a1091880f28b0f3b62978ece7ae0bd871" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Item_Dye">
+        <canvas name="backgrnd" width="178" height="179">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="e098b1f85492ced8941885f77799b859bee82a22802810b1f90e31f1f1825d1f" />
+        </canvas>
+        <canvas name="backgrnd2" width="167" height="152">
+            <vector name="origin" x="-5" y="-20" />
+            <int name="z" value="-4" />
+            <string name="_hash" value="382149c1651d4f76f07468d157ae6ef99f3025e23e2ed91c94c7bfd8a0098985" />
+        </canvas>
+        <canvas name="backgrnd3" width="158" height="35">
+            <vector name="origin" x="-10" y="-24" />
+            <int name="z" value="-3" />
+            <string name="_hash" value="08144568e043e72b9425c4d3c50bd549b5f35b6044efde2c03d2383343cb2c96" />
+        </canvas>
+        <imgdir name="BtOk">
+            <imgdir name="normal">
+                <canvas name="0" width="37" height="16">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_hash" value="d593c136d734449aaf2833a57616d29f99eedde840d493766de6009525df2faf" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="37" height="16">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_hash" value="3ec5138f0d2ec855e089ac7ab8ece297e228e17b3ce85cdbd8288aa7a052e607" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_hash" value="05829373cbf2632230ea2923db9ae3a4ff7b529182725f3f2a62a7127bdccc9b" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtOk/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="37" height="16">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_hash" value="14206d9e104e858e25d127af9fe03fbe2329faf6314a35750869abf3bd9b675b" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtCancel">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_hash" value="1d995179d909c151c395367b82924a007171480c14b2ec0dd347647b26ad1204" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_hash" value="056a2093bd623985c6464bad269e9ff163ce36be4774d64ac7446bf4b310ad4a" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_hash" value="04efb5b766701e9431c7de636c3783e252de32ccaa647695e4d5d14db919b16b" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_hash" value="a6613e0af62247eb50102770ecb2dddd5cba92dfa9f3f27c8c7baed09837e4b9" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="Effect">
+            <canvas name="0" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="d1f5bd1a8bce1fdd24df4f2f3f0fb94631259b3ec51f0f520f4219247913a668" />
+            </canvas>
+            <canvas name="1" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="579343c9c9f5b2bd07b545b1c1d46572ea0e77c744d329bf066d55b1edc2790c" />
+            </canvas>
+            <canvas name="2" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="73bb0256b82011e81eccd285bc9e3273fd30f6a6eb63944924fef5a3f66c6a8b" />
+            </canvas>
+            <canvas name="3" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="76ab77b4b13c46da771bf0cbd7c2243a09e4c199e4c52d45b73e4649f88cee3f" />
+            </canvas>
+            <canvas name="4" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="4d97eab3d75c6ffd1472d9b3deb7d04e5ddbca25fd2903b6b3307def1b59a1b8" />
+            </canvas>
+            <canvas name="5" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="8aa8f24702270db54ce6376d5347c6d2c8dc5555f65670819ed989bd75ffa20b" />
+            </canvas>
+            <canvas name="6" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="cd97a93b6c2564726aa6868972538991775ea77d8672c2e09c1a3ce5ae46eeec" />
+            </canvas>
+            <canvas name="7" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="2dfbad150a803306768bdd895664b5258365cc708a7e176415e5a0e6096eacde" />
+            </canvas>
+            <canvas name="8" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="b542995b22b586172ee5e4aedd7e60e911da3974c542803136c6449c040cc1d1" />
+            </canvas>
+            <canvas name="9" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="42f9d9ddc011c167533f260219bcd0262bd97076c2bbd0042d8347025e755cc6" />
+            </canvas>
+            <canvas name="10" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="683c3313adc643a809bbbd430df037ab4d6bb7207721a9be7ecb1dfcd17e914f" />
+            </canvas>
+            <canvas name="11" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="0a813bc6fe6b5746bc5325043a15eca7b2a42ff27f7e02c3eb88bef01fe80f77" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Item_Dye_return">
+        <canvas name="backgrnd" width="178" height="179">
+            <vector name="origin" x="0" y="0" />
+            <int name="z" value="-5" />
+            <string name="_hash" value="a8989ddb8a879321ad85ed0f2a4f9375bfe24b48354ba08de7c238bfa783f90d" />
+        </canvas>
+        <canvas name="backgrnd2" width="167" height="152">
+            <vector name="origin" x="-5" y="-20" />
+            <int name="z" value="-4" />
+            <string name="_hash" value="2655219b6d6a3201d643f72ddacb27f2687ed2539b0293b70bee44adc0a8afb3" />
+        </canvas>
+        <canvas name="backgrnd3" width="158" height="36">
+            <vector name="origin" x="-10" y="-24" />
+            <int name="z" value="-3" />
+            <string name="_hash" value="83aaec4380128ca4594fa6382a464a5352e13e1b3e3b6062d4cd20972b421e59" />
+        </canvas>
+        <imgdir name="BtOk">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_inlink" value="Item_Dye/BtOk/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_inlink" value="Item_Dye/BtOk/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtOk/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-50" y="-151" />
+                    <string name="_inlink" value="Item_Dye/BtOk/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtCancel">
+            <imgdir name="normal">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/pressed/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/disabled/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-91" y="-151" />
+                    <string name="_outlink" value="UI/UIWindowJP.img/Incubator_JP/5060042/BtCancel/mouseOver/0" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+        <imgdir name="Effect">
+            <canvas name="0" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="6c47b0c6ec7ed5623edfba3b92244cc137ce3d45ff27728379cef04a03c67b2f" />
+            </canvas>
+            <canvas name="1" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="ae814d1e3a137ed3029cb793ae416cad70ee4070d9183ee70fa2babc45dd9d8e" />
+            </canvas>
+            <canvas name="2" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="a220019efd1fa429b860e138720a3aff14bd90b6316f5e50a8c91d1c06c3d9d2" />
+            </canvas>
+            <canvas name="3" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="6adcf7b4ac3a16bb01e8faa27f6ea489f002b3b7a5b8c166bcd49d29d23eb030" />
+            </canvas>
+            <canvas name="4" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="995feac138696070f8177acf2f9869be674ffe2a166248aecfd3db2958d2701a" />
+            </canvas>
+            <canvas name="5" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="f8a4864682f453c487019bfb21eca17ffa2945397993063dd4753cd314d5a125" />
+            </canvas>
+            <canvas name="6" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="602e314e05a70ea681f7071f3fd95be7599e6b54ce32d35a384744d59da64d35" />
+            </canvas>
+            <canvas name="7" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="7403601837e574ca7c02c038decec634a54550c796aeaa2b1d6a694e2f9e6622" />
+            </canvas>
+            <canvas name="8" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="2c0309a28f219d59c3533b3fbf27fe40de4d0830a12a50e084643081681638b0" />
+            </canvas>
+            <canvas name="9" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="82774507be11172e8204e5735f122d0fae59402b6a9d7b7d5ea2deca9193b6d0" />
+            </canvas>
+            <canvas name="10" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="bd75a6fa81e50bf99c7d32691d0b55994c3d280cb25fd92f40e9791e82fb8b70" />
+            </canvas>
+            <canvas name="11" width="164" height="86">
+                <vector name="origin" x="-7" y="-60" />
+                <int name="delay" value="120" />
+                <string name="_hash" value="7b087e99ebc04feac1545d8c8b4f48cb6ea773660b2fd62c5e8f8eaf8c68f581" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960143.img">
+    <imgdir name="info">
+        <int name="grade" value="0" />
+        <int name="range" value="300" />
+        <imgdir name="skill">
+            <int name="id" value="802" />
+            <int name="effectAfter" value="300" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <canvas name="0" width="61" height="67">
+            <vector name="origin" x="26" y="67" />
+            <vector name="lt" x="-26" y="-67" />
+            <vector name="rb" x="35" y="0" />
+            <vector name="head" x="-8" y="-30" />
+            <int name="delay" value="100" />
+            <string name="_hash" value="5bee9b5ab3e8ea9e458991775ff67ace3313f3cd9dd820d61a28346f9483e18e" />
+        </canvas>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="move" />
+    </imgdir>
+    <imgdir name="attack">
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="33" y="56" />
+                    <string name="_hash" value="58c1d2cda3978da6115f0cd6a82756cd73f1036ce3169be755175b9a42e0f73b" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/0" />
+                </canvas>
+                <canvas name="1" width="1" height="1">
+                    <vector name="origin" x="42" y="67" />
+                    <string name="_hash" value="1b3e5f49021dd6a2db86a97bc51dd5208ee6f609ce5c84432b101cd2f6ece755" />
+                    <string name="_outlink" value="Character/Familiar/9960042.img/attack/info/hit/1" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="300" />
+        </imgdir>
+        <string name="link" value="move" />
+    </imgdir>
+</imgdir>

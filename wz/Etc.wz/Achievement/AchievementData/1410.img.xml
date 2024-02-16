@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1410.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="event" />
+        <string name="subCategory" value="seaSideOutLaw" />
+        <string name="name" value="Well Begun Is Half Done" />
+        <string name="desc" value="Go on a Winter Retreat for the first time and become a Beach Bum!" />
+        <string name="difficulty" value="nomal" />
+        <int name="score" value="10" />
+        <imgdir name="period">
+            <string name="start" value="20171214000000" />
+            <string name="end" value="20180103000000" />
+            <string name="start_t" value="20171214000000" />
+            <string name="end_t" value="20180103000000" />
+        </imgdir>
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="submission_info" />
+            <int name="gaugeMissionIndex" value="0" />
+            <string name="gaugeSubMission" value="quest_qrex_change" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Speak with Kemdi to visit a remote island for a winter weather retreat." />
+            <imgdir name="subMission">
+                <imgdir name="quest_qrex_change">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_change_info">
+                            <string name="quest_id" value="16391" />
+                            <imgdir name="quest_ex">
+                                <string name="condition" value="and" />
+                                <imgdir name="values">
+                                    <imgdir name="0">
+                                        <string name="key" value="land" />
+                                        <string name="value" value="1" />
+                                    </imgdir>
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

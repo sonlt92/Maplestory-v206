@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="607.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="battle" />
+        <string name="subCategory" value="field" />
+        <string name="name" value="[Surprise Mission] Crisis Coping Ability" />
+        <string name="desc" value="Clear all Surprise Missions of all types" />
+        <string name="difficulty" value="rare" />
+        <int name="score" value="20" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="mission" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Complete &lt;Defeat 100 monsters near your level&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49001" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="name" value="Complete &lt;Defeat 200 monsters near your level&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49002" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="2">
+            <string name="name" value="Complete &lt;Defeat 300 monsters near your level&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49003" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="3">
+            <string name="name" value="Complete &lt;100 Combos While Hunting&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49004" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="4">
+            <string name="name" value="Complete &lt;200 Combos While Hunting&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49005" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="5">
+            <string name="name" value="Complete &lt;300 Combos While Hunting&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49006" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="6">
+            <string name="name" value="Complete &lt;15 Multi KOs while hunting monsters&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49007" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="7">
+            <string name="name" value="Complete &lt;25 Multi KOs while hunting monsters&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49008" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="8">
+            <string name="name" value="Complete &lt;50 Multi KOs while hunting monsters&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49009" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="9">
+            <string name="name" value="Complete &lt;Activate a Rune or Lure once in the field&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49010" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="10">
+            <string name="name" value="Complete &lt;Find a Burning Field&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49011" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="11">
+            <string name="name" value="Complete &lt;Defeat 1 Elite monster&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49012" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="12">
+            <string name="name" value="Complete &lt;Defeat 2 Elite monsters&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49013" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="13">
+            <string name="name" value="Complete &lt;Defeat 3 Elite monsters&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49014" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="14">
+            <string name="name" value="Complete &lt;Visit the Inferno Wolf's Den Once&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49016" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="15">
+            <string name="name" value="Complete &lt;Help Bounty Hunters Once&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49017" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="16">
+            <string name="name" value="Complete &lt;Use the Field's Hidden Portal&gt;" />
+            <imgdir name="subMission">
+                <imgdir name="suddenmission_complete">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="quest_id">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <int name="0" value="49018" />
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

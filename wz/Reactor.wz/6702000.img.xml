@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="6702000.img">
+    <imgdir name="info">
+        <string name="info" value="Mirror that breaks by Wing hammer in APQ" />
+    </imgdir>
+    <imgdir name="0">
+        <canvas name="0" width="200" height="205">
+            <vector name="origin" x="97" y="205" />
+            <int name="delay" value="720" />
+            <int name="z" value="0" />
+            <string name="_hash" value="0b37fe66479d0da4d81d5fe5093f2c821cf0914bbf4d2edb7a12878b536d7859" />
+        </canvas>
+        <canvas name="1" width="196" height="204">
+            <vector name="origin" x="95" y="204" />
+            <int name="delay" value="240" />
+            <int name="z" value="0" />
+            <string name="_hash" value="75adf8f35475eda4ea784e6c7484689a4dca889252281c5b2e12d20d18aed588" />
+        </canvas>
+        <canvas name="2" width="190" height="202">
+            <vector name="origin" x="92" y="202" />
+            <int name="delay" value="600" />
+            <int name="z" value="0" />
+            <string name="_hash" value="9450b2bfef92fe9acb98fe685acc35662b18af22a6c5b1320c23f25cac570445" />
+        </canvas>
+        <canvas name="3" width="1" height="1">
+            <vector name="origin" x="95" y="204" />
+            <int name="delay" value="240" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/1" />
+        </canvas>
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="100" />
+                <int name="state" value="1" />
+                <string name="message" value="The Magik Mirror shatters, scattering its pieces on the ground." />
+                <int name="0" value="4031596" />
+                <int name="2" value="1" />
+                <int name="1" value="1" />
+                <vector name="lt" x="-144" y="-34" />
+                <vector name="rb" x="144" y="14" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="360" />
+                <int name="z" value="0" />
+                <string name="_hash" value="57c169d37a901d63befaa0fc34dbaf67c5f2b268d995dd5dc5745ebbfc87440f" />
+            </canvas>
+            <canvas name="1" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="120" />
+                <int name="z" value="0" />
+                <string name="_hash" value="44e804a80a20b3b3d091032dd785b79b373780223a9438006d91817e1a2d503c" />
+            </canvas>
+            <canvas name="2" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="600" />
+                <int name="z" value="0" />
+                <string name="_hash" value="e708dad1697653929bedffa76643e01b968f85f77e38a73110f8fa39d2e48648" />
+            </canvas>
+            <canvas name="3" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="120" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ab736f70aaeb4ee23447ed0ddb81faf7678680c268a5de49c7d4f44513ab8df4" />
+            </canvas>
+            <canvas name="4" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="84" />
+                <int name="z" value="0" />
+                <string name="_hash" value="56d5d06fa60940c34f38979d5ef3bf9fcf176c0a37bbb46ccf4c73562682a9b1" />
+            </canvas>
+            <canvas name="5" width="193" height="208">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="84" />
+                <int name="z" value="0" />
+                <string name="_hash" value="9fdef1ca24fc0345870c9110ff0dfb1b6afa8a60abc695ac5d81c0bb392c3ff1" />
+            </canvas>
+            <canvas name="6" width="193" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="84" />
+                <int name="z" value="0" />
+                <string name="_hash" value="38b6d29d9047f3a2fd67536a7910fa9ddbe6b3531e7e93f4c4b5f17d67f5a033" />
+            </canvas>
+            <canvas name="7" width="196" height="204">
+                <vector name="origin" x="95" y="204" />
+                <int name="delay" value="2400" />
+                <int name="z" value="0" />
+                <string name="_hash" value="4c0ab279038f9247e49fca1187b8f8830a3c8c9a6fd0287a0b162a9b3f49952e" />
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="95" y="204" />
+            <int name="delay" value="240" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="0/hit/7" />
+        </canvas>
+        <canvas name="1" width="200" height="207">
+            <vector name="origin" x="97" y="205" />
+            <int name="delay" value="600" />
+            <int name="z" value="0" />
+            <string name="_hash" value="7aaa9b1d67782961e6c79a6a7fa123cd8fc2b81cb15edad5f5c022d8d4ca65a1" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="amoriaItem0" />
+</imgdir>

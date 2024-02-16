@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="1530230.img">
+    <imgdir name="info">
+        <int name="forceMove" value="1" />
+        <imgdir name="speak">
+            <string name="0" value="n0" />
+            <string name="1" value="n1" />
+            <string name="2" value="d0" />
+            <string name="3" value="d1" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand">
+        <canvas name="0" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <int name="delay" value="3000" />
+            <string name="_hash" value="04cd74364875ff8d5efcee03cfb77e2aca88095c1318a924cfd33e79f55f1488" />
+        </canvas>
+    </imgdir>
+    <imgdir name="say">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="stand/0" />
+        </canvas>
+        <canvas name="1" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_hash" value="346e41277e44db0008514ab1c5f8734f34ca490fd1fa914b689ec50e7ca008a8" />
+        </canvas>
+        <uol name="2" value="0" />
+        <uol name="3" value="1" />
+        <uol name="4" value="0" />
+        <uol name="5" value="1" />
+        <uol name="6" value="0" />
+        <uol name="7" value="1" />
+        <uol name="8" value="0" />
+        <uol name="9" value="1" />
+        <uol name="10" value="0" />
+        <uol name="11" value="1" />
+        <uol name="12" value="0" />
+        <uol name="13" value="1" />
+        <uol name="14" value="0" />
+        <uol name="15" value="1" />
+        <imgdir name="speak">
+            <string name="0" value="n0" />
+            <string name="1" value="n1" />
+            <string name="2" value="d0" />
+            <string name="3" value="d1" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <canvas name="0" width="75" height="101">
+            <vector name="origin" x="30" y="101" />
+            <int name="z" value="0" />
+            <string name="_hash" value="4f5aa5d6d8ccef02c4c65b1ae9a43fdb88f4c3af794c5580bc3d69f781d0d171" />
+        </canvas>
+        <canvas name="1" width="75" height="100">
+            <vector name="origin" x="30" y="100" />
+            <int name="z" value="0" />
+            <string name="_hash" value="a3e9b7aab9b63a546dae7e07cb7a0dd12a780c9f5954db072f018b3853346110" />
+        </canvas>
+        <canvas name="2" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_hash" value="fb8b47bdf3784d314e81d2d326c976b78deed5f039aad9847cc7df1f57cbf740" />
+        </canvas>
+        <canvas name="3" width="75" height="101">
+            <vector name="origin" x="30" y="101" />
+            <int name="z" value="0" />
+            <string name="_hash" value="fbe1d22817b77863777b6663b120cbc92ef7d1817b65bd7335fb2aa3901de8ca" />
+        </canvas>
+        <canvas name="4" width="75" height="100">
+            <vector name="origin" x="30" y="100" />
+            <int name="z" value="0" />
+            <string name="_hash" value="92a5f5084af6fea1bb4a530d6213d61457be8998887c3a559cc9ad2797a3e7e4" />
+        </canvas>
+        <canvas name="5" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_hash" value="cf92f50c32be6b269e146dca97ae13716f3b6bbf9e5fdaa2c6df7c5a111aa751" />
+        </canvas>
+        <uol name="6" value="0" />
+        <uol name="7" value="1" />
+        <uol name="8" value="2" />
+        <uol name="9" value="3" />
+        <uol name="10" value="4" />
+        <uol name="11" value="5" />
+        <uol name="12" value="0" />
+        <uol name="13" value="1" />
+        <uol name="14" value="2" />
+        <uol name="15" value="3" />
+        <uol name="16" value="4" />
+        <uol name="17" value="5" />
+    </imgdir>
+    <imgdir name="eye">
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_inlink" value="stand/0" />
+        </canvas>
+        <canvas name="1" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_hash" value="2686e04b9180308ed214af0b5a67e21fc5ac5eb080fbb97f7d9cfffc835408a1" />
+        </canvas>
+        <canvas name="2" width="75" height="99">
+            <vector name="origin" x="30" y="99" />
+            <int name="z" value="0" />
+            <string name="_hash" value="78e6d621585015a0be6a88f9fb8d52b9bd2a4eccc31db6d683bec5379954159d" />
+        </canvas>
+        <uol name="3" value="0" />
+        <uol name="4" value="1" />
+        <uol name="5" value="2" />
+    </imgdir>
+    <imgdir name="die">
+        <canvas name="0" width="104" height="89">
+            <vector name="origin" x="45" y="89" />
+            <int name="z" value="0" />
+            <int name="delay" value="3000" />
+            <string name="_hash" value="9b8bdb1f0f96ea870751e0ae3959d629e536b3cc8ddfc3afd60dc61da5653028" />
+        </canvas>
+        <int name="special" value="1" />
+    </imgdir>
+</imgdir>

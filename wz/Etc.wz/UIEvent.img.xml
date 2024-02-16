@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="UIEvent.img">
+    <imgdir name="TacticalRelay">
+        <string name="dateStart" value="201811290000" />
+        <string name="dateEnd" value="201812120000" />
+        <string name="script" value="q100045s" />
+        <imgdir name="TotalScore">
+            <int name="questID" value="500555" />
+            <string name="questEx" value="total" />
+        </imgdir>
+        <imgdir name="TodayScore">
+            <int name="questID" value="500555" />
+            <imgdir name="questEx">
+                <string name="1" value="s1" />
+                <string name="2" value="s2" />
+                <string name="3" value="s3" />
+                <string name="4" value="s4" />
+                <string name="5" value="s5" />
+                <string name="6" value="s6" />
+                <string name="7" value="s7" />
+                <string name="8" value="s8" />
+                <string name="9" value="s9" />
+                <string name="10" value="s10" />
+                <string name="11" value="s11" />
+                <string name="12" value="s12" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="Mission">
+            <string name="1" value="Defeat 300 monsters near your level" />
+            <string name="2" value="Reach 100 Combo Kills" />
+            <string name="3" value="Defeat 3 Elite monsters" />
+            <string name="4" value="Defeat a Normal Boss" />
+            <string name="5" value="Hunt 300 Star Force monsters" />
+            <string name="6" value="Clear Monster Park 1 time" />
+            <string name="7" value="Defeat 3 Star Force Elite monsters" />
+            <string name="8" value="Defeat a Hard or Chaos Boss 1 time" />
+            <string name="9" value="Hunt 300 Arcane River Monsters" />
+            <string name="10" value="Reach 100 Multi KOs" />
+            <string name="11" value="Eliminate the Elite Boss 1 time" />
+            <string name="12" value="Defeat 1 of the Chaos Root Abyss Bosses\n(Can only be cleared once a week per character.)" />
+        </imgdir>
+        <imgdir name="ClearCharacterInfo">
+            <imgdir name="1">
+                <int name="questID" value="500556" />
+                <string name="questEx" value="s1" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="questID" value="500556" />
+                <string name="questEx" value="s2" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="questID" value="500556" />
+                <string name="questEx" value="s3" />
+            </imgdir>
+            <imgdir name="4">
+                <int name="questID" value="500556" />
+                <string name="questEx" value="s4" />
+            </imgdir>
+            <imgdir name="5">
+                <int name="questID" value="500557" />
+                <string name="questEx" value="s5" />
+            </imgdir>
+            <imgdir name="6">
+                <int name="questID" value="500557" />
+                <string name="questEx" value="s6" />
+            </imgdir>
+            <imgdir name="7">
+                <int name="questID" value="500557" />
+                <string name="questEx" value="s7" />
+            </imgdir>
+            <imgdir name="8">
+                <int name="questID" value="500557" />
+                <string name="questEx" value="s8" />
+            </imgdir>
+            <imgdir name="9">
+                <int name="questID" value="500558" />
+                <string name="questEx" value="s9" />
+            </imgdir>
+            <imgdir name="10">
+                <int name="questID" value="500558" />
+                <string name="questEx" value="s10" />
+            </imgdir>
+            <imgdir name="11">
+                <int name="questID" value="500558" />
+                <string name="questEx" value="s11" />
+            </imgdir>
+            <imgdir name="12">
+                <int name="questID" value="500558" />
+                <string name="questEx" value="s12" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="BonusIndex">
+            <string name="1" value="Clear as a Warrior" />
+            <string name="2" value="Clear as a Magician" />
+            <string name="3" value="Clear as a Bowman" />
+            <string name="4" value="Clear as a Warrior" />
+            <string name="5" value="Clear as a Pirate" />
+            <string name="6" value="Defeat Normal Horntail" />
+            <string name="7" value="Defeat Normal OMNI-CLN" />
+            <string name="8" value="Defeat Normal Von Leon" />
+            <string name="9" value="Defeat Normal Arkarium" />
+            <string name="10" value="Defeat Normal Magnus" />
+            <string name="11" value="Defeat Normal Papulatus" />
+            <string name="12" value="Defeat Normal Cygnus" />
+            <string name="13" value="Defeat Hard Hilla" />
+            <string name="14" value="Defeat Chaos Pink Bean" />
+            <string name="15" value="Defeat Chaos Zakum" />
+            <string name="16" value="Defeat Hard Magnus" />
+            <string name="17" value="Defeat Von Bon alone\nas a Thief" />
+            <string name="18" value="Defeat Crimson Queen alone\nas a Pirate" />
+            <string name="19" value="Defeat Pierre alone\nas a Warrior" />
+            <string name="20" value="Defeat Von Bon alone\nas a Magician" />
+            <string name="21" value="Defeat Crimson Queen alone\nas a Bowman" />
+            <string name="22" value="Defeat Pierre alone\nas a Thief" />
+            <string name="23" value="Defeat Von Bon alone\nas a Pirate" />
+            <string name="24" value="Defeat Crimson Queen alone\nas a Warrior" />
+            <string name="25" value="Defeat Pierre alone\nas a Magician" />
+            <string name="26" value="Defeat Vellum alone\nas a Bowman" />
+            <string name="27" value="Defeat Vellum alone\nas a Thief" />
+            <string name="28" value="Defeat Vellum alone\nas a Pirate" />
+            <string name="29" value="Defeat Vellum alone\nas a Warrior" />
+            <string name="30" value="Defeat Vellum alone\nas a Magician" />
+        </imgdir>
+        <imgdir name="BonusSchedule">
+            <imgdir name="1">
+                <int name="1" value="5" />
+                <int name="2" value="1" />
+                <int name="3" value="2" />
+                <int name="4" value="3" />
+                <int name="5" value="4" />
+                <int name="6" value="5" />
+                <int name="7" value="1" />
+                <int name="8" value="2" />
+                <int name="9" value="3" />
+                <int name="10" value="4" />
+                <int name="11" value="5" />
+                <int name="12" value="1" />
+                <int name="13" value="2" />
+                <int name="14" value="3" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="1" value="1" />
+                <int name="2" value="2" />
+                <int name="3" value="3" />
+                <int name="4" value="4" />
+                <int name="5" value="5" />
+                <int name="6" value="1" />
+                <int name="7" value="2" />
+                <int name="8" value="3" />
+                <int name="9" value="4" />
+                <int name="10" value="5" />
+                <int name="11" value="1" />
+                <int name="12" value="2" />
+                <int name="13" value="3" />
+                <int name="14" value="4" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="1" value="2" />
+                <int name="2" value="3" />
+                <int name="3" value="4" />
+                <int name="4" value="5" />
+                <int name="5" value="1" />
+                <int name="6" value="2" />
+                <int name="7" value="3" />
+                <int name="8" value="4" />
+                <int name="9" value="5" />
+                <int name="10" value="1" />
+                <int name="11" value="2" />
+                <int name="12" value="3" />
+                <int name="13" value="4" />
+                <int name="14" value="5" />
+            </imgdir>
+            <imgdir name="4">
+                <int name="1" value="6" />
+                <int name="2" value="7" />
+                <int name="3" value="8" />
+                <int name="4" value="9" />
+                <int name="5" value="10" />
+                <int name="6" value="11" />
+                <int name="7" value="12" />
+                <int name="8" value="6" />
+                <int name="9" value="7" />
+                <int name="10" value="8" />
+                <int name="11" value="9" />
+                <int name="12" value="10" />
+                <int name="13" value="11" />
+                <int name="14" value="12" />
+            </imgdir>
+            <imgdir name="5">
+                <int name="1" value="3" />
+                <int name="2" value="4" />
+                <int name="3" value="5" />
+                <int name="4" value="1" />
+                <int name="5" value="2" />
+                <int name="6" value="3" />
+                <int name="7" value="4" />
+                <int name="8" value="5" />
+                <int name="9" value="1" />
+                <int name="10" value="2" />
+                <int name="11" value="3" />
+                <int name="12" value="4" />
+                <int name="13" value="5" />
+                <int name="14" value="1" />
+            </imgdir>
+            <imgdir name="6">
+                <int name="1" value="4" />
+                <int name="2" value="5" />
+                <int name="3" value="1" />
+                <int name="4" value="2" />
+                <int name="5" value="3" />
+                <int name="6" value="4" />
+                <int name="7" value="5" />
+                <int name="8" value="1" />
+                <int name="9" value="2" />
+                <int name="10" value="3" />
+                <int name="11" value="4" />
+                <int name="12" value="5" />
+                <int name="13" value="1" />
+                <int name="14" value="2" />
+            </imgdir>
+            <imgdir name="7">
+                <int name="1" value="5" />
+                <int name="2" value="1" />
+                <int name="3" value="2" />
+                <int name="4" value="3" />
+                <int name="5" value="4" />
+                <int name="6" value="5" />
+                <int name="7" value="1" />
+                <int name="8" value="2" />
+                <int name="9" value="3" />
+                <int name="10" value="4" />
+                <int name="11" value="5" />
+                <int name="12" value="1" />
+                <int name="13" value="2" />
+                <int name="14" value="3" />
+            </imgdir>
+            <imgdir name="8">
+                <int name="1" value="13" />
+                <int name="2" value="14" />
+                <int name="3" value="15" />
+                <int name="4" value="16" />
+                <int name="5" value="13" />
+                <int name="6" value="14" />
+                <int name="7" value="15" />
+                <int name="8" value="16" />
+                <int name="9" value="13" />
+                <int name="10" value="14" />
+                <int name="11" value="15" />
+                <int name="12" value="16" />
+                <int name="13" value="13" />
+                <int name="14" value="14" />
+            </imgdir>
+            <imgdir name="9">
+                <int name="1" value="1" />
+                <int name="2" value="2" />
+                <int name="3" value="3" />
+                <int name="4" value="4" />
+                <int name="5" value="5" />
+                <int name="6" value="1" />
+                <int name="7" value="2" />
+                <int name="8" value="3" />
+                <int name="9" value="4" />
+                <int name="10" value="5" />
+                <int name="11" value="1" />
+                <int name="12" value="2" />
+                <int name="13" value="3" />
+                <int name="14" value="4" />
+            </imgdir>
+            <imgdir name="10">
+                <int name="1" value="2" />
+                <int name="2" value="3" />
+                <int name="3" value="4" />
+                <int name="4" value="5" />
+                <int name="5" value="1" />
+                <int name="6" value="2" />
+                <int name="7" value="3" />
+                <int name="8" value="4" />
+                <int name="9" value="5" />
+                <int name="10" value="1" />
+                <int name="11" value="2" />
+                <int name="12" value="3" />
+                <int name="13" value="4" />
+                <int name="14" value="5" />
+            </imgdir>
+            <imgdir name="11">
+                <int name="1" value="3" />
+                <int name="2" value="4" />
+                <int name="3" value="5" />
+                <int name="4" value="1" />
+                <int name="5" value="2" />
+                <int name="6" value="3" />
+                <int name="7" value="4" />
+                <int name="8" value="5" />
+                <int name="9" value="1" />
+                <int name="10" value="2" />
+                <int name="11" value="3" />
+                <int name="12" value="4" />
+                <int name="13" value="5" />
+                <int name="14" value="1" />
+            </imgdir>
+            <imgdir name="12">
+                <int name="1" value="17" />
+                <int name="2" value="18" />
+                <int name="3" value="19" />
+                <int name="4" value="20" />
+                <int name="5" value="21" />
+                <int name="6" value="22" />
+                <int name="7" value="23" />
+                <int name="8" value="24" />
+                <int name="9" value="25" />
+                <int name="10" value="26" />
+                <int name="11" value="27" />
+                <int name="12" value="28" />
+                <int name="13" value="29" />
+                <int name="14" value="30" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="CurrentMission">
+            <int name="questID" value="500555" />
+            <string name="questEx" value="current" />
+        </imgdir>
+        <imgdir name="BonusClearInfo">
+            <imgdir name="1">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s1" />
+            </imgdir>
+            <imgdir name="2">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s2" />
+            </imgdir>
+            <imgdir name="3">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s3" />
+            </imgdir>
+            <imgdir name="4">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s4" />
+            </imgdir>
+            <imgdir name="5">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s5" />
+            </imgdir>
+            <imgdir name="6">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s6" />
+            </imgdir>
+            <imgdir name="7">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s7" />
+            </imgdir>
+            <imgdir name="8">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s8" />
+            </imgdir>
+            <imgdir name="9">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s9" />
+            </imgdir>
+            <imgdir name="10">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s10" />
+            </imgdir>
+            <imgdir name="11">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s11" />
+            </imgdir>
+            <imgdir name="12">
+                <int name="questID" value="500591" />
+                <string name="questEx" value="s12" />
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

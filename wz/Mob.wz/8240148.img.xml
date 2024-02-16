@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="8240148.img">
+    <imgdir name="info">
+        <int name="level" value="33" />
+        <int name="bodyAttack" value="1" />
+        <int name="maxHP" value="7600" />
+        <int name="maxMP" value="800" />
+        <int name="speed" value="-40" />
+        <int name="PADamage" value="283" />
+        <int name="PDDamage" value="570" />
+        <int name="PDRate" value="10" />
+        <int name="MADamage" value="282" />
+        <int name="MDDamage" value="570" />
+        <int name="MDRate" value="10" />
+        <int name="acc" value="90" />
+        <int name="eva" value="20" />
+        <int name="pushed" value="400" />
+        <float name="fs" value="10.0" />
+        <int name="exp" value="0" />
+        <int name="summonType" value="1" />
+        <int name="category" value="5" />
+        <string name="mobType" value="1H" />
+        <int name="skeleton" value="1" />
+        <int name="removeAfter" value="20" />
+        <int name="bodyDisease" value="126" />
+        <int name="bodyDiseaseLevel" value="1" />
+        <int name="hideHP" value="1" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="aniName" value="02_stand" />
+    </imgdir>
+    <imgdir name="hit1">
+        <string name="aniName" value="03_hit" />
+    </imgdir>
+    <imgdir name="die1">
+        <string name="aniName" value="04_die" />
+    </imgdir>
+    <imgdir name="regen">
+        <string name="aniName" value="01_summon" />
+    </imgdir>
+    <canvas name="04_attack_01_effect.png" width="1" height="1">
+        <vector name="origin" x="488" y="277" />
+        <int name="z" value="0" />
+        <string name="_hash" value="7650b9bb13ca18095bfa25a371efac5ae02ffb8f46604d7593dce400e818edb4" />
+        <string name="_outlink" value="Mob/8240130.img/spine_effect/04_attack_01_effect/04_attack_01_effect.png" />
+    </canvas>
+    <string name="8240148.atlas" value="&#xA;04_attack_01_effect.png&#xA;size: 977,554&#xA;format: RGBA8888&#xA;filter: Linear,Linear&#xA;repeat: none&#xA;effect/smoke_01&#xA;  rotate: false&#xA;  xy: 631, 2&#xA;  size: 344, 248&#xA;  orig: 344, 248&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/spider web_01&#xA;  rotate: true&#xA;  xy: 2, 210&#xA;  size: 342, 627&#xA;  orig: 342, 627&#xA;  offset: 0, 0&#xA;  index: -1&#xA;effect/spider web_02&#xA;  rotate: false&#xA;  xy: 2, 15&#xA;  size: 129, 193&#xA;  orig: 129, 193&#xA;  offset: 0, 0&#xA;  index: -1&#xA;top ring_06&#xA;  rotate: false&#xA;  xy: 631, 252&#xA;  size: 300, 300&#xA;  orig: 300, 300&#xA;  offset: 0, 0&#xA;  index: -1&#xA;" />
+    <sound name="8240148" />
+</imgdir>

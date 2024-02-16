@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="PTSystem.img">
+    <imgdir name="Program">
+        <imgdir name="0">
+            <int name="expTableNo" value="0" />
+            <string name="start" value="20190522000000" />
+            <string name="end" value="20190611235959" />
+            <string name="start_t" value="20190522000000" />
+            <string name="end_t" value="20190611235959" />
+            <string name="start_d" value="20190522000000" />
+            <string name="end_d" value="20190611235959" />
+            <int name="trainerLvMin" value="105" />
+            <int name="traineeLvMin" value="105" />
+            <int name="traineeLvMax" value="189" />
+            <string name="UI" value="UI/UIWindow7.img/PTSystem/15thEvent" />
+            <int name="questID" value="500293" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="Msg">
+        <imgdir name="20">
+            <string name="info" value="Failed to register a Training character." />
+            <string name="-1" value="The request failed for an unknown reason." />
+            <string name="10" value="You cannot access this content right now." />
+            <string name="11" value="The item has expired." />
+            <string name="12" value="Cannot register in the current server." />
+            <string name="13" value="You can only register one character per world." />
+            <string name="20" value="Failed to register as the Training Character. Level requirement not met." />
+            <string name="21" value="You cannot register a Burning character as a Training character." />
+            <string name="22" value="You cannot register a Coach character as a Training Character." />
+            <string name="23" value="You cannot register a Training character that is already in training." />
+            <string name="24" value="You cannot register a Training character that is waiting for deletion." />
+            <string name="25" value="You cannot register a Training character with that Job." />
+            <string name="30" value="Failed to become the Coach character. Level requirement not met." />
+            <string name="31" value="A Burning character cannot become a Coach character." />
+            <string name="32" value="You already registered a Training character." />
+            <string name="33" value="A Training character cannot become a Coach character." />
+            <string name="34" value="A character waiting for deletion cannot become a Coach character." />
+            <string name="35" value="A character with that job cannot become a Coach character." />
+            <string name="36" value="A Zero character needs to finish Chapter 2 in order to become a Coach character." />
+            <string name="100" value="Failed to process the request due to server capacity overload. Please try again later." />
+        </imgdir>
+        <imgdir name="21">
+            <string name="info" value="Failed to remove Training character." />
+            <string name="-1" value="The request failed for an unknown reason." />
+            <string name="12" value="Cannot remove from the current server." />
+            <string name="1001" value="The Training character's information does not exist." />
+        </imgdir>
+    </imgdir>
+</imgdir>

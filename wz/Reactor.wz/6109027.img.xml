@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="6109027.img">
+    <imgdir name="info">
+        <string name="info" value="글로벌 파티 퀘스트 - 불 콘트롤3_5" />
+        <int name="activateByTouch" value="1" />
+    </imgdir>
+    <imgdir name="0">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="6" />
+                <int name="state" value="1" />
+            </imgdir>
+        </imgdir>
+        <imgdir name="hit">
+            <canvas name="0" width="1" height="1">
+                <vector name="origin" x="74" y="22" />
+                <int name="z" value="0" />
+                <string name="_hash" value="ecdda61198bb8473761f0cdf2268c43ce33a2db968065755e547061ac38c66a5" />
+                <string name="_outlink" value="Reactor/6109014.img/0/hit/0" />
+            </canvas>
+        </imgdir>
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="74" y="22" />
+            <int name="z" value="0" />
+            <string name="_outlink" value="Reactor/6109014.img/0/hit/0" />
+        </canvas>
+    </imgdir>
+    <imgdir name="1">
+        <imgdir name="event">
+            <imgdir name="0">
+                <int name="type" value="7" />
+                <int name="state" value="0" />
+            </imgdir>
+        </imgdir>
+        <uol name="hit" value="../0/hit" />
+        <canvas name="0" width="1" height="1">
+            <vector name="origin" x="74" y="22" />
+            <int name="z" value="0" />
+            <string name="_outlink" value="Reactor/6109014.img/0/hit/0" />
+        </canvas>
+    </imgdir>
+    <string name="action" value="glpqflame7" />
+</imgdir>

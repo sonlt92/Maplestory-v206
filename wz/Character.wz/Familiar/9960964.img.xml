@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="9960964.img">
+    <imgdir name="info">
+        <int name="grade" value="3" />
+        <int name="range" value="600" />
+        <imgdir name="skill">
+            <int name="id" value="807" />
+            <int name="effectAfter" value="500" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="move">
+        <string name="link" value="fly" />
+    </imgdir>
+    <imgdir name="stand">
+        <string name="link" value="stand" />
+    </imgdir>
+    <imgdir name="jump">
+        <string name="link" value="fly" />
+    </imgdir>
+    <imgdir name="fly">
+        <string name="link" value="fly" />
+    </imgdir>
+    <imgdir name="attack">
+        <string name="link" value="skilll1" />
+        <imgdir name="info">
+            <imgdir name="hit">
+                <canvas name="0" width="136" height="106">
+                    <vector name="origin" x="66" y="53" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="c60cd8f3d562c8982b522142f83a5d6b030e5cbdbe9ce977fd3c3f7f4e96e944" />
+                </canvas>
+                <canvas name="1" width="140" height="107">
+                    <vector name="origin" x="66" y="54" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="1ab1b0c5d73b7b8aaf73355597abd40f10e711852522b84716762db30164f3d7" />
+                </canvas>
+                <canvas name="2" width="105" height="98">
+                    <vector name="origin" x="52" y="51" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="56c2fa1fe73b7caa03bfb949e7376bd6f51c0d10bcc9f8751f9733fa90ddacb2" />
+                </canvas>
+                <canvas name="3" width="107" height="99">
+                    <vector name="origin" x="54" y="51" />
+                    <int name="z" value="0" />
+                    <int name="delay" value="120" />
+                    <string name="_hash" value="12b9c054b87d6c3beceeecd5838bef9b13fc596d22e7baf261e03f1a3db1a2ea" />
+                </canvas>
+            </imgdir>
+            <int name="attackAfter" value="720" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="skill">
+        <string name="link" value="skilll1" />
+    </imgdir>
+</imgdir>

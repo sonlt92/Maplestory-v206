@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="UIChatChannelList.img">
+    <imgdir name="list">
+        <imgdir name="ChannelList">
+            <string name="class" value="LabelList" />
+            <int name="id" value="1001" />
+            <int name="item_id_begin" value="10000" />
+            <vector name="lt" x="10" y="114" />
+            <vector name="rb" x="254" y="294" />
+            <imgdir name="normalFont">
+                <string name="name" value="Arial" />
+                <int name="size" value="12" />
+                <string name="color" value="FF000000" />
+                <short name="bold" value="-1" />
+            </imgdir>
+            <imgdir name="selectedFont">
+                <string name="name" value="Arial" />
+                <int name="size" value="12" />
+                <string name="color" value="FFFFFFFF" />
+                <short name="bold" value="-1" />
+            </imgdir>
+            <int name="normalBKColor" value="-1" />
+            <int name="selectedBKColor" value="-16777216" />
+            <canvas name="active" width="37" height="17">
+                <vector name="origin" x="-198" y="-135" />
+                <int name="z" value="0" />
+                <string name="_hash" value="1e32a412a80e757780cd669d104ebcc777960c448e35b1f5b39238ec80a04078" />
+            </canvas>
+            <canvas name="highlight" width="227" height="19">
+                <vector name="origin" x="-12" y="-154" />
+                <int name="z" value="0" />
+                <string name="_hash" value="36a3a9afa77903b16fbe184b2a3882b3b0baffa1ee132d0c3b8ea8826d2c3ef1" />
+            </canvas>
+            <canvas name="backgrnd" width="230" height="159">
+                <vector name="origin" x="-10" y="-134" />
+                <int name="z" value="0" />
+                <string name="_hash" value="c419810fd45f3361c9df0fd8f5312f026af8bc49784da6197a99e51f2081e7aa" />
+            </canvas>
+            <imgdir name="BtNo">
+                <imgdir name="normal">
+                    <canvas name="0" width="38" height="18">
+                        <vector name="origin" x="-10" y="-115" />
+                        <int name="z" value="5" />
+                        <string name="_hash" value="7f3929b8b9d066ed25a802daf675ee6aa7a491aa88cfb58288df8cf152631cab" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="38" height="18">
+                        <vector name="origin" x="-10" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="7ccb5930bb67a2a358a3238d9e25025b5e6ef2148cb254a927744879fa6b21f6" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="38" height="18">
+                        <vector name="origin" x="-10" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="12e4d94f69a404d61e40b9e077a32451543a415cccdd5639014bc3e7b13d0db0" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="38" height="18">
+                        <vector name="origin" x="-10" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="fa8de5468a004881aaa88461a912cfd4c0030260a12475de6134ae4df7d46ee9" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="10011" />
+            </imgdir>
+            <imgdir name="BtGroup">
+                <imgdir name="normal">
+                    <canvas name="0" width="191" height="18">
+                        <vector name="origin" x="-49" y="-115" />
+                        <int name="z" value="5" />
+                        <string name="_hash" value="9086fc8bd10fc5c3bfe0c280c833b9133f3812304c77883e7d3aad37a86f2449" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="pressed">
+                    <canvas name="0" width="191" height="18">
+                        <vector name="origin" x="-49" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="35f98e973138117df51a00c8ba6fd9ed0b971622961f043305e45cd157881ac1" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="disabled">
+                    <canvas name="0" width="191" height="18">
+                        <vector name="origin" x="-49" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="a31768a67c0081bc3339a08d218a9f475d067113b40344713b8f3ec7b219fe9b" />
+                    </canvas>
+                </imgdir>
+                <imgdir name="mouseOver">
+                    <canvas name="0" width="191" height="18">
+                        <vector name="origin" x="-49" y="-115" />
+                        <int name="z" value="0" />
+                        <string name="_hash" value="911f7cadc0abfda8131683e92504f6a505bde3ebcdff703372078ea41b9bba91" />
+                    </canvas>
+                </imgdir>
+                <int name="id" value="10012" />
+            </imgdir>
+            <imgdir name="Scroll">
+                <vector name="lt" x="243" y="114" />
+                <vector name="rb" x="254" y="294" />
+            </imgdir>
+            <imgdir name="item_info">
+                <vector name="lt" x="12" y="134" />
+                <vector name="rb" x="239" y="153" />
+                <int name="count" value="8" />
+                <imgdir name="number">
+                    <vector name="lt" x="15" y="137" />
+                    <vector name="rb" x="45" y="150" />
+                </imgdir>
+                <imgdir name="name">
+                    <vector name="lt" x="50" y="135" />
+                    <vector name="rb" x="238" y="152" />
+                </imgdir>
+                <imgdir name="margin">
+                    <int name="bottom" value="1" />
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="BtOut">
+            <imgdir name="normal">
+                <canvas name="0" width="13" height="13">
+                    <vector name="origin" x="-243" y="-6" />
+                    <int name="z" value="5" />
+                    <string name="_hash" value="b5479001f80b970891cbebaeea874cd39fc7a2c4ed8ae61fc0f7957219a80eef" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="13" height="13">
+                    <vector name="origin" x="-243" y="-6" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="4702dbd82c9c5db2e1c786031e0b1e6f5077a72b14b450867e4d5a25d9384fb6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="1" height="1">
+                    <vector name="origin" x="-243" y="-6" />
+                    <int name="z" value="0" />
+                    <string name="_inlink" value="list/BtOut/normal/0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="9" height="9">
+                    <vector name="origin" x="-245" y="-8" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="046259d1db38e2766b4565171e104d2311f774aeb0ea22db74e589d2c9826bcd" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="1000" />
+            <string name="class" value="button" />
+        </imgdir>
+        <canvas name="backgrnd" width="265" height="382">
+            <vector name="origin" x="1" y="0" />
+            <int name="z" value="0" />
+            <string name="_hash" value="850e3d47c0cd5db9be3ce0dbd960282d4eedff5c693791ea4b23671218dcba5e" />
+        </canvas>
+        <canvas name="backgrnd2" width="252" height="354">
+            <vector name="origin" x="-6" y="-22" />
+            <int name="z" value="0" />
+            <string name="_hash" value="c6188d809ed73322ac27458d7ff519ae39b3e05b7295dca81d1aba2db52c57c6" />
+        </canvas>
+        <canvas name="backgrnd3" width="250" height="71">
+            <vector name="origin" x="-8" y="-25" />
+            <int name="z" value="0" />
+            <string name="_hash" value="860006d5fa6e186a2ea00e6c84f394f17f3285e361ef9d88f28b63f8d48eded7" />
+        </canvas>
+        <canvas name="backgrnd4" width="199" height="26">
+            <vector name="origin" x="-33" y="-46" />
+            <int name="z" value="0" />
+            <string name="_hash" value="f19f6953c9e843d0795c905402a5180d50a63697b025485224bb10419ebe4d08" />
+        </canvas>
+        <imgdir name="btJoin">
+            <imgdir name="normal">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="eb7130cce93c0a6e4eac341b9014516c4beaf717ab3618972333be789bee5ac5" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="feb84b9ed7efaf8c12148ab25fa35b61c1cf50856acd2e3b38e6838f352d9581" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="e3bfad06f6a83064b09fafe06d27e32db2b71d719e3ec9bedcd2f3794f6fde30" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="192404ec5b7377339fce0d075d05ac3c3ed0b95c48e12d56021cbaf9e3b770d9" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="1002" />
+            <string name="class" value="button" />
+        </imgdir>
+        <imgdir name="btLeave">
+            <imgdir name="normal">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="d5ebd32ba0bc33ce0f7b95d138260bc79b3c45d131d8094341165dbf38fa8062" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="72c18ad56478a9534134f7d91d57d038dec8c974dd590bb426d2bca8c965e5a2" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="8141b85ae3348c16b6868cddf224201531ad80eadf22e508c370b3737b9899da" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="116" height="49">
+                    <vector name="origin" x="-74" y="-316" />
+                    <string name="_hash" value="69e308e44e854a2cdd878ecc556d553fabc16fe67e27eb72c9f3ab3145de7e7c" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="1003" />
+            <string name="class" value="button" />
+        </imgdir>
+        <imgdir name="msg">
+            <imgdir name="images">
+                <canvas name="msg" width="210" height="7">
+                    <vector name="origin" x="-17" y="-102" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="8bd805c1d9be96e99cc8858167f6a219e61193a8dc50a8c063ca4a4a3fc215c6" />
+                </canvas>
+            </imgdir>
+            <int name="id" value="1004" />
+            <string name="class" value="MultiImage" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="chatbutton">
+        <imgdir name="BtOut">
+            <imgdir name="normal">
+                <canvas name="0" width="43" height="14">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="5" />
+                    <string name="_hash" value="1c8d4fff60c957f76b9abfb9ffe79d80b08b3c93a808c3e1b115115e5472ab69" />
+                </canvas>
+            </imgdir>
+            <imgdir name="pressed">
+                <canvas name="0" width="43" height="14">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="397890d3b5020764c680ba957a3a62f2273ee7ee1690fc0c6e2a8d4ab9885bf6" />
+                </canvas>
+            </imgdir>
+            <imgdir name="disabled">
+                <canvas name="0" width="43" height="14">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="f1bce1eb99f240e0d1be8e6a970cd50d34637bcbf846466f2120b95e0df3d2b0" />
+                </canvas>
+            </imgdir>
+            <imgdir name="mouseOver">
+                <canvas name="0" width="43" height="14">
+                    <vector name="origin" x="0" y="0" />
+                    <int name="z" value="0" />
+                    <string name="_hash" value="edf25d256e40d6cc2054f6ee0094e92cb8f2ae79c48b8f7e724c51ad99eb193b" />
+                </canvas>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="message">
+        <imgdir name="0">
+            <string name="info" value="100레벨 미만 캐릭터로 월드 접속시 출력" />
+            <string name="msg" value="Not sure what to do first in this big exciting world? Why not get a tip from another Mapler? Just click {Newbies}&lt;&lt; and join the 'Newbies' Chat Channels right now!" />
+        </imgdir>
+        <imgdir name="1">
+            <string name="info" value="자유시장 입구맵(910000000) 입장시 출력" />
+            <string name="msg" value="Join the 'Trade' Chat Channel right now to start trading by clicking {Trade} &lt;&lt;&lt; Whee!" />
+        </imgdir>
+    </imgdir>
+</imgdir>

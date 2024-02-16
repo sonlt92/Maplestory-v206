@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<imgdir name="164.img">
+    <imgdir name="info">
+        <string name="mainCategory" value="growth" />
+        <string name="subCategory" value="makingSkill" />
+        <string name="name" value="Eureka!" />
+        <string name="desc" value="Find a Primal Essence by Harvesting or Mining" />
+        <string name="keyword" value="Find a Primal Essence by Harvesting or Mining" />
+        <string name="difficulty" value="unique" />
+        <int name="score" value="40" />
+        <imgdir name="uiType">
+            <string name="uiForm" value="basic" />
+            <string name="gauge" value="mission_count" />
+        </imgdir>
+    </imgdir>
+    <imgdir name="mission">
+        <imgdir name="0">
+            <string name="name" value="Find a Primal Essence by Harvesting or Mining" />
+            <imgdir name="subMission">
+                <imgdir name="pickup_reactor_reward_item">
+                    <imgdir name="score">
+                        <int name="targetScore" value="1" />
+                        <string name="compare" value="greater_than_or_equal_to" />
+                        <string name="type" value="counting" />
+                    </imgdir>
+                    <imgdir name="checkValue">
+                        <imgdir name="item">
+                            <string name="condition" value="or" />
+                            <imgdir name="values">
+                                <imgdir name="0">
+                                    <int name="item_id" value="4021022" />
+                                </imgdir>
+                            </imgdir>
+                        </imgdir>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>
